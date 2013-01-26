@@ -4,7 +4,7 @@ from Bio.Motif.Thresholds import ScoreDistribution
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("k-segs7.fas", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("../sequences/k-segs.fas", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 all_segments = list()
 for a in alignment:

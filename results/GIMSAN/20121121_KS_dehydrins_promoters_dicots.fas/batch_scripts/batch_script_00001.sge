@@ -1,0 +1,69 @@
+#!/bin/bash
+#$ -S /bin/bash
+
+export GIMSAN=/home/yzolotarov/gimsan_cmdline/;
+
+cd /home/yzolotarov/gimsan_cmdline
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=0 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid0=$!
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=1 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid1=$!
+wait $pid0;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=2 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid2=$!
+wait $pid1;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=3 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid3=$!
+wait $pid2;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=4 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid4=$!
+wait $pid3;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=5 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid5=$!
+wait $pid4;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=6 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid6=$!
+wait $pid5;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=7 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid7=$!
+wait $pid6;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=8 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid8=$!
+wait $pid7;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=9 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid9=$!
+wait $pid8;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=10 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid10=$!
+wait $pid9;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=11 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid11=$!
+wait $pid10;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=12 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid12=$!
+wait $pid11;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=13 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid13=$!
+wait $pid12;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=14 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid14=$!
+wait $pid13;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=15 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid15=$!
+wait $pid14;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=16 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid16=$!
+wait $pid15;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=17 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid17=$!
+wait $pid16;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=18 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid18=$!
+wait $pid17;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=19 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid19=$!
+wait $pid18;
+/home/yzolotarov/gimsan_cmdline/gimsan_submit_job.pl --iter=20 --f=~/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas --w=8 --N=20121121_KS_dehydrins_promoters_dicots.fas   1>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stdout 2>>/home/yzolotarov/gimsan_cmdline/20121121_KS_dehydrins_promoters_dicots.fas//tmp//tmp.stderr &
+pid20=$!
+wait $pid20;
+wait $pid19;
