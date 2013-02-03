@@ -1,10 +1,10 @@
 from Bio import AlignIO, Motif, SeqIO
 from Bio.Alphabet import IUPAC
-from Bio.Motif.Thresholds import ScoreDistribution 
+# from Bio.Motif.Thresholds import ScoreDistribution 
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("../sequences/k-segs.fas", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("../sequences/selected_K-segs.fas", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 all_segments = list()
 for a in alignment:
@@ -32,7 +32,7 @@ print m.min_score()
 
 records_saved = list()
 # for record in SeqIO.parse("all_dhn2.fas" % proteins, "fasta", alphabet=alphabet):
-for record in SeqIO.parse("all_dhn2.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("../../../various_scripts/query_phytozome/peptides/higher_plants.fas", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 

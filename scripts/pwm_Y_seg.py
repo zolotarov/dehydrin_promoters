@@ -1,10 +1,10 @@
 from Bio import AlignIO, Motif, SeqIO
 from Bio.Alphabet import IUPAC
-from Bio.Motif.Thresholds import ScoreDistribution 
+# from Bio.Motif.Thresholds import ScoreDistribution 
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("y_segs4.txt", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("../sequences/selected_Y-segs.fas", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 all_segments = list()
 for a in alignment:
@@ -13,7 +13,7 @@ for a in alignment:
     
 output_deh = open("dehydrins_search_y.txt", "w")
 ysegs_new = open("y-segs_new.txt", "w")
-dehydrin_fas = open("dehydrins.fas", "w")
+#dehydrin_fas = open("dehydrins.fas", "w")
 print m.format("transfac")
 
 # count = 0
@@ -31,7 +31,7 @@ print m.min_score()
 # print m.exp_score(st_dev = True) # prints expected score and standard deviation
 
 records_saved = list()
-for record in SeqIO.parse("all_dhn2.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("dehydrins.fas", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 
@@ -41,9 +41,9 @@ for record in SeqIO.parse("all_dhn2.fas", "fasta", alphabet=alphabet):
 			output_deh.write(line)
 			defline = ">" + str(record.id) + "\n"
 			y_seg = str(record.seq[pos:pos+7]) + "\n"
-			if record.id not in records_saved:
-				SeqIO.write(record, dehydrin_fas, "fasta")
-				records_saved.append(record.id)
+		#	if record.id not in records_saved:
+		#		SeqIO.write(record, dehydrin_fas, "fasta")
+	#			records_saved.append(record.id)
 			if str(record.seq[pos:pos+7]) not in all_segments:
 				ysegs_new.write(defline)
 				ysegs_new.write(y_seg)
@@ -52,4 +52,4 @@ for record in SeqIO.parse("all_dhn2.fas", "fasta", alphabet=alphabet):
 
 output_deh.close()
 ysegs_new.close()
-dehydrin_fas.close()
+#dehydrin_fas.close()
