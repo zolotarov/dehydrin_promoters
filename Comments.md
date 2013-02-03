@@ -6,6 +6,47 @@ the total number of unique genes is 251 and the number of unique transcripts is 
 **Aquca_038_00119** has 4 different transcripts and has a dehydrin and *reticulon* domain, the dehydrin domain is 7-39.
 
 The K-segments: 
->Aquca_038_00119|Aquca_038_00119.1
+\>Aquca_038_00119|Aquca_038_00119.1
 HSESLMEKIKEKIHG
 
+
+### Physcomitrella patens dehydrins
+Selginella moellendorffii is closer to higher plants then Physcomitrella, however no dehydrins were found using either my search or the keyword ontology search on Phytozome.
+
+Physcomitrella patens contains 5 potential dehydrins
+
+>Pp1s149_49V6|Pp1s149_49V6.1|Ppatens 	EKKGFVGKIKDMIHH		not a dehydrin
+>Pp1s442_22V6|Pp1s442_22V6.1|Ppatens	PKKGLMTKIKEKLPG	KKEGFMTKLKEKLPG	annotated as dehydrin
+>Pp1s421_9V6|Pp1s421_9V6.1|Ppatens	PKKGMMEKIKEKLPG KKDGLMNKIKEKLPG dehydrin
+>Pp1s442_22V6|Pp1s442_22V6.2|Ppatens	second transcript of Pp1s442_22V6
+>Pp1s211_95V6|Pp1s211_95V6.1|Ppatens	HKKGIITKIKEKLHH		not a dehydrin
+>Pp1s201_52V6|Pp1s201_52V6.1|Ppatens	KKHGLINKIKEKLPG		dehydrin
+
+Out of 5 putative dehydrins, 3 were probable dehydrins and 2 were not dehydrins
+
+A gene annotated as dehydrin in Phytozome, contains a possible K-segment and an S-segment, similar to KS dehydrins, was not identified by my search:
+>Pp1s52_261V6.1
+MDKIKDMLHGHKKDDEHAHATPATATTTNVGTAEAGYSDPA*TTHHEEGKEKKGFLG*LGGHKKEGEEGKKHGFMGMGGGSSSSSSSDEEREGAAERNRLRR
+EKRAQRTAGKTAAGTVPVEGTGEKKHGFFG*i
+
+### Selaginella dehydrins
+Close paper from 1997 {Close:1997kt} mentions that Selaginella dehydrins contain a different K-segment: EKKEGVMOKIKKK, searching for KIKKK in S. moellendorffii results in the following, the genes are not annotated, there were a few others, without the S-segment:
+
+Looks like a KS dehydrin, with a typical SSSS..DSD at the end
+>437484|437484|Smoellendorffii
+MSMMEKISETLHIGGHKKEEEHKKEDKAHAAGEHKGHDHPAGVPCSGSGAVPPPAAAGYK
+KDEEHKAGEEKKHEGFMEKIKKKKKDRKERKEGEGKGSSSSSSDSD*
+>446994|446994|Smoellendorffii
+MASMMEKISDKLHMGHKKDQVAHNTAPSHATPVQSSTPPSHNTAPGSYGTPQPGMATTTT
+STTTTQPQKEGLMDKIKKKKNQHKEKKKAGGGSSSSSSDSD*
+>448256|448256|Smoellendorffii
+MAFRSVLVASKKNALGHLLVKKEFLATSPLLLNKEAGTAESMAHKVGDKVEKAGENLKET
+AKDSKEPAESGMREQVRSAAEKIGDATASAGDKIEHSMESEGGGEEKSKLNLEDKQIFGF
+VLFSRSQVLFAVLLILAALMASMMEKIGEKFGKKDDEHNKLGGQTHETHGLGQQTHGQGA
+GYGQEAGYGQHGQGVGHGQGVGHNPGSTPYGATTGTTGTGHNPGSTPYGATTGTNPTSGH
+TATGQPQKKEGLMDKIKKKKNQHKERKEGDKSSSSSESD*
+
+Somewhat similar protein from resurrection plant Selaginella lepidophylla was found on GenBank:
+>gi|2104947|gb|AAB57842.1| dehydrin-like protein [Selaginella lepidophylla]
+MASMMEKIGDKVHGNKDEQQQQHQYSAAGPQGHGTGGLGSDQHGYKGLGTGKDQHGYQGTGTGTGTDQHG
+YNAGAVGGGHDSQGAGFGSHTGATTGAVGTGEKKEGVMDKIKKKTHRNKGERKAGEGSSSSDSD
