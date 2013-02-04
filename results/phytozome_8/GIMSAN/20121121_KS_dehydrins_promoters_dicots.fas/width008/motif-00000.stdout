@@ -1,0 +1,141 @@
+Compiled on Nov 21 2012 14:22:10
+
+ChangeLog
+Version 2.2.0
+20100609. PSP mode
+20100527. Allow for multiple consecutive > in the header
+20081128. ZOOPS mode is allow to have sequences that are shorter than span
+20081115. Modified the chooseBestSite routine to use P(Y_i > 0)
+20080807. Code cleanup for GIMSAN
+20080625. Output of background model frequency
+20080625. Out of range sequence are counted toward char 'X'
+20080408. Increased span-capacity and fixed bug where span may be larger than minimum seqlen.
+
+/home/yzolotarov/gimsan_cmdline/gibbsmarkov/gibbsmarkov.out /home/yzolotarov/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas -l 8 -gibbsamp -best_clr -cput 300 -L 200 -ds -zoops 0.200000 -markov 5 -p 0.05 -em 0 
+
+Filename: /home/yzolotarov/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas
+Number of sequences: 20
+Total residues: 20000
+Average sequence length: 1000.0
+Minimum sequence length: 1000
+Maximum sequence length: 1000
+Include reverse-complement: yes
+Span: 8
+Random seed: 1353526220
+
+Number of motifs to be printed: 1
+
+Stopping criterion: CPU-time
+CPU time in seconds: 300
+
+Rapid convergence: on
+Iterations plateau (-L): 200
+Number of trial iterations: 5
+Phase-shift frequency (-ps): 0.40
+
+Occurrences per sequence: Bayesian ZOOPS
+Bayesian ZOOPS pseudoweight: 0.20
+
+Pseudo-weight (-p): 0.05
+Sampling Technique: Gibbs Sampler
+
+Order of Markov background (-markov): 5
+Markov background model: GibbsMarkov
+Background dimension: Aggregate
+Background file (-bfile): /home/yzolotarov/dehydrin_promoters/sequences/KS_dehydrins_promoters_dicots.fas
+Position-specific prior file (-psp): none
+
+Scoring scheme: CLR
+EM iterations (-em): 0
+
+Input FASTA freq of A: 0.3498
+Input FASTA freq of C: 0.1502
+Input FASTA freq of G: 0.1502
+Input FASTA freq of T: 0.3498
+
+Background model freq of A: 0.3498
+Background model freq of C: 0.1502
+Background model freq of G: 0.1502
+Background model freq of T: 0.3498
+
+
+All of the following scores are computed after EM (if applicable).
+Log Markovian-ILR generated from sites without pseudocount: 19.50
+Log Markovian-CLR generated from sites without pseudocount: 13.82
+Log(CLR) normalized by number of sequences: 0.6910
+Score for ranking runs: 13.82
+
+Motif profile generated from sites:
+Pos  [ 0]  [ 1]  [ 2]  [ 3]  [ 4]  [ 5]  [ 6]  [ 7] 
+A    1.00  0.00  0.00  0.69  0.00  0.00  1.00  0.00 
+C    0.00  0.00  0.00  0.31  0.62  0.00  0.00  0.12 
+G    0.00  0.00  0.00  0.00  0.38  0.00  0.00  0.00 
+T    0.00  1.00  1.00  0.00  0.00  1.00  0.00  0.88 
+
+Flanking regions:
+Pos  [-5]  [-4]  [-3]  [-2]  [-1]   ||   [ 8]  [ 9]  [10]  [11]  [12] 
+A    0.38  0.19  0.38  0.38  0.38   ||   0.31  0.25  0.50  0.12  0.19 
+C    0.06  0.19  0.12  0.19  0.38   ||   0.06  0.12  0.06  0.19  0.06 
+G    0.12  0.12  0.00  0.12  0.06   ||   0.12  0.06  0.06  0.19  0.25 
+T    0.44  0.50  0.50  0.31  0.19   ||   0.50  0.56  0.38  0.50  0.50 
+X    0.00  0.00  0.00  0.00  0.00   ||   0.00  0.00  0.00  0.00  0.00 
+
+Motif span: 8
+Motif weight/width: 8
+Consensus motif: ATTACTAT
+Number of predicted sites: 16 (80.00%)
+
+Sequence range is from 0 to (number of sequences - 1).
+Motif sites are in range 1 to length or -1 to -length.
+Sequence   0: motif site    257  (  -264)
+Sequence   1: motif site    -76  (    69)
+Sequence   2: motif site    399  (  -406)
+Sequence   3: motif site    777  (  -784)
+Sequence   4: motif site    328  (  -335)
+Sequence   5: motif site   none  (  none)
+Sequence   6: motif site    899  (  -906)
+Sequence   7: motif site    -79  (    72)
+Sequence   8: motif site   -135  (   128)
+Sequence   9: motif site    699  (  -706)
+Sequence  10: motif site   -324  (   317)
+Sequence  11: motif site    729  (  -736)
+Sequence  12: motif site   none  (  none)
+Sequence  13: motif site    601  (  -608)
+Sequence  14: motif site   none  (  none)
+Sequence  15: motif site    193  (  -200)
+Sequence  16: motif site   none  (  none)
+Sequence  17: motif site    265  (  -272)
+Sequence  18: motif site    531  (  -538)
+Sequence  19: motif site    -17  (    10)
+
+Alignments and FASTA-headers:
+  0   gtttc    257 ATTACTAT 264    ctttt  (+) Score=   1.638  >COLD47OA_04_1621bp_1170prom
+  1   tatag     76 ATTACTAC 69     tttgg  (-) Score=   0.828  >Glyma16g04190|Gmax
+  2   atttt    399 ATTACTAT 406    tattt  (+) Score=   1.563  >474716|Alyrata
+  3   acaaa    777 ATTAGTAT 784    aaacg  (+) Score=   2.324  >Glyma16g04200|Gmax
+  4   ttaga    328 ATTCCTAT 335    ttgca  (+) Score=   2.303  >Glyma19g29210|Gmax
+  6   actcc    899 ATTCCTAT 906    atatt  (+) Score=  -0.078  >evm.TU.supercontig_79.59|Cpapaya
+  7   tatga     79 ATTACTAT 72     aaagt  (-) Score=   1.884  >30072.t000037|Rcommunis
+  8   tttac    135 ATTAGTAT 128    gttta  (-) Score=   1.125  >Cucsa.338040|Csativus
+  9   gcaaa    699 ATTACTAT 706    ttttt  (+) Score=   0.869  >Medtr7g103100|Mtruncatula
+ 10   ttcca    324 ATTCGTAT 317    tattg  (-) Score=   0.036  >mgv1a016787m.g|Mguttatus
+ 11   aaaaa    729 ATTACTAT 736    ttaat  (+) Score=   1.005  >cassava4.1_019934m.g|Mesculenta
+ 13   atttc    601 ATTACTAT 608    tccca  (+) Score=   1.715  >POPTR_0019s05440|Ptrichocarpa
+ 15   ctact    193 ATTCCTAT 200    agagc  (+) Score=   2.201  >Thhalv10023775m.g|Thalophila
+ 17   atcat    265 ATTCGTAC 272    ttatt  (+) Score=   1.119  >Aquca_004_00603|Acoerulea
+ 18   tgatc    531 ATTAGTAT 538    gcatt  (+) Score=  -0.134  >Lus10020271.g|Lusitatissimum
+ 19   tgttc     17 ATTAGTAT 10     ataag  (-) Score=   0.958  >Phvulv091017297m.g|Pvulgaris
+
+FASTA-header of sequences with zero occurrences:
+  5  >evm.TU.supercontig_161.14|Cpapaya
+ 12  >cassava4.1_019931m.g|Mesculenta
+ 14  >AT1G54410|Athaliana
+ 16  >Carubv10021201m.g|Crubella
+
+Average number of iterations per run: 364.47
+Number of runs: 2605
+Preprocessing CPU time (in seconds): 0.00
+Sampling-step CPU time (in seconds): 295.25
+Postprocessing CPU time (in seconds): 0.00
+Total elapsed CPU time (in seconds): 295.25
+

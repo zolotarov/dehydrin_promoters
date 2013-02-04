@@ -1,0 +1,1815 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.8.1 (Release date: Tue Feb  7 14:03:40 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= SKn_dehydrins_promoters_dicots.fas
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+490603|Alyrata           1.0000   1000  937958|Alyrata           1.0000   1000  
+921008|Alyrata           1.0000   1000  472273|Alyrata           1.0000   1000  
+Glyma04g01130|Gmax       1.0000   1000  evm.TU.supercontig_26.22 1.0000   1000  
+30170.t000735|Rcommunis  1.0000   1000  Cucsa.077690|Csativus    1.0000   1000  
+Medtr3g162880|Mtruncatul 1.0000   1000  ppa026861m.g|Ppersica    1.0000   1000  
+ppa010326m.g|Ppersica    1.0000   1000  GSVIVG01023824001|Vvinif 1.0000   1000  
+cassava4.1_015875m.g|Mes 1.0000   1000  orange1.1g026736m.g|Csin 1.0000   1000  
+orange1.1g038463m.g|Csin 1.0000   1000  POPTR_0005s26930|Ptricho 1.0000   1000  
+clementine0.9_020531m.g| 1.0000   1000  clementine0.9_033471m.g| 1.0000   1000  
+AT4G38410|Athaliana      1.0000   1000  AT1G76180|Athaliana      1.0000   1000  
+AT1G20440|Athaliana      1.0000   1000  AT1G20450|Athaliana      1.0000   1000  
+Thhalv10008706m.g|Thalop 1.0000   1000  Thhalv10008313m.g|Thalop 1.0000   1000  
+Thhalv10019152m.g|Thalop 1.0000   1000  Thhalv10026303m.g|Thalop 1.0000   1000  
+Carubv10010037m.g|Crubel 1.0000   1000  Carubv10010040m.g|Crubel 1.0000   1000  
+Carubv10005866m.g|Crubel 1.0000   1000  Carubv10020984m.g|Crubel 1.0000   1000  
+Aquca_043_00099|Acoerule 1.0000   1000  Aquca_007_00853|Acoerule 1.0000   1000  
+MDP0000126135|Mdomestica 1.0000   1000  MDP0000770493|Mdomestica 1.0000   1000  
+MDP0000529003|Mdomestica 1.0000   1000  Lus10005652.g|Lusitatiss 1.0000   1000  
+Lus10021827.g|Lusitatiss 1.0000   1000  Lus10034568.g|Lusitatiss 1.0000   1000  
+Lus10021240.g|Lusitatiss 1.0000   1000  Phvulv091012488m.g|Pvulg 1.0000   1000  
+Eucgr.F01726|Egrandis    1.0000   1000  Eucgr.I02395|Egrandis    1.0000   1000  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme SKn_dehydrins_promoters_dicots.fas -dna -oc . -nostatus -time 7200 -maxsize 60000 -mod anr -nmotifs 10 -minw 6 -maxw 8 -revcomp 
+
+model:  mod=           anr    nmotifs=        10    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            6    maxw=            8    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=       50    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           42000    N=              42
+strands: + -
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.324 C 0.176 G 0.176 T 0.324 
+Background letter frequencies (from dataset with add-one prior applied):
+A 0.324 C 0.176 G 0.176 T 0.324 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =    8   sites =  50   llr = 501   E-value = 7.7e-019
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :9::::::
+pos.-specific     C  9:9::::a
+probability       G  11:8:a4:
+matrix            T  ::12a:6:
+
+         bits    2.5      *  
+                 2.3      * *
+                 2.0 * *  * *
+                 1.8 * ** * *
+Relative         1.5 * **** *
+Entropy          1.3 ****** *
+(14.5 bits)      1.0 ********
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CACGTGTC
+consensus                  G 
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Eucgr.F01726|Egrandis        -    606  3.12e-06 TTTACGGGCC CACGTGGC TAGTCAATGG
+Phvulv091012488m.g|Pvulg     -    355  3.12e-06 GGAGAAGAGA CACGTGGC GGAATAACGT
+Carubv10010037m.g|Crubel     +    385  3.12e-06 CTGATGTTTC CACGTGGC GTGACTACTA
+Thhalv10019152m.g|Thalop     -    213  3.12e-06 CACACGTTGA CACGTGGC TGTATAACGT
+Thhalv10008706m.g|Thalop     +     32  3.12e-06 AGCTTCTGCC CACGTGGC TATACAAGTC
+AT1G20450|Athaliana          +    588  3.12e-06 TATTTATTTT CACGTGGC ATGATGGCTA
+ppa010326m.g|Ppersica        -    431  3.12e-06 TGAAATGGCC CACGTGGC AGCCAGTTTA
+937958|Alyrata               -    830  3.12e-06 TGAAGTGACA CACGTGGC GTTAACGTAA
+Eucgr.I02395|Egrandis        +    900  8.86e-06 GCGTGGCATG CACGTGTC GCGTGGCCGA
+Eucgr.I02395|Egrandis        -    862  8.86e-06 CGGATAAGGA CACGTGTC CGGTTGTGGG
+Eucgr.F01726|Egrandis        +    729  8.86e-06 GACGCATTTC CACGTGTC CCCTTCCTAG
+Lus10034568.g|Lusitatiss     +     30  8.86e-06 GTTATCCTTA CACGTGTC TTCCTTCTCA
+Lus10021827.g|Lusitatiss     +    175  8.86e-06 GTTATCCTTA CACGTGTC TCCTTTCTCA
+MDP0000770493|Mdomestica     -    473  8.86e-06 GGATGGCCGA CACGTGTC TGGATGGTGT
+MDP0000126135|Mdomestica     -    473  8.86e-06 GGATGGCCGA CACGTGTC TGGATGGTGT
+Carubv10020984m.g|Crubel     -    350  8.86e-06 GATTAGTAGA CACGTGTC AGCCATAGCG
+Carubv10020984m.g|Crubel     -    253  8.86e-06 TAAAATAGGA CACGTGTC AATGTAACGT
+Carubv10010040m.g|Crubel     -    280  8.86e-06 ATATGAGCAA CACGTGTC TTAAGAGGTG
+Carubv10010037m.g|Crubel     -    307  8.86e-06 AGATAATGGA CACGTGTC TGATGAACGG
+AT1G20450|Athaliana          -    500  8.86e-06 ATATGGTAAA CACGTGTC AAGAGAACGT
+AT1G76180|Athaliana          -    429  8.86e-06 GATTGGAAGA CACGTGTC AAGCATTAGC
+POPTR_0005s26930|Ptricho     +    644  8.86e-06 GTTCTCGTTC CACGTGTC GCCAAGGCAT
+cassava4.1_015875m.g|Mes     +    750  8.86e-06 GTTATCATTA CACGTGTC ATAGATTCTA
+30170.t000735|Rcommunis      +    604  8.86e-06 GTTCTTCTTA CACGTGTC AGCGATCTTA
+evm.TU.supercontig_26.22     +    479  8.86e-06 CCCCTTCTCA CACGTGTC GCCTATTTTC
+472273|Alyrata               -    504  8.86e-06 ACATGGTAGA CACGTGTC GAAAGGACGT
+Carubv10005866m.g|Crubel     +      6  1.37e-05      TGGAC GACGTGGC ACTGCACCGA
+AT1G20450|Athaliana          +    395  1.37e-05 ATTTTCTGCC GACGTGGC ATAAGAAGTC
+AT4G38410|Athaliana          +     87  1.37e-05 TAGGGTGAAT GACGTGGC ATTGCACCGA
+Cucsa.077690|Csativus        -    710  1.37e-05 GAGTTTACTC GACGTGGC GGGGAATGTG
+30170.t000735|Rcommunis      -    488  1.37e-05 TGGGTGGGGC GACGTGGC GGCATCGTGG
+472273|Alyrata               +    399  1.37e-05 AGTCTCTGCC GACGTGGC ATAAGAAGCC
+Carubv10010037m.g|Crubel     +     55  1.94e-05 CTAGTTCATT CACTTGGC TGCATGTTTT
+clementine0.9_033471m.g|     +    616  1.94e-05 CATCAGCAAA CACTTGGC TTCTCTTGAT
+POPTR_0005s26930|Ptricho     +    925  1.94e-05 TGGCCCAGCT CACTTGGC TTTATTACTT
+orange1.1g038463m.g|Csin     +    616  1.94e-05 CATCAGCAAA CACTTGGC TTCTCTTGAT
+Eucgr.I02395|Egrandis        +    163  2.83e-05 AACAGCACCA CGCGTGTC TCATCCCGGA
+MDP0000529003|Mdomestica     -    657  2.83e-05 GGATAGCCGA CGCGTGTC AGAATGGCAA
+evm.TU.supercontig_26.22     +    611  2.83e-05 TCCTCTAGGA CGCGTGTC CTCTTATGAG
+Lus10021240.g|Lusitatiss     +    746  3.89e-05 AAGCGACTGA CACTTGTC AGAATCTGGA
+Lus10021827.g|Lusitatiss     +    671  3.89e-05 AACAGAAATA CACTTGTC AGAATATGGA
+Lus10005652.g|Lusitatiss     +    718  3.89e-05 AAGAGACTGG CACTTGTC AGAATCTGGA
+MDP0000529003|Mdomestica     -     88  3.89e-05 TATGACTTGC CACTTGTC GGGTTCATCA
+Thhalv10019152m.g|Thalop     +    353  3.89e-05 TAATGCTTGA CACTTGTC TTCCCATCTA
+MDP0000770493|Mdomestica     -    222  4.46e-05 TGGAGTGGCC CATGTGGC AGTCGTCGGA
+MDP0000126135|Mdomestica     -    222  4.46e-05 TGGAGTGGCC CATGTGGC AGTCGTCGGA
+Aquca_043_00099|Acoerule     +    796  4.46e-05 CAGAAATGTA CATGTGGC ATCTGTTCAA
+Thhalv10008706m.g|Thalop     -    193  4.46e-05 GTTATCACGC CATGTGGC AATAATTAAT
+30170.t000735|Rcommunis      -    207  6.40e-05 GGCACTTGTG CACGTGTG TGTAGGCAAA
+evm.TU.supercontig_26.22     -    160  6.40e-05 GTGGGAATTG CACGTGTG AGTCCACGTG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Eucgr.F01726|Egrandis             8.9e-06  605_[-1]_115_[+1]_264
+Phvulv091012488m.g|Pvulg          3.1e-06  354_[-1]_638
+Carubv10010037m.g|Crubel          1.9e-05  54_[+1]_244_[-1]_70_[+1]_608
+Thhalv10019152m.g|Thalop          3.9e-05  212_[-1]_132_[+1]_640
+Thhalv10008706m.g|Thalop          4.5e-05  31_[+1]_153_[-1]_800
+AT1G20450|Athaliana               1.4e-05  394_[+1]_97_[-1]_80_[+1]_405
+ppa010326m.g|Ppersica             3.1e-06  430_[-1]_562
+937958|Alyrata                    3.1e-06  829_[-1]_163
+Eucgr.I02395|Egrandis             2.8e-05  162_[+1]_691_[-1]_30_[+1]_93
+Lus10034568.g|Lusitatiss          8.9e-06  29_[+1]_963
+Lus10021827.g|Lusitatiss          3.9e-05  174_[+1]_488_[+1]_322
+MDP0000770493|Mdomestica          4.5e-05  221_[-1]_243_[-1]_520
+MDP0000126135|Mdomestica          4.5e-05  221_[-1]_243_[-1]_520
+Carubv10020984m.g|Crubel          8.9e-06  252_[-1]_89_[-1]_643
+Carubv10010040m.g|Crubel          8.9e-06  279_[-1]_713
+AT1G76180|Athaliana               8.9e-06  428_[-1]_564
+POPTR_0005s26930|Ptricho          1.9e-05  643_[+1]_273_[+1]_68
+cassava4.1_015875m.g|Mes          8.9e-06  749_[+1]_243
+30170.t000735|Rcommunis           6.4e-05  206_[-1]_273_[-1]_108_[+1]_389
+evm.TU.supercontig_26.22          6.4e-05  159_[-1]_311_[+1]_124_[+1]_382
+472273|Alyrata                    1.4e-05  398_[+1]_97_[-1]_489
+Carubv10005866m.g|Crubel          1.4e-05  5_[+1]_987
+AT4G38410|Athaliana               1.4e-05  86_[+1]_906
+Cucsa.077690|Csativus             1.4e-05  709_[-1]_283
+clementine0.9_033471m.g|          1.9e-05  615_[+1]_377
+orange1.1g038463m.g|Csin          1.9e-05  615_[+1]_377
+MDP0000529003|Mdomestica          3.9e-05  87_[-1]_561_[-1]_336
+Lus10021240.g|Lusitatiss          3.9e-05  745_[+1]_247
+Lus10005652.g|Lusitatiss          3.9e-05  717_[+1]_275
+Aquca_043_00099|Acoerule          4.5e-05  795_[+1]_197
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=8 seqs=50
+Eucgr.F01726|Egrandis    (  606) CACGTGGC  1 
+Phvulv091012488m.g|Pvulg (  355) CACGTGGC  1 
+Carubv10010037m.g|Crubel (  385) CACGTGGC  1 
+Thhalv10019152m.g|Thalop (  213) CACGTGGC  1 
+Thhalv10008706m.g|Thalop (   32) CACGTGGC  1 
+AT1G20450|Athaliana      (  588) CACGTGGC  1 
+ppa010326m.g|Ppersica    (  431) CACGTGGC  1 
+937958|Alyrata           (  830) CACGTGGC  1 
+Eucgr.I02395|Egrandis    (  900) CACGTGTC  1 
+Eucgr.I02395|Egrandis    (  862) CACGTGTC  1 
+Eucgr.F01726|Egrandis    (  729) CACGTGTC  1 
+Lus10034568.g|Lusitatiss (   30) CACGTGTC  1 
+Lus10021827.g|Lusitatiss (  175) CACGTGTC  1 
+MDP0000770493|Mdomestica (  473) CACGTGTC  1 
+MDP0000126135|Mdomestica (  473) CACGTGTC  1 
+Carubv10020984m.g|Crubel (  350) CACGTGTC  1 
+Carubv10020984m.g|Crubel (  253) CACGTGTC  1 
+Carubv10010040m.g|Crubel (  280) CACGTGTC  1 
+Carubv10010037m.g|Crubel (  307) CACGTGTC  1 
+AT1G20450|Athaliana      (  500) CACGTGTC  1 
+AT1G76180|Athaliana      (  429) CACGTGTC  1 
+POPTR_0005s26930|Ptricho (  644) CACGTGTC  1 
+cassava4.1_015875m.g|Mes (  750) CACGTGTC  1 
+30170.t000735|Rcommunis  (  604) CACGTGTC  1 
+evm.TU.supercontig_26.22 (  479) CACGTGTC  1 
+472273|Alyrata           (  504) CACGTGTC  1 
+Carubv10005866m.g|Crubel (    6) GACGTGGC  1 
+AT1G20450|Athaliana      (  395) GACGTGGC  1 
+AT4G38410|Athaliana      (   87) GACGTGGC  1 
+Cucsa.077690|Csativus    (  710) GACGTGGC  1 
+30170.t000735|Rcommunis  (  488) GACGTGGC  1 
+472273|Alyrata           (  399) GACGTGGC  1 
+Carubv10010037m.g|Crubel (   55) CACTTGGC  1 
+clementine0.9_033471m.g| (  616) CACTTGGC  1 
+POPTR_0005s26930|Ptricho (  925) CACTTGGC  1 
+orange1.1g038463m.g|Csin (  616) CACTTGGC  1 
+Eucgr.I02395|Egrandis    (  163) CGCGTGTC  1 
+MDP0000529003|Mdomestica (  657) CGCGTGTC  1 
+evm.TU.supercontig_26.22 (  611) CGCGTGTC  1 
+Lus10021240.g|Lusitatiss (  746) CACTTGTC  1 
+Lus10021827.g|Lusitatiss (  671) CACTTGTC  1 
+Lus10005652.g|Lusitatiss (  718) CACTTGTC  1 
+MDP0000529003|Mdomestica (   88) CACTTGTC  1 
+Thhalv10019152m.g|Thalop (  353) CACTTGTC  1 
+MDP0000770493|Mdomestica (  222) CATGTGGC  1 
+MDP0000126135|Mdomestica (  222) CATGTGGC  1 
+Aquca_043_00099|Acoerule (  796) CATGTGGC  1 
+Thhalv10008706m.g|Thalop (  193) CATGTGGC  1 
+30170.t000735|Rcommunis  (  207) CACGTGTG  1 
+evm.TU.supercontig_26.22 (  160) CACGTGTG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.3118 E= 7.7e-019 
+ -1229    232    -55  -1229 
+   154  -1229   -155  -1229 
+ -1229    239  -1229   -202 
+ -1229  -1229    222    -85 
+ -1229  -1229  -1229    163 
+ -1229  -1229    251  -1229 
+ -1229  -1229    132     79 
+ -1229    245   -214  -1229 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 50 E= 7.7e-019 
+ 0.000000  0.880000  0.120000  0.000000 
+ 0.940000  0.000000  0.060000  0.000000 
+ 0.000000  0.920000  0.000000  0.080000 
+ 0.000000  0.000000  0.820000  0.180000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.440000  0.560000 
+ 0.000000  0.960000  0.040000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+CACGTG[TG]C
+--------------------------------------------------------------------------------
+
+
+
+
+Time 117.94 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2	width =    8   sites =  50   llr = 503   E-value = 9.7e-019
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  39:::7::
+pos.-specific     C  41aa:1aa
+probability       G  31::a:::
+matrix            T  :::::2::
+
+         bits    2.5   **  **
+                 2.3   *** **
+                 2.0   *** **
+                 1.8   *** **
+Relative         1.5   *** **
+Entropy          1.3   *** **
+(14.5 bits)      1.0  **** **
+                 0.8 ***** **
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CACCGACC
+consensus            A    T  
+sequence             G       
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Lus10021827.g|Lusitatiss     +     81  3.12e-06 TCGTGCCCTA CACCGACC TTTTAATTCC
+Thhalv10026303m.g|Thalop     +    650  3.12e-06 GGACCGTCCA CACCGACC ATCCGTTTAC
+ppa010326m.g|Ppersica        +    452  3.12e-06 CATTTCATCA CACCGACC TTCTCACATT
+ppa026861m.g|Ppersica        +    568  3.12e-06 CCAACCCAAG CACCGACC AAACACATCC
+evm.TU.supercontig_26.22     +    400  3.12e-06 GGGGCCCTTA CACCGACC CTAGCGTATT
+490603|Alyrata               +    730  3.12e-06 ACCGTCCACA CACCGACC ATCCATTGGT
+Lus10021240.g|Lusitatiss     +    698  6.24e-06 GCACGACAGC GACCGACC ATATCTCAAA
+Lus10005652.g|Lusitatiss     +    671  6.24e-06 GCAGGACAGC GACCGACC ATATCACAAA
+AT4G38410|Athaliana          -    152  6.24e-06 GAAAACAAGA GACCGACC GACATCAACA
+30170.t000735|Rcommunis      +    313  6.24e-06 GGCAGCACTG GACCGACC AATGTACGTC
+clementine0.9_033471m.g|     +    654  7.94e-06 CGACTACGTA CACCGCCC ATGTCGTTTT
+clementine0.9_020531m.g|     -    473  7.94e-06 CACGGAATTA CACCGCCC ACATCCCAAG
+POPTR_0005s26930|Ptricho     +    563  7.94e-06 CCCCGAGATA CACCGCCC CCACTTTCAT
+orange1.1g038463m.g|Csin     +    654  7.94e-06 CGACTACGTA CACCGCCC ATGTCGGTTT
+orange1.1g026736m.g|Csin     -    766  7.94e-06 CACGGAATTA CACCGCCC ACATCCCAAG
+cassava4.1_015875m.g|Mes     +    670  7.94e-06 TGGGACCCTG CACCGCCC TCCACATTAA
+MDP0000529003|Mdomestica     -    742  1.37e-05 AAAGTTTTGC AACCGACC GACGTGGTGC
+MDP0000529003|Mdomestica     +    414  1.37e-05 CCCTCCATCA AACCGACC TTCACGCATT
+MDP0000770493|Mdomestica     -    547  1.37e-05 TTCCAATTGT AACCGACC GACGTGGTAC
+MDP0000770493|Mdomestica     +    243  1.37e-05 CACTCCATCA AACCGACC TTCTCGCATT
+MDP0000126135|Mdomestica     -    547  1.37e-05 TTCCAATTGT AACCGACC GACGTGGTAC
+MDP0000126135|Mdomestica     +    243  1.37e-05 CACTCCATCA AACCGACC TTCTCGCATT
+Aquca_043_00099|Acoerule     +    820  1.37e-05 TCAAACTTCA AACCGACC TTCTGTCAAT
+Aquca_043_00099|Acoerule     +    182  1.37e-05 CTAACATTCA AACCGACC ATGTCTATTT
+Carubv10010040m.g|Crubel     +    245  1.37e-05 AGCCAATCAA AACCGACC ATTGAGTTCC
+Carubv10010037m.g|Crubel     +    270  1.37e-05 CATCTATCAA AACCGACC ATTGTTGTGG
+ppa010326m.g|Ppersica        -    829  1.37e-05 TTCTTCGTCC AACCGACC GACGTGGTGC
+Cucsa.077690|Csativus        +    369  1.37e-05 AAAAATGTAA AACCGACC ATCGGTCTCC
+evm.TU.supercontig_26.22     +    250  1.37e-05 AGCAACACCA AACCGACC ACCTGTTCCG
+472273|Alyrata               +    459  1.37e-05 AGCCAATCAA AACCGACC ATTCAGTTCC
+Lus10021240.g|Lusitatiss     -    761  1.68e-05 CGACGTTACG CACCGTCC AGATTCTGAC
+Lus10005652.g|Lusitatiss     -    733  1.68e-05 CGACGTTACG CACCGTCC AGATTCTGAC
+ppa026861m.g|Ppersica        +    690  1.68e-05 AGACTCTGCA CACCGTCC ACACCGACTC
+Thhalv10008313m.g|Thalop     +    849  1.85e-05 TCGGTACAGT GACCGCCC CAATGCCTAA
+Lus10034568.g|Lusitatiss     -    707  2.16e-05 GAATAGTTTC GACCGTCC ACATTCTGAC
+Lus10034568.g|Lusitatiss     +     10  2.16e-05  TAAAGCAAC GACCGTCC ACGTTATCCT
+Lus10021827.g|Lusitatiss     +    155  2.16e-05 CTAAAACAAC GACCGTCC ACGTTATCCT
+Carubv10005866m.g|Crubel     +    837  2.16e-05 GGATAGCGTG GACCGTCC ACACCGACTA
+Thhalv10026303m.g|Thalop     +    641  2.16e-05 GGATAATGTG GACCGTCC ACACCGACCA
+AT4G38410|Athaliana          +    735  2.16e-05 GGATAACGTG GACCGTCC ACACCGACAA
+490603|Alyrata               +    719  2.16e-05 GGATAACGTG GACCGTCC ACACACCGAC
+Eucgr.F01726|Egrandis        +    694  2.33e-05 CACCTGCGGG CCCCGACC GAGGACATCC
+Lus10021827.g|Lusitatiss     +    251  2.33e-05 TCCCATATTC CCCCGACC TCGCCTACTT
+Eucgr.I02395|Egrandis        +    803  2.81e-05 GCGACAACCC CGCCGACC CTCATCCACA
+Carubv10005866m.g|Crubel     -    864  2.81e-05 CTTTGCGTTC CGCCGACC AATGGGATAT
+490603|Alyrata               -    745  2.81e-05 CTCTGCTTTT CGCCGACC AATGGATGGT
+Eucgr.I02395|Egrandis        +    210  3.56e-05 CTGTTTACTC GCCCGACC AAGATCAAGA
+Lus10034568.g|Lusitatiss     +     83  3.56e-05 TCTCTCTCTT GCCCGACC TCGCGTACTT
+Eucgr.F01726|Egrandis        +    762  5.11e-05 AGGACAGAGC CACCCACC TCCCCTCGCC
+MDP0000529003|Mdomestica     +    345  5.11e-05 ATTTACCGTG CACCCACC ATCGCAAACC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Lus10021827.g|Lusitatiss          2.2e-05  80_[+2]_66_[+2]_88_[+2]_742
+Thhalv10026303m.g|Thalop          2.2e-05  640_[+2]_1_[+2]_343
+ppa010326m.g|Ppersica             1.4e-05  451_[+2]_369_[-2]_164
+ppa026861m.g|Ppersica             1.7e-05  567_[+2]_114_[+2]_303
+evm.TU.supercontig_26.22          1.4e-05  249_[+2]_142_[+2]_593
+490603|Alyrata                    2.2e-05  718_[+2]_3_[+2]_7_[-2]_248
+Lus10021240.g|Lusitatiss          1.7e-05  697_[+2]_55_[-2]_232
+Lus10005652.g|Lusitatiss          1.7e-05  670_[+2]_54_[-2]_260
+AT4G38410|Athaliana               2.2e-05  151_[-2]_575_[+2]_258
+30170.t000735|Rcommunis           6.2e-06  312_[+2]_680
+clementine0.9_033471m.g|          7.9e-06  653_[+2]_339
+clementine0.9_020531m.g|          7.9e-06  472_[-2]_520
+POPTR_0005s26930|Ptricho          7.9e-06  562_[+2]_430
+orange1.1g038463m.g|Csin          7.9e-06  653_[+2]_339
+orange1.1g026736m.g|Csin          7.9e-06  765_[-2]_227
+cassava4.1_015875m.g|Mes          7.9e-06  669_[+2]_323
+MDP0000529003|Mdomestica          5.1e-05  344_[+2]_61_[+2]_320_[-2]_251
+MDP0000770493|Mdomestica          1.4e-05  242_[+2]_296_[-2]_446
+MDP0000126135|Mdomestica          1.4e-05  242_[+2]_296_[-2]_446
+Aquca_043_00099|Acoerule          1.4e-05  181_[+2]_630_[+2]_173
+Carubv10010040m.g|Crubel          1.4e-05  244_[+2]_748
+Carubv10010037m.g|Crubel          1.4e-05  269_[+2]_723
+Cucsa.077690|Csativus             1.4e-05  368_[+2]_624
+472273|Alyrata                    1.4e-05  458_[+2]_534
+Thhalv10008313m.g|Thalop          1.8e-05  848_[+2]_144
+Lus10034568.g|Lusitatiss          2.2e-05  9_[+2]_65_[+2]_616_[-2]_286
+Carubv10005866m.g|Crubel          2.2e-05  836_[+2]_19_[-2]_129
+Eucgr.F01726|Egrandis             5.1e-05  693_[+2]_60_[+2]_231
+Eucgr.I02395|Egrandis             3.6e-05  209_[+2]_585_[+2]_190
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=8 seqs=50
+Lus10021827.g|Lusitatiss (   81) CACCGACC  1 
+Thhalv10026303m.g|Thalop (  650) CACCGACC  1 
+ppa010326m.g|Ppersica    (  452) CACCGACC  1 
+ppa026861m.g|Ppersica    (  568) CACCGACC  1 
+evm.TU.supercontig_26.22 (  400) CACCGACC  1 
+490603|Alyrata           (  730) CACCGACC  1 
+Lus10021240.g|Lusitatiss (  698) GACCGACC  1 
+Lus10005652.g|Lusitatiss (  671) GACCGACC  1 
+AT4G38410|Athaliana      (  152) GACCGACC  1 
+30170.t000735|Rcommunis  (  313) GACCGACC  1 
+clementine0.9_033471m.g| (  654) CACCGCCC  1 
+clementine0.9_020531m.g| (  473) CACCGCCC  1 
+POPTR_0005s26930|Ptricho (  563) CACCGCCC  1 
+orange1.1g038463m.g|Csin (  654) CACCGCCC  1 
+orange1.1g026736m.g|Csin (  766) CACCGCCC  1 
+cassava4.1_015875m.g|Mes (  670) CACCGCCC  1 
+MDP0000529003|Mdomestica (  742) AACCGACC  1 
+MDP0000529003|Mdomestica (  414) AACCGACC  1 
+MDP0000770493|Mdomestica (  547) AACCGACC  1 
+MDP0000770493|Mdomestica (  243) AACCGACC  1 
+MDP0000126135|Mdomestica (  547) AACCGACC  1 
+MDP0000126135|Mdomestica (  243) AACCGACC  1 
+Aquca_043_00099|Acoerule (  820) AACCGACC  1 
+Aquca_043_00099|Acoerule (  182) AACCGACC  1 
+Carubv10010040m.g|Crubel (  245) AACCGACC  1 
+Carubv10010037m.g|Crubel (  270) AACCGACC  1 
+ppa010326m.g|Ppersica    (  829) AACCGACC  1 
+Cucsa.077690|Csativus    (  369) AACCGACC  1 
+evm.TU.supercontig_26.22 (  250) AACCGACC  1 
+472273|Alyrata           (  459) AACCGACC  1 
+Lus10021240.g|Lusitatiss (  761) CACCGTCC  1 
+Lus10005652.g|Lusitatiss (  733) CACCGTCC  1 
+ppa026861m.g|Ppersica    (  690) CACCGTCC  1 
+Thhalv10008313m.g|Thalop (  849) GACCGCCC  1 
+Lus10034568.g|Lusitatiss (  707) GACCGTCC  1 
+Lus10034568.g|Lusitatiss (   10) GACCGTCC  1 
+Lus10021827.g|Lusitatiss (  155) GACCGTCC  1 
+Carubv10005866m.g|Crubel (  837) GACCGTCC  1 
+Thhalv10026303m.g|Thalop (  641) GACCGTCC  1 
+AT4G38410|Athaliana      (  735) GACCGTCC  1 
+490603|Alyrata           (  719) GACCGTCC  1 
+Eucgr.F01726|Egrandis    (  694) CCCCGACC  1 
+Lus10021827.g|Lusitatiss (  251) CCCCGACC  1 
+Eucgr.I02395|Egrandis    (  803) CGCCGACC  1 
+Carubv10005866m.g|Crubel (  864) CGCCGACC  1 
+490603|Alyrata           (  745) CGCCGACC  1 
+Eucgr.I02395|Egrandis    (  210) GCCCGACC  1 
+Lus10034568.g|Lusitatiss (   83) GCCCGACC  1 
+Eucgr.F01726|Egrandis    (  762) CACCCACC  1 
+MDP0000529003|Mdomestica (  345) CACCCACC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 10.8362 E= 9.7e-019 
+   -21    132     67  -1229 
+   141   -114   -155  -1229 
+ -1229    251  -1229  -1229 
+ -1229    251  -1229  -1229 
+ -1229   -214    245  -1229 
+   103    -33  -1229    -70 
+ -1229    251  -1229  -1229 
+ -1229    251  -1229  -1229 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 50 E= 9.7e-019 
+ 0.280000  0.440000  0.280000  0.000000 
+ 0.860000  0.080000  0.060000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.040000  0.960000  0.000000 
+ 0.660000  0.140000  0.000000  0.200000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+[CAG]ACCG[AT]CC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 234.38 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3	width =    8   sites =  47   llr = 461   E-value = 1.6e-010
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  :1::2:::
+pos.-specific     C  a5aa1a5a
+probability       G  ::::1:::
+matrix            T  :3::6:4:
+
+         bits    2.5 * *  * *
+                 2.3 * ** * *
+                 2.0 * ** * *
+                 1.8 * ** * *
+Relative         1.5 * ** * *
+Entropy          1.3 * ** * *
+(14.2 bits)      1.0 * ** ***
+                 0.8 **** ***
+                 0.5 **** ***
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CCCCTCCC
+consensus             T    T 
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Eucgr.I02395|Egrandis        +    847  1.69e-06 GGACACCTCT CCCCTCCC ACAACCGGAC
+Lus10005652.g|Lusitatiss     +    792  1.69e-06 GCTCCCGAAA CCCCTCCC TTTCCGTTGC
+MDP0000529003|Mdomestica     +    371  1.69e-06 CCTCGAAAGT CCCCTCCC TCCTTCCGAC
+Eucgr.F01726|Egrandis        +    781  4.81e-06 CCCCTCGCCT CCCCTCTC TCTTCATGCT
+Lus10034568.g|Lusitatiss     +    897  4.81e-06 CCCCCCGCCT CCCCTCTC AACATTCTCA
+Lus10021827.g|Lusitatiss     +    879  4.81e-06 ACCTCCGCAT CCCCTCTC AACATTCTCA
+POPTR_0005s26930|Ptricho     +    682  4.81e-06 TTACAGCGTA CCCCTCTC AACTTTTCTA
+GSVIVG01023824001|Vvinif     -    664  4.81e-06 CTTGATGTTT CCCCTCTC CAGTGCTCCT
+evm.TU.supercontig_26.22     +    731  4.81e-06 CAATTACCTC CCCCTCTC TCGCGTCAGA
+Eucgr.I02395|Egrandis        +    183  1.15e-05 ATCCCGGACT CCCCGCCC CCGCGCTCGC
+Lus10034568.g|Lusitatiss     +    884  1.15e-05 CCACTATAAA CCCCCCCC CGCCTCCCCT
+MDP0000529003|Mdomestica     +    472  1.15e-05 CACACTTGCA CTCCTCCC ACGTTCTTCT
+MDP0000770493|Mdomestica     +    349  1.15e-05 GGTCCGTCCT CTCCTCCC TCGCATCATT
+MDP0000126135|Mdomestica     +    349  1.15e-05 GGTCCGTCCT CTCCTCCC TCGCATCATT
+Carubv10005866m.g|Crubel     +    419  1.15e-05 TATCTTCATA CTCCTCCC TCTCCTCTCT
+Thhalv10026303m.g|Thalop     +    327  1.15e-05 TCTTCTCATA CTCCTCCC TCTCTATCTC
+ppa026861m.g|Ppersica        +    718  1.15e-05 TTTTAGTTTT CTCCTCCC AATGGTGACC
+30170.t000735|Rcommunis      +    497  1.15e-05 CGCCACGTCG CCCCACCC AATACTCTCA
+evm.TU.supercontig_26.22     +    874  1.15e-05 CACATACCCT CCCCGCCC ATCACTACTG
+evm.TU.supercontig_26.22     +    797  1.15e-05 CTATAAAATG CCCCACCC TCCATTACCT
+evm.TU.supercontig_26.22     +    272  1.15e-05 GTTCCGCTCC CTCCTCCC GAGTAACGTC
+Lus10021240.g|Lusitatiss     +    153  2.37e-05 TCATTCATGG CCCCACTC TTTCACGTTC
+Lus10034568.g|Lusitatiss     +    822  2.37e-05 AACCCCTTCC CTCCTCTC GTTTTCCTGT
+Lus10021827.g|Lusitatiss     +    804  2.37e-05 AACCCCTTCC CTCCTCTC TCGTTTTCCT
+Aquca_043_00099|Acoerule     +    660  2.37e-05 AATCCCTCTC CCCCACTC CATTATCAAA
+Carubv10005866m.g|Crubel     +    428  2.37e-05 ACTCCTCCCT CTCCTCTC TTTTTTCTTT
+Carubv10005866m.g|Crubel     +     80  2.37e-05 TCGAGTCGGT CTCCTCTC TTCGTTTAAC
+Carubv10005866m.g|Crubel     +     44  2.37e-05 CACAGCTGTG CCCCCCTC GGGCCTTGTA
+AT1G20440|Athaliana          +    979  2.37e-05 ACTATAAAAA CCCCACTC TCTCTTATCT
+Cucsa.077690|Csativus        +    689  2.37e-05 CCCATATCTC CCCCACTC GCTCACATTC
+Cucsa.077690|Csativus        +    521  2.37e-05 CTTCATTGGG CCCCACTC TTGCCGACCT
+evm.TU.supercontig_26.22     +    370  2.37e-05 AGAACGTGGC CCCCACTC AATAACACAC
+921008|Alyrata               +    900  2.37e-05 CTATAAAAAC CCCCGCTC TCTCTTCTCT
+Phvulv091012488m.g|Pvulg     +    336  2.68e-05 CTCATTGCCA CACCTCCC CACGTTATTC
+Lus10021827.g|Lusitatiss     +    237  2.68e-05 ATGTTCCGCT CACCTCCC ATATTCCCCC
+ppa010326m.g|Ppersica        +    397  2.68e-05 GAAGACACCC CACCTCCC TCTCCTCTTT
+clementine0.9_033471m.g|     +    597  3.34e-05 CGATCTCGAA CTCCGCCC CCATCAGCAA
+clementine0.9_020531m.g|     +    302  3.34e-05 AGAAACTCTT CTCCCCCC TAAAATGTCT
+orange1.1g038463m.g|Csin     +    597  3.34e-05 CGATCTCGAA CTCCGCCC CCATCAGCAA
+orange1.1g026736m.g|Csin     +    595  3.34e-05 AGAAACTCTT CTCCCCCC TAAAATGTCT
+MDP0000529003|Mdomestica     +    539  3.91e-05 CAGTACGTCT CACCTCTC CTCCTTTAAG
+orange1.1g026736m.g|Csin     -    121  3.91e-05 GCATTACATA CACCTCTC CTCGCAACCA
+Lus10021240.g|Lusitatiss     +    233  5.11e-05 TCGAACTTTT CTCCACTC CGTTTTGCCA
+GSVIVG01023824001|Vvinif     +    867  5.76e-05 CACGTGCCTT CACCCCCC TTTCTCTTTT
+Eucgr.F01726|Egrandis        +    771  5.93e-05 CCACCCACCT CCCCTCGC CTCCCCTCTC
+Lus10021240.g|Lusitatiss     +    820  6.24e-05 CTCCTGAAAC CCCTTCCC TTTCCTTTGC
+GSVIVG01023824001|Vvinif     +    959  6.24e-05 CTATTTCAGT CCCTTCCC CACATTCCCT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Eucgr.I02395|Egrandis             1.1e-05  182_[+3]_656_[+3]_146
+Lus10005652.g|Lusitatiss          1.7e-06  791_[+3]_201
+MDP0000529003|Mdomestica          3.9e-05  370_[+3]_93_[+3]_59_[+3]_454
+Eucgr.F01726|Egrandis             5.9e-05  770_[+3]_2_[+3]_212
+Lus10034568.g|Lusitatiss          2.4e-05  821_[+3]_54_[+3]_5_[+3]_96
+Lus10021827.g|Lusitatiss          2.7e-05  236_[+3]_559_[+3]_67_[+3]_114
+POPTR_0005s26930|Ptricho          4.8e-06  681_[+3]_311
+GSVIVG01023824001|Vvinif          5.8e-05  663_[-3]_195_[+3]_84_[+3]_34
+evm.TU.supercontig_26.22          2.4e-05  271_[+3]_90_[+3]_353_[+3]_58_[+3]_
+                                           69_[+3]_119
+MDP0000770493|Mdomestica          1.1e-05  348_[+3]_644
+MDP0000126135|Mdomestica          1.1e-05  348_[+3]_644
+Carubv10005866m.g|Crubel          2.4e-05  43_[+3]_28_[+3]_331_[+3]_1_[+3]_565
+Thhalv10026303m.g|Thalop          1.1e-05  326_[+3]_666
+ppa026861m.g|Ppersica             1.1e-05  717_[+3]_275
+30170.t000735|Rcommunis           1.1e-05  496_[+3]_496
+Lus10021240.g|Lusitatiss          5.1e-05  152_[+3]_72_[+3]_579_[+3]_173
+Aquca_043_00099|Acoerule          2.4e-05  659_[+3]_333
+AT1G20440|Athaliana               2.4e-05  978_[+3]_14
+Cucsa.077690|Csativus             2.4e-05  520_[+3]_160_[+3]_304
+921008|Alyrata                    2.4e-05  899_[+3]_93
+Phvulv091012488m.g|Pvulg          2.7e-05  335_[+3]_657
+ppa010326m.g|Ppersica             2.7e-05  396_[+3]_596
+clementine0.9_033471m.g|          3.3e-05  596_[+3]_396
+clementine0.9_020531m.g|          3.3e-05  301_[+3]_691
+orange1.1g038463m.g|Csin          3.3e-05  596_[+3]_396
+orange1.1g026736m.g|Csin          3.9e-05  120_[-3]_466_[+3]_398
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=8 seqs=47
+Eucgr.I02395|Egrandis    (  847) CCCCTCCC  1 
+Lus10005652.g|Lusitatiss (  792) CCCCTCCC  1 
+MDP0000529003|Mdomestica (  371) CCCCTCCC  1 
+Eucgr.F01726|Egrandis    (  781) CCCCTCTC  1 
+Lus10034568.g|Lusitatiss (  897) CCCCTCTC  1 
+Lus10021827.g|Lusitatiss (  879) CCCCTCTC  1 
+POPTR_0005s26930|Ptricho (  682) CCCCTCTC  1 
+GSVIVG01023824001|Vvinif (  664) CCCCTCTC  1 
+evm.TU.supercontig_26.22 (  731) CCCCTCTC  1 
+Eucgr.I02395|Egrandis    (  183) CCCCGCCC  1 
+Lus10034568.g|Lusitatiss (  884) CCCCCCCC  1 
+MDP0000529003|Mdomestica (  472) CTCCTCCC  1 
+MDP0000770493|Mdomestica (  349) CTCCTCCC  1 
+MDP0000126135|Mdomestica (  349) CTCCTCCC  1 
+Carubv10005866m.g|Crubel (  419) CTCCTCCC  1 
+Thhalv10026303m.g|Thalop (  327) CTCCTCCC  1 
+ppa026861m.g|Ppersica    (  718) CTCCTCCC  1 
+30170.t000735|Rcommunis  (  497) CCCCACCC  1 
+evm.TU.supercontig_26.22 (  874) CCCCGCCC  1 
+evm.TU.supercontig_26.22 (  797) CCCCACCC  1 
+evm.TU.supercontig_26.22 (  272) CTCCTCCC  1 
+Lus10021240.g|Lusitatiss (  153) CCCCACTC  1 
+Lus10034568.g|Lusitatiss (  822) CTCCTCTC  1 
+Lus10021827.g|Lusitatiss (  804) CTCCTCTC  1 
+Aquca_043_00099|Acoerule (  660) CCCCACTC  1 
+Carubv10005866m.g|Crubel (  428) CTCCTCTC  1 
+Carubv10005866m.g|Crubel (   80) CTCCTCTC  1 
+Carubv10005866m.g|Crubel (   44) CCCCCCTC  1 
+AT1G20440|Athaliana      (  979) CCCCACTC  1 
+Cucsa.077690|Csativus    (  689) CCCCACTC  1 
+Cucsa.077690|Csativus    (  521) CCCCACTC  1 
+evm.TU.supercontig_26.22 (  370) CCCCACTC  1 
+921008|Alyrata           (  900) CCCCGCTC  1 
+Phvulv091012488m.g|Pvulg (  336) CACCTCCC  1 
+Lus10021827.g|Lusitatiss (  237) CACCTCCC  1 
+ppa010326m.g|Ppersica    (  397) CACCTCCC  1 
+clementine0.9_033471m.g| (  597) CTCCGCCC  1 
+clementine0.9_020531m.g| (  302) CTCCCCCC  1 
+orange1.1g038463m.g|Csin (  597) CTCCGCCC  1 
+orange1.1g026736m.g|Csin (  595) CTCCCCCC  1 
+MDP0000529003|Mdomestica (  539) CACCTCTC  1 
+orange1.1g026736m.g|Csin (  121) CACCTCTC  1 
+Lus10021240.g|Lusitatiss (  233) CTCCACTC  1 
+GSVIVG01023824001|Vvinif (  867) CACCCCCC  1 
+Eucgr.F01726|Egrandis    (  771) CCCCTCGC  1 
+Lus10021240.g|Lusitatiss (  820) CCCTTCCC  1 
+GSVIVG01023824001|Vvinif (  959) CCCTTCCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.8882 E= 1.6e-010 
+ -1220    251  -1220  -1220 
+  -134    160  -1220      7 
+ -1220    251  -1220  -1220 
+ -1220    244  -1220   -293 
+   -76    -72    -72     88 
+ -1220    251  -1220  -1220 
+ -1220    160   -304     46 
+ -1220    251  -1220  -1220 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 47 E= 1.6e-010 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.127660  0.531915  0.000000  0.340426 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.957447  0.000000  0.042553 
+ 0.191489  0.106383  0.106383  0.595745 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.531915  0.021277  0.446809 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+C[CT]CCTC[CT]C
+--------------------------------------------------------------------------------
+
+
+
+
+Time 349.24 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  4	width =    8   sites =  32   llr = 322   E-value = 2.1e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 4 Description
+--------------------------------------------------------------------------------
+Simplified        A  :5::::2:
+pos.-specific     C  a:a::5:3
+probability       G  :5:a::88
+matrix            T  ::::a5::
+
+         bits    2.5 * **    
+                 2.3 * **    
+                 2.0 * **    
+                 1.8 * **   *
+Relative         1.5 * *** **
+Entropy          1.3 * *** **
+(14.5 bits)      1.0 ********
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CGCGTTGG
+consensus             A   CAC
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Cucsa.077690|Csativus        +    764  1.69e-06 GTGGGAAATC CGCGTCGG GGATTCAGAT
+Thhalv10019152m.g|Thalop     +    952  4.81e-06 GCGTGAAATC CGCGTTGG ATTGGACCCC
+Thhalv10008706m.g|Thalop     +    934  4.81e-06 GCGTGACCTA CGCGTTGG CCTGGACCCT
+AT1G20440|Athaliana          +    942  4.81e-06 GCGTTACCTC CGCGTTGG CCTGGACCCT
+POPTR_0005s26930|Ptricho     +    960  4.81e-06 GCGTCAGCTC CGCGTTGG CTTCCAGCTA
+cassava4.1_015875m.g|Mes     +    961  4.81e-06 TAATTTAATA CGCGTTGG TCAGTTACAT
+ppa010326m.g|Ppersica        +    990  4.81e-06 GCGTCATATC CGCGTTGG GTG       
+Cucsa.077690|Csativus        +    980  4.81e-06 CAGGATGAGG CGCGTTGG ATACGTGTGG
+921008|Alyrata               +    846  4.81e-06 GCGTTACCTC CGCGTTGG CCTGGACCCT
+Phvulv091012488m.g|Pvulg     +    945  7.94e-06 ACTTAATCCA CACGTCGG TTACCACCTT
+Carubv10010037m.g|Crubel     -    220  7.94e-06 CTTCTGTATC CACGTCGG TAAAAGCTAG
+Thhalv10008706m.g|Thalop     -    835  7.94e-06 CCTTTTTCTT CACGTCGG TAGATGAATA
+POPTR_0005s26930|Ptricho     +    887  7.94e-06 CTTAAATTTA CACGTCGG TTACAGAAGT
+Cucsa.077690|Csativus        +    888  7.94e-06 TTGAATCCAC CACGTCGG TTCTCTGCCA
+Glyma04g01130|Gmax           +    981  7.94e-06 ACTTAATTCA CACGTCGG TTACCACCTT
+Eucgr.F01726|Egrandis        +    430  9.63e-06 AATATGATGT CGCGTCGC TAATCATCAC
+MDP0000770493|Mdomestica     -     85  1.54e-05 TTTAGTTCAT CACGTTGG TGGGGTACAG
+MDP0000126135|Mdomestica     -     85  1.54e-05 TTTAGTTCAT CACGTTGG TGGGGTACAG
+Thhalv10019152m.g|Thalop     -     98  1.54e-05 TGACTAGTGC CACGTTGG AAAAACCTTT
+evm.TU.supercontig_26.22     +    751  1.85e-05 GCGTCAGAAC CGCGTTGC ATGAATCATC
+Lus10034568.g|Lusitatiss     +    851  2.47e-05 ATTTATTGTA CGCGTCAG ATCCGTGTTA
+Lus10021827.g|Lusitatiss     +    835  2.47e-05 ATATATTGTA CGCGTCAG ATCCGTGTTA
+POPTR_0005s26930|Ptricho     +    949  2.47e-05 ACTTCTTAAT CGCGTCAG CTCCGCGTTG
+30170.t000735|Rcommunis      +    932  2.47e-05 TTTTCTTAAT CGCGTCAG ATCCGTGTTG
+evm.TU.supercontig_26.22     +    740  2.47e-05 CCCCCTCTCT CGCGTCAG AACCGCGTTG
+MDP0000529003|Mdomestica     +    492  3.05e-05 GTTCTTCTTA CACGTTGC GGCCTCTTAC
+MDP0000770493|Mdomestica     +    320  3.05e-05 ATTCTTCTTA CACGTTGC AGGCCCTTAT
+MDP0000126135|Mdomestica     +    320  3.05e-05 ATTCTTCTTA CACGTTGC AGGCCCTTAT
+ppa010326m.g|Ppersica        +    531  3.05e-05 GTTCATCCGA CACGTTGC AGCCATTTAT
+Cucsa.077690|Csativus        +    597  3.05e-05 CATCTTCCTC CACGTTGC ACTCTCTCAT
+Medtr3g162880|Mtruncatul     +    945  4.20e-05 TCTTAATCCA CACGTCAG TTACATAATC
+Eucgr.F01726|Egrandis        +    937  4.51e-05 CTTTATTATT CGCGTCAC CGCATAGTTC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Cucsa.077690|Csativus               3e-05  596_[+4]_159_[+4]_116_[+4]_84_[+4]_13
+Thhalv10019152m.g|Thalop          1.5e-05  97_[-4]_846_[+4]_41
+Thhalv10008706m.g|Thalop          7.9e-06  834_[-4]_91_[+4]_59
+AT1G20440|Athaliana               4.8e-06  941_[+4]_51
+POPTR_0005s26930|Ptricho          2.5e-05  886_[+4]_54_[+4]_3_[+4]_33
+cassava4.1_015875m.g|Mes          4.8e-06  960_[+4]_32
+ppa010326m.g|Ppersica               3e-05  530_[+4]_451_[+4]_3
+921008|Alyrata                    4.8e-06  845_[+4]_147
+Phvulv091012488m.g|Pvulg          7.9e-06  944_[+4]_48
+Carubv10010037m.g|Crubel          7.9e-06  219_[-4]_773
+Glyma04g01130|Gmax                7.9e-06  980_[+4]_12
+Eucgr.F01726|Egrandis             4.5e-05  429_[+4]_499_[+4]_56
+MDP0000770493|Mdomestica            3e-05  84_[-4]_227_[+4]_673
+MDP0000126135|Mdomestica            3e-05  84_[-4]_227_[+4]_673
+evm.TU.supercontig_26.22          2.5e-05  739_[+4]_3_[+4]_242
+Lus10034568.g|Lusitatiss          2.5e-05  850_[+4]_142
+Lus10021827.g|Lusitatiss          2.5e-05  834_[+4]_158
+30170.t000735|Rcommunis           2.5e-05  931_[+4]_61
+MDP0000529003|Mdomestica            3e-05  491_[+4]_501
+Medtr3g162880|Mtruncatul          4.2e-05  944_[+4]_48
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 4 width=8 seqs=32
+Cucsa.077690|Csativus    (  764) CGCGTCGG  1 
+Thhalv10019152m.g|Thalop (  952) CGCGTTGG  1 
+Thhalv10008706m.g|Thalop (  934) CGCGTTGG  1 
+AT1G20440|Athaliana      (  942) CGCGTTGG  1 
+POPTR_0005s26930|Ptricho (  960) CGCGTTGG  1 
+cassava4.1_015875m.g|Mes (  961) CGCGTTGG  1 
+ppa010326m.g|Ppersica    (  990) CGCGTTGG  1 
+Cucsa.077690|Csativus    (  980) CGCGTTGG  1 
+921008|Alyrata           (  846) CGCGTTGG  1 
+Phvulv091012488m.g|Pvulg (  945) CACGTCGG  1 
+Carubv10010037m.g|Crubel (  220) CACGTCGG  1 
+Thhalv10008706m.g|Thalop (  835) CACGTCGG  1 
+POPTR_0005s26930|Ptricho (  887) CACGTCGG  1 
+Cucsa.077690|Csativus    (  888) CACGTCGG  1 
+Glyma04g01130|Gmax       (  981) CACGTCGG  1 
+Eucgr.F01726|Egrandis    (  430) CGCGTCGC  1 
+MDP0000770493|Mdomestica (   85) CACGTTGG  1 
+MDP0000126135|Mdomestica (   85) CACGTTGG  1 
+Thhalv10019152m.g|Thalop (   98) CACGTTGG  1 
+evm.TU.supercontig_26.22 (  751) CGCGTTGC  1 
+Lus10034568.g|Lusitatiss (  851) CGCGTCAG  1 
+Lus10021827.g|Lusitatiss (  835) CGCGTCAG  1 
+POPTR_0005s26930|Ptricho (  949) CGCGTCAG  1 
+30170.t000735|Rcommunis  (  932) CGCGTCAG  1 
+evm.TU.supercontig_26.22 (  740) CGCGTCAG  1 
+MDP0000529003|Mdomestica (  492) CACGTTGC  1 
+MDP0000770493|Mdomestica (  320) CACGTTGC  1 
+MDP0000126135|Mdomestica (  320) CACGTTGC  1 
+ppa010326m.g|Ppersica    (  531) CACGTTGC  1 
+Cucsa.077690|Csativus    (  597) CACGTTGC  1 
+Medtr3g162880|Mtruncatul (  945) CACGTCAG  1 
+Eucgr.F01726|Egrandis    (  937) CGCGTCAC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.6695 E= 2.1e-001 
+ -1164    251  -1164  -1164 
+    53  -1164    159  -1164 
+ -1164    251  -1164  -1164 
+ -1164  -1164    251  -1164 
+ -1164  -1164  -1164    163 
+ -1164    141  -1164     71 
+   -57  -1164    215  -1164 
+ -1164     51    209  -1164 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 32 E= 2.1e-001 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.468750  0.000000  0.531250  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.468750  0.000000  0.531250 
+ 0.218750  0.000000  0.781250  0.000000 
+ 0.000000  0.250000  0.750000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 regular expression
+--------------------------------------------------------------------------------
+C[GA]CGT[TC][GA][GC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 462.48 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  5	width =    8   sites =  31   llr = 315   E-value = 7.0e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 5 Description
+--------------------------------------------------------------------------------
+Simplified        A  :8:::a:7
+pos.-specific     C  3:aa1:a:
+probability       G  72::9:::
+matrix            T  :::::::3
+
+         bits    2.5   **  * 
+                 2.3   *** * 
+                 2.0   *** * 
+                 1.8   *** * 
+Relative         1.5 * ***** 
+Entropy          1.3 * ***** 
+(14.7 bits)      1.0 ******* 
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           GACCGACA
+consensus            CG     T
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Lus10021827.g|Lusitatiss     +    122  5.74e-06 ATCGTTTCGT GACCGACA TTTTCAGGTC
+Carubv10005866m.g|Crubel     -     64  5.74e-06 AGACCGACTC GACCGACA TGTACAAGGC
+Carubv10010040m.g|Crubel     +    215  5.74e-06 AGGCCGAGAT GACCGACA TCCATTGGTT
+Carubv10010037m.g|Crubel     +    254  5.74e-06 GGGTCCACAT GACCGACA TCTATCAAAA
+Thhalv10008706m.g|Thalop     +     64  5.74e-06 GGACCCACAT GACCGACA TCTCACTCTT
+AT1G20450|Athaliana          +    427  5.74e-06 TGGCCCACAT GACCGACA TCCACGCTTA
+AT1G20440|Athaliana          +      5  5.74e-06       ACAT GACCGACA TCTATGCTTA
+30170.t000735|Rcommunis      +    764  5.74e-06 AGCGTTACAT GACCGACA CATTTCGATG
+472273|Alyrata               +    431  5.74e-06 GGCCCCACAT GACCGACA TCAACGCTTA
+Eucgr.F01726|Egrandis        +    672  8.86e-06 CCTGCCAAGA GGCCGACA CCTGCACCTG
+MDP0000529003|Mdomestica     +    443  8.86e-06 ATACGAACAA GGCCGACA CTGAGGGGTC
+MDP0000770493|Mdomestica     +    272  8.86e-06 ATCCAAACAA GGCCGACA CTTTGGGGTC
+MDP0000126135|Mdomestica     +    272  8.86e-06 ATCCAAACAA GGCCGACA CTTTGGGGTC
+POPTR_0005s26930|Ptricho     +    595  8.86e-06 ATCCAATCGA GGCCGACA CCACGGGTCT
+ppa010326m.g|Ppersica        +    481  8.86e-06 ATCCAATCAA GGCCGACA CTAGAGGGGT
+evm.TU.supercontig_26.22     +    429  8.86e-06 ATACTCTCGA GGCCGACA TTGCTCGGTC
+Aquca_007_00853|Acoerule     -    902  2.04e-05 CTTTATAGTG CACCGACA AGAATGGAAT
+Thhalv10019152m.g|Thalop     +    137  2.04e-05 GGACCCACAT CACCGACA TCACGTCTTT
+AT4G38410|Athaliana          -    841  2.04e-05 ATATTTTAAG GACCGACT TTGATCGGAA
+AT4G38410|Athaliana          +    744  2.04e-05 GGACCGTCCA CACCGACA ATCCATTGGT
+clementine0.9_033471m.g|     +    641  2.04e-05 GATTAGTGCG GACCGACT ACGTACACCG
+orange1.1g038463m.g|Csin     +    641  2.04e-05 GATTAGTGCG GACCGACT ACGTACACCG
+Phvulv091012488m.g|Pvulg     +    282  3.23e-05 CACACACACA CACCGACT TCTCCAGATT
+Lus10021240.g|Lusitatiss     +    119  3.23e-05 CCCCAGGCCA CACCGACT CTTTGCCCCC
+Carubv10005866m.g|Crubel     +    846  3.23e-05 GGACCGTCCA CACCGACT ATATCCCATT
+Carubv10005866m.g|Crubel     +     18  3.23e-05 CGTGGCACTG CACCGACT CTCTGCATCA
+AT4G38410|Athaliana          +     99  3.23e-05 CGTGGCATTG CACCGACT CTCTGCTCTG
+ppa026861m.g|Ppersica        +    699  3.23e-05 ACACCGTCCA CACCGACT CTTTTAGTTT
+Cucsa.077690|Csativus        +    458  3.23e-05 TATGCCCTTC CACCGACT CTCTCCTTTC
+Thhalv10019152m.g|Thalop     +    128  4.12e-05 AAGTCAAGTG GACCCACA TCACCGACAT
+Thhalv10008706m.g|Thalop     +     55  4.12e-05 AAGTCTAATG GACCCACA TGACCGACAT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Lus10021827.g|Lusitatiss          5.7e-06  121_[+5]_871
+Carubv10005866m.g|Crubel          3.2e-05  17_[+5]_38_[-5]_774_[+5]_147
+Carubv10010040m.g|Crubel          5.7e-06  214_[+5]_778
+Carubv10010037m.g|Crubel          5.7e-06  253_[+5]_739
+Thhalv10008706m.g|Thalop          4.1e-05  54_[+5]_1_[+5]_929
+AT1G20450|Athaliana               5.7e-06  426_[+5]_566
+AT1G20440|Athaliana               5.7e-06  4_[+5]_988
+30170.t000735|Rcommunis           5.7e-06  763_[+5]_229
+472273|Alyrata                    5.7e-06  430_[+5]_562
+Eucgr.F01726|Egrandis             8.9e-06  671_[+5]_321
+MDP0000529003|Mdomestica          8.9e-06  442_[+5]_550
+MDP0000770493|Mdomestica          8.9e-06  271_[+5]_721
+MDP0000126135|Mdomestica          8.9e-06  271_[+5]_721
+POPTR_0005s26930|Ptricho          8.9e-06  594_[+5]_398
+ppa010326m.g|Ppersica             8.9e-06  480_[+5]_512
+evm.TU.supercontig_26.22          8.9e-06  428_[+5]_564
+Aquca_007_00853|Acoerule            2e-05  901_[-5]_91
+Thhalv10019152m.g|Thalop          4.1e-05  127_[+5]_1_[+5]_856
+AT4G38410|Athaliana               3.2e-05  98_[+5]_637_[+5]_89_[-5]_152
+clementine0.9_033471m.g|            2e-05  640_[+5]_352
+orange1.1g038463m.g|Csin            2e-05  640_[+5]_352
+Phvulv091012488m.g|Pvulg          3.2e-05  281_[+5]_711
+Lus10021240.g|Lusitatiss          3.2e-05  118_[+5]_874
+ppa026861m.g|Ppersica             3.2e-05  698_[+5]_294
+Cucsa.077690|Csativus             3.2e-05  457_[+5]_535
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 5 width=8 seqs=31
+Lus10021827.g|Lusitatiss (  122) GACCGACA  1 
+Carubv10005866m.g|Crubel (   64) GACCGACA  1 
+Carubv10010040m.g|Crubel (  215) GACCGACA  1 
+Carubv10010037m.g|Crubel (  254) GACCGACA  1 
+Thhalv10008706m.g|Thalop (   64) GACCGACA  1 
+AT1G20450|Athaliana      (  427) GACCGACA  1 
+AT1G20440|Athaliana      (    5) GACCGACA  1 
+30170.t000735|Rcommunis  (  764) GACCGACA  1 
+472273|Alyrata           (  431) GACCGACA  1 
+Eucgr.F01726|Egrandis    (  672) GGCCGACA  1 
+MDP0000529003|Mdomestica (  443) GGCCGACA  1 
+MDP0000770493|Mdomestica (  272) GGCCGACA  1 
+MDP0000126135|Mdomestica (  272) GGCCGACA  1 
+POPTR_0005s26930|Ptricho (  595) GGCCGACA  1 
+ppa010326m.g|Ppersica    (  481) GGCCGACA  1 
+evm.TU.supercontig_26.22 (  429) GGCCGACA  1 
+Aquca_007_00853|Acoerule (  902) CACCGACA  1 
+Thhalv10019152m.g|Thalop (  137) CACCGACA  1 
+AT4G38410|Athaliana      (  841) GACCGACT  1 
+AT4G38410|Athaliana      (  744) CACCGACA  1 
+clementine0.9_033471m.g| (  641) GACCGACT  1 
+orange1.1g038463m.g|Csin (  641) GACCGACT  1 
+Phvulv091012488m.g|Pvulg (  282) CACCGACT  1 
+Lus10021240.g|Lusitatiss (  119) CACCGACT  1 
+Carubv10005866m.g|Crubel (  846) CACCGACT  1 
+Carubv10005866m.g|Crubel (   18) CACCGACT  1 
+AT4G38410|Athaliana      (   99) CACCGACT  1 
+ppa026861m.g|Ppersica    (  699) CACCGACT  1 
+Cucsa.077690|Csativus    (  458) CACCGACT  1 
+Thhalv10019152m.g|Thalop (  128) GACCCACA  1 
+Thhalv10008706m.g|Thalop (   55) GACCCACA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.0994 E= 7.0e-002 
+ -1160     87    195  -1160 
+   126  -1160     36  -1160 
+ -1160    251  -1160  -1160 
+ -1160    251  -1160  -1160 
+ -1160   -145    241  -1160 
+   163  -1160  -1160  -1160 
+ -1160    251  -1160  -1160 
+   106  -1160  -1160     -1 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 31 E= 7.0e-002 
+ 0.000000  0.322581  0.677419  0.000000 
+ 0.774194  0.000000  0.225806  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.064516  0.935484  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.677419  0.000000  0.000000  0.322581 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 regular expression
+--------------------------------------------------------------------------------
+[GC][AG]CCGAC[AT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 574.97 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  6	width =    8   sites =  13   llr = 150   E-value = 1.9e+002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 6 Description
+--------------------------------------------------------------------------------
+Simplified        A  :::::7::
+pos.-specific     C  :2aaa:89
+probability       G  a8::::21
+matrix            T  :::::3::
+
+         bits    2.5 * ***   
+                 2.3 * ***   
+                 2.0 ***** **
+                 1.8 ***** **
+Relative         1.5 ***** **
+Entropy          1.3 ***** **
+(16.7 bits)      1.0 ***** **
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           GGCCCACC
+consensus                 T  
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+MDP0000529003|Mdomestica     +    321  1.69e-06 ATAATAAAAT GGCCCACC ATAATAATTT
+MDP0000770493|Mdomestica     +    150  1.69e-06 ATACTAAAAT GGCCCACC ATGATTAGTT
+MDP0000126135|Mdomestica     +    150  1.69e-06 ATACTAAAAT GGCCCACC ATGATTAGTT
+ppa010326m.g|Ppersica        +    332  1.69e-06 AATGAAAAAT GGCCCACC ATGAAAGCTT
+clementine0.9_033471m.g|     -    680  3.39e-06 CCTGTTATTT GGCCCTCC GAGGAAGAAA
+clementine0.9_020531m.g|     +    490  3.39e-06 GTAATTCCGT GGCCCTCC TTCAGTGGGG
+orange1.1g038463m.g|Csin     -    680  3.39e-06 CCTGTTATTT GGCCCTCC GAGGAAGAAA
+orange1.1g026736m.g|Csin     +    783  3.39e-06 GTAATTCCGT GGCCCTCC TTCAGTGGGG
+AT4G38410|Athaliana          -    523  6.78e-06 CTTCTTTACA GCCCCACC ACTAAAAAAA
+AT4G38410|Athaliana          -    124  6.78e-06 TGTAGTACCA GGCCCAGC TGTGAGGCAG
+POPTR_0005s26930|Ptricho     +    916  6.78e-06 AAACCTGACT GGCCCAGC TCACTTGGCT
+490603|Alyrata               -    525  6.78e-06 CTTCTTTTCA GCCCCACC ACTTGGAAAA
+Eucgr.F01726|Egrandis        -    630  1.19e-05 TCGGCGTGGG GGCCCACG GAGCGATTTA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+MDP0000529003|Mdomestica          1.7e-06  320_[+6]_672
+MDP0000770493|Mdomestica          1.7e-06  149_[+6]_843
+MDP0000126135|Mdomestica          1.7e-06  149_[+6]_843
+ppa010326m.g|Ppersica             1.7e-06  331_[+6]_661
+clementine0.9_033471m.g|          3.4e-06  679_[-6]_313
+clementine0.9_020531m.g|          3.4e-06  489_[+6]_503
+orange1.1g038463m.g|Csin          3.4e-06  679_[-6]_313
+orange1.1g026736m.g|Csin          3.4e-06  782_[+6]_210
+AT4G38410|Athaliana               6.8e-06  123_[-6]_391_[-6]_470
+POPTR_0005s26930|Ptricho          6.8e-06  915_[+6]_77
+490603|Alyrata                    6.8e-06  524_[-6]_468
+Eucgr.F01726|Egrandis             1.2e-05  629_[-6]_363
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 6 width=8 seqs=13
+MDP0000529003|Mdomestica (  321) GGCCCACC  1 
+MDP0000770493|Mdomestica (  150) GGCCCACC  1 
+MDP0000126135|Mdomestica (  150) GGCCCACC  1 
+ppa010326m.g|Ppersica    (  332) GGCCCACC  1 
+clementine0.9_033471m.g| (  680) GGCCCTCC  1 
+clementine0.9_020531m.g| (  490) GGCCCTCC  1 
+orange1.1g038463m.g|Csin (  680) GGCCCTCC  1 
+orange1.1g026736m.g|Csin (  783) GGCCCTCC  1 
+AT4G38410|Athaliana      (  523) GCCCCACC  1 
+AT4G38410|Athaliana      (  124) GGCCCAGC  1 
+POPTR_0005s26930|Ptricho (  916) GGCCCAGC  1 
+490603|Alyrata           (  525) GCCCCACC  1 
+Eucgr.F01726|Egrandis    (  630) GGCCCACG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 12.8117 E= 1.9e+002 
+ -1035  -1035    251  -1035 
+ -1035    -19    227  -1035 
+ -1035    251  -1035  -1035 
+ -1035    251  -1035  -1035 
+ -1035    251  -1035  -1035 
+   109  -1035  -1035     -8 
+ -1035    227    -19  -1035 
+ -1035    239   -119  -1035 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 13 E= 1.9e+002 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.153846  0.846154  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.692308  0.000000  0.000000  0.307692 
+ 0.000000  0.846154  0.153846  0.000000 
+ 0.000000  0.923077  0.076923  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 regular expression
+--------------------------------------------------------------------------------
+GGCCC[AT]CC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 686.21 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  7	width =    8   sites =  24   llr = 247   E-value = 7.9e+003
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 7 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::a:
+pos.-specific     C  ::38aa:6
+probability       G  aa3::::1
+matrix            T  ::42:::3
+
+         bits    2.5 **  **  
+                 2.3 **  **  
+                 2.0 **  **  
+                 1.8 **  **  
+Relative         1.5 ** **** 
+Entropy          1.3 ** **** 
+(14.8 bits)      1.0 ** *****
+                 0.8 ** *****
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           GGTCCCAC
+consensus              CT   T
+sequence               G     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Carubv10020984m.g|Crubel     -    165  3.39e-06 TCGGTTACGA GGGCCCAC TGGACTTATT
+AT1G20440|Athaliana          -     56  3.39e-06 AGGTGGGAAC GGGCCCAC ACATGGAGCT
+30170.t000735|Rcommunis      -    515  3.39e-06 GACGGTGAAG GGCCCCAC TGAGAGTATT
+472273|Alyrata               +    421  3.39e-06 GAAGCCAGAC GGCCCCAC ATGACCGACA
+MDP0000529003|Mdomestica     +    457  6.51e-06 GACACTGAGG GGTCCCAC ACTTGCACTC
+Carubv10020984m.g|Crubel     +    219  6.51e-06 CACAGTCATT GGTCCCAC GGAAGGACAC
+Thhalv10019152m.g|Thalop     -    872  6.51e-06 ATTGCAAAAT GGTCCCAC TTTTTATTTT
+cassava4.1_015875m.g|Mes     -    659  6.51e-06 GGCGGTGCAG GGTCCCAC GGAGGTTACG
+ppa010326m.g|Ppersica        +    496  6.51e-06 ACACTAGAGG GGTCCCAC AATTACAGCC
+evm.TU.supercontig_26.22     +    443  6.51e-06 GACATTGCTC GGTCCCAC CAACAATATC
+Lus10021827.g|Lusitatiss     +     35  1.27e-05 CCCAAACGTA GGGCCCAT AGAATAGAAC
+Aquca_043_00099|Acoerule     +    873  1.27e-05 GATGCTTAAA GGCCCCAT ATACACGTGT
+evm.TU.supercontig_26.22     -    388  1.27e-05 TCGGTGTAAG GGCCCCAT GTGTGTTATT
+MDP0000770493|Mdomestica     +    286  1.85e-05 GACACTTTGG GGTCCCAT AATGGCATCC
+MDP0000126135|Mdomestica     +    286  1.85e-05 GACACTTTGG GGTCCCAT AATGGCATCC
+30170.t000735|Rcommunis      +    568  1.85e-05 GACAACCCCA GGTCCCAT TCCAGGACAA
+472273|Alyrata               +    109  1.85e-05 CGTTCTCAAT GGTCCCAT CTGTCCAATC
+Eucgr.I02395|Egrandis        -    337  2.81e-05 AATGAGACAC GGCTCCAC AAACTGAAAA
+Lus10021240.g|Lusitatiss     +    107  2.81e-05 GATTCTACTT GGCCCCAG GCCACACCGA
+Aquca_043_00099|Acoerule     -    253  2.81e-05 TATGGGAATC GGGCCCAG GTTATTTCTT
+Carubv10010037m.g|Crubel     +    244  2.81e-05 GAAGTCTATA GGGTCCAC ATGACCGACA
+AT1G76180|Athaliana          -    225  2.81e-05 TCGGTTACGT GGGTCCAC TTGACTTATT
+ppa010326m.g|Ppersica        -    237  2.81e-05 TCGTTTAGTT GGGTCCAC TTTGGGTAGG
+Cucsa.077690|Csativus        +    573  2.81e-05 CGACACCACC GGCTCCAC TTCTATCATC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Carubv10020984m.g|Crubel          6.5e-06  164_[-7]_46_[+7]_774
+AT1G20440|Athaliana               3.4e-06  55_[-7]_937
+30170.t000735|Rcommunis           1.8e-05  514_[-7]_45_[+7]_425
+472273|Alyrata                    1.8e-05  108_[+7]_304_[+7]_572
+MDP0000529003|Mdomestica          6.5e-06  456_[+7]_536
+Thhalv10019152m.g|Thalop          6.5e-06  871_[-7]_121
+cassava4.1_015875m.g|Mes          6.5e-06  658_[-7]_334
+ppa010326m.g|Ppersica             2.8e-05  236_[-7]_251_[+7]_497
+evm.TU.supercontig_26.22          1.3e-05  387_[-7]_47_[+7]_550
+Lus10021827.g|Lusitatiss          1.3e-05  34_[+7]_958
+Aquca_043_00099|Acoerule          2.8e-05  252_[-7]_612_[+7]_120
+MDP0000770493|Mdomestica          1.8e-05  285_[+7]_707
+MDP0000126135|Mdomestica          1.8e-05  285_[+7]_707
+Eucgr.I02395|Egrandis             2.8e-05  336_[-7]_656
+Lus10021240.g|Lusitatiss          2.8e-05  106_[+7]_886
+Carubv10010037m.g|Crubel          2.8e-05  243_[+7]_749
+AT1G76180|Athaliana               2.8e-05  224_[-7]_768
+Cucsa.077690|Csativus             2.8e-05  572_[+7]_420
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 7 width=8 seqs=24
+Carubv10020984m.g|Crubel (  165) GGGCCCAC  1 
+AT1G20440|Athaliana      (   56) GGGCCCAC  1 
+30170.t000735|Rcommunis  (  515) GGCCCCAC  1 
+472273|Alyrata           (  421) GGCCCCAC  1 
+MDP0000529003|Mdomestica (  457) GGTCCCAC  1 
+Carubv10020984m.g|Crubel (  219) GGTCCCAC  1 
+Thhalv10019152m.g|Thalop (  872) GGTCCCAC  1 
+cassava4.1_015875m.g|Mes (  659) GGTCCCAC  1 
+ppa010326m.g|Ppersica    (  496) GGTCCCAC  1 
+evm.TU.supercontig_26.22 (  443) GGTCCCAC  1 
+Lus10021827.g|Lusitatiss (   35) GGGCCCAT  1 
+Aquca_043_00099|Acoerule (  873) GGCCCCAT  1 
+evm.TU.supercontig_26.22 (  388) GGCCCCAT  1 
+MDP0000770493|Mdomestica (  286) GGTCCCAT  1 
+MDP0000126135|Mdomestica (  286) GGTCCCAT  1 
+30170.t000735|Rcommunis  (  568) GGTCCCAT  1 
+472273|Alyrata           (  109) GGTCCCAT  1 
+Eucgr.I02395|Egrandis    (  337) GGCTCCAC  1 
+Lus10021240.g|Lusitatiss (  107) GGCCCCAG  1 
+Aquca_043_00099|Acoerule (  253) GGGCCCAG  1 
+Carubv10010037m.g|Crubel (  244) GGGTCCAC  1 
+AT1G76180|Athaliana      (  225) GGGTCCAC  1 
+ppa010326m.g|Ppersica    (  237) GGGTCCAC  1 
+Cucsa.077690|Csativus    (  573) GGCTCCAC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.2099 E= 7.9e+003 
+ -1123  -1123    251  -1123 
+ -1123  -1123    251  -1123 
+ -1123     73     73     36 
+ -1123    217  -1123    -64 
+ -1123    251  -1123  -1123 
+ -1123    251  -1123  -1123 
+   162  -1123  -1123  -1123 
+ -1123    183   -108    -15 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 24 E= 7.9e+003 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.291667  0.291667  0.416667 
+ 0.000000  0.791667  0.000000  0.208333 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.625000  0.083333  0.291667 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 regular expression
+--------------------------------------------------------------------------------
+GG[TCG][CT]CCA[CT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 796.98 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  8	width =    8   sites =   7   llr = 86   E-value = 5.6e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 8 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::::
+pos.-specific     C  a:6:aa:a
+probability       G  :::a::a:
+matrix            T  :a4:::::
+
+         bits    2.5 *  *****
+                 2.3 *  *****
+                 2.0 *  *****
+                 1.8 *  *****
+Relative         1.5 ** *****
+Entropy          1.3 ********
+(17.8 bits)      1.0 ********
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           CTCGCCGC
+consensus              T     
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+MDP0000529003|Mdomestica     +    624  1.69e-06 GAACGCACAA CTCGCCGC TCCTAACTGG
+MDP0000770493|Mdomestica     +    440  1.69e-06 GGACAGCACA CTCGCCGC GCCTAACTGG
+MDP0000126135|Mdomestica     +    440  1.69e-06 GGACAGCACA CTCGCCGC GCCTAACTGG
+Carubv10005866m.g|Crubel     +    149  1.69e-06 CAATTAAAAT CTCGCCGC TTGTTTTCTT
+MDP0000770493|Mdomestica     -     22  4.81e-06 GTTTTTACCA CTTGCCGC GCTTCTCGAA
+MDP0000126135|Mdomestica     -     22  4.81e-06 GTTTTTACCA CTTGCCGC GCTTCTCGAA
+Thhalv10019152m.g|Thalop     +    308  4.81e-06 TGAACGTTAG CTTGCCGC TACTAATGTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+MDP0000529003|Mdomestica          1.7e-06  623_[+8]_369
+MDP0000770493|Mdomestica          4.8e-06  21_[-8]_410_[+8]_553
+MDP0000126135|Mdomestica          4.8e-06  21_[-8]_410_[+8]_553
+Carubv10005866m.g|Crubel          1.7e-06  148_[+8]_844
+Thhalv10019152m.g|Thalop          4.8e-06  307_[+8]_685
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 8 width=8 seqs=7
+MDP0000529003|Mdomestica (  624) CTCGCCGC  1 
+MDP0000770493|Mdomestica (  440) CTCGCCGC  1 
+MDP0000126135|Mdomestica (  440) CTCGCCGC  1 
+Carubv10005866m.g|Crubel (  149) CTCGCCGC  1 
+MDP0000770493|Mdomestica (   22) CTTGCCGC  1 
+MDP0000126135|Mdomestica (   22) CTTGCCGC  1 
+Thhalv10019152m.g|Thalop (  308) CTTGCCGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 12.3842 E= 5.6e+005 
+  -945    251   -945   -945 
+  -945   -945   -945    162 
+  -945    170   -945     40 
+  -945   -945    251   -945 
+  -945    251   -945   -945 
+  -945    251   -945   -945 
+  -945   -945    251   -945 
+  -945    251   -945   -945 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 7 E= 5.6e+005 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.571429  0.000000  0.428571 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 regular expression
+--------------------------------------------------------------------------------
+CT[CT]GCCGC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 906.98 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  9	width =    8   sites =  18   llr = 191   E-value = 3.2e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 9 Description
+--------------------------------------------------------------------------------
+Simplified        A  :2:4::::
+pos.-specific     C  :5:2::::
+probability       G  a3a:a:aa
+matrix            T  :::3:a::
+
+         bits    2.5 * * * **
+                 2.3 * * * **
+                 2.0 * * * **
+                 1.8 * * * **
+Relative         1.5 * * ****
+Entropy          1.3 * * ****
+(15.3 bits)      1.0 * * ****
+                 0.8 *** ****
+                 0.5 *** ****
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           GCGAGTGG
+consensus             G T    
+sequence              A C    
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+MDP0000529003|Mdomestica     +    678  3.12e-06 GCTATCCGTG GCGAGTGG AAATTTGCGC
+MDP0000770493|Mdomestica     +    494  3.12e-06 GCCATCCATG GCGAGTGG AAAGTTGTGC
+MDP0000126135|Mdomestica     +    494  3.12e-06 GCCATCCATG GCGAGTGG AAAGTTGTGC
+ppa010326m.g|Ppersica        +    753  3.12e-06 GAAAGATACA GCGAGTGG AAAGCGATTG
+Cucsa.077690|Csativus        +    739  3.12e-06 CAACCTGTCA GCGAGTGG TCCATGCGTG
+Glyma04g01130|Gmax           +    929  4.81e-06 GCATATGTAG GCGCGTGG AGGAAAGAGA
+Eucgr.I02395|Egrandis        -    816  7.94e-06 AGTGTCGGCT GCGTGTGG ATGAGGGTCG
+MDP0000770493|Mdomestica     +    870  7.94e-06 CGCGTCATTT GCGTGTGG GTGGATGCTA
+MDP0000126135|Mdomestica     +    870  7.94e-06 CGCGTCATTT GCGTGTGG GTGGATGCTA
+Thhalv10026303m.g|Thalop     +    861  1.11e-05 CCAGCAGAGA GGGAGTGG GTGTGGTGAT
+POPTR_0005s26930|Ptricho     -    768  1.11e-05 TGGAACTCAT GGGAGTGG TGGAGGCATA
+evm.TU.supercontig_26.22     -    464  1.11e-05 GTGTGAGAAG GGGAGTGG TGAGATATTG
+Eucgr.I02395|Egrandis        +    888  1.27e-05 CGAAGGAAGT GGGCGTGG CATGCACGTG
+490603|Alyrata               -     20  1.27e-05 GATTGGTTAA GGGCGTGG GGGTAAAGAA
+Medtr3g162880|Mtruncatul     +    899  2.47e-05 GTAGTTGTAG GAGCGTGG GCTAAGCTCA
+Lus10021240.g|Lusitatiss     -    905  3.05e-05 GATGATGAAT GAGTGTGG CGATTGGGGG
+Lus10005652.g|Lusitatiss     -    878  3.05e-05 GATGATGAAT GAGTGTGG GGATTGGGGG
+POPTR_0005s26930|Ptricho     -    518  3.05e-05 TGTGTGTGTT GAGTGTGG GGTGGGATTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+MDP0000529003|Mdomestica          3.1e-06  677_[+9]_315
+MDP0000770493|Mdomestica          7.9e-06  493_[+9]_368_[+9]_123
+MDP0000126135|Mdomestica          7.9e-06  493_[+9]_368_[+9]_123
+ppa010326m.g|Ppersica             3.1e-06  752_[+9]_240
+Cucsa.077690|Csativus             3.1e-06  738_[+9]_254
+Glyma04g01130|Gmax                4.8e-06  928_[+9]_64
+Eucgr.I02395|Egrandis             1.3e-05  815_[-9]_64_[+9]_105
+Thhalv10026303m.g|Thalop          1.1e-05  860_[+9]_132
+POPTR_0005s26930|Ptricho          1.1e-05  517_[-9]_242_[-9]_225
+evm.TU.supercontig_26.22          1.1e-05  463_[-9]_529
+490603|Alyrata                    1.3e-05  19_[-9]_973
+Medtr3g162880|Mtruncatul          2.5e-05  898_[+9]_94
+Lus10021240.g|Lusitatiss            3e-05  904_[-9]_88
+Lus10005652.g|Lusitatiss            3e-05  877_[-9]_115
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 9 width=8 seqs=18
+MDP0000529003|Mdomestica (  678) GCGAGTGG  1 
+MDP0000770493|Mdomestica (  494) GCGAGTGG  1 
+MDP0000126135|Mdomestica (  494) GCGAGTGG  1 
+ppa010326m.g|Ppersica    (  753) GCGAGTGG  1 
+Cucsa.077690|Csativus    (  739) GCGAGTGG  1 
+Glyma04g01130|Gmax       (  929) GCGCGTGG  1 
+Eucgr.I02395|Egrandis    (  816) GCGTGTGG  1 
+MDP0000770493|Mdomestica (  870) GCGTGTGG  1 
+MDP0000126135|Mdomestica (  870) GCGTGTGG  1 
+Thhalv10026303m.g|Thalop (  861) GGGAGTGG  1 
+POPTR_0005s26930|Ptricho (  768) GGGAGTGG  1 
+evm.TU.supercontig_26.22 (  464) GGGAGTGG  1 
+Eucgr.I02395|Egrandis    (  888) GGGCGTGG  1 
+490603|Alyrata           (   20) GGGCGTGG  1 
+Medtr3g162880|Mtruncatul (  899) GAGCGTGG  1 
+Lus10021240.g|Lusitatiss (  905) GAGTGTGG  1 
+Lus10005652.g|Lusitatiss (  878) GAGTGTGG  1 
+POPTR_0005s26930|Ptricho (  518) GAGTGTGG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 11.3118 E= 3.2e+005 
+ -1081  -1081    251  -1081 
+   -54    151     66  -1081 
+ -1081  -1081    251  -1081 
+    46     34  -1081      4 
+ -1081  -1081    251  -1081 
+ -1081  -1081  -1081    162 
+ -1081  -1081    251  -1081 
+ -1081  -1081    251  -1081 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 18 E= 3.2e+005 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.222222  0.500000  0.277778  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.444444  0.222222  0.000000  0.333333 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 regular expression
+--------------------------------------------------------------------------------
+G[CGA]G[ATC]GTGG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1016.75 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF 10	width =    8   sites =   5   llr = 65   E-value = 6.9e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 10 Description
+--------------------------------------------------------------------------------
+Simplified        A  8:::::::
+pos.-specific     C  :aaaaaaa
+probability       G  2:::::::
+matrix            T  ::::::::
+
+         bits    2.5  *******
+                 2.3  *******
+                 2.0  *******
+                 1.8  *******
+Relative         1.5  *******
+Entropy          1.3  *******
+(18.6 bits)      1.0 ********
+                 0.8 ********
+                 0.5 ********
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           ACCCCCCC
+consensus            G       
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Lus10021240.g|Lusitatiss     +    892  1.69e-06 TGCTATATAA ACCCCCCC AATCGCCACA
+Lus10005652.g|Lusitatiss     +    865  1.69e-06 TGCTATATAA ACCCCCCC AATCCCCACA
+clementine0.9_020531m.g|     +    266  1.69e-06 TTCGTTCAAA ACCCCCCC TTGAATTGCA
+orange1.1g026736m.g|Csin     +    559  1.69e-06 TTCGTTCAAA ACCCCCCC TTGAATTGCA
+Lus10021240.g|Lusitatiss     +    131  2.62e-06 CCGACTCTTT GCCCCCCC TATTTCATTC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Lus10021240.g|Lusitatiss          2.6e-06  130_[+10]_753_[+10]_101
+Lus10005652.g|Lusitatiss          1.7e-06  864_[+10]_128
+clementine0.9_020531m.g|          1.7e-06  265_[+10]_727
+orange1.1g026736m.g|Csin          1.7e-06  558_[+10]_434
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 10 width=8 seqs=5
+Lus10021240.g|Lusitatiss (  892) ACCCCCCC  1 
+Lus10005652.g|Lusitatiss (  865) ACCCCCCC  1 
+clementine0.9_020531m.g| (  266) ACCCCCCC  1 
+orange1.1g026736m.g|Csin (  559) ACCCCCCC  1 
+Lus10021240.g|Lusitatiss (  131) GCCCCCCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 41706 bayes= 13.9694 E= 6.9e+005 
+   130   -897     19   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+  -897    251   -897   -897 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 5 E= 6.9e+005 
+ 0.800000  0.000000  0.200000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 regular expression
+--------------------------------------------------------------------------------
+[AG]CCCCCCC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1125.92 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+490603|Alyrata                   9.75e-04  19_[-9(1.27e-05)]_497_[-6(6.78e-06)]_186_[+2(2.16e-05)]_3_[+2(3.12e-06)]_7_[-2(2.81e-05)]_248
+937958|Alyrata                   6.48e-01  788_[+1(5.83e-05)]_33_[-1(3.12e-06)]_163
+921008|Alyrata                   7.56e-02  3_[+7(4.85e-05)]_834_[+4(4.81e-06)]_1_[-7(6.53e-05)]_37_[+3(2.37e-05)]_93
+472273|Alyrata                   4.94e-04  108_[+7(1.85e-05)]_280_[-4(7.94e-06)]_16_[+7(3.39e-06)]_2_[+5(5.74e-06)]_20_[+2(1.37e-05)]_37_[-1(8.86e-06)]_489
+Glyma04g01130|Gmax               1.44e-01  928_[+9(4.81e-06)]_44_[+4(7.94e-06)]_12
+evm.TU.supercontig_26.22         1.84e-08  144_[+4(6.71e-05)]_7_[-1(6.40e-05)]_82_[+2(1.37e-05)]_14_[+3(1.15e-05)]_61_[+10(6.08e-05)]_21_[+3(2.37e-05)]_10_[-7(1.27e-05)]_4_[+2(3.12e-06)]_21_[+5(8.86e-06)]_6_[+7(6.51e-06)]_11_[+3(7.44e-05)]_[+3(8.68e-05)]_1_[+1(8.86e-06)]_124_[+1(2.83e-05)]_112_[+3(4.81e-06)]_1_[+4(2.47e-05)]_3_[+4(1.85e-05)]_37_[+6(6.78e-06)]_70_[+3(1.15e-05)]_119
+30170.t000735|Rcommunis          8.34e-07  206_[-1(6.40e-05)]_98_[+2(6.24e-06)]_167_[-1(1.37e-05)]_[+6(6.78e-06)]_11_[-7(3.39e-06)]_45_[+7(1.85e-05)]_28_[+1(8.86e-06)]_138_[-1(9.40e-05)]_6_[+5(5.74e-06)]_160_[+4(2.47e-05)]_61
+Cucsa.077690|Csativus            9.88e-07  368_[+2(1.37e-05)]_81_[+5(3.23e-05)]_53_[+7(3.39e-06)]_46_[+7(2.81e-05)]_16_[+4(3.05e-05)]_86_[-9(3.12e-06)]_11_[-1(1.37e-05)]_21_[+9(3.12e-06)]_17_[+4(1.69e-06)]_116_[+4(7.94e-06)]_84_[+4(4.81e-06)]_13
+Medtr3g162880|Mtruncatul         6.23e-01  898_[+9(2.47e-05)]_38_[+4(4.20e-05)]_48
+ppa026861m.g|Ppersica            9.91e-02  447_[-2(9.92e-05)]_112_[+2(3.12e-06)]_114_[+2(1.68e-05)]_1_[+5(3.23e-05)]_11_[+3(1.15e-05)]_275
+ppa010326m.g|Ppersica            1.39e-09  225_[+3(9.90e-05)]_3_[-7(2.81e-05)]_44_[+2(3.56e-05)]_35_[+6(1.69e-06)]_57_[+3(2.68e-05)]_26_[-1(3.12e-06)]_13_[+2(3.12e-06)]_21_[+5(8.86e-06)]_7_[+7(6.51e-06)]_7_[+10(9.09e-05)]_12_[+4(3.05e-05)]_160_[+8(6.08e-05)]_27_[+1(5.83e-05)]_11_[+9(3.12e-06)]_62_[+4(7.94e-06)]_159_[+4(4.81e-06)]_3
+GSVIVG01023824001|Vvinif         4.13e-02  93_[-3(5.76e-05)]_562_[-3(4.81e-06)]_125_[+6(4.14e-05)]_62_[+3(5.76e-05)]_84_[+3(6.24e-05)]_34
+cassava4.1_015875m.g|Mes         1.85e-04  451_[+2(4.70e-05)]_96_[+3(7.44e-05)]_19_[-5(9.80e-05)]_68_[-7(6.51e-06)]_3_[+2(7.94e-06)]_72_[+1(8.86e-06)]_203_[+4(4.81e-06)]_32
+orange1.1g026736m.g|Csin         9.03e-04  120_[-3(3.91e-05)]_430_[+10(1.69e-06)]_28_[+3(3.34e-05)]_163_[-2(7.94e-06)]_9_[+6(3.39e-06)]_6_[-10(6.08e-05)]_196
+orange1.1g038463m.g|Csin         2.43e-03  596_[+3(3.34e-05)]_11_[+1(1.94e-05)]_17_[+5(2.04e-05)]_5_[+2(7.94e-06)]_18_[-6(3.39e-06)]_313
+POPTR_0005s26930|Ptricho         4.89e-07  517_[-9(3.05e-05)]_37_[+2(7.94e-06)]_24_[+5(8.86e-06)]_41_[+1(8.86e-06)]_30_[+3(4.81e-06)]_78_[-9(1.11e-05)]_111_[+4(7.94e-06)]_21_[+6(6.78e-06)]_1_[+1(1.94e-05)]_16_[+4(2.47e-05)]_3_[+4(4.81e-06)]_33
+clementine0.9_020531m.g|         3.88e-04  265_[+10(1.69e-06)]_28_[+3(3.34e-05)]_163_[-2(7.94e-06)]_9_[+6(3.39e-06)]_6_[-10(6.08e-05)]_489
+clementine0.9_033471m.g|         1.12e-03  596_[+3(3.34e-05)]_11_[+1(1.94e-05)]_17_[+5(2.04e-05)]_5_[+2(7.94e-06)]_18_[-6(3.39e-06)]_313
+AT4G38410|Athaliana              4.72e-04  86_[+1(1.37e-05)]_4_[+5(3.23e-05)]_17_[-6(6.78e-06)]_16_[-5(5.74e-06)]_29_[-9(5.85e-05)]_330_[-6(6.78e-06)]_204_[+2(2.16e-05)]_1_[+5(2.04e-05)]_89_[-5(2.04e-05)]_152
+AT1G76180|Athaliana              3.28e-01  224_[-7(2.81e-05)]_196_[-1(8.86e-06)]_564
+AT1G20440|Athaliana              4.50e-05  4_[+5(5.74e-06)]_21_[+2(4.70e-05)]_14_[-7(3.39e-06)]_492_[-1(7.46e-05)]_378_[+4(4.81e-06)]_1_[-7(6.53e-05)]_22_[-9(2.16e-05)]_12
+AT1G20450|Athaliana              6.14e-03  392_[-4(7.94e-06)]_17_[+5(4.43e-05)]_1_[+5(5.74e-06)]_65_[-1(8.86e-06)]_80_[+1(3.12e-06)]_405
+Thhalv10008706m.g|Thalop         1.03e-03  31_[+1(3.12e-06)]_15_[+5(4.12e-05)]_1_[+5(5.74e-06)]_121_[-1(4.46e-05)]_634_[-4(7.94e-06)]_91_[+4(4.81e-06)]_1_[-7(6.53e-05)]_50
+Thhalv10008313m.g|Thalop         5.75e-01  848_[+2(1.85e-05)]_144
+Thhalv10019152m.g|Thalop         8.53e-05  54_[+4(7.77e-05)]_35_[-4(1.54e-05)]_19_[-7(2.81e-05)]_4_[+5(2.04e-05)]_68_[-1(3.12e-06)]_87_[+8(4.81e-06)]_10_[+2(5.28e-05)]_19_[+1(3.89e-05)]_511_[-7(6.51e-06)]_72_[+4(4.81e-06)]_41
+Thhalv10026303m.g|Thalop         2.96e-03  109_[+6(9.19e-05)]_209_[+3(1.15e-05)]_306_[+2(2.16e-05)]_1_[+2(3.12e-06)]_203_[+9(1.11e-05)]_38_[-6(1.53e-05)]_86
+Carubv10010037m.g|Crubel         1.98e-03  54_[+1(1.94e-05)]_157_[-4(7.94e-06)]_16_[+7(2.81e-05)]_2_[+5(5.74e-06)]_8_[+2(1.37e-05)]_29_[-1(8.86e-06)]_70_[+1(3.12e-06)]_608
+Carubv10010040m.g|Crubel         1.11e-01  214_[+5(5.74e-06)]_22_[+2(1.37e-05)]_27_[-1(8.86e-06)]_713
+Carubv10005866m.g|Crubel         1.13e-04  5_[+1(1.37e-05)]_4_[+5(3.23e-05)]_18_[+3(2.37e-05)]_12_[-5(5.74e-06)]_1_[-5(2.04e-05)]_68_[+8(1.69e-06)]_262_[+3(1.15e-05)]_1_[+3(2.37e-05)]_401_[+2(2.16e-05)]_1_[+5(3.23e-05)]_10_[-2(2.81e-05)]_129
+Carubv10020984m.g|Crubel         2.05e-03  164_[-7(3.39e-06)]_46_[+7(6.51e-06)]_15_[+4(7.77e-05)]_3_[-1(8.86e-06)]_64_[+2(5.28e-05)]_17_[-1(8.86e-06)]_643
+Aquca_043_00099|Acoerule         1.26e-03  181_[+2(1.37e-05)]_62_[-6(2.03e-05)]_400_[+3(2.37e-05)]_128_[+1(4.46e-05)]_16_[+2(1.37e-05)]_45_[+7(1.27e-05)]_120
+Aquca_007_00853|Acoerule         6.79e-01  505_[+2(7.73e-05)]_388_[-5(2.04e-05)]_91
+MDP0000126135|Mdomestica         1.08e-09  21_[-8(4.81e-06)]_55_[-4(1.54e-05)]_57_[+6(1.69e-06)]_64_[-1(4.46e-05)]_13_[+2(1.37e-05)]_21_[+5(8.86e-06)]_6_[+7(1.85e-05)]_26_[+4(3.05e-05)]_21_[+3(1.15e-05)]_83_[+8(1.69e-06)]_25_[-1(8.86e-06)]_13_[+9(3.12e-06)]_39_[+4(7.94e-06)]_321_[+9(7.94e-06)]_123
+MDP0000770493|Mdomestica         1.08e-09  21_[-8(4.81e-06)]_55_[-4(1.54e-05)]_57_[+6(1.69e-06)]_64_[-1(4.46e-05)]_13_[+2(1.37e-05)]_21_[+5(8.86e-06)]_6_[+7(1.85e-05)]_26_[+4(3.05e-05)]_21_[+3(1.15e-05)]_83_[+8(1.69e-06)]_25_[-1(8.86e-06)]_13_[+9(3.12e-06)]_39_[+4(7.94e-06)]_321_[+9(7.94e-06)]_123
+MDP0000529003|Mdomestica         7.57e-11  39_[-8(6.73e-05)]_18_[+10(6.08e-05)]_14_[-1(3.89e-05)]_225_[+6(1.69e-06)]_16_[+2(5.11e-05)]_18_[+3(1.69e-06)]_35_[+2(1.37e-05)]_21_[+5(8.86e-06)]_6_[+7(6.51e-06)]_7_[+3(1.15e-05)]_12_[+4(3.05e-05)]_39_[+3(3.91e-05)]_77_[+8(1.69e-06)]_29_[+4(1.69e-06)]_9_[+9(3.12e-06)]_50_[+4(7.94e-06)]_137_[+9(4.92e-05)]_112
+Lus10005652.g|Lusitatiss         1.19e-04  28_[+10(6.08e-05)]_634_[+2(6.24e-06)]_39_[+1(3.89e-05)]_7_[-2(1.68e-05)]_51_[+3(1.69e-06)]_65_[+10(1.69e-06)]_5_[-9(3.05e-05)]_115
+Lus10021827.g|Lusitatiss         1.57e-05  34_[+7(1.27e-05)]_38_[+2(3.12e-06)]_9_[+5(6.78e-05)]_16_[+5(5.74e-06)]_6_[+7(9.40e-05)]_11_[+2(2.16e-05)]_12_[+1(8.86e-06)]_54_[+3(2.68e-05)]_6_[+2(2.33e-05)]_412_[+1(3.89e-05)]_125_[+3(2.37e-05)]_23_[+4(2.47e-05)]_36_[+3(4.81e-06)]_114
+Lus10034568.g|Lusitatiss         4.03e-04  9_[+2(2.16e-05)]_12_[+1(8.86e-06)]_45_[+2(3.56e-05)]_601_[+1(9.40e-05)]_7_[-2(2.16e-05)]_107_[+3(2.37e-05)]_21_[+4(2.47e-05)]_24_[+10(1.69e-06)]_6_[+3(4.81e-06)]_96
+Lus10021240.g|Lusitatiss         9.31e-07  107_[+6(2.54e-05)]_3_[+5(3.23e-05)]_4_[+10(2.62e-06)]_12_[+7(3.39e-06)]_74_[+3(5.11e-05)]_12_[+4(6.71e-05)]_437_[+2(6.24e-06)]_40_[+1(3.89e-05)]_7_[-2(1.68e-05)]_51_[+3(6.24e-05)]_64_[+10(1.69e-06)]_5_[-9(3.05e-05)]_88
+Phvulv091012488m.g|Pvulg         5.20e-04  227_[+2(5.28e-05)]_35_[-9(5.85e-05)]_3_[+5(3.23e-05)]_46_[+3(2.68e-05)]_11_[-1(3.12e-06)]_398_[+4(7.77e-05)]_176_[+4(7.94e-06)]_48
+Eucgr.F01726|Egrandis            6.62e-08  429_[+4(9.63e-06)]_66_[+2(9.92e-05)]_25_[+2(9.92e-05)]_61_[-1(3.12e-06)]_17_[-7(3.39e-06)]_33_[+5(8.86e-06)]_14_[+2(2.33e-05)]_27_[+1(8.86e-06)]_29_[+3(2.68e-05)]_7_[+3(4.81e-06)]_148_[+4(4.51e-05)]_56
+Eucgr.I02395|Egrandis            1.17e-05  162_[+1(2.83e-05)]_12_[+3(1.15e-05)]_19_[+2(3.56e-05)]_119_[-7(2.81e-05)]_197_[+7(5.90e-05)]_191_[-4(6.14e-05)]_54_[+2(2.81e-05)]_5_[-9(7.94e-06)]_23_[+3(1.69e-06)]_7_[-1(8.86e-06)]_18_[+9(1.27e-05)]_4_[+1(8.86e-06)]_11_[-9(4.92e-05)]_74
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 10 reached.
+********************************************************************************
+
+CPU: cl1nweb.genouest.org
+
+********************************************************************************
