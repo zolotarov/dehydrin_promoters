@@ -31,7 +31,7 @@ print m.min_score()
 # print m.exp_score(st_dev = True) # prints expected score and standard deviation
 
 records_saved = list()
-for record in SeqIO.parse("dehydrins.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("dehydrins.faa", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 

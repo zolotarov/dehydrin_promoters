@@ -1,3 +1,18 @@
+Feb 5, 2013
+# Incorrect translation of a gene in maldo
+While trying to build a transfac matix of Y-segments, BioPython would spit out errors, i finally figured out that they were due to an X amino acid in the identified Y-segment of MDP0000265874. The problem was due to Phytozome missing a nucleotide in the following sequence: GACACAGATGAGTT, it should have been GACACAGATGAGTAT, which results in a proper translation of the nucleotide sequence, in its current state it translates with several stop codons. I will mannually replace the X wiht the correct Y.
+
+For K-segment two genes contained and X: MDP0000196703 and MDP0000178973. The proper sequences were obtained by taking the nucleotide sequence from Phytozome, BLASTing on GenBank and locating the best Malus domestica match.
+
+MDP0000196703, was modified
+>gi|382948205|gb|AFG33217.1| dehydrin 7 [Malus x domestica]
+MAGKSTMVPLACFIALAAQARALEVVGGEGLKQKIKEKLPGSTTTDTTYDTTYPGRHHQEKGMKDKNKDK
+LPEGHKDDPYYSTPHTTLTTTTYGVTTYMEEHH*EKKGIMDKINEKLPS*GHHWRL
+
+MDP0000178973
+No proper matches found, was removed from dehydrins.faa
+
+
 Data downloaded from Phytozome on February 2, 2013
 
 ### Command used to count the number of unique dehydrins in Phytozome v9.0 release:
