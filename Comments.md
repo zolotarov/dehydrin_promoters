@@ -26,6 +26,7 @@ Physcomitrella patens contains 5 potential dehydrins
 >Pp1s201_52V6|Pp1s201_52V6.1|Ppatens	KKHGLINKIKEKLPG		dehydrin
 
 Out of 5 putative dehydrins, 3 were probable dehydrins and 2 were not dehydrins
+the following sequences were added to the dehydrins.faa
 
 >Pp1s442_22V6|Pp1s442_22V6.1|Ppatens
 MAAQYTQDQSTEFRPELDEPRRTTTTTTSTTGSGLENENFGGYGGVSENEPPRHKIHSED

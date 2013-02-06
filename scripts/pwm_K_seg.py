@@ -6,10 +6,10 @@ from Bio.Alphabet import IUPAC
 alphabet = IUPAC.protein
 alignment = AlignIO.read("../sequences/selected_K-segs.fas", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
-all_segments = list()
+#all_segments = list()
 for a in alignment:
     m.add_instance(a.seq)
-    all_segments.append("%s" % a.seq) 
+    #all_segments.append("%s" % a.seq) 
     
 output_deh = open("dehydrins_search.txt", "w")
 ksegs_new = open("k-segs_new.txt", "w")
@@ -32,7 +32,7 @@ print m.min_score()
 
 records_saved = list()
 # for record in SeqIO.parse("all_dhn2.fas" % proteins, "fasta", alphabet=alphabet):
-for record in SeqIO.parse("../../../various_scripts/query_phytozome/peptides/higher_plants.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("../../various_scripts/query_phytozome/peptides/higher_plants.fas", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 
@@ -45,9 +45,9 @@ for record in SeqIO.parse("../../../various_scripts/query_phytozome/peptides/hig
 			if record.id not in records_saved:
 				SeqIO.write(record, dehydrin_fas, "fasta")
 				records_saved.append(record.id)
-			if str(record.seq[pos:pos+15]) not in all_segments:
-				ksegs_new.write(defline)
-				ksegs_new.write(k_seg)
+			#if str(record.seq[pos:pos+15]) not in all_segments:
+			ksegs_new.write(defline)
+			ksegs_new.write(k_seg)
 		else:
 			continue
 
