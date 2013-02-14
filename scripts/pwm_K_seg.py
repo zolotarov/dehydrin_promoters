@@ -32,7 +32,7 @@ print m.min_score()
 
 records_saved = list()
 # for record in SeqIO.parse("all_dhn2.fas" % proteins, "fasta", alphabet=alphabet):
-for record in SeqIO.parse("../../various_scripts/query_phytozome/peptides/higher_plants.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("/home/yzolotarov/sequences/peptides/higher_plants.fas", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 

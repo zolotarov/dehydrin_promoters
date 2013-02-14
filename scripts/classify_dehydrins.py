@@ -26,7 +26,7 @@ SKn_dehydrins = open('../sequences/SKn_dehydrins.faa', 'w')
 YnKn_dehydrins = open('../sequences/YnKn_dehydrins.faa', 'w')
 uncategorized_dehydrins = open('../sequences/uncategorized_dehydrins.faa', 'w')
 
-for record in SeqIO.parse('../sequences/dehydrins.faa', 'fasta',
+for record in SeqIO.parse('../sequences/all_dehydrins.faa', 'fasta',
                           alphabet=alphabet):
 
      # dictionary for each sequence that uses position as keys, since the position is unique 
@@ -35,10 +35,11 @@ for record in SeqIO.parse('../sequences/dehydrins.faa', 'fasta',
     segments = dict()
 
     K_segs = [pos for (pos, score) in k_m.search_pwm(record.seq,
-              threshold=5.0, both=False) if score >= 20]
-    # print record.id, K_segs
+              threshold=5.0, both=False) if score >= 10]
+
     Y_segs = [pos for (pos, score) in y_m.search_pwm(record.seq,
               threshold=5.0, both=False) if score >= 10]
+    
 
     # find the S segments that are a sequence of Serines 4 or longer or SSSGS or SSSDS
 
@@ -57,7 +58,7 @@ for record in SeqIO.parse('../sequences/dehydrins.faa', 'fasta',
     if S_segs != []:
         segments[int(S_segs[0])] = 'S'
     else:
-        continue
+        pass
 
     # segment_sequence is list of all segment types in the order of their position in the amino
     # acid sequence
@@ -74,13 +75,13 @@ for record in SeqIO.parse('../sequences/dehydrins.faa', 'fasta',
 
     if re.search('KS', dehydrin_classification):
         SeqIO.write(record, KS_dehydrins, 'fasta')
-    elif re.search('(Y[0-9]|Y)SK[0-9]',dehydrin_classification):
+    elif re.search('Y[1-9]SK[1-9]',dehydrin_classification):
         SeqIO.write(record, YnSKn_dehydrins, 'fasta')
-    elif re.search('Y[0-9](K|K[0-9])',dehydrin_classification):
-        SeqIO.write(record, YnKn_dehydrins, 'fasta') # none of this type are found in my set
-    elif re.search('SK[0-9]',dehydrin_classification):
+    elif re.search('Y[1-9]K[1-9]',dehydrin_classification):
+        SeqIO.write(record, YnKn_dehydrins, 'fasta')
+    elif re.search('SK[1-9]',dehydrin_classification):
         SeqIO.write(record, SKn_dehydrins, 'fasta')
-    elif re.search('K[0-9]',dehydrin_classification):
+    elif re.search('^K[1-9]',dehydrin_classification):
         SeqIO.write(record, Kn_dehydrins, 'fasta') # none of this type are found in my set
     else:
         SeqIO.write(record, uncategorized_dehydrins, 'fasta')
@@ -91,4 +92,3 @@ Kn_dehydrins.close()
 SKn_dehydrins.close()
 YnKn_dehydrins.close()
 uncategorized_dehydrins.close()
-
