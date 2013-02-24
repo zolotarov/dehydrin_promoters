@@ -4,7 +4,7 @@ from Bio.Alphabet import IUPAC
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("../sequences/selected_K-segs.fas", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("../sequences/k-segs.fas", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 #all_segments = list()
 for a in alignment:
@@ -22,7 +22,7 @@ print m.format("transfac")
 # print count
 
 #print m.log_odds()
-#m.weblogo("Motif.png")
+m.weblogo("K-segment.png")
 
 print m.max_score()
 print m.min_score()
