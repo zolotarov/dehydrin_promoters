@@ -32,7 +32,7 @@ print m.min_score()
 
 records_saved = list()
 # for record in SeqIO.parse("all_dhn2.fas" % proteins, "fasta", alphabet=alphabet):
-for record in SeqIO.parse("/home/yzolotarov/sequences/Pdactylifera/PDK30-pep.fsa", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("../sequences/all_dehydrins.faa", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 
