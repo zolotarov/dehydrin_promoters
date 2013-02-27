@@ -1,3 +1,35 @@
+Feb 26, 2013
+# Get list of genes from peptide file:
+
+    grep ">" YnKn_dehydrins.faa | sed 's/|/ /g' | sed 's/>//' | awk '{print $1}'
+
+# Download the promoters using query_phytozome.py
+
+# Add extra promoters from species not on Phytozome
+
+
+# Replace the promoters for genes that are wrong
+
+    for line in `cat wrong_promoters.txt`; do grep $line KS_dehydrins_promoters.fas; done
+
+Cucsa.109360        YnSKn
+Eucgr.F01727        done Kn
+MDP0000629961       YnSKn
+Glyma17g24193       KS
+Glyma09g31740       YnKn
+Gorai.012G154800    YnSKn
+Potri.013G062400    done Kn
+ppa010975m.g        YnSKn
+Thecc1EG025860      KS
+GRMZM2G169372       KS
+
+
+# These genes are not SK2, but look very similar to SK2, placed in that category
+
+Lus10003340.g
+Lus10022643.g
+
+
 Feb 5, 2013
 # Incorrect translation of a gene in maldo
 While trying to build a transfac matix of Y-segments, BioPython would spit out errors, i finally figured out that they were due to an X amino acid in the identified Y-segment of MDP0000265874. The problem was due to Phytozome missing a nucleotide in the following sequence: GACACAGATGAGTT, it should have been GACACAGATGAGTAT, which results in a proper translation of the nucleotide sequence, in its current state it translates with several stop codons. I will mannually replace the X wiht the correct Y.
