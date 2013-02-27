@@ -75,13 +75,13 @@ for record in SeqIO.parse('../sequences/all_dehydrins.faa', 'fasta',
 
     if re.search('KS', dehydrin_classification):
         SeqIO.write(record, KS_dehydrins, 'fasta')
-    elif re.search('Y[1-9]SK[1-9]',dehydrin_classification):
+    elif re.search('Y\d*SK\d*',dehydrin_classification):
         SeqIO.write(record, YnSKn_dehydrins, 'fasta')
-    elif re.search('Y[1-9]K[1-9]',dehydrin_classification):
+    elif re.search('Y\d*K\d*',dehydrin_classification):
         SeqIO.write(record, YnKn_dehydrins, 'fasta')
-    elif re.search('SK[1-9]',dehydrin_classification):
+    elif re.search('SK\d*',dehydrin_classification):
         SeqIO.write(record, SKn_dehydrins, 'fasta')
-    elif re.search('^K[1-9]',dehydrin_classification):
+    elif re.search('^K\d*',dehydrin_classification):
         SeqIO.write(record, Kn_dehydrins, 'fasta') # none of this type are found in my set
     else:
         SeqIO.write(record, uncategorized_dehydrins, 'fasta')
