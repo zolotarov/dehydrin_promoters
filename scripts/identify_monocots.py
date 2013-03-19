@@ -1,10 +1,14 @@
 from Bio import SeqIO
-monocots = ["Sbicolor", "Zmays", "Sitalica", "Pvirgatum", "Osativa", "Bdistachyon"]
+from sys import argv
+monocots = ["Pdactylifera", "Sbicolor", "Zmays", "Sitalica", "Pvirgatum", "Osativa", "Bdistachyon"]
 
-dehydrins_monocots = open("dehydrins_monocots.faa", "w")
-dehydrins_dicots = open("dehydrins_dicots.faa", "w'")
-for record in SeqIO.parse("dehydrins.fas", "fasta"):
-	if record.id.split('|')[2] in monocots:
+mono_file = str(argv[1]).split('.')[0] + "_mono.fas"
+print str(argv[1]).split('.')
+di_file = str(argv[1]).split('.')[0] + "_di.fas"
+dehydrins_monocots = open(mono_file, "w")
+dehydrins_dicots = open(di_file, "w'")
+for record in SeqIO.parse(argv[1], "fasta"):
+	if record.id.split('|')[-1] in monocots:
 		SeqIO.write(record, dehydrins_monocots, "fasta")
 	else:
 		SeqIO.write(record, dehydrins_dicots, "fasta")
