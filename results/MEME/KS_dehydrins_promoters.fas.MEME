@@ -1,0 +1,1751 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.0 (Release date: Wed Oct  3 11:07:26 EST 2012)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= KS_dehydrins_promoters.fas
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+Ca_20934||Carietinum     1.0000   1000  Ca_08212||Carietinum     1.0000   1000  
+PDK_30s895221g001||Pdact 1.0000   1000  C.cajan_05184||Carietinu 1.0000   1000  
+474716|474716|Alyrata    1.0000   1000  evm.TU.supercontig_161.1 1.0000   1000  
+30072.t000037|30072.m000 1.0000   1000  Cucsa.338040|Cucsa.33804 1.0000   1000  
+mgv1a016787m.g|mgv1a0167 1.0000   1000  cassava4.1_019934m.g|cas 1.0000   1000  
+cassava4.1_019931m.g|cas 1.0000   1000  orange1.1g036567m.g|oran 1.0000   1000  
+Sb01g013000|Sb01g013000. 1.0000   1000  AT1G54410|AT1G54410.1|At 1.0000   1000  
+Thhalv10023775m.g|Thhalv 1.0000   1000  GRMZM2G169372|GRMZM2G169 1.0000   1000  
+GRMZM2G448511|GRMZM2G448 1.0000   1000  Carubv10021201m.g|Carubv 1.0000   1000  
+Bradi1g13330|Bradi1g1333 1.0000   1000  Aquca_004_00603|Aquca_00 1.0000   1000  
+Bra013206|Bra013206|Brap 1.0000   1000  Medtr7g086340|Medtr7g086 1.0000   1000  
+Lus10020271.g|Lus1002027 1.0000   1000  Pavirv00041414m.g|Pavirv 1.0000    219  
+LOC_Os03g45280|LOC_Os03g 1.0000   1000  PGSC0003DMG400027197|PGS 1.0000   1000  
+Glyma17g24193|Glyma17g24 1.0000   1000  Glyma19g29210|Glyma19g29 1.0000   1000  
+Glyma16g04200|Glyma16g04 1.0000   1000  Glyma16g04190|Glyma16g04 1.0000   1000  
+Phvul.001G114100|Phvul.0 1.0000   1000  Thecc1EG025860|Thecc1EG0 1.0000   1000  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme KS_dehydrins_promoters.fas -text -dna -mod anr -nmotifs 10 -w 10 -revcomp -bfile ../../results/MEME/all_used.MEMEbkg 
+
+model:  mod=           anr    nmotifs=        10    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=           10    maxw=           10    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=       50    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=           31219    N=              32
+strands: + -
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.338 C 0.162 G 0.162 T 0.338 
+Background letter frequencies (from ../../results/MEME/all_used.MEMEbkg):
+A 0.321 C 0.179 G 0.179 T 0.321 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =   10   sites =  15   llr = 208   E-value = 4.0e-013
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::7::::3
+pos.-specific     C  99::3:aa::
+probability       G  11aa:2::a7
+matrix            T  :::::8::::
+
+         bits    2.5   **  *** 
+                 2.2 ****  *** 
+                 2.0 ****  *** 
+                 1.7 ****  *** 
+Relative         1.5 ****  *** 
+Entropy          1.2 ****  ****
+(20.0 bits)      1.0 **********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CCGGATCCGG
+consensus                CG   A
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+474716|474716|Alyrata        +    559  1.13e-07 AGCCGGATAT CCGGATCCGG CCCAGCCCTA
+474716|474716|Alyrata        +    527  1.13e-07 AAAGGCGGAT CCGGATCCGG ATACTCCAAA
+474716|474716|Alyrata        +    500  1.13e-07 TGGAACGGAT CCGGATCCGG ATAATGAAAA
+474716|474716|Alyrata        +    440  1.13e-07 TAAAAAAAAC CCGGATCCGG ATATCCGGCG
+474716|474716|Alyrata        +    239  1.13e-07 AGCCGGATAT CCGGATCCGG GATATTTTAT
+474716|474716|Alyrata        +    197  1.13e-07 CCGGTCGGAT CCGGATCCGG ATCCGGATAA
+474716|474716|Alyrata        +    175  1.13e-07 CCGGTCGGAT CCGGATCCGG ATCCGGTCGG
+474716|474716|Alyrata        +    159  1.13e-07 CCGGTCGGAT CCGGATCCGG TCGGATCCGG
+474716|474716|Alyrata        +    122  1.13e-07 TGGGGCGGAT CCGGATCCGG ATAATGAAAA
+Lus10020271.g|Lus1002027     +     98  5.89e-07 AGGAGCAGGG CCGGCTCCGA TCCTCCAGCG
+Pavirv00041414m.g|Pavirv     +    118  7.65e-07 TCCATAAATA CCGGCGCCGA AGGGGCAGGG
+GRMZM2G169372|GRMZM2G169     +    898  7.65e-07 TAAATACCGG CCGGCGCCGA AGAGCCAACC
+Sb01g013000|Sb01g013000.     +    911  7.65e-07 TCTATAAATA CCGGCGCCGA AGAACCAACC
+474716|474716|Alyrata        +    143  9.91e-07 TAATGAAAAA GCGGATCCGG TCGGATCCGG
+474716|474716|Alyrata        +     51  1.72e-06 ACCAATTATC CGGGATCCGA GATCCGATCC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+474716|474716|Alyrata             9.9e-07  50_[+1]_61_[+1]_11_[+1]_6_[+1]_
+                                           6_[+1]_12_[+1]_32_[+1]_191_[+1]_
+                                           50_[+1]_17_[+1]_22_[+1]_432
+Lus10020271.g|Lus1002027          5.9e-07  97_[+1]_893
+Pavirv00041414m.g|Pavirv          7.7e-07  117_[+1]_92
+GRMZM2G169372|GRMZM2G169          7.7e-07  897_[+1]_93
+Sb01g013000|Sb01g013000.          7.7e-07  910_[+1]_80
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=10 seqs=15
+474716|474716|Alyrata    (  559) CCGGATCCGG  1 
+474716|474716|Alyrata    (  527) CCGGATCCGG  1 
+474716|474716|Alyrata    (  500) CCGGATCCGG  1 
+474716|474716|Alyrata    (  440) CCGGATCCGG  1 
+474716|474716|Alyrata    (  239) CCGGATCCGG  1 
+474716|474716|Alyrata    (  197) CCGGATCCGG  1 
+474716|474716|Alyrata    (  175) CCGGATCCGG  1 
+474716|474716|Alyrata    (  159) CCGGATCCGG  1 
+474716|474716|Alyrata    (  122) CCGGATCCGG  1 
+Lus10020271.g|Lus1002027 (   98) CCGGCTCCGA  1 
+Pavirv00041414m.g|Pavirv (  118) CCGGCGCCGA  1 
+GRMZM2G169372|GRMZM2G169 (  898) CCGGCGCCGA  1 
+Sb01g013000|Sb01g013000. (  911) CCGGCGCCGA  1 
+474716|474716|Alyrata    (  143) GCGGATCCGG  1 
+474716|474716|Alyrata    (   51) CGGGATCCGA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 12.2842 E= 4.0e-013 
+ -1055    238   -143  -1055 
+ -1055    238   -143  -1055 
+ -1055  -1055    248  -1055 
+ -1055  -1055    248  -1055 
+   119     57  -1055  -1055 
+ -1055  -1055     16    132 
+ -1055    248  -1055  -1055 
+ -1055    248  -1055  -1055 
+ -1055  -1055    248  -1055 
+     6  -1055    189  -1055 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 15 E= 4.0e-013 
+ 0.000000  0.933333  0.066667  0.000000 
+ 0.000000  0.933333  0.066667  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.733333  0.266667  0.000000  0.000000 
+ 0.000000  0.000000  0.200000  0.800000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.333333  0.000000  0.666667  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+CCGG[AC][TG]CCG[GA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 21.78 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2	width =   10   sites =  43   llr = 419   E-value = 1.5e-006
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  aaaa7aaa6a
+pos.-specific     C  ::::::::::
+probability       G  ::::2:::2:
+matrix            T  ::::2:::2:
+
+         bits    2.5           
+                 2.2           
+                 2.0           
+                 1.7 **** *** *
+Relative         1.5 **** *** *
+Entropy          1.2 **** *** *
+(14.1 bits)      1.0 **** *** *
+                 0.7 **** *** *
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           AAAAAAAAAA
+consensus                    T 
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Glyma16g04200|Glyma16g04     +    496  1.13e-05 AGATCAGCAG AAAAAAAAAA TTCTATTGTG
+Glyma16g04200|Glyma16g04     -    216  1.13e-05 GACAAGGAGG AAAAAAAAAA ATTAGAACAT
+Glyma17g24193|Glyma17g24     +    759  1.13e-05 AAGTTTCAAG AAAAAAAAAA TATCATTCCT
+PGSC0003DMG400027197|PGS     -     49  1.13e-05 TGTTTACCGT AAAAAAAAAA ATTCCAAGAA
+Carubv10021201m.g|Carubv     +    988  1.13e-05 ACAGCAACCA AAAAAAAAAA GAT       
+Carubv10021201m.g|Carubv     -    367  1.13e-05 ATGAGTATCA AAAAAAAAAA CAAGTTGGAA
+GRMZM2G448511|GRMZM2G448     -    472  1.13e-05 TGAAAATGTG AAAAAAAAAA TCTCAAAAGG
+Sb01g013000|Sb01g013000.     -    477  1.13e-05 TTTTTGCAAA AAAAAAAAAA CTAAACAACC
+orange1.1g036567m.g|oran     +    696  1.13e-05 TCTTTTTGGG AAAAAAAAAA GAGTTATTTT
+orange1.1g036567m.g|oran     +    565  1.13e-05 GGTGGTTTCA AAAAAAAAAA AAACTCAAAG
+cassava4.1_019931m.g|cas     +    962  1.13e-05 AAACATTTCA AAAAAAAAAA CAACAAAAAG
+evm.TU.supercontig_161.1     +    843  1.13e-05 ATTTATAAAT AAAAAAAAAA ATAAGGAAAG
+474716|474716|Alyrata        -    795  1.13e-05 TTTTGATACC AAAAAAAAAA ATGAAAAATA
+Glyma17g24193|Glyma17g24     +    536  1.76e-05 ATAAGAATAA AAAAGAAAAA GAAACAACAT
+Medtr7g086340|Medtr7g086     +    781  1.76e-05 TCTTTTTCAA AAAAGAAAAA TAATTAATAC
+Carubv10021201m.g|Carubv     -    816  1.76e-05 TACTATTAAG AAAAGAAAAA AGGATATATG
+Thhalv10023775m.g|Thhalv     +    983  1.76e-05 TAATTAATAG AAAAGAAAAA GATCGAAG  
+Sb01g013000|Sb01g013000.     +     26  1.76e-05 AATATAGATG AAAAGAAAAA CTAATTGCAC
+Cucsa.338040|Cucsa.33804     +    385  1.76e-05 CTTAAACATA AAAAGAAAAA ATATAATAAA
+Glyma16g04200|Glyma16g04     +     44  2.39e-05 AAAAGAAAAG AAAAAAAAGA CGAAATGAGG
+Glyma17g24193|Glyma17g24     -    202  2.39e-05 TTGGAAGAAG AAAAAAAAGA AAGAATATAT
+Pavirv00041414m.g|Pavirv     -     18  2.39e-05 TGATGGTACT AAAAAAAAGA AGAAAAGTAA
+Thhalv10023775m.g|Thhalv     -    725  2.39e-05 ATATTCCTTT AAAAAAAAGA AGAGAATTGT
+AT1G54410|AT1G54410.1|At     -    214  2.39e-05 AATTTCGTGA AAAAAAAAGA ATTTTAACCA
+Sb01g013000|Sb01g013000.     +    979  2.39e-05 TTTTCTTGAG AAAAAAAAGA CAAGTCACCA
+Ca_20934||Carietinum         +    981  2.39e-05 CCAAACAAAG AAAAAAAAGA GCCACAAAAA
+Medtr7g086340|Medtr7g086     -    631  3.52e-05 TAGAATGATT AAAAAAAATA GTAATTTTGC
+Aquca_004_00603|Aquca_00     +    602  3.52e-05 AAAAAAAATA AAAAAAAATA ATAATTATGG
+Aquca_004_00603|Aquca_00     +    592  3.52e-05 AAAAATCTTA AAAAAAAATA AAAAAAAATA
+Aquca_004_00603|Aquca_00     -    308  3.52e-05 GGGATAAATG AAAAAAAATA ATGAAGTGTG
+AT1G54410|AT1G54410.1|At     +    624  3.52e-05 AGAATCATTT AAAAAAAATA TCTAAAAGAA
+evm.TU.supercontig_161.1     +    579  3.52e-05 TCATTATTTT AAAAAAAATA AATTTCTGGG
+C.cajan_05184||Carietinu     +    684  3.52e-05 AATAAAACAT AAAAAAAATA AAAAAGATTA
+Ca_20934||Carietinum         +    130  3.52e-05 ACATTTAAGA AAAAAAAATA CAAACTAGTG
+Glyma16g04190|Glyma16g04     -    512  4.64e-05 TTTATAAAAT AAAATAAAAA TGATTATTTT
+Glyma19g29210|Glyma19g29     +    979  4.64e-05 AAAGTGAGAA AAAATAAAAA TCAAAGAGCA
+Glyma19g29210|Glyma19g29     +    727  4.64e-05 GAAGTATTTA AAAATAAAAA CCGTATGATT
+Glyma17g24193|Glyma17g24     -    135  4.64e-05 GATAATAAAT AAAATAAAAA TGAGATCATT
+30072.t000037|30072.m000     -    329  4.64e-05 TCTATAAATA AAAATAAAAA ATAAAACTGT
+30072.t000037|30072.m000     +    217  4.64e-05 ACTTGTAGAC AAAATAAAAA TCTCAATTCT
+evm.TU.supercontig_161.1     +    507  4.64e-05 TAACACCAAA AAAATAAAAA TAAATATACT
+Carubv10021201m.g|Carubv     +    648  5.63e-05 AGAATAATTT AAAAGAAATA AAATATAATT
+AT1G54410|AT1G54410.1|At     +    637  5.63e-05 AAAAATATCT AAAAGAAATA AAAATTGCAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Glyma16g04200|Glyma16g04          2.4e-05  43_[+2]_162_[-2]_270_[+2]_495
+Glyma17g24193|Glyma17g24          4.6e-05  134_[-2]_57_[-2]_324_[+2]_213_[+2]_
+                                           232
+PGSC0003DMG400027197|PGS          1.1e-05  48_[-2]_942
+Carubv10021201m.g|Carubv          5.6e-05  366_[-2]_271_[+2]_158_[-2]_162_[+2]_3
+GRMZM2G448511|GRMZM2G448          1.1e-05  471_[-2]_519
+Sb01g013000|Sb01g013000.          1.8e-05  25_[+2]_441_[-2]_492_[+2]_12
+orange1.1g036567m.g|oran          1.1e-05  564_[+2]_121_[+2]_295
+cassava4.1_019931m.g|cas          1.1e-05  961_[+2]_29
+evm.TU.supercontig_161.1          4.6e-05  506_[+2]_62_[+2]_254_[+2]_148
+474716|474716|Alyrata             1.1e-05  794_[-2]_196
+Medtr7g086340|Medtr7g086          1.8e-05  630_[-2]_140_[+2]_210
+Thhalv10023775m.g|Thhalv          1.8e-05  724_[-2]_248_[+2]_8
+Cucsa.338040|Cucsa.33804          1.8e-05  384_[+2]_606
+Pavirv00041414m.g|Pavirv          2.4e-05  17_[-2]_192
+AT1G54410|AT1G54410.1|At          5.6e-05  213_[-2]_400_[+2]_3_[+2]_354
+Ca_20934||Carietinum              2.4e-05  129_[+2]_841_[+2]_10
+Aquca_004_00603|Aquca_00          3.5e-05  307_[-2]_274_[+2]_[+2]_389
+C.cajan_05184||Carietinu          3.5e-05  683_[+2]_307
+Glyma16g04190|Glyma16g04          4.6e-05  511_[-2]_479
+Glyma19g29210|Glyma19g29          4.6e-05  726_[+2]_242_[+2]_12
+30072.t000037|30072.m000          4.6e-05  216_[+2]_102_[-2]_662
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=10 seqs=43
+Glyma16g04200|Glyma16g04 (  496) AAAAAAAAAA  1 
+Glyma16g04200|Glyma16g04 (  216) AAAAAAAAAA  1 
+Glyma17g24193|Glyma17g24 (  759) AAAAAAAAAA  1 
+PGSC0003DMG400027197|PGS (   49) AAAAAAAAAA  1 
+Carubv10021201m.g|Carubv (  988) AAAAAAAAAA  1 
+Carubv10021201m.g|Carubv (  367) AAAAAAAAAA  1 
+GRMZM2G448511|GRMZM2G448 (  472) AAAAAAAAAA  1 
+Sb01g013000|Sb01g013000. (  477) AAAAAAAAAA  1 
+orange1.1g036567m.g|oran (  696) AAAAAAAAAA  1 
+orange1.1g036567m.g|oran (  565) AAAAAAAAAA  1 
+cassava4.1_019931m.g|cas (  962) AAAAAAAAAA  1 
+evm.TU.supercontig_161.1 (  843) AAAAAAAAAA  1 
+474716|474716|Alyrata    (  795) AAAAAAAAAA  1 
+Glyma17g24193|Glyma17g24 (  536) AAAAGAAAAA  1 
+Medtr7g086340|Medtr7g086 (  781) AAAAGAAAAA  1 
+Carubv10021201m.g|Carubv (  816) AAAAGAAAAA  1 
+Thhalv10023775m.g|Thhalv (  983) AAAAGAAAAA  1 
+Sb01g013000|Sb01g013000. (   26) AAAAGAAAAA  1 
+Cucsa.338040|Cucsa.33804 (  385) AAAAGAAAAA  1 
+Glyma16g04200|Glyma16g04 (   44) AAAAAAAAGA  1 
+Glyma17g24193|Glyma17g24 (  202) AAAAAAAAGA  1 
+Pavirv00041414m.g|Pavirv (   18) AAAAAAAAGA  1 
+Thhalv10023775m.g|Thhalv (  725) AAAAAAAAGA  1 
+AT1G54410|AT1G54410.1|At (  214) AAAAAAAAGA  1 
+Sb01g013000|Sb01g013000. (  979) AAAAAAAAGA  1 
+Ca_20934||Carietinum     (  981) AAAAAAAAGA  1 
+Medtr7g086340|Medtr7g086 (  631) AAAAAAAATA  1 
+Aquca_004_00603|Aquca_00 (  602) AAAAAAAATA  1 
+Aquca_004_00603|Aquca_00 (  592) AAAAAAAATA  1 
+Aquca_004_00603|Aquca_00 (  308) AAAAAAAATA  1 
+AT1G54410|AT1G54410.1|At (  624) AAAAAAAATA  1 
+evm.TU.supercontig_161.1 (  579) AAAAAAAATA  1 
+C.cajan_05184||Carietinu (  684) AAAAAAAATA  1 
+Ca_20934||Carietinum     (  130) AAAAAAAATA  1 
+Glyma16g04190|Glyma16g04 (  512) AAAATAAAAA  1 
+Glyma19g29210|Glyma19g29 (  979) AAAATAAAAA  1 
+Glyma19g29210|Glyma19g29 (  727) AAAATAAAAA  1 
+Glyma17g24193|Glyma17g24 (  135) AAAATAAAAA  1 
+30072.t000037|30072.m000 (  329) AAAATAAAAA  1 
+30072.t000037|30072.m000 (  217) AAAATAAAAA  1 
+evm.TU.supercontig_161.1 (  507) AAAATAAAAA  1 
+Carubv10021201m.g|Carubv (  648) AAAAGAAATA  1 
+AT1G54410|AT1G54410.1|At (  637) AAAAGAAATA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 9.81925 E= 1.5e-006 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   102  -1207      5    -98 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+    92  -1207    -14    -46 
+   164  -1207  -1207  -1207 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 43 E= 1.5e-006 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.651163  0.000000  0.186047  0.162791 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.604651  0.000000  0.162791  0.232558 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+AAAAAAAA[AT]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 43.46 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3	width =   10   sites =  26   llr = 277   E-value = 5.1e-003
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::9:aaa:
+pos.-specific     C  369:::::::
+probability       G  72::1:::::
+matrix            T  121a:a:::a
+
+         bits    2.5           
+                 2.2           
+                 2.0   *       
+                 1.7   ** *****
+Relative         1.5   ** *****
+Entropy          1.2 * ********
+(15.4 bits)      1.0 **********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           GCCTATAAAT
+consensus            C         
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Medtr7g086340|Medtr7g086     +    894  2.00e-06 TCACTTATAA GCCTATAAAT ACCATTGATC
+Aquca_004_00603|Aquca_00     +    886  2.00e-06 ACCTTCCAAG GCCTATAAAT ATGGAACCAT
+cassava4.1_019931m.g|cas     +    901  2.00e-06 ACTTTTGAAT GCCTATAAAT AAAGAAGCCC
+cassava4.1_019934m.g|cas     +    908  2.00e-06 ATACTGATTG GCCTATAAAT AAACAAGTTC
+30072.t000037|30072.m000     +    910  2.00e-06 TCAATTTTTT GCCTATAAAT TCAGAGACCC
+evm.TU.supercontig_161.1     +    899  2.00e-06 TACTCGTTCT GCCTATAAAT ATACACCTAA
+Ca_08212||Carietinum         +    905  2.00e-06 AAAGTTCTGT GCCTATAAAT ACCATTGATC
+Ca_20934||Carietinum         +    925  2.00e-06 TCTATTTTAT GCCTATAAAT TGAATATCTT
+Glyma16g04190|Glyma16g04     +    915  4.01e-06 TAGCTTCTCT CCCTATAAAT ACCATTCATC
+Glyma19g29210|Glyma19g29     +    906  4.01e-06 TAACTTCTCT CCCTATAAAT ACCATTCATC
+Carubv10021201m.g|Carubv     +    906  6.01e-06 TCCATTCTTG GGCTATAAAT AAAGACCTTT
+Thhalv10023775m.g|Thhalv     +    906  6.01e-06 TACCAGTCGA GGCTATAAAT AGAGACCCTT
+AT1G54410|AT1G54410.1|At     +    902  6.01e-06 ATCCATTTTG GGCTATAAAT AGAGACCCTT
+C.cajan_05184||Carietinu     +    909  6.01e-06 CCCATTTCTC GGCTATAAAT ACCATCAACC
+Cucsa.338040|Cucsa.33804     +    417  9.57e-06 TACCTAATAA GTCTATAAAT ACTTAGTTTA
+Sb01g013000|Sb01g013000.     +     51  1.07e-05 TGCACAGTTT GCCTGTAAAT CACGAGGCGA
+cassava4.1_019934m.g|cas     +    548  1.07e-05 CTATATTTGT GCCTGTAAAT GGGGACGTAA
+Bra013206|Bra013206|Brap     +    903  1.27e-05 TACCCATTGA CGCTATAAAT AGAGACCCTT
+Phvul.001G114100|Phvul.0     +    905  1.98e-05 CTGACTTTCT TCCTATAAAT ACCGTTCATC
+LOC_Os03g45280|LOC_Os03g     +    883  1.98e-05 CGCCCCGGCC CTCTATAAAT ACCAACCACG
+Bradi1g13330|Bradi1g1333     +    888  1.98e-05 CGCTCAGATC CTCTATAAAT ACCGGCGAGG
+GRMZM2G448511|GRMZM2G448     +    904  1.98e-05 CCACCCCCTT CTCTATAAAT ACCCGGCTCT
+Sb01g013000|Sb01g013000.     +    900  1.98e-05 TCCCCTCGGC CTCTATAAAT ACCGGCGCCG
+mgv1a016787m.g|mgv1a0167     +    926  1.98e-05 CCCGTTAGGT TCCTATAAAT AATTGAGCTT
+Glyma17g24193|Glyma17g24     +    916  2.56e-05 TCATTTCTAG GCTTATAAAT AGACTTGATT
+PDK_30s895221g001||Pdact     +    916  2.56e-05 GGACGCCTTT GCTTATAAAT TGAGGCACCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Medtr7g086340|Medtr7g086            2e-06  893_[+3]_97
+Aquca_004_00603|Aquca_00            2e-06  885_[+3]_105
+cassava4.1_019931m.g|cas            2e-06  900_[+3]_90
+cassava4.1_019934m.g|cas          1.1e-05  547_[+3]_350_[+3]_83
+30072.t000037|30072.m000            2e-06  909_[+3]_81
+evm.TU.supercontig_161.1            2e-06  898_[+3]_92
+Ca_08212||Carietinum                2e-06  904_[+3]_86
+Ca_20934||Carietinum                2e-06  924_[+3]_66
+Glyma16g04190|Glyma16g04            4e-06  914_[+3]_76
+Glyma19g29210|Glyma19g29            4e-06  905_[+3]_85
+Carubv10021201m.g|Carubv            6e-06  905_[+3]_85
+Thhalv10023775m.g|Thhalv            6e-06  905_[+3]_85
+AT1G54410|AT1G54410.1|At            6e-06  901_[+3]_89
+C.cajan_05184||Carietinu            6e-06  908_[+3]_82
+Cucsa.338040|Cucsa.33804          9.6e-06  416_[+3]_574
+Sb01g013000|Sb01g013000.          1.1e-05  50_[+3]_839_[+3]_91
+Bra013206|Bra013206|Brap          1.3e-05  902_[+3]_88
+Phvul.001G114100|Phvul.0            2e-05  904_[+3]_86
+LOC_Os03g45280|LOC_Os03g            2e-05  882_[+3]_108
+Bradi1g13330|Bradi1g1333            2e-05  887_[+3]_103
+GRMZM2G448511|GRMZM2G448            2e-05  903_[+3]_87
+mgv1a016787m.g|mgv1a0167            2e-05  925_[+3]_65
+Glyma17g24193|Glyma17g24          2.6e-05  915_[+3]_75
+PDK_30s895221g001||Pdact          2.6e-05  915_[+3]_75
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=10 seqs=26
+Medtr7g086340|Medtr7g086 (  894) GCCTATAAAT  1 
+Aquca_004_00603|Aquca_00 (  886) GCCTATAAAT  1 
+cassava4.1_019931m.g|cas (  901) GCCTATAAAT  1 
+cassava4.1_019934m.g|cas (  908) GCCTATAAAT  1 
+30072.t000037|30072.m000 (  910) GCCTATAAAT  1 
+evm.TU.supercontig_161.1 (  899) GCCTATAAAT  1 
+Ca_08212||Carietinum     (  905) GCCTATAAAT  1 
+Ca_20934||Carietinum     (  925) GCCTATAAAT  1 
+Glyma16g04190|Glyma16g04 (  915) CCCTATAAAT  1 
+Glyma19g29210|Glyma19g29 (  906) CCCTATAAAT  1 
+Carubv10021201m.g|Carubv (  906) GGCTATAAAT  1 
+Thhalv10023775m.g|Thhalv (  906) GGCTATAAAT  1 
+AT1G54410|AT1G54410.1|At (  902) GGCTATAAAT  1 
+C.cajan_05184||Carietinu (  909) GGCTATAAAT  1 
+Cucsa.338040|Cucsa.33804 (  417) GTCTATAAAT  1 
+Sb01g013000|Sb01g013000. (   51) GCCTGTAAAT  1 
+cassava4.1_019934m.g|cas (  548) GCCTGTAAAT  1 
+Bra013206|Bra013206|Brap (  903) CGCTATAAAT  1 
+Phvul.001G114100|Phvul.0 (  905) TCCTATAAAT  1 
+LOC_Os03g45280|LOC_Os03g (  883) CTCTATAAAT  1 
+Bradi1g13330|Bradi1g1333 (  888) CTCTATAAAT  1 
+GRMZM2G448511|GRMZM2G448 (  904) CTCTATAAAT  1 
+Sb01g013000|Sb01g013000. (  900) CTCTATAAAT  1 
+mgv1a016787m.g|mgv1a0167 (  926) TCCTATAAAT  1 
+Glyma17g24193|Glyma17g24 (  916) GCTTATAAAT  1 
+PDK_30s895221g001||Pdact (  916) GCTTATAAAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 10.746 E= 5.1e-003 
+ -1134     58    186   -206 
+ -1134    178     10    -74 
+ -1134    236  -1134   -206 
+ -1134  -1134  -1134    164 
+   153  -1134   -122  -1134 
+ -1134  -1134  -1134    164 
+   164  -1134  -1134  -1134 
+   164  -1134  -1134  -1134 
+   164  -1134  -1134  -1134 
+ -1134  -1134  -1134    164 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 26 E= 5.1e-003 
+ 0.000000  0.269231  0.653846  0.076923 
+ 0.000000  0.615385  0.192308  0.192308 
+ 0.000000  0.923077  0.000000  0.076923 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.923077  0.000000  0.076923  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+[GC]CCTATAAAT
+--------------------------------------------------------------------------------
+
+
+
+
+Time 64.75 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  4	width =   10   sites =  13   llr = 156   E-value = 2.1e+001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 4 Description
+--------------------------------------------------------------------------------
+Simplified        A  :6:2:27:::
+pos.-specific     C  83989839a2
+probability       G  211:1::1:8
+matrix            T  ::::::::::
+
+         bits    2.5         * 
+                 2.2         * 
+                 2.0 * * *  ** 
+                 1.7 * * ** ***
+Relative         1.5 * **** ***
+Entropy          1.2 * **** ***
+(17.3 bits)      1.0 * ********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CACCCCACCG
+consensus             C A  C  C
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Pavirv00041414m.g|Pavirv     +     75  1.13e-07 TTTCTTCACA CACCCCACCG CAAGTCACGG
+GRMZM2G448511|GRMZM2G448     +    869  1.13e-07 TTTTTCCACA CACCCCACCG CAAGCCTCGG
+Sb01g013000|Sb01g013000.     +    856  1.13e-07 TTTCTTCACA CACCCCACCG CAAGCCTCGC
+Bradi1g13330|Bradi1g1333     +    852  1.76e-07 TCAGTCGACA CCCCCCACCG TAGGCCACGG
+Bradi1g13330|Bradi1g1333     +    649  1.35e-06 AATAGAATAG GCCCCCCCCG CAGAGAAAAG
+GRMZM2G169372|GRMZM2G169     -    397  1.35e-06 TGGACGGTGC CACACCCCCG GCCAACGCGC
+GRMZM2G169372|GRMZM2G169     -    594  2.43e-06 GCCGGCTCAC CCGCCCACCG ACCACCGTGC
+LOC_Os03g45280|LOC_Os03g     +    870  2.62e-06 GACACCCCCA CACCGCCCCG GCCCTCTATA
+474716|474716|Alyrata        -    109  2.80e-06 GATCCGGATC CGCCCCACCC GGATATCCTA
+orange1.1g036567m.g|oran     -    213  4.07e-06 GTGTGTCCAT GACACCACCG TAGCCGAATC
+cassava4.1_019931m.g|cas     +    310  4.61e-06 CAAATATTTT CCCCCAACCC TGATTTGAGT
+GRMZM2G448511|GRMZM2G448     +    891  5.13e-06 AGCCTCGGAG CACCCACCCC CTTCTCTATA
+Bradi1g13330|Bradi1g1333     -    214  8.53e-06 GTTTAATGAA CACACCAGCG TCCTCCCCAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Pavirv00041414m.g|Pavirv          1.1e-07  74_[+4]_135
+GRMZM2G448511|GRMZM2G448          5.1e-06  868_[+4]_12_[+4]_100
+Sb01g013000|Sb01g013000.          1.1e-07  855_[+4]_135
+Bradi1g13330|Bradi1g1333          8.5e-06  213_[-4]_425_[+4]_193_[+4]_139
+GRMZM2G169372|GRMZM2G169          2.4e-06  396_[-4]_187_[-4]_397
+LOC_Os03g45280|LOC_Os03g          2.6e-06  869_[+4]_121
+474716|474716|Alyrata             2.8e-06  108_[-4]_882
+orange1.1g036567m.g|oran          4.1e-06  212_[-4]_778
+cassava4.1_019931m.g|cas          4.6e-06  309_[+4]_681
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 4 width=10 seqs=13
+Pavirv00041414m.g|Pavirv (   75) CACCCCACCG  1 
+GRMZM2G448511|GRMZM2G448 (  869) CACCCCACCG  1 
+Sb01g013000|Sb01g013000. (  856) CACCCCACCG  1 
+Bradi1g13330|Bradi1g1333 (  852) CCCCCCACCG  1 
+Bradi1g13330|Bradi1g1333 (  649) GCCCCCCCCG  1 
+GRMZM2G169372|GRMZM2G169 (  397) CACACCCCCG  1 
+GRMZM2G169372|GRMZM2G169 (  594) CCGCCCACCG  1 
+LOC_Os03g45280|LOC_Os03g (  870) CACCGCCCCG  1 
+474716|474716|Alyrata    (  109) CGCCCCACCC  1 
+orange1.1g036567m.g|oran (  213) GACACCACCG  1 
+cassava4.1_019931m.g|cas (  310) CCCCCAACCC  1 
+GRMZM2G448511|GRMZM2G448 (  891) CACCCACCCC  1 
+Bradi1g13330|Bradi1g1333 (  214) CACACCAGCG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 12.3804 E= 2.1e+001 
+ -1035    224    -22  -1035 
+    94     78   -122  -1035 
+ -1035    236   -122  -1035 
+   -47    210  -1035  -1035 
+ -1035    236   -122  -1035 
+  -106    224  -1035  -1035 
+   111     78  -1035  -1035 
+ -1035    236   -122  -1035 
+ -1035    248  -1035  -1035 
+ -1035     36    210  -1035 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 13 E= 2.1e+001 
+ 0.000000  0.846154  0.153846  0.000000 
+ 0.615385  0.307692  0.076923  0.000000 
+ 0.000000  0.923077  0.076923  0.000000 
+ 0.230769  0.769231  0.000000  0.000000 
+ 0.000000  0.923077  0.076923  0.000000 
+ 0.153846  0.846154  0.000000  0.000000 
+ 0.692308  0.307692  0.000000  0.000000 
+ 0.000000  0.923077  0.076923  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.230769  0.769231  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 regular expression
+--------------------------------------------------------------------------------
+C[AC]C[CA]CC[AC]CC[GC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 85.78 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  5	width =   10   sites =   7   llr = 94   E-value = 1.1e+004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 5 Description
+--------------------------------------------------------------------------------
+Simplified        A  :::a::::::
+pos.-specific     C  a9::33:1aa
+probability       G  :1a::1a9::
+matrix            T  ::::76::::
+
+         bits    2.5 * *   * **
+                 2.2 * *   * **
+                 2.0 ***   ****
+                 1.7 ****  ****
+Relative         1.5 ****  ****
+Entropy          1.2 ****  ****
+(19.4 bits)      1.0 ***** ****
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CCGATTGGCC
+consensus                CC    
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Pavirv00041414m.g|Pavirv     +     50  2.01e-07 TCCTTCTTAT CCGATTGGCC TTCCGTTTCT
+GRMZM2G169372|GRMZM2G169     +    864  2.01e-07 TCCTTCTTAT CCGATTGGCC TTCCATTCCT
+Sb01g013000|Sb01g013000.     +    831  2.01e-07 TCCTTCTTAT CCGATTGGCC TTCCATTTCT
+GRMZM2G448511|GRMZM2G448     +    844  4.26e-07 TCCTTCATTT CCGACTGGCC TTCCATTTTT
+LOC_Os03g45280|LOC_Os03g     +    837  6.03e-07 TCCTCCTTAT CCGATGGGCC TTCCGTTTCT
+Lus10020271.g|Lus1002027     +    131  1.29e-06 ACTCCATCGC CCGATCGCCC CAGAAAAGGT
+GRMZM2G169372|GRMZM2G169     -    611  1.65e-06 GACAAGTGGA CGGACCGGCC GGCTCACCCG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Pavirv00041414m.g|Pavirv            2e-07  49_[+5]_160
+GRMZM2G169372|GRMZM2G169          1.6e-06  610_[-5]_243_[+5]_127
+Sb01g013000|Sb01g013000.            2e-07  830_[+5]_160
+GRMZM2G448511|GRMZM2G448          4.3e-07  843_[+5]_147
+LOC_Os03g45280|LOC_Os03g            6e-07  836_[+5]_154
+Lus10020271.g|Lus1002027          1.3e-06  130_[+5]_860
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 5 width=10 seqs=7
+Pavirv00041414m.g|Pavirv (   50) CCGATTGGCC  1 
+GRMZM2G169372|GRMZM2G169 (  864) CCGATTGGCC  1 
+Sb01g013000|Sb01g013000. (  831) CCGATTGGCC  1 
+GRMZM2G448511|GRMZM2G448 (  844) CCGACTGGCC  1 
+LOC_Os03g45280|LOC_Os03g (  837) CCGATGGGCC  1 
+Lus10020271.g|Lus1002027 (  131) CCGATCGCCC  1 
+GRMZM2G169372|GRMZM2G169 (  611) CGGACCGGCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 12.7149 E= 1.1e+004 
+  -945    248   -945   -945 
+  -945    225    -33   -945 
+  -945   -945    248   -945 
+   164   -945   -945   -945 
+  -945     67   -945    116 
+  -945     67    -33     83 
+  -945   -945    248   -945 
+  -945    -33    225   -945 
+  -945    248   -945   -945 
+  -945    248   -945   -945 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 7 E= 1.1e+004 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.857143  0.142857  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.285714  0.000000  0.714286 
+ 0.000000  0.285714  0.142857  0.571429 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.142857  0.857143  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 regular expression
+--------------------------------------------------------------------------------
+CCGA[TC][TC]GGCC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 106.28 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  6	width =   10   sites =  14   llr = 159   E-value = 4.2e+004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 6 Description
+--------------------------------------------------------------------------------
+Simplified        A  9:a1::::::
+pos.-specific     C  19:8:21:6:
+probability       G  :1:1a196:a
+matrix            T  :::::6:44:
+
+         bits    2.5     *    *
+                 2.2     * *  *
+                 2.0  *  * *  *
+                 1.7  ** * *  *
+Relative         1.5  **** *  *
+Entropy          1.2 ***** ****
+(16.4 bits)      1.0 ***** ****
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           ACACGTGGCG
+consensus                 C TT 
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Cucsa.338040|Cucsa.33804     +    752  2.01e-07 AGAGCGTGTG ACACGTGGCG TTACCGCGTA
+evm.TU.supercontig_161.1     -    162  2.01e-07 CGTTCTTCTG ACACGTGGCG AATTATTAAA
+Phvul.001G114100|Phvul.0     -    564  1.14e-06 GAAGGAGCAA ACACGTGTCG AGTGGTTAAG
+Aquca_004_00603|Aquca_00     +    192  1.14e-06 GATTCGATGG ACACGTGTCG AATGATCTAT
+Thecc1EG025860|Thecc1EG0     +    796  2.14e-06 CACGCCGCGT ACACGGGGTG TAAGGGTGTT
+LOC_Os03g45280|LOC_Os03g     +    763  2.14e-06 TTGGTGCGTT ACACGGGGTG CACGAAGCCA
+orange1.1g036567m.g|oran     -    825  2.89e-06 CCCTAAATTA ACACGTGTTG CGCTTACATC
+Cucsa.338040|Cucsa.33804     +    731  4.76e-06 GAAAAAACAA AGACGTGGTG AAGAGCGTGT
+Glyma16g04190|Glyma16g04     -    236  5.43e-06 TTAAAGGCAA ACAGGTGTCG AGTGGTTAAG
+C.cajan_05184||Carietinu     -    292  5.43e-06 TTAAAATAAA ACAGGTGTCG AGTGGTTAAG
+LOC_Os03g45280|LOC_Os03g     +    100  6.21e-06 CCGACGCTGT ACAAGTGGCG ACCAGAAAAC
+Thecc1EG025860|Thecc1EG0     +    785  6.68e-06 CCCACACACA ACACGCCGCG TACACGGGGT
+orange1.1g036567m.g|oran     +    608  7.28e-06 AGTTGCTGGA AGACGCGGTG TCTTAGACAT
+GRMZM2G169372|GRMZM2G169     +    552  7.95e-06 CCGTCGGATT CCACGCGGTG CACGTCGACG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Cucsa.338040|Cucsa.33804          4.8e-06  730_[+6]_11_[+6]_239
+evm.TU.supercontig_161.1            2e-07  161_[-6]_829
+Phvul.001G114100|Phvul.0          1.1e-06  563_[-6]_427
+Aquca_004_00603|Aquca_00          1.1e-06  191_[+6]_799
+Thecc1EG025860|Thecc1EG0          6.7e-06  784_[+6]_1_[+6]_195
+LOC_Os03g45280|LOC_Os03g          6.2e-06  99_[+6]_653_[+6]_228
+orange1.1g036567m.g|oran          7.3e-06  607_[+6]_207_[-6]_166
+Glyma16g04190|Glyma16g04          5.4e-06  235_[-6]_755
+C.cajan_05184||Carietinu          5.4e-06  291_[-6]_699
+GRMZM2G169372|GRMZM2G169            8e-06  551_[+6]_439
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 6 width=10 seqs=14
+Cucsa.338040|Cucsa.33804 (  752) ACACGTGGCG  1 
+evm.TU.supercontig_161.1 (  162) ACACGTGGCG  1 
+Phvul.001G114100|Phvul.0 (  564) ACACGTGTCG  1 
+Aquca_004_00603|Aquca_00 (  192) ACACGTGTCG  1 
+Thecc1EG025860|Thecc1EG0 (  796) ACACGGGGTG  1 
+LOC_Os03g45280|LOC_Os03g (  763) ACACGGGGTG  1 
+orange1.1g036567m.g|oran (  825) ACACGTGTTG  1 
+Cucsa.338040|Cucsa.33804 (  731) AGACGTGGTG  1 
+Glyma16g04190|Glyma16g04 (  236) ACAGGTGTCG  1 
+C.cajan_05184||Carietinu (  292) ACAGGTGTCG  1 
+LOC_Os03g45280|LOC_Os03g (  100) ACAAGTGGCG  1 
+Thecc1EG025860|Thecc1EG0 (  785) ACACGCCGCG  1 
+orange1.1g036567m.g|oran (  608) AGACGCGGTG  1 
+GRMZM2G169372|GRMZM2G169 (  552) CCACGCGGTG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 11.7147 E= 4.2e+004 
+   153   -133  -1045  -1045 
+ -1045    225    -33  -1045 
+   164  -1045  -1045  -1045 
+  -216    213    -33  -1045 
+ -1045  -1045    248  -1045 
+ -1045     26    -33    100 
+ -1045   -133    237  -1045 
+ -1045  -1045    184     16 
+ -1045    167  -1045     42 
+ -1045  -1045    248  -1045 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 14 E= 4.2e+004 
+ 0.928571  0.071429  0.000000  0.000000 
+ 0.000000  0.857143  0.142857  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.071429  0.785714  0.142857  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.214286  0.142857  0.642857 
+ 0.000000  0.071429  0.928571  0.000000 
+ 0.000000  0.000000  0.642857  0.357143 
+ 0.000000  0.571429  0.000000  0.428571 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 regular expression
+--------------------------------------------------------------------------------
+ACACG[TC]G[GT][CT]G
+--------------------------------------------------------------------------------
+
+
+
+
+Time 126.90 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  7	width =   10   sites =  50   llr = 449   E-value = 2.1e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 7 Description
+--------------------------------------------------------------------------------
+Simplified        A  5:8aaaa6a3
+pos.-specific     C  ::::::::::
+probability       G  ::::::::::
+matrix            T  5a2::::4:7
+
+         bits    2.5           
+                 2.2           
+                 2.0           
+                 1.7  * **** * 
+Relative         1.5  * **** * 
+Entropy          1.2  * **** * 
+(13.0 bits)      1.0  ****** * 
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           ATAAAAAAAT
+consensus            T      T A
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Phvul.001G114100|Phvul.0     -    787  1.13e-05 TTGTTTACTG ATAAAAAAAT ATAGAATCAT
+Glyma16g04190|Glyma16g04     +    790  1.13e-05 TTATAAAAAG ATAAAAAAAT ATAAATTTAA
+Glyma16g04200|Glyma16g04     +     89  1.13e-05 AAGAAAGATG ATAAAAAAAT TGTGATGGAA
+Glyma19g29210|Glyma19g29     +    650  1.13e-05 TTTCCATTTT ATAAAAAAAT TAACGACAAA
+Sb01g013000|Sb01g013000.     -    325  1.13e-05 TTAGATATAG ATAAAAAAAT TAACTAATTA
+Glyma16g04200|Glyma16g04     -    761  2.25e-05 TAATTTTGTT TTAAAAAAAT ATACAAATCT
+cassava4.1_019934m.g|cas     +    618  2.25e-05 CATTTTTTAA TTAAAAAAAT TACTATTTAA
+Cucsa.338040|Cucsa.33804     +    506  2.25e-05 ATTTCTTTGA TTAAAAAAAT CTCAGATTCA
+Cucsa.338040|Cucsa.33804     +    352  2.25e-05 AATTCAAAAT TTAAAAAAAT GTCAAATAAA
+Cucsa.338040|Cucsa.33804     -     73  2.25e-05 AATATATTTT TTAAAAAAAT CATGAAAAAA
+474716|474716|Alyrata        -    340  2.25e-05 AAAAATATTA TTAAAAAAAT ATTATTCTTA
+474716|474716|Alyrata        -    270  2.25e-05 TAATAAAATA TTAAAAAAAT ATTATTATTA
+Ca_08212||Carietinum         +    687  2.25e-05 TTGTTTTTAC TTAAAAAAAT ATGCACTTTG
+Ca_08212||Carietinum         -    294  2.25e-05 CTGATTTTAA TTAAAAAAAT TATGAAGTAA
+Glyma19g29210|Glyma19g29     -    851  3.38e-05 TTTGTTAGGA ATAAAAATAT GTTATCCATC
+Carubv10021201m.g|Carubv     +    848  3.38e-05 AAACAAACCA ATAAAAATAT CTTTTTGATA
+cassava4.1_019931m.g|cas     +    628  3.38e-05 GCATAATATA ATAAAAATAT TTAATTTAAT
+cassava4.1_019934m.g|cas     -    166  3.38e-05 GTTAATAGTG ATAAAAATAT GGAGCAACTG
+cassava4.1_019934m.g|cas     -    110  3.38e-05 TAAGAATTTT ATAAAAATAT AATTTAATTA
+474716|474716|Alyrata        +    879  3.38e-05 GAAAAAAATA ATAAAAATAT AGTATTAATT
+Ca_08212||Carietinum         +    510  3.38e-05 ATTGTTCATC ATAAAAATAT TGTACTTTCT
+Ca_20934||Carietinum         -    539  3.38e-05 GTCTAAATAA ATAAAAATAT TTCATTTTTA
+Glyma19g29210|Glyma19g29     +    616  4.50e-05 TGTTGATAAA TTAAAAATAT CAATAAATAA
+cassava4.1_019934m.g|cas     -    770  4.50e-05 CACGAAAATT TTAAAAATAT ACTAATTAAT
+evm.TU.supercontig_161.1     -    292  4.50e-05 ATTTATGAGA TTAAAAATAT TGTAATTTCG
+474716|474716|Alyrata        +    616  4.50e-05 TCAGAATCAT TTAAAAATAT ATATAAAAGA
+474716|474716|Alyrata        -    352  4.50e-05 ATATAAATAA TTAAAAATAT TATTAAAAAA
+Glyma16g04190|Glyma16g04     +    809  5.63e-05 TATAAATTTA ATAAAAAAAA ATGTGACAAA
+Glyma17g24193|Glyma17g24     -    983  5.63e-05   TATTTCAA ATAAAAAAAA ATTATATGGC
+Bra013206|Bra013206|Brap     +    239  5.63e-05 TACCAGGATT ATAAAAAAAA ATTATTTTCT
+Cucsa.338040|Cucsa.33804     +    804  5.63e-05 ATAATAATAT ATAAAAAAAA CGCAATTATT
+474716|474716|Alyrata        +    429  5.63e-05 AAAAAATTGT ATAAAAAAAA CCCGGATCCG
+474716|474716|Alyrata        +    415  5.63e-05 TTTTATATTA ATAAAAAAAA TTGTATAAAA
+Ca_20934||Carietinum         +    579  5.63e-05 AACTAACAAT ATAAAAAAAA TTATATTATC
+PGSC0003DMG400027197|PGS     +    689  6.76e-05 CTACATATTA TTAAAAAAAA ATCAATTCAA
+orange1.1g036567m.g|oran     -    985  6.76e-05     TTTCTC TTAAAAAAAA GTTGTTCCTT
+Cucsa.338040|Cucsa.33804     -     50  6.76e-05 GAAAAAACTA TTAAAAAAAA CGTTTTAACT
+Thecc1EG025860|Thecc1EG0     -    346  7.88e-05 TCATAAACAT ATAAAAATAA AATTAAAAAC
+PDK_30s895221g001||Pdact     -    338  7.88e-05 AGTCAGCCCT ATAAAAATAA CTAACCTCTT
+Thecc1EG025860|Thecc1EG0     -    323  9.01e-05 TAAAAACTTT TTAAAAATAA ATATTTATTA
+GRMZM2G169372|GRMZM2G169     +    230  9.01e-05 ATAGTTTAGT TTAAAAATAA GTTAGCAGGT
+30072.t000037|30072.m000     +    526  9.01e-05 TGTCTGACAG TTAAAAATAA CTGACTTAAA
+Bra013206|Bra013206|Brap     +    161  1.01e-04 ATTTTAAGTG ATTAAAAAAT ATAATTTCTG
+Carubv10021201m.g|Carubv     -    447  1.01e-04 AGTAATCAAC ATTAAAAAAT AACATGTAAA
+Carubv10021201m.g|Carubv     -    275  1.01e-04 ATCGAAAAAT ATTAAAAAAT CATTAATTAT
+Ca_20934||Carietinum         -    345  1.01e-04 AGAAGGTATA ATTAAAAAAT ATTATTAATA
+Glyma16g04200|Glyma16g04     -    626  1.13e-04 GATCAAAGGT TTTAAAAAAT AATTTGCGGA
+Bra013206|Bra013206|Brap     +    208  1.13e-04 AGTCTTTAAA TTTAAAAAAT CTTTGGAATT
+cassava4.1_019934m.g|cas     +    675  1.13e-04 TTTTTTAAAT TTTAAAAAAT TTAATTAATC
+cassava4.1_019934m.g|cas     -    664  1.13e-04 TTTTTTAAAA TTTAAAAAAT ATTTAGAAAT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Phvul.001G114100|Phvul.0          1.1e-05  786_[-7]_204
+Glyma16g04190|Glyma16g04          5.6e-05  789_[+7]_9_[+7]_182
+Glyma16g04200|Glyma16g04          0.00011  88_[+7]_527_[-7]_125_[-7]_230
+Glyma19g29210|Glyma19g29          3.4e-05  615_[+7]_24_[+7]_191_[-7]_140
+Sb01g013000|Sb01g013000.          1.1e-05  324_[-7]_666
+cassava4.1_019934m.g|cas          0.00011  109_[-7]_46_[-7]_442_[+7]_36_[-7]_
+                                           1_[+7]_85_[-7]_221
+Cucsa.338040|Cucsa.33804          5.6e-05  49_[-7]_13_[-7]_269_[+7]_144_[+7]_
+                                           288_[+7]_187
+474716|474716|Alyrata             4.5e-05  269_[-7]_60_[-7]_2_[-7]_53_[+7]_
+                                           4_[+7]_177_[+7]_253_[+7]_112
+Ca_08212||Carietinum              3.4e-05  293_[-7]_206_[+7]_167_[+7]_304
+Carubv10021201m.g|Carubv           0.0001  274_[-7]_162_[-7]_391_[+7]_143
+cassava4.1_019931m.g|cas          3.4e-05  627_[+7]_363
+Ca_20934||Carietinum               0.0001  344_[-7]_184_[-7]_30_[+7]_412
+evm.TU.supercontig_161.1          4.5e-05  291_[-7]_699
+Glyma17g24193|Glyma17g24          5.6e-05  982_[-7]_8
+Bra013206|Bra013206|Brap           0.0001  160_[+7]_37_[+7]_21_[+7]_752
+PGSC0003DMG400027197|PGS          6.8e-05  688_[+7]_302
+orange1.1g036567m.g|oran          6.8e-05  984_[-7]_6
+Thecc1EG025860|Thecc1EG0          7.9e-05  322_[-7]_13_[-7]_645
+PDK_30s895221g001||Pdact          7.9e-05  337_[-7]_653
+GRMZM2G169372|GRMZM2G169            9e-05  229_[+7]_761
+30072.t000037|30072.m000            9e-05  525_[+7]_465
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 7 width=10 seqs=50
+Phvul.001G114100|Phvul.0 (  787) ATAAAAAAAT  1 
+Glyma16g04190|Glyma16g04 (  790) ATAAAAAAAT  1 
+Glyma16g04200|Glyma16g04 (   89) ATAAAAAAAT  1 
+Glyma19g29210|Glyma19g29 (  650) ATAAAAAAAT  1 
+Sb01g013000|Sb01g013000. (  325) ATAAAAAAAT  1 
+Glyma16g04200|Glyma16g04 (  761) TTAAAAAAAT  1 
+cassava4.1_019934m.g|cas (  618) TTAAAAAAAT  1 
+Cucsa.338040|Cucsa.33804 (  506) TTAAAAAAAT  1 
+Cucsa.338040|Cucsa.33804 (  352) TTAAAAAAAT  1 
+Cucsa.338040|Cucsa.33804 (   73) TTAAAAAAAT  1 
+474716|474716|Alyrata    (  340) TTAAAAAAAT  1 
+474716|474716|Alyrata    (  270) TTAAAAAAAT  1 
+Ca_08212||Carietinum     (  687) TTAAAAAAAT  1 
+Ca_08212||Carietinum     (  294) TTAAAAAAAT  1 
+Glyma19g29210|Glyma19g29 (  851) ATAAAAATAT  1 
+Carubv10021201m.g|Carubv (  848) ATAAAAATAT  1 
+cassava4.1_019931m.g|cas (  628) ATAAAAATAT  1 
+cassava4.1_019934m.g|cas (  166) ATAAAAATAT  1 
+cassava4.1_019934m.g|cas (  110) ATAAAAATAT  1 
+474716|474716|Alyrata    (  879) ATAAAAATAT  1 
+Ca_08212||Carietinum     (  510) ATAAAAATAT  1 
+Ca_20934||Carietinum     (  539) ATAAAAATAT  1 
+Glyma19g29210|Glyma19g29 (  616) TTAAAAATAT  1 
+cassava4.1_019934m.g|cas (  770) TTAAAAATAT  1 
+evm.TU.supercontig_161.1 (  292) TTAAAAATAT  1 
+474716|474716|Alyrata    (  616) TTAAAAATAT  1 
+474716|474716|Alyrata    (  352) TTAAAAATAT  1 
+Glyma16g04190|Glyma16g04 (  809) ATAAAAAAAA  1 
+Glyma17g24193|Glyma17g24 (  983) ATAAAAAAAA  1 
+Bra013206|Bra013206|Brap (  239) ATAAAAAAAA  1 
+Cucsa.338040|Cucsa.33804 (  804) ATAAAAAAAA  1 
+474716|474716|Alyrata    (  429) ATAAAAAAAA  1 
+474716|474716|Alyrata    (  415) ATAAAAAAAA  1 
+Ca_20934||Carietinum     (  579) ATAAAAAAAA  1 
+PGSC0003DMG400027197|PGS (  689) TTAAAAAAAA  1 
+orange1.1g036567m.g|oran (  985) TTAAAAAAAA  1 
+Cucsa.338040|Cucsa.33804 (   50) TTAAAAAAAA  1 
+Thecc1EG025860|Thecc1EG0 (  346) ATAAAAATAA  1 
+PDK_30s895221g001||Pdact (  338) ATAAAAATAA  1 
+Thecc1EG025860|Thecc1EG0 (  323) TTAAAAATAA  1 
+GRMZM2G169372|GRMZM2G169 (  230) TTAAAAATAA  1 
+30072.t000037|30072.m000 (  526) TTAAAAATAA  1 
+Bra013206|Bra013206|Brap (  161) ATTAAAAAAT  1 
+Carubv10021201m.g|Carubv (  447) ATTAAAAAAT  1 
+Carubv10021201m.g|Carubv (  275) ATTAAAAAAT  1 
+Ca_20934||Carietinum     (  345) ATTAAAAAAT  1 
+Glyma16g04200|Glyma16g04 (  626) TTTAAAAAAT  1 
+Bra013206|Bra013206|Brap (  208) TTTAAAAAAT  1 
+cassava4.1_019934m.g|cas (  675) TTTAAAAAAT  1 
+cassava4.1_019934m.g|cas (  664) TTTAAAAAAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 10.8804 E= 2.1e+005 
+    70  -1229  -1229     58 
+ -1229  -1229  -1229    164 
+   139  -1229  -1229   -100 
+   164  -1229  -1229  -1229 
+   164  -1229  -1229  -1229 
+   164  -1229  -1229  -1229 
+   164  -1229  -1229  -1229 
+   100  -1229  -1229     17 
+   164  -1229  -1229  -1229 
+   -10  -1229  -1229    113 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 50 E= 2.1e+005 
+ 0.520000  0.000000  0.000000  0.480000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.840000  0.000000  0.000000  0.160000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.640000  0.000000  0.000000  0.360000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.300000  0.000000  0.000000  0.700000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 regular expression
+--------------------------------------------------------------------------------
+[AT]TAAAAA[AT]A[TA]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 147.41 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  8	width =   10   sites =  43   llr = 416   E-value = 2.2e-004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 8 Description
+--------------------------------------------------------------------------------
+Simplified        A  7aaa364a4a
+pos.-specific     C  ::::::::::
+probability       G  3:::746:6:
+matrix            T  ::::::::::
+
+         bits    2.5           
+                 2.2           
+                 2.0           
+                 1.7  ***   * *
+Relative         1.5  ****  * *
+Entropy          1.2  **** ****
+(14.0 bits)      1.0 **********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           AAAAGAGAGA
+consensus            G   AGA A 
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Thecc1EG025860|Thecc1EG0     -    565  1.13e-06 CATATGTTCC AAAAGGGAGA GGATAAGATA
+PGSC0003DMG400027197|PGS     -    893  1.13e-06 TTATTGAGGG AAAAGGGAGA TTCGTCGGCA
+GRMZM2G169372|GRMZM2G169     -    954  1.13e-06 TTGCTCACGC AAAAGGGAGA CGGCAATAAT
+Carubv10021201m.g|Carubv     +    962  3.13e-06 CCAAACACAC AAAAGAGAGA TTTACTACAG
+AT1G54410|AT1G54410.1|At     +    959  3.13e-06 CCAAACACAT AAAAGAGAGA TTTAATACAA
+evm.TU.supercontig_161.1     -    254  3.13e-06 TATGGGCTAT AAAAGAGAGA TGAGATTGTA
+Phvul.001G114100|Phvul.0     +    989  4.89e-06 GAAGCTAAGT GAAAGAGAGA CA        
+Glyma16g04190|Glyma16g04     +    975  4.89e-06 CAAGCCAAGT GAAAGAGAGA AGAAAAGTCA
+Glyma16g04200|Glyma16g04     +    977  4.89e-06 TTAGCTAAGT GAAAGAGAGA AAAAAACAGA
+474716|474716|Alyrata        -    842  4.89e-06 TTACTTTATA GAAAGAGAGA TATATGGCAT
+C.cajan_05184||Carietinu     +    985  4.89e-06 GTGATTAAGT GAAAGAGAGA AAAAAA    
+Bradi1g13330|Bradi1g1333     +    664  6.90e-06 CCCCGCAGAG AAAAGGGAAA TGCAATAGGT
+Glyma16g04200|Glyma16g04     -    276  1.05e-05 AAGTAGGAAA AAAAGAGAAA GACACAGCCC
+Glyma17g24193|Glyma17g24     -     90  1.05e-05 AGAGAATAAT AAAAGAGAAA TATTTAAATT
+Cucsa.338040|Cucsa.33804     +    715  1.36e-05 AATAGAAAGT GAAAGGGAAA AAACAAAGAC
+Ca_08212||Carietinum         +    345  1.36e-05 AATTATGGAA GAAAGGGAAA ATGAATATGT
+Bra013206|Bra013206|Brap     +    983  1.92e-05 AATTTAATAG AAAAGAAAGA GATCAAAG  
+Bra013206|Bra013206|Brap     -    750  1.92e-05 TATTCATTTG AAAAGAAAGA AGAGAATTGT
+AT1G54410|AT1G54410.1|At     +    990  1.92e-05 AGAAAGAGAA AAAAGAAAGA T         
+AT1G54410|AT1G54410.1|At     +    977  1.92e-05 GATTTAATAC AAAAGAAAGA GAAAAAAGAA
+AT1G54410|AT1G54410.1|At     -    696  1.92e-05 ATATTCCTTT AAAAGAAAGA AATATTATAT
+cassava4.1_019934m.g|cas     +    991  1.92e-05 GATTTCAGAA GAAAGAGAAA           
+474716|474716|Alyrata        +    977  1.92e-05 GATTTAATAC AAAAGAAAGA GAAAAAAAGA
+474716|474716|Alyrata        -    686  1.92e-05 TATTCCTTTA AAAAGAAAGA AGATTATATT
+Ca_08212||Carietinum         +    231  1.92e-05 AACATTGTGG AAAAGAAAGA AATGAGAAGT
+Thecc1EG025860|Thecc1EG0     +    977  2.23e-05 TAGAGAGGAA AAAAAGGAGA AAGAGCGATC
+LOC_Os03g45280|LOC_Os03g     -    804  2.23e-05 GATTAGGCTA AAAAAGGAGA CGGGTTGAGC
+Bradi1g13330|Bradi1g1333     -    153  2.23e-05 TAGTTTGTCT AAAAAGGAGA TATATTGACT
+Glyma17g24193|Glyma17g24     +    806  2.79e-05 AGATATTTTA GAAAGAAAGA AAATTCTCTA
+AT1G54410|AT1G54410.1|At     -    807  2.79e-05 CTTTATAGTA GAAAGAAAGA TATATGGCGT
+Glyma16g04190|Glyma16g04     +    614  3.25e-05 GAAATATTTA AAAAGGAAAA TCGTATCATC
+Ca_08212||Carietinum         +    417  3.25e-05 TAGAGATAAA AAAAGGAAAA AAAAAGGAAA
+PGSC0003DMG400027197|PGS     -    798  4.64e-05 TATACTTTAA AAAAAGGAAA TGGATACTCC
+Bra013206|Bra013206|Brap     +    664  4.64e-05 TTGCCGACAA AAAAAGGAAA TATATATTTT
+Bradi1g13330|Bradi1g1333     -    772  4.64e-05 GCTAAACGCA AAAAAGGAAA GCGTTGGATA
+Ca_08212||Carietinum         +    427  4.64e-05 AAAAGGAAAA AAAAAGGAAA TTAAATAAAG
+Phvul.001G114100|Phvul.0     +    751  5.63e-05 ACAAGTATAT AAAAAAGAAA ATCATGTGAG
+Phvul.001G114100|Phvul.0     +    212  5.63e-05 CTATTTACAG GAAAGAAAAA AACCCATTGA
+Glyma16g04200|Glyma16g04     +     32  5.63e-05 GAGAGATAAG AAAAAAGAAA AGAAAAAAAA
+Lus10020271.g|Lus1002027     +    937  5.63e-05 TCATATATAA GAAAGAAAAA CTAATTAAAT
+evm.TU.supercontig_161.1     -    337  5.63e-05 TTTAGAACTC AAAAAAGAAA TATCCAAGAA
+Sb01g013000|Sb01g013000.     +    213  8.37e-05 TTTGTCAAAT AAAAAGAAAA TGCTACAGTG
+PDK_30s895221g001||Pdact     +    739  8.37e-05 TATTAAAACT AAAAAGAAAA TATTTCTGTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Thecc1EG025860|Thecc1EG0          2.2e-05  564_[-8]_402_[+8]_14
+PGSC0003DMG400027197|PGS          4.6e-05  797_[-8]_85_[-8]_98
+GRMZM2G169372|GRMZM2G169          1.1e-06  953_[-8]_37
+Carubv10021201m.g|Carubv          3.1e-06  961_[+8]_29
+AT1G54410|AT1G54410.1|At          2.8e-05  695_[-8]_101_[-8]_142_[+8]_8_[+8]_
+                                           3_[+8]_1
+evm.TU.supercontig_161.1          5.6e-05  253_[-8]_73_[-8]_654
+Phvul.001G114100|Phvul.0          4.9e-06  211_[+8]_529_[+8]_228_[+8]_2
+Glyma16g04190|Glyma16g04          4.9e-06  613_[+8]_351_[+8]_16
+Glyma16g04200|Glyma16g04          5.6e-05  31_[+8]_234_[-8]_691_[+8]_14
+474716|474716|Alyrata             4.9e-06  685_[-8]_146_[-8]_125_[+8]_14
+C.cajan_05184||Carietinu          4.9e-06  984_[+8]_6
+Bradi1g13330|Bradi1g1333          2.2e-05  152_[-8]_501_[+8]_98_[-8]_219
+Glyma17g24193|Glyma17g24          2.8e-05  89_[-8]_706_[+8]_185
+Cucsa.338040|Cucsa.33804          1.4e-05  714_[+8]_276
+Ca_08212||Carietinum              4.6e-05  230_[+8]_104_[+8]_62_[+8]_[+8]_564
+Bra013206|Bra013206|Brap          4.6e-05  663_[+8]_76_[-8]_223_[+8]_8
+cassava4.1_019934m.g|cas          1.9e-05  990_[+8]
+LOC_Os03g45280|LOC_Os03g          2.2e-05  803_[-8]_187
+Lus10020271.g|Lus1002027          5.6e-05  936_[+8]_54
+Sb01g013000|Sb01g013000.          8.4e-05  212_[+8]_778
+PDK_30s895221g001||Pdact          8.4e-05  738_[+8]_252
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 8 width=10 seqs=43
+Thecc1EG025860|Thecc1EG0 (  565) AAAAGGGAGA  1 
+PGSC0003DMG400027197|PGS (  893) AAAAGGGAGA  1 
+GRMZM2G169372|GRMZM2G169 (  954) AAAAGGGAGA  1 
+Carubv10021201m.g|Carubv (  962) AAAAGAGAGA  1 
+AT1G54410|AT1G54410.1|At (  959) AAAAGAGAGA  1 
+evm.TU.supercontig_161.1 (  254) AAAAGAGAGA  1 
+Phvul.001G114100|Phvul.0 (  989) GAAAGAGAGA  1 
+Glyma16g04190|Glyma16g04 (  975) GAAAGAGAGA  1 
+Glyma16g04200|Glyma16g04 (  977) GAAAGAGAGA  1 
+474716|474716|Alyrata    (  842) GAAAGAGAGA  1 
+C.cajan_05184||Carietinu (  985) GAAAGAGAGA  1 
+Bradi1g13330|Bradi1g1333 (  664) AAAAGGGAAA  1 
+Glyma16g04200|Glyma16g04 (  276) AAAAGAGAAA  1 
+Glyma17g24193|Glyma17g24 (   90) AAAAGAGAAA  1 
+Cucsa.338040|Cucsa.33804 (  715) GAAAGGGAAA  1 
+Ca_08212||Carietinum     (  345) GAAAGGGAAA  1 
+Bra013206|Bra013206|Brap (  983) AAAAGAAAGA  1 
+Bra013206|Bra013206|Brap (  750) AAAAGAAAGA  1 
+AT1G54410|AT1G54410.1|At (  990) AAAAGAAAGA  1 
+AT1G54410|AT1G54410.1|At (  977) AAAAGAAAGA  1 
+AT1G54410|AT1G54410.1|At (  696) AAAAGAAAGA  1 
+cassava4.1_019934m.g|cas (  991) GAAAGAGAAA  1 
+474716|474716|Alyrata    (  977) AAAAGAAAGA  1 
+474716|474716|Alyrata    (  686) AAAAGAAAGA  1 
+Ca_08212||Carietinum     (  231) AAAAGAAAGA  1 
+Thecc1EG025860|Thecc1EG0 (  977) AAAAAGGAGA  1 
+LOC_Os03g45280|LOC_Os03g (  804) AAAAAGGAGA  1 
+Bradi1g13330|Bradi1g1333 (  153) AAAAAGGAGA  1 
+Glyma17g24193|Glyma17g24 (  806) GAAAGAAAGA  1 
+AT1G54410|AT1G54410.1|At (  807) GAAAGAAAGA  1 
+Glyma16g04190|Glyma16g04 (  614) AAAAGGAAAA  1 
+Ca_08212||Carietinum     (  417) AAAAGGAAAA  1 
+PGSC0003DMG400027197|PGS (  798) AAAAAGGAAA  1 
+Bra013206|Bra013206|Brap (  664) AAAAAGGAAA  1 
+Bradi1g13330|Bradi1g1333 (  772) AAAAAGGAAA  1 
+Ca_08212||Carietinum     (  427) AAAAAGGAAA  1 
+Phvul.001G114100|Phvul.0 (  751) AAAAAAGAAA  1 
+Phvul.001G114100|Phvul.0 (  212) GAAAGAAAAA  1 
+Glyma16g04200|Glyma16g04 (   32) AAAAAAGAAA  1 
+Lus10020271.g|Lus1002027 (  937) GAAAGAAAAA  1 
+evm.TU.supercontig_161.1 (  337) AAAAAAGAAA  1 
+Sb01g013000|Sb01g013000. (  213) AAAAAGAAAA  1 
+PDK_30s895221g001||Pdact (  739) AAAAAGAAAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 9.81925 E= 2.2e-004 
+   117  -1207     64  -1207 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   164  -1207  -1207  -1207 
+   -20  -1207    201  -1207 
+    92  -1207    114  -1207 
+    22  -1207    181  -1207 
+   164  -1207  -1207  -1207 
+    46  -1207    164  -1207 
+   164  -1207  -1207  -1207 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 43 E= 2.2e-004 
+ 0.720930  0.000000  0.279070  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.279070  0.000000  0.720930  0.000000 
+ 0.604651  0.000000  0.395349  0.000000 
+ 0.372093  0.000000  0.627907  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.441860  0.000000  0.558140  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 regular expression
+--------------------------------------------------------------------------------
+[AG]AAA[GA][AG][GA]A[GA]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 167.43 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  9	width =   10   sites =  11   llr = 134   E-value = 8.2e+004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 9 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::aaa89:a9
+pos.-specific     C  aa:::21a::
+probability       G  ::::::::::
+matrix            T  :::::::::1
+
+         bits    2.5 **     *  
+                 2.2 **     *  
+                 2.0 **     *  
+                 1.7 *****  ** 
+Relative         1.5 *****  ** 
+Entropy          1.2 ***** ****
+(17.6 bits)      1.0 **********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CCAAAAACAA
+consensus                      
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Glyma16g04190|Glyma16g04     +    953  2.00e-06 TCAGATCATA CCAAAAACAA AACAAGCCAA
+Glyma16g04200|Glyma16g04     +    944  2.00e-06 ATATACCATA CCAAAAACAA AAACAAGAGA
+Glyma16g04200|Glyma16g04     +    583  2.00e-06 CACCGTGATT CCAAAAACAA TGATATTATG
+Glyma19g29210|Glyma19g29     +    944  2.00e-06 TCAGATCATA CCAAAAACAA AACACAAGCC
+Sb01g013000|Sb01g013000.     -    681  2.00e-06 TATTTTTAGC CCAAAAACAA AATATTTTAA
+30072.t000037|30072.m000     -    889  2.00e-06 AAAAATTGAC CCAAAAACAA ATGTACGATC
+Ca_08212||Carietinum         +    139  2.00e-06 AAACAATGTA CCAAAAACAA CTGCAATTTT
+Medtr7g086340|Medtr7g086     +    587  3.13e-06 ACTAATTTAA CCAAACACAA GACTAAAATC
+Bradi1g13330|Bradi1g1333     +    309  3.13e-06 TTAAGCTTGA CCAAACACAA CTTTGCCAAC
+Phvul.001G114100|Phvul.0     +    961  4.26e-06 AAAACAAAAA CCAAAACCAA AACCGGAAGA
+Medtr7g086340|Medtr7g086     +    436  6.26e-06 CTGTTTGGTT CCAAAAACAT CTTATAGATC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Glyma16g04190|Glyma16g04            2e-06  952_[+9]_38
+Glyma16g04200|Glyma16g04            2e-06  582_[+9]_351_[+9]_47
+Glyma19g29210|Glyma19g29            2e-06  943_[+9]_47
+Sb01g013000|Sb01g013000.            2e-06  680_[-9]_310
+30072.t000037|30072.m000            2e-06  888_[-9]_102
+Ca_08212||Carietinum                2e-06  138_[+9]_852
+Medtr7g086340|Medtr7g086          3.1e-06  435_[+9]_141_[+9]_404
+Bradi1g13330|Bradi1g1333          3.1e-06  308_[+9]_682
+Phvul.001G114100|Phvul.0          4.3e-06  960_[+9]_30
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 9 width=10 seqs=11
+Glyma16g04190|Glyma16g04 (  953) CCAAAAACAA  1 
+Glyma16g04200|Glyma16g04 (  944) CCAAAAACAA  1 
+Glyma16g04200|Glyma16g04 (  583) CCAAAAACAA  1 
+Glyma19g29210|Glyma19g29 (  944) CCAAAAACAA  1 
+Sb01g013000|Sb01g013000. (  681) CCAAAAACAA  1 
+30072.t000037|30072.m000 (  889) CCAAAAACAA  1 
+Ca_08212||Carietinum     (  139) CCAAAAACAA  1 
+Medtr7g086340|Medtr7g086 (  587) CCAAACACAA  1 
+Bradi1g13330|Bradi1g1333 (  309) CCAAACACAA  1 
+Phvul.001G114100|Phvul.0 (  961) CCAAAACCAA  1 
+Medtr7g086340|Medtr7g086 (  436) CCAAAAACAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 11.812 E= 8.2e+004 
+ -1010    248  -1010  -1010 
+ -1010    248  -1010  -1010 
+   164  -1010  -1010  -1010 
+   164  -1010  -1010  -1010 
+   164  -1010  -1010  -1010 
+   135      2  -1010  -1010 
+   150    -98  -1010  -1010 
+ -1010    248  -1010  -1010 
+   164  -1010  -1010  -1010 
+   150  -1010  -1010   -181 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 11 E= 8.2e+004 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.818182  0.181818  0.000000  0.000000 
+ 0.909091  0.090909  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.909091  0.000000  0.000000  0.090909 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 regular expression
+--------------------------------------------------------------------------------
+CCAAAAACAA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 187.04 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF 10	width =   10   sites =   2   llr = 32   E-value = 5.7e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 10 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::a::::a::
+pos.-specific     C  a:::a:a:::
+probability       G  :a:a:a::aa
+matrix            T  ::::::::::
+
+         bits    2.5 ** **** **
+                 2.2 ** **** **
+                 2.0 ** **** **
+                 1.7 **********
+Relative         1.5 **********
+Entropy          1.2 **********
+(23.1 bits)      1.0 **********
+                 0.7 **********
+                 0.5 **********
+                 0.2 **********
+                 0.0 ----------
+
+Multilevel           CGAGCGCAGG
+consensus                      
+sequence                       
+                               
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site 
+-------------            ------  ----- ---------            ----------
+Lus10020271.g|Lus1002027     +    695  1.13e-07 TATATTATGC CGAGCGCAGG TGGAACGATA
+GRMZM2G169372|GRMZM2G169     +    477  1.13e-07 ACTGCGACTG CGAGCGCAGG ATAGTCTCAC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Lus10020271.g|Lus1002027          1.1e-07  694_[+10]_296
+GRMZM2G169372|GRMZM2G169          1.1e-07  476_[+10]_514
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 10 width=10 seqs=2
+Lus10020271.g|Lus1002027 (  695) CGAGCGCAGG  1 
+GRMZM2G169372|GRMZM2G169 (  477) CGAGCGCAGG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 10 n= 30931 bayes= 13.9167 E= 5.7e+005 
+  -765    247   -765   -765 
+  -765   -765    247   -765 
+   164   -765   -765   -765 
+  -765   -765    247   -765 
+  -765    247   -765   -765 
+  -765   -765    247   -765 
+  -765    247   -765   -765 
+   164   -765   -765   -765 
+  -765   -765    247   -765 
+  -765   -765    247   -765 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 10 nsites= 2 E= 5.7e+005 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 regular expression
+--------------------------------------------------------------------------------
+CGAGCGCAGG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 206.52 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Ca_20934||Carietinum             7.73e-02  82_[+2(8.66e-05)]_37_[+2(3.52e-05)]_\
+    399_[-7(3.38e-05)]_30_[+7(5.63e-05)]_336_[+3(2.00e-06)]_46_[+2(2.39e-05)]_\
+    10
+Ca_08212||Carietinum             4.38e-03  138_[+9(2.00e-06)]_27_\
+    [+2(8.66e-05)]_45_[+8(1.92e-05)]_53_[-7(2.25e-05)]_41_[+8(1.36e-05)]_62_\
+    [+8(3.25e-05)]_[+8(4.64e-05)]_73_[+7(3.38e-05)]_167_[+7(2.25e-05)]_208_\
+    [+3(2.00e-06)]_86
+PDK_30s895221g001||Pdact         1.30e-01  337_[-7(7.88e-05)]_391_\
+    [+8(8.37e-05)]_167_[+3(2.56e-05)]_7_[+10(8.83e-05)]_58
+C.cajan_05184||Carietinu         8.70e-04  291_[-6(5.43e-06)]_382_\
+    [+2(3.52e-05)]_215_[+3(6.01e-06)]_27_[+9(6.27e-05)]_29_[+8(4.89e-06)]_6
+474716|474716|Alyrata            3.73e-06  50_[+1(1.72e-06)]_19_[-1(5.79e-05)]_\
+    19_[-4(2.80e-06)]_3_[+1(1.13e-07)]_11_[+1(9.91e-07)]_6_[+1(1.13e-07)]_6_\
+    [+1(1.13e-07)]_12_[+1(1.13e-07)]_32_[+1(1.13e-07)]_21_[-7(2.25e-05)]_60_\
+    [-7(2.25e-05)]_2_[-7(4.50e-05)]_53_[+7(5.63e-05)]_4_[+7(5.63e-05)]_1_\
+    [+1(1.13e-07)]_50_[+1(1.13e-07)]_17_[+1(1.13e-07)]_22_[+1(1.13e-07)]_47_\
+    [+7(4.50e-05)]_4_[+2(5.63e-05)]_46_[-8(1.92e-05)]_98_[-2(1.13e-05)]_38_\
+    [-8(4.89e-06)]_27_[+7(3.38e-05)]_88_[+8(1.92e-05)]_[+8(7.74e-05)]_4
+evm.TU.supercontig_161.1         1.97e-05  83_[-1(9.17e-05)]_68_[-6(2.01e-07)]_\
+    82_[-8(3.13e-06)]_28_[-7(4.50e-05)]_33_[-2(5.63e-05)]_43_[-2(5.63e-05)]_\
+    109_[+2(4.64e-05)]_62_[+2(3.52e-05)]_254_[+2(1.13e-05)]_46_[+3(2.00e-06)]_\
+    92
+30072.t000037|30072.m000         5.28e-03  216_[+2(4.64e-05)]_55_\
+    [+10(8.83e-05)]_37_[-2(4.64e-05)]_1_[-3(4.58e-05)]_176_[+7(9.01e-05)]_353_\
+    [-9(2.00e-06)]_11_[+3(2.00e-06)]_81
+Cucsa.338040|Cucsa.33804         8.64e-04  49_[-7(6.76e-05)]_13_[-7(2.25e-05)]_\
+    269_[+7(2.25e-05)]_23_[+2(1.76e-05)]_22_[+3(9.57e-06)]_79_[+7(2.25e-05)]_\
+    199_[+8(1.36e-05)]_6_[+6(4.76e-06)]_11_[+6(2.01e-07)]_42_[+7(5.63e-05)]_\
+    187
+mgv1a016787m.g|mgv1a0167         6.89e-01  925_[+3(1.98e-05)]_65
+cassava4.1_019934m.g|cas         9.36e-03  109_[-7(3.38e-05)]_46_\
+    [-7(3.38e-05)]_372_[+3(1.07e-05)]_60_[+7(2.25e-05)]_142_[-7(4.50e-05)]_128_\
+    [+3(2.00e-06)]_73_[+8(1.92e-05)]
+cassava4.1_019931m.g|cas         5.45e-03  309_[+4(4.61e-06)]_308_\
+    [+7(3.38e-05)]_64_[-7(9.01e-05)]_189_[+3(2.00e-06)]_50_[+2(1.13e-05)]_30
+orange1.1g036567m.g|oran         2.18e-04  24_[-5(4.04e-05)]_73_[+4(7.13e-05)]_\
+    95_[-4(4.07e-06)]_219_[+4(4.47e-05)]_112_[+2(1.13e-05)]_34_[+6(7.28e-06)]_\
+    78_[+2(1.13e-05)]_119_[-6(2.89e-06)]_150_[-7(6.76e-05)]_6
+Sb01g013000|Sb01g013000.         9.52e-11  25_[+2(1.76e-05)]_15_[+3(1.07e-05)]_\
+    152_[+8(8.37e-05)]_102_[-7(1.13e-05)]_127_[+6(5.72e-05)]_5_[-2(1.13e-05)]_\
+    194_[-9(2.00e-06)]_140_[+5(2.01e-07)]_15_[+4(1.13e-07)]_34_[+3(1.98e-05)]_\
+    1_[+1(7.65e-07)]_58_[+2(2.39e-05)]_12
+AT1G54410|AT1G54410.1|At         9.10e-03  213_[-2(2.39e-05)]_177_\
+    [+3(3.95e-05)]_213_[+2(3.52e-05)]_3_[+2(5.63e-05)]_49_[-8(1.92e-05)]_101_\
+    [-8(2.79e-05)]_85_[+3(6.01e-06)]_37_[+9(8.02e-06)]_[+8(3.13e-06)]_8_\
+    [+8(1.92e-05)]_3_[+8(1.92e-05)]_1
+Thhalv10023775m.g|Thhalv         8.05e-02  82_[+3(2.56e-05)]_632_\
+    [-2(2.39e-05)]_125_[+2(7.39e-05)]_36_[+3(6.01e-06)]_67_[+2(1.76e-05)]_8
+GRMZM2G169372|GRMZM2G169         1.97e-10  229_[+7(9.01e-05)]_142_\
+    [+6(6.05e-05)]_5_[-4(1.35e-06)]_35_[+10(8.83e-05)]_25_[+10(1.13e-07)]_65_\
+    [+6(7.95e-06)]_4_[-1(3.08e-05)]_11_[-4(9.17e-06)]_14_[-5(1.65e-06)]_243_\
+    [+5(2.01e-07)]_9_[+3(4.58e-05)]_5_[+1(7.65e-07)]_15_[+4(3.62e-05)]_21_\
+    [-8(1.13e-06)]_37
+GRMZM2G448511|GRMZM2G448         3.12e-06  111_[-10(8.83e-05)]_350_\
+    [-2(1.13e-05)]_149_[-3(7.64e-05)]_203_[+5(4.26e-07)]_15_[+4(1.13e-07)]_12_\
+    [+4(5.13e-06)]_3_[+3(1.98e-05)]_2_[+1(2.33e-05)]_75
+Carubv10021201m.g|Carubv         7.63e-03  366_[-2(1.13e-05)]_271_\
+    [+2(5.63e-05)]_62_[-8(6.19e-05)]_86_[-2(1.76e-05)]_22_[+7(3.38e-05)]_48_\
+    [+3(6.01e-06)]_36_[+9(6.57e-05)]_[+8(3.13e-06)]_15_[+2(1.13e-05)]_4
+Bradi1g13330|Bradi1g1333         4.67e-04  5_[+9(9.25e-05)]_137_[-8(2.23e-05)]_\
+    51_[-4(8.53e-06)]_85_[+9(3.13e-06)]_330_[+4(1.35e-06)]_5_[+8(6.90e-06)]_98_\
+    [-8(4.64e-05)]_70_[+4(1.76e-07)]_26_[+3(1.98e-05)]_103
+Aquca_004_00603|Aquca_00         1.23e-02  191_[+6(1.14e-06)]_106_\
+    [-2(3.52e-05)]_274_[+2(3.52e-05)]_[+2(3.52e-05)]_274_[+3(2.00e-06)]_105
+Bra013206|Bra013206|Brap         9.52e-02  238_[+7(5.63e-05)]_415_\
+    [+8(4.64e-05)]_76_[-8(1.92e-05)]_143_[+3(1.27e-05)]_70_[+8(1.92e-05)]_8
+Medtr7g086340|Medtr7g086         1.96e-03  37_[-9(7.53e-05)]_388_\
+    [+9(6.26e-06)]_141_[+9(3.13e-06)]_34_[-2(3.52e-05)]_140_[+2(1.76e-05)]_74_\
+    [-9(6.27e-05)]_19_[+3(2.00e-06)]_32_[+9(6.27e-05)]_55
+Lus10020271.g|Lus1002027         8.26e-05  97_[+1(5.89e-07)]_23_[+5(1.29e-06)]_\
+    513_[+1(9.17e-05)]_31_[+10(1.13e-07)]_232_[+8(5.63e-05)]_54
+Pavirv00041414m.g|Pavirv         1.34e-10  17_[-2(2.39e-05)]_22_[+5(2.01e-07)]_\
+    15_[+4(1.13e-07)]_16_[-1(9.41e-05)]_7_[+1(7.65e-07)]_92
+LOC_Os03g45280|LOC_Os03g         4.03e-05  8_[+4(2.74e-05)]_81_[+6(6.21e-06)]_\
+    368_[+10(8.83e-05)]_275_[+6(2.14e-06)]_24_[-6(2.05e-05)]_30_[+5(6.03e-07)]_\
+    23_[+4(2.62e-06)]_3_[+3(1.98e-05)]_12_[+4(6.14e-05)]_86
+PGSC0003DMG400027197|PGS         3.26e-02  47_[-2(1.13e-05)]_631_\
+    [+7(6.76e-05)]_99_[-8(4.64e-05)]_85_[-8(1.13e-06)]_98
+Glyma17g24193|Glyma17g24         5.02e-02  89_[-8(1.05e-05)]_35_[-2(4.64e-05)]_\
+    53_[-8(1.92e-05)]_328_[+2(1.76e-05)]_125_[+2(6.27e-05)]_78_[+2(1.13e-05)]_\
+    37_[+8(2.79e-05)]_100_[+3(2.56e-05)]_57_[-7(5.63e-05)]_8
+Glyma19g29210|Glyma19g29         2.79e-03  615_[+7(4.50e-05)]_24_\
+    [+7(1.13e-05)]_67_[+2(4.64e-05)]_76_[-5(4.04e-05)]_28_[-7(3.38e-05)]_45_\
+    [+3(4.01e-06)]_28_[+9(2.00e-06)]_25_[+2(4.64e-05)]_12
+Glyma16g04200|Glyma16g04         3.42e-04  38_[+2(1.76e-05)]_40_[+7(1.13e-05)]_\
+    116_[-2(1.13e-05)]_51_[-8(1.05e-05)]_210_[+2(1.13e-05)]_77_[+9(2.00e-06)]_\
+    168_[-7(2.25e-05)]_70_[+6(1.20e-05)]_93_[+9(2.00e-06)]_23_[+8(4.89e-06)]_\
+    14
+Glyma16g04190|Glyma16g04         1.25e-04  235_[-6(5.43e-06)]_266_\
+    [-2(4.64e-05)]_92_[+8(3.25e-05)]_166_[+7(1.13e-05)]_9_[+7(5.63e-05)]_96_\
+    [+3(4.01e-06)]_28_[+9(2.00e-06)]_12_[+8(4.89e-06)]_16
+Phvul.001G114100|Phvul.0         1.19e-04  160_[-2(8.66e-05)]_33_\
+    [-3(4.98e-05)]_48_[+2(6.27e-05)]_292_[-6(1.14e-06)]_177_[+8(5.63e-05)]_26_\
+    [-7(1.13e-05)]_108_[+3(1.98e-05)]_36_[+2(8.66e-05)]_[+9(4.26e-06)]_18_\
+    [+8(4.89e-06)]_2
+Thecc1EG025860|Thecc1EG0         7.73e-04  319_[-2(7.39e-05)]_16_\
+    [-7(7.88e-05)]_209_[-8(1.13e-06)]_210_[+6(6.68e-06)]_1_[+6(2.14e-06)]_23_\
+    [-3(3.59e-05)]_138_[+8(2.23e-05)]_2_[-5(7.40e-05)]_2
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 10 reached.
+********************************************************************************
+
+CPU: Sigrun
+
+********************************************************************************
