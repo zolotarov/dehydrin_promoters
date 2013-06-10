@@ -139,7 +139,7 @@ This is basically the frequency of single nucleotides and di-nucleotides.
 
 In `/home/yzolotarov/sequences/promoters` run `python MEME_backround_counter.py monocots_oneline.fas > monocots.MEMEbkg`, repeat with `dicots_oneline.fas`
 
-```python
+```
 from sys import argv
 
 all_lines = ''
@@ -199,10 +199,11 @@ print ('TC' + '\t' + "%0.3f" % (tc/length))
 print ('TG' + '\t' + "%0.3f" % (tg/length))
 print ('TT' + '\t' + "%0.3f" % (tt/length))
 ```
+
 * **Run MEME**
 
-```bash
-for file in *oneline.fas; do meme $file -text -dna -mod anr -nmotifs 10 -w 10 -revcomp -bfile ../../../results/MEME/dicots.MEMEbkg > $file.MEME; done
+```
+for file in *oneline.fas; do meme $file -text -dna -mod anr -nmotifs 10 -w 10 -revcomp -bfile ../../results/MEME/all_used.MEMEbkg > $file.MEME; done
 ```
 * **Parse MEME results into MotifVoter format**
 

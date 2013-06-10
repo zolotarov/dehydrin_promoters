@@ -31,13 +31,12 @@ with open(argv[1], 'r') as input_file:
     for item in contents:
         evalue = float(item.split(stars)[0].strip().split('=')[1].strip())
         # print item
-
-        if evalue < 0.05:
+        # print evalue
+        if evalue <= 0.05:
             list_of_motifs = item.split('sites sorted by position p-value')[
                 1].split(lines)[1].split('----------')[2].strip()
             # print list_of_motifs
-
-            print ">matrix"
+            print ">matrix", evalue
 
             motif_list = []
             for line in list_of_motifs.split('\n'):
