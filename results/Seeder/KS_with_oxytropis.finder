@@ -1,0 +1,790 @@
+******************************************************************************
+Motif 1, width = 12, seed width = 6, sites = 33
+Sum of HD to GGATAA in 33 seqs: 5
+P-value(GGATAA) = 4.00874e-08
+Q-value(GGATAA) = 8.20991e-05
+Information Content = 9.05918119234036
+******************************************************************************
+
+>NFM 1
+
+      A                 C                 G                 T                 
+P0    21                1                 3                 8                 
+P1    8                 2                 8                 15                
+P2    6                 12                4                 11                
+P3    1                 0                 32                0                 
+P4    0                 0                 33                0                 
+P5    29                0                 4                 0                 
+P6    0                 0                 0                 33                
+P7    32                0                 1                 0                 
+P8    32                0                 0                 1                 
+P9    2                 10                16                5                 
+P10   20                1                 6                 6                 
+P11   13                2                 3                 15                
+
+>PWM 1
+
+      A                 C                 G                 T                 
+P0    0.87938358675218  -1.7758150185126  -0.7869882282932  -0.3353705176962  
+P1    -0.3353705176962  -1.1982917012851  0.37669183867244  0.43973419830753  
+P2    -0.6631400751956  0.90566518578291  -0.4673051969691  0.04851231226242  
+P3    -2.1277987680685  -2.7537248941553  2.24751506192914  -2.7537248941553  
+P4    -2.7537248941553  -2.7537248941553  2.29054352033211  -2.7537248941553  
+P5    1.31260832170366  -2.7537248941553  -0.4673051969691  -2.7537248941553  
+P6    -2.7537248941553  -2.7537248941553  -2.7537248941553  1.48854513916236  
+P7    1.44653123226200  -2.7537248941553  -1.7758150185126  -2.7537248941553  
+P8    1.44653123226200  -2.7537248941553  -2.7537248941553  -2.1277987680685  
+P9    -1.6927075254053  0.66528784562232  1.29187162251436  -0.8599721549054  
+P10   0.81479650696070  -1.7758150185126  0.01555155799509  -0.6631400751956  
+P11   0.25734398886623  -1.1982917012851  -0.7869882282932  0.43973419830753  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+TGTGGATAACAT    850  -  861    plus      Oa_07
+TGTGGATAACAT    850  -  861    plus      Os_06
+TTAGGATAAGAG    777  -  788    plus      Ca_20934
+AGTGGATAACAT    864  -  875    plus      Ca_08212
+TATGGATGACAT    42   -   53    minus     PDK_30s895221g001
+ATCGGATAAGGC    72   -   83    minus     C.cajan_05184
+ATTGGATAAGTT    814  -  825    plus      evm.TU.supercontig_161.14
+AACGGATAACGT    779  -  790    plus      30072.t000037
+AAAGGATAATAA    786  -  797    plus      Cucsa.338040
+TGGGGATAATGT    869  -  880    plus      mgv1a016787m.g
+ATCGGATAACTG    833  -  844    plus      cassava4.1_019934m.g
+ATTGGATAAGTG    726  -  737    plus      cassava4.1_019931m.g
+AAAGGGTAAGTT    756  -  767    plus      orange1.1g036567m.g
+ATCGGATAAGAA    824  -  835    minus     Sb01g013000
+AATGGATAATTA    887  -  898    minus     AT1G54410
+ATGGGATAAAAT    853  -  864    plus      Thhalv10023775m.g
+ATCGGATAAGAA    857  -  868    minus     GRMZM2G169372
+GTCGGATATGGA    711  -  722    minus     GRMZM2G448511
+AATGGATAATTC    890  -  901    minus     Carubv10021201m.g
+ACCGGATAAGAA    815  -  826    minus     Bradi1g13330
+ATGGGATAACAT    441  -  452    minus     Aquca_004_00603
+AATGGGTAAAAT    889  -  900    minus     Bra013206
+TTCGGATAAGAA    211  -  222    minus     Medtr7g086340
+AGAGGGTAAGAA    638  -  649    plus      Lus10020271.g
+ATCGGATAAGAA    43   -   54    minus     Pavirv00041414m.g
+ATCGGATAAGGA    830  -  841    minus     LOC_Os03g45280
+CCCGGATAACCA    426  -  437    plus      PGSC0003DMG400027197
+TGAGGATAATGT    897  -  908    minus     Glyma17g24193
+GATGGATAACAT    841  -  852    plus      Glyma19g29210
+GGTGGATAACAT    847  -  858    plus      Glyma16g04200
+ATCAGATAAGAA    19   -   30    minus     Glyma16g04190
+TTGGGGTAAGAA    927  -  938    plus      Phvul.001G114100
+AGAGGATAAGAT    556  -  567    minus     Thecc1EG025860
+
+Time: 24 second(s)
+
+
+******************************************************************************
+Motif 2, width = 12, seed width = 6, sites = 33
+Sum of HD to CTATAA in 33 seqs: 3
+P-value(CTATAA) = 7.61794e-07
+Q-value(CTATAA) = 1.56015e-03
+Information Content = 11.7418005236534
+******************************************************************************
+
+>NFM 2
+
+      A                 C                 G                 T                 
+P0    5                 6                 7                 15                
+P1    0                 10                17                6                 
+P2    0                 17                5                 11                
+P3    0                 32                0                 1                 
+P4    1                 2                 0                 30                
+P5    33                0                 0                 0                 
+P6    1                 1                 0                 31                
+P7    33                0                 0                 0                 
+P8    33                0                 0                 0                 
+P9    33                0                 0                 0                 
+P10   2                 0                 2                 29                
+P11   30                0                 0                 3                 
+
+>PWM 2
+
+      A                 C                 G                 T                 
+P0    -0.8599721549054  0.01555155799509  0.20739254853138  0.43973419830753  
+P1    -2.7537248941553  0.66528784562232  1.37418627615866  -0.6631400751956  
+P2    -2.7537248941553  1.37418627615866  -0.2057694434614  0.04851231226242  
+P3    -2.7537248941553  2.24751506192914  -2.7537248941553  -2.1277987680685  
+P4    -2.1277987680685  -1.1982917012851  -2.7537248941553  1.35864451328029  
+P5    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P6    -2.1277987680685  -1.7758150185126  -2.7537248941553  1.40325700944738  
+P7    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P8    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P9    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P10   -1.6927075254053  -2.7537248941553  -1.1982917012851  1.31260832170366  
+P11   1.35864451328029  -2.7537248941553  -2.7537248941553  -1.3588796354553  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+TTTCTATAAATA    910  -  921    plus      Oa_07
+TGTCTATAAATA    395  -  406    minus     Os_06
+TGCCTATAAATT    924  -  935    plus      Ca_20934
+TGCCTATAAATA    904  -  915    plus      Ca_08212
+GCCCTATAAAAA    341  -  352    minus     PDK_30s895221g001
+CGGCTATAAATA    908  -  919    plus      C.cajan_05184
+TGCCTATAAATA    898  -  909    plus      evm.TU.supercontig_161.14
+TGCCTATAAATT    909  -  920    plus      30072.t000037
+AGTCTATAAATA    416  -  427    plus      Cucsa.338040
+TTCCTATAAATA    925  -  936    plus      mgv1a016787m.g
+GGCCTATAAATA    907  -  918    plus      cassava4.1_019934m.g
+TGCCTATAAATA    900  -  911    plus      cassava4.1_019931m.g
+TTCCCAAAAAGA    686  -  697    minus     orange1.1g036567m.g
+CCTCTATAAATA    899  -  910    plus      Sb01g013000
+GGGCTATAAATA    901  -  912    plus      AT1G54410
+AGGCTATAAATA    905  -  916    plus      Thhalv10023775m.g
+CTTCTATAAATA    882  -  893    plus      GRMZM2G169372
+TCTCTATAAATA    903  -  914    plus      GRMZM2G448511
+GGGCTATAAATA    905  -  916    plus      Carubv10021201m.g
+CCTCTATAAATA    887  -  898    plus      Bradi1g13330
+GGCCTATAAATA    885  -  896    plus      Aquca_004_00603
+ACGCTATAAATA    902  -  913    plus      Bra013206
+AGCCTATAAATA    893  -  904    plus      Medtr7g086340
+ATTCTACAAATA    486  -  497    plus      Lus10020271.g
+GCTCCATAAATA    106  -  117    plus      Pavirv00041414m.g
+CCTCTATAAATA    882  -  893    plus      LOC_Os03g45280
+CCTCAATAAATA    904  -  915    plus      PGSC0003DMG400027197
+GGCTTATAAATA    915  -  926    plus      Glyma17g24193
+TCCCTATAAATA    905  -  916    plus      Glyma19g29210
+TGCCTATAAAAT    909  -  920    plus      Glyma16g04200
+TCCCTATAAATA    914  -  925    plus      Glyma16g04190
+TTCCTATAAATA    904  -  915    plus      Phvul.001G114100
+TGCCTATAAAGA    893  -  904    plus      Thecc1EG025860
+
+Time: 24 second(s)
+
+
+******************************************************************************
+Motif 3, width = 12, seed width = 6, sites = 33
+Sum of HD to CGTGTA in 33 seqs: 17
+P-value(CGTGTA) = 4.14761e-05
+Q-value(CGTGTA) = 8.49431e-02
+Information Content = 7.36595776885936
+******************************************************************************
+
+>NFM 3
+
+      A                 C                 G                 T                 
+P0    7                 7                 13                6                 
+P1    8                 6                 4                 15                
+P2    17                8                 8                 0                 
+P3    0                 32                1                 0                 
+P4    0                 0                 33                0                 
+P5    0                 0                 3                 30                
+P6    1                 0                 32                0                 
+P7    2                 0                 1                 30                
+P8    23                7                 2                 1                 
+P9    9                 16                2                 6                 
+P10   6                 3                 9                 15                
+P11   6                 17                6                 4                 
+
+>PWM 3
+
+      A                 C                 G                 T                 
+P0    -0.4899668971811  0.20739254853138  1.01233251591553  -0.6631400751956  
+P1    -0.3353705176962  0.01555155799509  -0.4673051969691  0.43973419830753  
+P2    0.60163248864249  0.37669183867244  0.37669183867244  -2.7537248941553  
+P3    -2.7537248941553  2.24751506192914  -1.7758150185126  -2.7537248941553  
+P4    -2.7537248941553  -2.7537248941553  2.29054352033211  -2.7537248941553  
+P5    -2.7537248941553  -2.7537248941553  -0.7869882282932  1.35864451328029  
+P6    -2.1277987680685  -2.7537248941553  2.24751506192914  -2.7537248941553  
+P7    -1.6927075254053  -2.7537248941553  -1.7758150185126  1.35864451328029  
+P8    1.00048133600734  0.20739254853138  -1.1982917012851  -2.1277987680685  
+P9    -0.1957486762278  1.29187162251436  -1.1982917012851  -0.6631400751956  
+P10   -0.6631400751956  -0.7869882282932  0.52819416761138  0.43973419830753  
+P11   -0.6631400751956  1.37418627615866  0.01555155799509  -1.0879662149909  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+GAACGTGTACAC    809  -  820    minus     Oa_07
+GAACGTGTACAC    809  -  820    minus     Os_06
+GTACGTGTACGC    830  -  841    minus     Ca_20934
+GGACGTGTACTC    820  -  831    minus     Ca_08212
+CAACGGGTACGG    959  -  970    minus     PDK_30s895221g001
+TTACGTGTCATC    798  -  809    minus     C.cajan_05184
+CCACGTGTACTA    75   -   86    minus     evm.TU.supercontig_161.14
+GTACGTGTGCAA    837  -  848    minus     30072.t000037
+CCACGTGTCACA    748  -  759    minus     Cucsa.338040
+GAACGTGGAATG    406  -  417    minus     mgv1a016787m.g
+ATCCGTGTAAAA    794  -  805    plus      cassava4.1_019934m.g
+ATACGTATACGC    853  -  864    plus      cassava4.1_019931m.g
+GGGCGTGTCGTC    276  -  287    plus      orange1.1g036567m.g
+GACCGTGTTTAC    414  -  425    minus     Sb01g013000
+AGACGTGTGATT    506  -  517    minus     AT1G54410
+TAACGGGTCCTA    784  -  795    minus     Thhalv10023775m.g
+GTACGTGTACGG    420  -  431    minus     GRMZM2G169372
+CTGCGGGTAGGC    769  -  780    plus      GRMZM2G448511
+ACCGGTGTACGC    525  -  536    plus      Carubv10021201m.g
+TTACGTGTATTT    503  -  514    minus     Bradi1g13330
+ACACGTGTCATG    341  -  352    minus     Aquca_004_00603
+ATCCGTGAATGA    877  -  888    minus     Bra013206
+GGACGTGTCCTC    816  -  827    minus     Medtr7g086340
+CAGCGTGTACTC    113  -  124    plus      Lus10020271.g
+GTCCGTGACTTG    85   -   96    minus     Pavirv00041414m.g
+CCCCGTGTAACG    759  -  770    minus     LOC_Os03g45280
+AACCGTGTACGC    830  -  841    plus      PGSC0003DMG400027197
+GTGCGTGTACAT    841  -  852    minus     Glyma17g24193
+TTGCGTGTAATC    788  -  799    minus     Glyma19g29210
+GTGCGTGTATCT    325  -  336    plus      Glyma16g04200
+TTGCGTGTAATC    678  -  689    minus     Glyma16g04190
+TTGCGTGTATTC    820  -  831    minus     Phvul.001G114100
+CCCCGTGTACGC    792  -  803    minus     Thecc1EG025860
+
+Time: 25 second(s)
+
+
+******************************************************************************
+Motif 4, width = 12, seed width = 6, sites = 33
+Sum of HD to AAAAGT in 33 seqs: 2
+P-value(AAAAGT) = 2.81877e-03
+Q-value(AAAAGT) = 1.00000e+00
+Information Content = 9.00817508156775
+******************************************************************************
+
+>NFM 4
+
+      A                 C                 G                 T                 
+P0    10                7                 13                3                 
+P1    18                4                 6                 5                 
+P2    12                8                 11                2                 
+P3    32                0                 0                 1                 
+P4    30                3                 0                 0                 
+P5    33                0                 0                 0                 
+P6    33                0                 0                 0                 
+P7    0                 0                 33                0                 
+P8    0                 0                 0                 33                
+P9    11                2                 7                 13                
+P10   8                 1                 9                 15                
+P11   19                1                 7                 6                 
+
+>PWM 4
+
+      A                 C                 G                 T                 
+P0    -0.0684549022349  0.20739254853138  1.01233251591553  -1.3588796354553  
+P1    0.67624192667448  -0.4673051969691  0.01555155799509  -0.8599721549054  
+P2    0.15670343287528  0.37669183867244  0.79047710062802  -1.6927075254053  
+P3    1.44653123226200  -2.7537248941553  -2.7537248941553  -2.1277987680685  
+P4    1.35864451328029  -0.7869882282932  -2.7537248941553  -2.7537248941553  
+P5    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P6    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P7    -2.7537248941553  -2.7537248941553  2.29054352033211  -2.7537248941553  
+P8    -2.7537248941553  -2.7537248941553  -2.7537248941553  1.48854513916236  
+P9    0.04851231226242  -1.1982917012851  0.20739254853138  0.25734398886623  
+P10   -0.3353705176962  -1.7758150185126  0.52819416761138  0.43973419830753  
+P11   0.74718190348818  -1.7758150185126  0.20739254853138  -0.6631400751956  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+AAAAAAAGTATA    767  -  778    minus     Oa_07
+CACAAAAGTTGT    841  -  852    plus      Os_06
+GATAAAAGTATA    252  -  263    minus     Ca_20934
+AAAAAAAGTGAA    391  -  402    plus      Ca_08212
+TTCAAAAGTTGG    570  -  581    minus     PDK_30s895221g001
+GGAAAAAGTAGA    887  -  898    minus     C.cajan_05184
+AAAAAAAGTTAA    111  -  122    minus     evm.TU.supercontig_161.14
+TTAAAAAGTATA    91   -  102    plus      30072.t000037
+CAGAAAAGTTTG    639  -  650    minus     Cucsa.338040
+GAAAAAAGTATA    44   -   55    minus     mgv1a016787m.g
+AACAAAAGTTAA    703  -  714    plus      cassava4.1_019934m.g
+TTCAAAAGTTGG    888  -  899    minus     cassava4.1_019931m.g
+AAAAAAAGTTGT    980  -  991    minus     orange1.1g036567m.g
+CCAAAAAGTTTT    243  -  254    minus     Sb01g013000
+AGAAAAAGTTGA    11   -   22    minus     AT1G54410
+GGGAAAAGTAGA    803  -  814    plus      Thhalv10023775m.g
+GCGACAAGTGGA    621  -  632    minus     GRMZM2G169372
+GCCAAAAGTCTC    125  -  136    minus     GRMZM2G448511
+GTGAAAAGTGCA    404  -  415    plus      Carubv10021201m.g
+CAAAAAAGTTTG    280  -  291    minus     Bradi1g13330
+GAGAAAAGTTTT    976  -  987    minus     Aquca_004_00603
+GAAAAAAGTAAA    825  -  836    plus      Bra013206
+GCCTAAAGTGTA    360  -  371    minus     Medtr7g086340
+AAGACAAGTGTG    824  -  835    plus      Lus10020271.g
+AAGAAAAGTAAT    7    -   18    minus     Pavirv00041414m.g
+GAGAAAAGTGGT    467  -  478    plus      LOC_Os03g45280
+CGTAAAAGTAAA    562  -  573    minus     PGSC0003DMG400027197
+GGGAAAAGTATG    239  -  250    plus      Glyma17g24193
+AGGAAAAGTTTA    225  -  236    plus      Glyma19g29210
+CACAAAAGTGAG    899  -  910    minus     Glyma16g04200
+AAGAAAAGTCAA    984  -  995    plus      Glyma16g04190
+GTCACAAGTATA    738  -  749    plus      Phvul.001G114100
+CAAAAAAGTTTA    201  -  212    plus      Thecc1EG025860
+
+Time: 25 second(s)
+
+
+******************************************************************************
+Motif 5, width = 12, seed width = 6, sites = 33
+Sum of HD to GCATTA in 33 seqs: 15
+P-value(GCATTA) = 7.18878e-03
+Q-value(GCATTA) = 1.00000e+00
+Information Content = 7.98295945304519
+******************************************************************************
+
+>NFM 5
+
+      A                 C                 G                 T                 
+P0    8                 3                 4                 18                
+P1    13                0                 10                10                
+P2    7                 3                 9                 14                
+P3    0                 0                 33                0                 
+P4    0                 33                0                 0                 
+P5    32                0                 0                 1                 
+P6    5                 0                 0                 28                
+P7    0                 0                 0                 33                
+P8    18                5                 2                 8                 
+P9    13                8                 6                 6                 
+P10   17                0                 10                6                 
+P11   20                5                 3                 5                 
+
+>PWM 5
+
+      A                 C                 G                 T                 
+P0    -0.3353705176962  -0.7869882282932  -0.4673051969691  0.67624192667448  
+P1    0.25734398886623  -2.7537248941553  0.66528784562232  -0.0684549022349  
+P2    -0.4899668971811  -0.7869882282932  0.52819416761138  0.35141947175587  
+P3    -2.7537248941553  -2.7537248941553  2.29054352033211  -2.7537248941553  
+P4    -2.7537248941553  2.29054352033211  -2.7537248941553  -2.7537248941553  
+P5    1.44653123226200  -2.7537248941553  -2.7537248941553  -2.1277987680685  
+P6    -0.8599721549054  -2.7537248941553  -2.7537248941553  1.26505456352414  
+P7    -2.7537248941553  -2.7537248941553  -2.7537248941553  1.48854513916236  
+P8    0.67624192667448  -0.2057694434614  -1.1982917012851  -0.3353705176962  
+P9    0.25734398886623  0.37669183867244  0.01555155799509  -0.6631400751956  
+P10   0.60163248864249  -2.7537248941553  0.66528784562232  -0.6631400751956  
+P11   0.81479650696070  -0.2057694434614  -0.7869882282932  -0.8599721549054  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+TAAGCATTCTGA    234  -  245    plus      Oa_07
+GATGCATTAAGC    749  -  760    minus     Os_06
+TTTGCAATACAC    53   -   64    plus      Ca_20934
+TGTGCTTTCTAA    594  -  605    minus     Ca_08212
+TTAGCATTATGA    66   -   77    minus     PDK_30s895221g001
+TGGGCATTTGGA    244  -  255    minus     C.cajan_05184
+GTGGCATTACAA    237  -  248    plus      evm.TU.supercontig_161.14
+TGGGCATTTATG    853  -  864    plus      30072.t000037
+AAAGCATTAAAG    315  -  326    minus     Cucsa.338040
+TTGGCATTATAT    135  -  146    plus      mgv1a016787m.g
+AATGCATTTGGA    600  -  611    minus     cassava4.1_019934m.g
+TTGGCATTCAAA    669  -  680    plus      cassava4.1_019931m.g
+AGTGCATTACGT    726  -  737    minus     orange1.1g036567m.g
+TGAGCATTAAAT    595  -  606    minus     Sb01g013000
+TATGCATTTGAA    455  -  466    plus      AT1G54410
+TGTGCAATCCAA    529  -  540    minus     Thhalv10023775m.g
+GATGCAATATGA    58   -   69    plus      GRMZM2G169372
+TTGGCAATTGGC    148  -  159    plus      GRMZM2G448511
+TAAGCATTTTTA    474  -  485    minus     Carubv10021201m.g
+CAGGCATTTCAA    687  -  698    plus      Bradi1g13330
+TGCGCATTACAA    92   -  103    plus      Aquca_004_00603
+ATGGCAATAATA    792  -  803    minus     Bra013206
+CATGCATTAAAC    262  -  273    minus     Medtr7g086340
+TATGCATTACTT    536  -  547    plus      Lus10020271.g
+ATCGCATTCCAA    152  -  163    plus      Pavirv00041414m.g
+TATGCATTAGAG    715  -  726    minus     LOC_Os03g45280
+CGTGCATTAAGA    2    -   13    minus     PGSC0003DMG400027197
+AGGGCATTGAGT    591  -  602    minus     Glyma17g24193
+ATAGCATTAAAC    699  -  710    plus      Glyma19g29210
+TACGCATTGATA    443  -  454    minus     Glyma16g04200
+GATGCATTAAAA    762  -  773    plus      Glyma16g04190
+TGTGCATTTGTA    515  -  526    minus     Phvul.001G114100
+ATAGCATTAAAA    97   -  108    plus      Thecc1EG025860
+
+Time: 25 second(s)
+
+
+******************************************************************************
+Motif 6, width = 12, seed width = 6, sites = 33
+Sum of HD to CTATGC in 33 seqs: 20
+P-value(CTATGC) = 8.16662e-03
+Q-value(CTATGC) = 1.00000e+00
+Information Content = 7.88707817349055
+******************************************************************************
+
+>NFM 6
+
+      A                 C                 G                 T                 
+P0    15                6                 0                 12                
+P1    7                 1                 2                 23                
+P2    4                 5                 7                 17                
+P3    3                 30                0                 0                 
+P4    1                 0                 0                 32                
+P5    12                0                 0                 21                
+P6    0                 1                 0                 32                
+P7    0                 1                 32                0                 
+P8    0                 24                3                 6                 
+P9    9                 12                1                 11                
+P10   13                6                 3                 11                
+P11   6                 19                8                 0                 
+
+>PWM 6
+
+      A                 C                 G                 T                 
+P0    0.43973419830753  0.01555155799509  -2.7537248941553  0.15670343287528  
+P1    -0.4899668971811  -1.7758150185126  -1.1982917012851  1.00048133600734  
+P2    -1.0879662149909  -0.2057694434614  0.20739254853138  0.60163248864249  
+P3    -1.3588796354553  2.15740556893309  -2.7537248941553  -2.7537248941553  
+P4    -2.1277987680685  -2.7537248941553  -2.7537248941553  1.44653123226200  
+P5    0.15670343287528  -2.7537248941553  -2.7537248941553  0.87938358675218  
+P6    -2.7537248941553  -1.7758150185126  -2.7537248941553  1.44653123226200  
+P7    -2.7537248941553  -1.7758150185126  2.24751506192914  -2.7537248941553  
+P8    -2.7537248941553  1.84741512649904  -0.7869882282932  -0.6631400751956  
+P9    -0.1957486762278  0.90566518578291  -1.7758150185126  0.04851231226242  
+P10   0.25734398886623  0.01555155799509  -0.7869882282932  0.04851231226242  
+P11   -0.6631400751956  1.52593857385515  0.37669183867244  -2.7537248941553  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+ATGCTTTGCTGG    738  -  749    plus      Oa_07
+ATGCTTTGCTGG    734  -  745    plus      Os_06
+TTTCTTTGTTTG    972  -  983    minus     Ca_20934
+ATCCTTTGTCCC    882  -  893    plus      Ca_08212
+ATTCTATGCCAC    117  -  128    plus      PDK_30s895221g001
+AAACTTTGCATG    61   -   72    plus      C.cajan_05184
+CTTCAATGCCTC    206  -  217    plus      evm.TU.supercontig_161.14
+AATCTTTGGCAA    256  -  267    plus      30072.t000037
+CTTCTTTCCTTC    930  -  941    plus      Cucsa.338040
+ATGCTTTGTAAG    377  -  388    plus      mgv1a016787m.g
+ATTCTATGCCTA    529  -  540    plus      cassava4.1_019934m.g
+AATCTATGTTTC    194  -  205    plus      cassava4.1_019931m.g
+TACCTATGCAGC    334  -  345    plus      orange1.1g036567m.g
+TTGCTTTGCTTA    763  -  774    minus     Sb01g013000
+TTACTTTGCGAC    471  -  482    minus     AT1G54410
+CTCCTTTGTTAC    141  -  152    plus      Thhalv10023775m.g
+TTGCTTTGCTTG    784  -  795    plus      GRMZM2G169372
+ATGCTATGCACC    945  -  956    minus     GRMZM2G448511
+TATCTTTGCCAC    792  -  803    plus      Carubv10021201m.g
+CATCTATGCCAA    454  -  465    plus      Bradi1g13330
+ATTCTTTGGTAC    152  -  163    minus     Aquca_004_00603
+TATCTTCGCCAC    840  -  851    plus      Bra013206
+TTTCTATGCAAC    508  -  519    minus     Medtr7g086340
+TGTCTATGCACC    402  -  413    minus     Lus10020271.g
+CTCCTTTGCTCA    178  -  189    minus     Pavirv00041414m.g
+TCTCTTTGCATC    584  -  595    minus     LOC_Os03g45280
+ATTATATGCCTG    718  -  729    minus     PGSC0003DMG400027197
+TTACTTTGCCAA    283  -  294    plus      Glyma17g24193
+ATTATTTGCAAG    430  -  441    plus      Glyma19g29210
+CTACTATGGTCC    251  -  262    minus     Glyma16g04200
+ATCATTTGCACC    461  -  472    plus      Glyma16g04190
+TTTCTTTGTCTC    434  -  445    plus      Phvul.001G114100
+AGGCTATGCCAC    148  -  159    plus      Thecc1EG025860
+
+Time: 25 second(s)
+
+
+******************************************************************************
+Motif 7, width = 12, seed width = 6, sites = 33
+Sum of HD to ACCGTA in 33 seqs: 23
+P-value(ACCGTA) = 9.53841e-03
+Q-value(ACCGTA) = 1.00000e+00
+Information Content = 6.95672171040277
+******************************************************************************
+
+>NFM 7
+
+      A                 C                 G                 T                 
+P0    15                7                 6                 5                 
+P1    4                 11                9                 9                 
+P2    0                 13                9                 11                
+P3    29                0                 1                 3                 
+P4    0                 33                0                 0                 
+P5    6                 26                1                 0                 
+P6    4                 1                 23                5                 
+P7    0                 4                 2                 27                
+P8    33                0                 0                 0                 
+P9    19                0                 8                 6                 
+P10   3                 2                 17                11                
+P11   11                9                 2                 11                
+
+>PWM 7
+
+      A                 C                 G                 T                 
+P0    0.43973419830753  0.20739254853138  0.01555155799509  -0.8599721549054  
+P1    -1.0879662149909  0.79047710062802  0.52819416761138  -0.1957486762278  
+P2    -2.7537248941553  1.01233251591553  0.52819416761138  0.04851231226242  
+P3    1.31260832170366  -2.7537248941553  -1.7758150185126  -1.3588796354553  
+P4    -2.7537248941553  2.29054352033211  -2.7537248941553  -2.7537248941553  
+P5    -0.6631400751956  1.95831262144810  -1.7758150185126  -2.7537248941553  
+P6    -1.0879662149909  -1.7758150185126  1.78859670430104  -0.8599721549054  
+P7    -2.7537248941553  -0.4673051969691  -1.1982917012851  1.21587976603276  
+P8    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P9    0.74718190348818  -2.7537248941553  0.37669183867244  -0.6631400751956  
+P10   -1.3588796354553  -1.1982917012851  1.37418627615866  0.04851231226242  
+P11   0.04851231226242  0.52819416761138  -1.1982917012851  0.04851231226242  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+TTCACCTTAGGT    650  -  661    minus     Oa_07
+GCCGCCGTATGA    472  -  483    minus     Os_06
+ATTTCCGTAATT    856  -  867    plus      Ca_20934
+AGTACAATAGGT    11   -   22    minus     Ca_08212
+ACTACCGTAAGA    155  -  166    plus      PDK_30s895221g001
+CTGACCGTAATT    519  -  530    plus      C.cajan_05184
+AGCACAGTAAGA    657  -  668    minus     evm.TU.supercontig_161.14
+TGGACAGTAAGT    65   -   76    minus     30072.t000037
+AACACAGTAAAT    486  -  497    plus      Cucsa.338040
+ATCACCTTAATC    232  -  243    plus      mgv1a016787m.g
+ATTACCCTAATC    472  -  483    plus      cassava4.1_019934m.g
+AACACAGTAAGA    342  -  353    minus     cassava4.1_019931m.g
+ACCACCGTAGCC    208  -  219    minus     orange1.1g036567m.g
+CCCACCGCAAGC    859  -  870    plus      Sb01g013000
+AGGACCATAGTA    587  -  598    minus     AT1G54410
+AATACCGTAATC    881  -  892    minus     Thhalv10023775m.g
+CCTACCGGATGT    665  -  676    plus      GRMZM2G169372
+CCCACCGCAAGC    872  -  883    plus      GRMZM2G448511
+ACTACAGCAACC    975  -  986    plus      Carubv10021201m.g
+CCCACCGTAGGC    855  -  866    plus      Bradi1g13330
+ATGACCATAGGT    133  -  144    plus      Aquca_004_00603
+TTTACCGTATTA    286  -  297    minus     Bra013206
+ACCACCTTAGGT    104  -  115    minus     Medtr7g086340
+GGGACCGGATGG    656  -  667    plus      Lus10020271.g
+CCCACCGCAAGT    78   -   89    plus      Pavirv00041414m.g
+GAGACCGTAGAG    970  -  981    plus      LOC_Os03g45280
+TTTACCGTAAAA    55   -   66    minus     PGSC0003DMG400027197
+AGCACCTTATTC    295  -  306    plus      Glyma17g24193
+GCGACCTTAAGA    549  -  560    minus     Glyma19g29210
+CGGACCATAATT    608  -  619    minus     Glyma16g04200
+GGTTCCGTAATA    153  -  164    plus      Glyma16g04190
+GGTTCCGTATTA    480  -  491    plus      Phvul.001G114100
+TTGACGGTAAGA    758  -  769    plus      Thecc1EG025860
+
+Time: 25 second(s)
+
+
+******************************************************************************
+Motif 8, width = 12, seed width = 6, sites = 33
+Sum of HD to ACTTAA in 33 seqs: 9
+P-value(ACTTAA) = 9.54031e-03
+Q-value(ACTTAA) = 1.00000e+00
+Information Content = 8.48071753012105
+******************************************************************************
+
+>NFM 8
+
+      A                 C                 G                 T                 
+P0    4                 17                5                 7                 
+P1    11                11                2                 9                 
+P2    18                4                 5                 6                 
+P3    33                0                 0                 0                 
+P4    4                 29                0                 0                 
+P5    0                 2                 1                 30                
+P6    3                 3                 0                 27                
+P7    32                1                 0                 0                 
+P8    32                1                 0                 0                 
+P9    24                2                 2                 5                 
+P10   19                11                0                 3                 
+P11   15                5                 6                 7                 
+
+>PWM 8
+
+      A                 C                 G                 T                 
+P0    -1.0879662149909  1.37418627615866  -0.2057694434614  -0.4899668971811  
+P1    0.04851231226242  0.79047710062802  -1.1982917012851  -0.1957486762278  
+P2    0.67624192667448  -0.4673051969691  -0.2057694434614  -0.6631400751956  
+P3    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P4    -1.0879662149909  2.11014842563692  -2.7537248941553  -2.7537248941553  
+P5    -2.7537248941553  -1.1982917012851  -1.7758150185126  1.35864451328029  
+P6    -1.3588796354553  -0.7869882282932  -2.7537248941553  1.21587976603276  
+P7    1.44653123226200  -1.7758150185126  -2.7537248941553  -2.7537248941553  
+P8    1.44653123226200  -1.7758150185126  -2.7537248941553  -2.7537248941553  
+P9    1.05742012277992  -1.1982917012851  -1.1982917012851  -0.8599721549054  
+P10   0.74718190348818  0.79047710062802  -2.7537248941553  -1.3588796354553  
+P11   0.43973419830753  -0.2057694434614  0.01555155799509  -0.4899668971811  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+TACACTTAATCC    709  -  720    minus     Oa_07
+CTGACTTAAACA    321  -  332    minus     Os_06
+TTGACTTAAAAC    31   -   42    minus     Ca_20934
+TTTACTTAAAAA    682  -  693    plus      Ca_08212
+CCAACTCAAAAG    433  -  444    minus     PDK_30s895221g001
+CCAACTTAAACA    144  -  155    plus      C.cajan_05184
+CCAACCCAAAAG    707  -  718    plus      evm.TU.supercontig_161.14
+CTGACTTAAAAC    536  -  547    plus      30072.t000037
+ATCACTTAAACA    371  -  382    plus      Cucsa.338040
+CCAACGTAAAAG    727  -  738    minus     mgv1a016787m.g
+CAAACCTAAAAA    385  -  396    minus     cassava4.1_019934m.g
+TATACTTAATAA    570  -  581    minus     cassava4.1_019931m.g
+TCAAATTAAACA    587  -  598    plus      orange1.1g036567m.g
+GAAACTTAAAAT    666  -  677    plus      Sb01g013000
+GAAACTAAAGAG    272  -  283    plus      AT1G54410
+CCGAATTAAACA    594  -  605    plus      Thhalv10023775m.g
+CAAACTTAAATT    97   -  108    minus     GRMZM2G169372
+TCCACTTAACCA    301  -  312    minus     GRMZM2G448511
+AAAACTTAATAT    178  -  189    plus      Carubv10021201m.g
+CAAAATTAAATA    183  -  194    minus     Bradi1g13330
+CTAAATTAAAAT    787  -  798    plus      Aquca_004_00603
+GTAACTTAATAA    439  -  450    minus     Bra013206
+CCTACTCAAAAA    125  -  136    plus      Medtr7g086340
+ATCACTTACACC    454  -  465    minus     Lus10020271.g
+GGTACTAAAAAA    22   -   33    minus     Pavirv00041414m.g
+ATAACTTAAGCT    514  -  525    minus     LOC_Os03g45280
+CCGACTTCAAAA    394  -  405    plus      PGSC0003DMG400027197
+GAAACTTAAAAG    744  -  755    minus     Glyma17g24193
+CATACTTAAACT    120  -  131    minus     Glyma19g29210
+TAAACTTAATTT    667  -  678    plus      Glyma16g04200
+CCAACTTAAAAG    91   -  102    plus      Glyma16g04190
+CCTACTTAACCC    128  -  139    minus     Phvul.001G114100
+CGAACTAAAAAA    856  -  867    plus      Thecc1EG025860
+
+Time: 26 second(s)
+
+
+******************************************************************************
+Motif 9, width = 12, seed width = 6, sites = 33
+Sum of HD to GTCTAA in 33 seqs: 17
+P-value(GTCTAA) = 1.54402e-02
+Q-value(GTCTAA) = 1.00000e+00
+Information Content = 7.09071973973799
+******************************************************************************
+
+>NFM 9
+
+      A                 C                 G                 T                 
+P0    11                13                3                 6                 
+P1    1                 15                3                 14                
+P2    13                6                 0                 14                
+P3    0                 0                 31                2                 
+P4    0                 5                 2                 26                
+P5    0                 33                0                 0                 
+P6    3                 12                1                 17                
+P7    30                0                 3                 0                 
+P8    33                0                 0                 0                 
+P9    10                3                 8                 12                
+P10   3                 4                 16                10                
+P11   10                9                 7                 7                 
+
+>PWM 9
+
+      A                 C                 G                 T                 
+P0    0.04851231226242  1.01233251591553  -0.7869882282932  -0.6631400751956  
+P1    -2.1277987680685  1.20457470810490  -0.7869882282932  0.35141947175587  
+P2    0.25734398886623  0.01555155799509  -2.7537248941553  0.35141947175587  
+P3    -2.7537248941553  -2.7537248941553  2.20316372129647  -1.6927075254053  
+P4    -2.7537248941553  -0.2057694434614  -1.1982917012851  1.16496949920223  
+P5    -2.7537248941553  2.29054352033211  -2.7537248941553  -2.7537248941553  
+P6    -1.3588796354553  0.90566518578291  -1.7758150185126  0.60163248864249  
+P7    1.35864451328029  -2.7537248941553  -0.7869882282932  -2.7537248941553  
+P8    1.48854513916236  -2.7537248941553  -2.7537248941553  -2.7537248941553  
+P9    -0.0684549022349  -0.7869882282932  0.37669183867244  0.15670343287528  
+P10   -1.3588796354553  -0.4673051969691  1.29187162251436  -0.0684549022349  
+P11   -0.0684549022349  0.52819416761138  0.20739254853138  -0.4899668971811  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+CCAGTCTGAAAC    547  -  558    plus      Oa_07
+ACAGTCCAAGGT    265  -  276    plus      Os_06
+ATCGTCTAAATA    550  -  561    minus     Ca_20934
+ATCGTCCAAATG    544  -  555    plus      Ca_08212
+GCTGTCCAAACT    146  -  157    plus      PDK_30s895221g001
+TCTGTCCAAAGA    98   -  109    minus     C.cajan_05184
+ACTTTCTAAGTA    523  -  534    minus     evm.TU.supercontig_161.14
+ATAGTCTAAAGT    100  -  111    plus      30072.t000037
+CCATTCCAAATT    977  -  988    plus      Cucsa.338040
+CCTGTCAAAATG    73   -   84    minus     mgv1a016787m.g
+ACTGTCAAATCA    148  -  159    minus     cassava4.1_019934m.g
+TGAGTCAAATGC    8    -   19    plus      cassava4.1_019931m.g
+TTAGTCTAAGGG    16   -   27    plus      orange1.1g036567m.g
+ATTGTCTAATTA    190  -  201    minus     Sb01g013000
+AGAGTCTAATTT    371  -  382    plus      AT1G54410
+CCAGTCTAACCA    661  -  672    plus      Thhalv10023775m.g
+CCCGGCCAACGC    389  -  400    minus     GRMZM2G169372
+TCTGCCCAACGG    328  -  339    minus     GRMZM2G448511
+CTAGCCCAATTA    743  -  754    plus      Carubv10021201m.g
+GCTGTCCAAAAC    517  -  528    minus     Bradi1g13330
+TTAGTCTAATGC    692  -  703    plus      Aquca_004_00603
+TTAGTCTAAGGG    80   -   91    plus      Bra013206
+ACTGTCTAATCC    400  -  411    plus      Medtr7g086340
+CCAGTCTGAGGA    73   -   84    minus     Lus10020271.g
+GGCGCCGAAGGG    120  -  131    plus      Pavirv00041414m.g
+CTCGTCTAAGAG    137  -  148    plus      LOC_Os03g45280
+CCTGCCTAATGA    178  -  189    minus     PGSC0003DMG400027197
+CTTGGCCAATGT    355  -  366    minus     Glyma17g24193
+CACGCCCAAGGC    804  -  815    plus      Glyma19g29210
+CTTGTCTGATGC    230  -  241    plus      Glyma16g04200
+ATTGTCTAATTA    277  -  288    plus      Glyma16g04190
+CTTGTCTAATTC    141  -  152    plus      Phvul.001G114100
+ATAGTCCAAAGT    627  -  638    plus      Thecc1EG025860
+
+Time: 26 second(s)
+
+
+******************************************************************************
+Motif 10, width = 12, seed width = 6, sites = 33
+Sum of HD to ATGATC in 33 seqs: 14
+P-value(ATGATC) = 2.06138e-02
+Q-value(ATGATC) = 1.00000e+00
+Information Content = 6.94156352394504
+******************************************************************************
+
+>NFM 10
+
+      A                 C                 G                 T                 
+P0    3                 16                7                 7                 
+P1    8                 7                 7                 11                
+P2    7                 8                 12                6                 
+P3    29                0                 4                 0                 
+P4    0                 0                 0                 33                
+P5    0                 0                 33                0                 
+P6    25                0                 8                 0                 
+P7    0                 1                 0                 32                
+P8    0                 28                4                 1                 
+P9    11                9                 4                 9                 
+P10   7                 4                 10                12                
+P11   8                 5                 9                 11                
+
+>PWM 10
+
+      A                 C                 G                 T                 
+P0    -1.3588796354553  1.29187162251436  0.20739254853138  -0.4899668971811  
+P1    -0.3353705176962  0.20739254853138  0.20739254853138  0.04851231226242  
+P2    -0.4899668971811  0.37669183867244  0.90566518578291  -0.6631400751956  
+P3    1.31260832170366  -2.7537248941553  -0.4673051969691  -2.7537248941553  
+P4    -2.7537248941553  -2.7537248941553  -2.7537248941553  1.48854513916236  
+P5    -2.7537248941553  -2.7537248941553  2.29054352033211  -2.7537248941553  
+P6    1.11219677178829  -2.7537248941553  0.37669183867244  -2.7537248941553  
+P7    -2.7537248941553  -1.7758150185126  -2.7537248941553  1.44653123226200  
+P8    -2.7537248941553  2.06129074458729  -0.4673051969691  -2.1277987680685  
+P9    0.04851231226242  0.52819416761138  -0.4673051969691  -0.1957486762278  
+P10   -0.4899668971811  -0.4673051969691  0.66528784562232  0.15670343287528  
+P11   -0.3353705176962  -0.2057694434614  0.52819416761138  0.04851231226242  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+CACATGATCCAC    12   -   23    minus     Oa_07
+CCCGTGATCCAG    173  -  184    minus     Os_06
+CACATGGTCATT    847  -  858    plus      Ca_20934
+AGGATGATCAAT    918  -  929    minus     Ca_08212
+GCAATGATCTCC    941  -  952    minus     PDK_30s895221g001
+CACATGGTCATA    130  -  141    plus      C.cajan_05184
+CGGATGATGGAC    124  -  135    minus     evm.TU.supercontig_161.14
+CTAATGATCTTT    720  -  731    plus      30072.t000037
+CCCATGATGCCA    241  -  252    minus     Cucsa.338040
+CTGATGATGATG    209  -  220    plus      mgv1a016787m.g
+ATGATGGTCAGA    504  -  515    minus     cassava4.1_019934m.g
+GTGATGGTGAGT    84   -   95    plus      cassava4.1_019931m.g
+TCGGTGATCCTG    62   -   73    minus     orange1.1g036567m.g
+TCGGTGATCTTG    930  -  941    minus     Sb01g013000
+TAAATGATTCTG    613  -  624    minus     AT1G54410
+TTCATGATCTGT    538  -  549    minus     Thhalv10023775m.g
+ACGATGATCCCG    707  -  718    plus      GRMZM2G169372
+GGCATGATCCTT    134  -  145    plus      GRMZM2G448511
+CATATGATCATA    494  -  505    minus     Carubv10021201m.g
+CCGATGGTCGGT    621  -  632    minus     Bradi1g13330
+CGAATGATCTAT    200  -  211    plus      Aquca_004_00603
+TTTATGACCCGG    616  -  627    minus     Bra013206
+GAGATGATCAAT    907  -  918    minus     Medtr7g086340
+CTAATGATCAGG    524  -  535    minus     Lus10020271.g
+CTGGTGATCGGC    137  -  148    minus     Pavirv00041414m.g
+CTAATGATCTAG    928  -  939    minus     LOC_Os03g45280
+GATATGATCCTA    216  -  227    plus      PGSC0003DMG400027197
+CAAATGATCTCA    123  -  134    plus      Glyma17g24193
+GGTATGATCTGA    934  -  945    minus     Glyma19g29210
+CTCATGGTCGTT    815  -  826    plus      Glyma16g04200
+GGTATGATCTGA    943  -  954    minus     Glyma16g04190
+TTGATGGTCATT    840  -  851    plus      Phvul.001G114100
+TGTATGGTCAGC    45   -   56    minus     Thecc1EG025860
+
+Time: 26 second(s)
+
+
