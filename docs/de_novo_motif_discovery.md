@@ -250,6 +250,14 @@ In `/home/yzolotarov/dehydrin_promoters/results/MEME`
 python MEME_parser.py YnSKn_di.MEME ../../sequences/promoters/dicot/YnSKn_dehydrins_promoters_di_oneline.fas > YnSKn_di.MEME.MotifVoter
 ```
 
+## Weeder
+
+From Weeder directory run:
+
+```
+./weederlauncher.out ../dehydrin_promoters/sequences/promoters/KS_with_oxytropis.fas PL medium S M
+```
+
 
 ## MDscan
 
