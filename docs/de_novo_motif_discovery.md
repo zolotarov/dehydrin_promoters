@@ -133,6 +133,8 @@ python bioprospector_parser.py SKn_mono.bioprospector ../dehydrin_promoters/sequ
 
 ## MEME
 
+*Every run of MEME produces the same results if the settings are not changed*
+
 * **Create Markov background model**
 
 This is basically the frequency of single nucleotides and di-nucleotides.  
@@ -205,6 +207,13 @@ print ('TT' + '\t' + "%0.3f" % (tt/length))
 ```
 for file in *oneline.fas; do meme $file -text -dna -mod anr -nmotifs 10 -w 10 -revcomp -bfile ../../results/MEME/all_used.MEMEbkg > $file.MEME; done
 ```
+
+Since by default MEME looks for 50 sites and there are 75 and 94 sequences in SKn and YnSKn, the following command was run to find more sites ( with `-maxsites 100` option):
+
+```
+for file in YnSKn_dehydrins_promoters_oneline.fas; do meme $file -text -dna -mod anr -nmotifs 10 -w 10 -revcomp -maxsites 100 -bfile ../../results/MEME/all_used.MEMEbkg > $file_2.MEME; done
+```
+
 * **Parse MEME results into MotifVoter format**
 
 ```python

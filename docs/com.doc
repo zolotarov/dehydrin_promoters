@@ -1,0 +1,38 @@
+<p>Feb 26, 2013 # Get list of genes from peptide file:</p>
+<pre><code>grep &quot;&gt;&quot; YnKn_dehydrins.faa | sed &#39;s/|/ /g&#39; | sed &#39;s/&gt;//&#39; | awk &#39;{print $1}&#39;</code></pre>
+<h1 id="download-the-promoters-using-query_phytozome.py">Download the promoters using query_phytozome.py</h1>
+<h1 id="add-extra-promoters-from-species-not-on-phytozome">Add extra promoters from species not on Phytozome</h1>
+<h1 id="replace-the-promoters-for-genes-that-are-wrong">Replace the promoters for genes that are wrong</h1>
+<pre><code>for line in `cat wrong_promoters.txt`; do grep $line KS_dehydrins_promoters.fas; done</code></pre>
+<p>Cucsa.109360 YnSKn Eucgr.F01727 done Kn MDP0000629961 YnSKn Glyma17g24193 KS Glyma09g31740 YnKn Gorai.012G154800 YnSKn Potri.013G062400 done Kn ppa010975m.g YnSKn Thecc1EG025860 KS GRMZM2G169372 KS</p>
+<h1 id="these-genes-are-not-sk2-but-look-very-similar-to-sk2-placed-in-that-category">These genes are not SK2, but look very similar to SK2, placed in that category</h1>
+<p>Lus10003340.g Lus10022643.g</p>
+<p>Feb 5, 2013 # Incorrect translation of a gene in maldo While trying to build a transfac matix of Y-segments, BioPython would spit out errors, i finally figured out that they were due to an X amino acid in the identified Y-segment of MDP0000265874. The problem was due to Phytozome missing a nucleotide in the following sequence: GACACAGATGAGTT, it should have been GACACAGATGAGTAT, which results in a proper translation of the nucleotide sequence, in its current state it translates with several stop codons. I will mannually replace the X wiht the correct Y.</p>
+<p>For K-segment two genes contained and X: MDP0000196703 and MDP0000178973. The proper sequences were obtained by taking the nucleotide sequence from Phytozome, BLASTing on GenBank and locating the best Malus domestica match.</p>
+<p>MDP0000196703, was modified &gt;gi|382948205|gb|AFG33217.1| dehydrin 7 [Malus x domestica] MAGKSTMVPLACFIALAAQARALEVVGGEGLKQKIKEKLPGSTTTDTTYDTTYPGRHHQEKGMKDKNKDK LPEGHKDDPYYSTPHTTLTTTTYGVTTYMEEHH<em>EKKGIMDKINEKLPS</em>GHHWRL</p>
+<p>MDP0000178973 No proper matches found, was removed from dehydrins.faa</p>
+<p>Data downloaded from Phytozome on February 2, 2013</p>
+<h3 id="command-used-to-count-the-number-of-unique-dehydrins-in-phytozome-v9.0-release">Command used to count the number of unique dehydrins in Phytozome v9.0 release:</h3>
+<pre><code> grep &quot;&gt;&quot; scripts/dehydrins.fas|sed &#39;s/|/ /g&#39;|awk {&#39;print $1&#39;}| sort|uniq|wc -l</code></pre>
+<p>the total number of unique genes is 251 and the number of unique transcripts is 281</p>
+<p><strong>Aquca_038_00119</strong> has 4 different transcripts and has a dehydrin and <em>reticulon</em> domain, the dehydrin domain is 7-39.</p>
+<p>The K-segments: &gt;Aquca_038_00119|Aquca_038_00119.1 HSESLMEKIKEKIHG</p>
+<p>Dehydrins were not detected in lower plants, except Physcomitrella</p>
+<h3 id="physcomitrella-patens-dehydrins">Physcomitrella patens dehydrins</h3>
+<p>Selginella moellendorffii is closer to higher plants then Physcomitrella, however no dehydrins were found using either my search or the keyword ontology search on Phytozome.</p>
+<p>Physcomitrella patens contains 5 potential dehydrins</p>
+<blockquote>
+<p>Pp1s149_49V6|Pp1s149_49V6.1|Ppatens EKKGFVGKIKDMIHH not a dehydrin Pp1s442_22V6|Pp1s442_22V6.1|Ppatens PKKGLMTKIKEKLPG KKEGFMTKLKEKLPG annotated as dehydrin Pp1s421_9V6|Pp1s421_9V6.1|Ppatens PKKGMMEKIKEKLPG KKDGLMNKIKEKLPG dehydrin Pp1s442_22V6|Pp1s442_22V6.2|Ppatens second transcript of Pp1s442_22V6 Pp1s211_95V6|Pp1s211_95V6.1|Ppatens HKKGIITKIKEKLHH not a dehydrin Pp1s201_52V6|Pp1s201_52V6.1|Ppatens KKHGLINKIKEKLPG dehydrin</p>
+</blockquote>
+<p>Out of 5 putative dehydrins, 3 were probable dehydrins and 2 were not dehydrins the following sequences were added to the dehydrins.faa</p>
+<blockquote>
+<p>Pp1s442_22V6|Pp1s442_22V6.1|Ppatens MAAQYTQDQSTEFRPELDEPRRTTTTTTSTTGSGLENENFGGYGGVSENEPPRHKIHSED EPLPKPMSGTYLDEEGAKLDQDSDRSGLGASDLGRDEHIMPKPTSEGYPAGTPQSTEKYQ EHRDLEPTRLDESPKTEEFGAANASTGDFDRTSSDGLRTDKTPASEPRGFRSEDTAPTSG GYADPTSAFPGAPIDRRVEEPGYGYDQQTSEPTSLESGTQHSPKKEGFMTKLKEKLPGHH KTPESGVEHQGAGVEHDTTDAPPKKGLMTKIKEKLPGHHSTAPASTTTDV* Pp1s442_22V6|Pp1s442_22V6.2|Ppatens MAAQYTQDQSTEFRPELDEPRRTTTTTTSTTGSGLENENFGGYGGVSENEPPRHKIHSED EPLPKPMSGTYLDEEGAKLDQDSDRSGLGASDLGRDEHIMPKPTSEGYPAGTPQSTEKYQ EHRDLEPTRLDESPKTEEFGAANASTGDFDRTSSDGLRTDKTPASEPRGFRSEDTAPTSG GYADPTSAFPGAPIDRRVEEPGYGYDQQTSEPTSLESGTQHSPKKEGFMTKLKEKLPGHH KTPESGVEHQGAGVEHDTTDAPPKKGLMTKIKEKLPGHHSTAPASTTTDV*</p>
+</blockquote>
+<blockquote>
+<p>Pp1s421_9V6|Pp1s421_9V6.1|Ppatens MAGYMGEERKPVSTYNAHQDEFGFKEGNDYPASGGGYGDHRHHRPDVPSSTPGEGYGRQG VEHGYGDQSEETFQDAPERLTGYGDTDNGVGGPKSGYGDSREGTAYDRATDEQTQFGVGG KENSYELEGSDPQLGGTDTSSYAAVDPQRLDSDRSPIRATETVPGGDGWGPEDTSRIHGA KKDGLMNKIKEKLPGHHNTAQGEVSDPNALPKKGMMEKIKEKLPGHDSGSADV* Pp1s201_52V6|Pp1s201_52V6.1|Ppatens MADYNWNMEDSAGGFMGLMSKPDMSSNDGRQDESEERIDNQPGGSSPSPLELTKGHGDSD TGVLGPNSGRGASSEVTGADHRPSSFSESQFGLDAKTVSYGHAAAGSRNVNSHADVDGFC VSRPLCSTERNAGGDGCNLDNTTSTHGVKKHGLINKIKEKLPGHHHTAGRVIENDPPKKA RWIR*</p>
+</blockquote>
+<p>A gene annotated as dehydrin in Phytozome, contains a possible K-segment and an S-segment, similar to KS dehydrins, was not identified by my search: &gt;Pp1s52_261V6.1 MDKIKDMLHGHKKDDEHAHATPATATTTNVGTAEAGYSDPA<em>TTHHEEGKEKKGFLG</em>LGGHKKEGEEGKKHGFMGMGGGSSSSSSSDEEREGAAERNRLRR EKRAQRTAGKTAAGTVPVEGTGEKKHGFFG*i</p>
+<h3 id="selaginella-dehydrins">Selaginella dehydrins</h3>
+<p>Close paper from 1997 {Close:1997kt} mentions that Selaginella dehydrins contain a different K-segment: EKKEGVMOKIKKK, searching for KIKKK in S. moellendorffii results in the following, the genes are not annotated, there were a few others, without the S-segment:</p>
+<p>Looks like a KS dehydrin, with a typical SSSS..DSD at the end &gt;437484|437484|Smoellendorffii MSMMEKISETLHIGGHKKEEEHKKEDKAHAAGEHKGHDHPAGVPCSGSGAVPPPAAAGYK KDEEHKAGEEKKHEGFMEKIKKKKKDRKERKEGEGKGSSSSSSDSD* &gt;446994|446994|Smoellendorffii MASMMEKISDKLHMGHKKDQVAHNTAPSHATPVQSSTPPSHNTAPGSYGTPQPGMATTTT STTTTQPQKEGLMDKIKKKKNQHKEKKKAGGGSSSSSSDSD* &gt;448256|448256|Smoellendorffii MAFRSVLVASKKNALGHLLVKKEFLATSPLLLNKEAGTAESMAHKVGDKVEKAGENLKET AKDSKEPAESGMREQVRSAAEKIGDATASAGDKIEHSMESEGGGEEKSKLNLEDKQIFGF VLFSRSQVLFAVLLILAALMASMMEKIGEKFGKKDDEHNKLGGQTHETHGLGQQTHGQGA GYGQEAGYGQHGQGVGHGQGVGHNPGSTPYGATTGTTGTGHNPGSTPYGATTGTNPTSGH TATGQPQKKEGLMDKIKKKKNQHKERKEGDKSSSSSESD*</p>
+<p>Somewhat similar protein from resurrection plant Selaginella lepidophylla was found on GenBank: &gt;gi|2104947|gb|AAB57842.1| dehydrin-like protein [Selaginella lepidophylla] MASMMEKIGDKVHGNKDEQQQQHQYSAAGPQGHGTGGLGSDQHGYKGLGTGKDQHGYQGTGTGTGTDQHG YNAGAVGGGHDSQGAGFGSHTGATTGAVGTGEKKEGVMDKIKKKTHRNKGERKAGEGSSSSDSD</p>

@@ -46,6 +46,7 @@ with open(argv[1], 'r') as input_file:
 
             m = motifs.create(motif_list)
             trans = m.format("transfac")
+            # print trans
 
             for l in trans.split('\n')[1:-3]:
                 numbers = filter(None, l.split(' '))[1:-1]
