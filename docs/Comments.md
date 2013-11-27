@@ -1,3 +1,14 @@
+Nov 26, 2013
+Changed annotation of GSVIVG01023824001 (Vitis vinifera) from SKn to YnSKn due to incorrect annotation on Phytozome. Found proper sequence after finding that this sequence matched another, longer sequence perfectly and that sequence looked like a perfect YnSKn dehydrin, changed the YnSKn dehydrin file and the promoter files
+
+
+Nov 25, 2013
+Removed MDP0000126135 (SKn, Maldo) promoter since it's the same as MDP0000770493
+Fixed Bradi4g22280 (SKn) sequence and the promoter sequence
+Fixed MDP0000629961 (YnSKn) promoter sequence
+
+
+
 Feb 26, 2013
 # Get list of genes from peptide file:
 

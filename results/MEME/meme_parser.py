@@ -42,7 +42,7 @@ with open(argv[1], 'r') as input_file:
             for line in list_of_motifs.split('\n'):
                 line_list = filter(None, line.split(' '))
                 motif_list.append(line_list[-2])
-            # print motif_list
+            #print len(motif_list)
 
             m = motifs.create(motif_list)
             trans = m.format("transfac")
