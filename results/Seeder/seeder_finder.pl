@@ -5,8 +5,8 @@ use Seeder::Finder;
     motif_width   => "12", 
     n_motif       => "10", 
     hd_index_file => "../../../Seeder/6.index", 
-    seq_file      => "/home/yzolotarov/dehydrin_promoters/sequences/promoters/basic_pI_promoters.fas", 
+    seq_file      => "/home/yzolotarov/dehydrin_promoters/sequences/promoters/SKn_with_Pabies.fas",
     bkgd_file     => "used_plants.bkgd", 
-    out_file      => "basic_pI_promoters.finder", 
+    out_file      => "SKn_with_pabies.finder", 
 ); 
 $finder->find_motifs;
