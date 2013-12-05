@@ -25,7 +25,7 @@ with open(argv[1], 'r') as input_file:
     contents = input_file.read().split('Q-value(')[1:]
     for item in contents:
         evalue = item.split('Information Content')[0].split('=')[1].strip()
-        if float(evalue) < 0.05:
+        if float(evalue) < 0.01:
             print ">matrix", float(evalue)
             motif = item.split('>NFM')[1].split('>PWM')[0].split('\n')[3:-2]
             nfm = [' '.join(filter(None, m.split(' ')[1:])) for m in motif]
