@@ -40,22 +40,22 @@ P11   0.53424214764084  -2.3219280948874  0.39396186705049  -0.2791251218822
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GAGACACGTGCG    830  -  841    minus     PDK_30s870811g004||Pdactylifera
-TGGACTCGTTTA    471  -  482    plus      PDK_30s943221g001||Pdactylifera
-CCAACACGTATT    830  -  841    plus      898000|898000|Alyrata
-TTGACACGTGGG    624  -  635    minus     Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-AGGAGACGTAGA    580  -  591    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-CCAACACGTATT    815  -  826    plus      AT3G50970|AT3G50970.1|Athaliana
-AACACTCGTGCA    751  -  762    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-CCAACACGTATT    819  -  830    plus      Carubv10018039m.g|Carubv10018039m|Cru
-CTGACATGTGTG    775  -  786    minus     Aquca_007_00851|Aquca_007_00851.1|Aco
-AGGACACGTGGA    459  -  470    minus     Eucgr.F01727|Eucgr.F01727.1|Egrandis
-TATACACGTAAT    862  -  873    plus      Gorai.007G257100|Gorai.007G257100.1|G
-TGTACACGTAGA    822  -  833    plus      Potri.013G062400|Potri.013G062400.1|P
-TGTACACGTAGA    820  -  831    plus      Potri.013G062300|Potri.013G062300.1;P
-TGTACACGTAGA    823  -  834    plus      Potri.013G062200|Potri.013G062200.1|P
-TGCACACGTCGG    770  -  781    plus      Potri.002G013200|Potri.002G013200.1|P
-TTGACACGTACA    392  -  403    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+GAGACACGTGCG    830  -  841    minus     PDK_30s870811g004
+TGGACTCGTTTA    471  -  482    plus      PDK_30s943221g001
+CCAACACGTATT    830  -  841    plus      898000
+TTGACACGTGGG    624  -  635    minus     Pp1s442_22V6
+AGGAGACGTAGA    580  -  591    plus      Pp1s421_9V6
+CCAACACGTATT    815  -  826    plus      AT3G50970
+AACACTCGTGCA    751  -  762    plus      Ciclev10029952m.g
+CCAACACGTATT    819  -  830    plus      Carubv10018039m.g
+CTGACATGTGTG    775  -  786    minus     Aquca_007_00851
+AGGACACGTGGA    459  -  470    minus     Eucgr.F01727
+TATACACGTAAT    862  -  873    plus      Gorai.007G257100
+TGTACACGTAGA    822  -  833    plus      Potri.013G062400
+TGTACACGTAGA    820  -  831    plus      Potri.013G062300
+TGTACACGTAGA    823  -  834    plus      Potri.013G062200
+TGCACACGTCGG    770  -  781    plus      Potri.002G013200
+TTGACACGTACA    392  -  403    minus     Thecc1EG006526
 
 Time: 10 second(s)
 
@@ -102,24 +102,24 @@ P11   -0.0289796168776  1.10399746384586  -2.3219280948874  -0.2791251218822
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GAACATCCAAAC    224  -  235    plus      PDK_30s870811g004||Pdactylifera
-AGGCATCCAAAC    164  -  175    minus     PDK_30s943221g001||Pdactylifera
-CTGCATCCGGAT    383  -  394    plus      898000|898000|Alyrata
-CTACATCCAAAC    35   -   46    plus      Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-CCACATCCATGC    644  -  655    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-TTACATCCATAA    104  -  115    plus      AT3G50970|AT3G50970.1|Athaliana
-GAGCATCCAAAA    80   -   91    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-GGCCATCCAAAT    679  -  690    plus      Carubv10018039m.g|Carubv10018039m|Cru
-TGCCATCCAGCC    124  -  135    minus     Aquca_007_00851|Aquca_007_00851.1|Aco
-GGACATCCTCCC    438  -  449    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-ATTCATCCAACT    647  -  658    minus     Gorai.007G257100|Gorai.007G257100.1|G
-ACCCATCCACTA    521  -  532    plus      Potri.013G062400|Potri.013G062400.1|P
-GATCATCCATGT    144  -  155    plus      Potri.013G062300|Potri.013G062300.1;P
-CCCCATCCACTA    518  -  529    plus      Potri.013G062200|Potri.013G062200.1|P
-TGCCATCCAGTC    477  -  488    plus      Potri.002G013200|Potri.002G013200.1|P
-AGCCATCCAGAA    242  -  253    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+GAACATCCAAAC    224  -  235    plus      PDK_30s870811g004
+AGGCATCCAAAC    164  -  175    minus     PDK_30s943221g001
+CTGCATCCGGAT    383  -  394    plus      898000
+CTACATCCAAAC    35   -   46    plus      Pp1s442_22V6
+CCACATCCATGC    644  -  655    plus      Pp1s421_9V6
+TTACATCCATAA    104  -  115    plus      AT3G50970
+GAGCATCCAAAA    80   -   91    plus      Ciclev10029952m.g
+GGCCATCCAAAT    679  -  690    plus      Carubv10018039m.g
+TGCCATCCAGCC    124  -  135    minus     Aquca_007_00851
+GGACATCCTCCC    438  -  449    plus      Eucgr.F01727
+ATTCATCCAACT    647  -  658    minus     Gorai.007G257100
+ACCCATCCACTA    521  -  532    plus      Potri.013G062400
+GATCATCCATGT    144  -  155    plus      Potri.013G062300
+CCCCATCCACTA    518  -  529    plus      Potri.013G062200
+TGCCATCCAGTC    477  -  488    plus      Potri.002G013200
+AGCCATCCAGAA    242  -  253    minus     Thecc1EG006526
 
-Time: 10 second(s)
+Time: 9 second(s)
 
 
 ******************************************************************************
@@ -164,24 +164,24 @@ P11   -0.9656566312097  1.10399746384586  0.67128985685097  -0.9656566312097
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-ATACTAAAGATT    354  -  365    plus      PDK_30s870811g004||Pdactylifera
-CAACCAAAGGAG    355  -  366    minus     PDK_30s943221g001||Pdactylifera
-CATCTAAAGACG    759  -  770    minus     898000|898000|Alyrata
-CGTCAAAAGCTG    828  -  839    minus     Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-TTTCTAAAGATC    303  -  314    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-TATCTAAAGGCC    680  -  691    plus      AT3G50970|AT3G50970.1|Athaliana
-TGGCTTAAGGCC    404  -  415    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-TTTCTAAAGGCA    946  -  957    plus      Carubv10018039m.g|Carubv10018039m|Cru
-TGACTAAAGGAC    517  -  528    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-CCGCTAAAGGCC    405  -  416    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-CAGCCAAAGAAT    316  -  327    minus     Gorai.007G257100|Gorai.007G257100.1|G
-AGGCTAAAGGTG    737  -  748    minus     Potri.013G062400|Potri.013G062400.1|P
-AGGCTAAAGGTG    728  -  739    minus     Potri.013G062300|Potri.013G062300.1;P
-CCACTAAAGGCC    179  -  190    minus     Potri.013G062200|Potri.013G062200.1|P
-CAACTAAAGGCA    947  -  958    minus     Potri.002G013200|Potri.002G013200.1|P
-AGACTAAAGTGC    954  -  965    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+ATACTAAAGATT    354  -  365    plus      PDK_30s870811g004
+CAACCAAAGGAG    355  -  366    minus     PDK_30s943221g001
+CATCTAAAGACG    759  -  770    minus     898000
+CGTCAAAAGCTG    828  -  839    minus     Pp1s442_22V6
+TTTCTAAAGATC    303  -  314    plus      Pp1s421_9V6
+TATCTAAAGGCC    680  -  691    plus      AT3G50970
+TGGCTTAAGGCC    404  -  415    plus      Ciclev10029952m.g
+TTTCTAAAGGCA    946  -  957    plus      Carubv10018039m.g
+TGACTAAAGGAC    517  -  528    plus      Aquca_007_00851
+CCGCTAAAGGCC    405  -  416    plus      Eucgr.F01727
+CAGCCAAAGAAT    316  -  327    minus     Gorai.007G257100
+AGGCTAAAGGTG    737  -  748    minus     Potri.013G062400
+AGGCTAAAGGTG    728  -  739    minus     Potri.013G062300
+CCACTAAAGGCC    179  -  190    minus     Potri.013G062200
+CAACTAAAGGCA    947  -  958    minus     Potri.002G013200
+AGACTAAAGTGC    954  -  965    minus     Thecc1EG006526
 
-Time: 9 second(s)
+Time: 10 second(s)
 
 
 ******************************************************************************
@@ -226,24 +226,24 @@ P11   -0.2791251218822  0.05032430953648  -0.4016377530070  0.36978312194386
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GGAATGCTGCGT    933  -  944    minus     PDK_30s870811g004||Pdactylifera
-ACAATGGCGTGA    317  -  328    minus     PDK_30s943221g001||Pdactylifera
-GTAATGGCGGCA    337  -  348    minus     898000|898000|Alyrata
-CCAATGCCTGCC    712  -  723    minus     Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-GCAACGGCGCCG    763  -  774    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-GTAATGGCGGCT    340  -  351    minus     AT3G50970|AT3G50970.1|Athaliana
-CCCATGTCGTTT    659  -  670    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-GTAATGGCGGCA    293  -  304    minus     Carubv10018039m.g|Carubv10018039m|Cru
-TGAATGTCGACC    631  -  642    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-CCCATGCCGACC    391  -  402    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-CCAATGTCGTCT    329  -  340    minus     Gorai.007G257100|Gorai.007G257100.1|G
-GAAATGTCGCAG    618  -  629    minus     Potri.013G062400|Potri.013G062400.1|P
-GAAATGTCGCTT    609  -  620    minus     Potri.013G062300|Potri.013G062300.1;P
-GTAATGTTGATA    583  -  594    minus     Potri.013G062200|Potri.013G062200.1|P
-TACATGTTGAGT    48   -   59    minus     Potri.002G013200|Potri.002G013200.1|P
-GAGATGCCGCGT    746  -  757    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+GGAATGCTGCGT    933  -  944    minus     PDK_30s870811g004
+ACAATGGCGTGA    317  -  328    minus     PDK_30s943221g001
+GTAATGGCGGCA    337  -  348    minus     898000
+CCAATGCCTGCC    712  -  723    minus     Pp1s442_22V6
+GCAACGGCGCCG    763  -  774    plus      Pp1s421_9V6
+GTAATGGCGGCT    340  -  351    minus     AT3G50970
+CCCATGTCGTTT    659  -  670    plus      Ciclev10029952m.g
+GTAATGGCGGCA    293  -  304    minus     Carubv10018039m.g
+TGAATGTCGACC    631  -  642    plus      Aquca_007_00851
+CCCATGCCGACC    391  -  402    plus      Eucgr.F01727
+CCAATGTCGTCT    329  -  340    minus     Gorai.007G257100
+GAAATGTCGCAG    618  -  629    minus     Potri.013G062400
+GAAATGTCGCTT    609  -  620    minus     Potri.013G062300
+GTAATGTTGATA    583  -  594    minus     Potri.013G062200
+TACATGTTGAGT    48   -   59    minus     Potri.002G013200
+GAGATGCCGCGT    746  -  757    minus     Thecc1EG006526
 
-Time: 11 second(s)
+Time: 10 second(s)
 
 
 ******************************************************************************
@@ -288,22 +288,22 @@ P11   -0.9656566312097  0.05032430953648  0.05032430953648  0.53424214764084
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-TACTAATGATTG    369  -  380    plus      PDK_30s870811g004||Pdactylifera
-AACTAATGATGG    451  -  462    minus     PDK_30s943221g001||Pdactylifera
-GATTAATGAGCT    913  -  924    minus     898000|898000|Alyrata
-TCGTAACGAGGA    601  -  612    minus     Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-CTCTAATGACAT    165  -  176    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-GATTAATGATCT    900  -  911    minus     AT3G50970|AT3G50970.1|Athaliana
-ATGTAATGAGAA    710  -  721    minus     Ciclev10029952m.g|Ciclev10029952m|Ccl
-GATTAATGAGCT    911  -  922    minus     Carubv10018039m.g|Carubv10018039m|Cru
-TCCTAATGATCT    685  -  696    minus     Aquca_007_00851|Aquca_007_00851.1|Aco
-GCATAATGAAAT    51   -   62    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-AGTTAATGACGC    592  -  603    plus      Gorai.007G257100|Gorai.007G257100.1|G
-TTATAATGAGAT    401  -  412    minus     Potri.013G062400|Potri.013G062400.1|P
-AAATAATGAGGC    120  -  131    plus      Potri.013G062300|Potri.013G062300.1;P
-AAATAATGAGGC    79   -   90    plus      Potri.013G062200|Potri.013G062200.1|P
-GAGTAATGAATG    333  -  344    minus     Potri.002G013200|Potri.002G013200.1|P
-AAGTAACGAGGT    460  -  471    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+TACTAATGATTG    369  -  380    plus      PDK_30s870811g004
+AACTAATGATGG    451  -  462    minus     PDK_30s943221g001
+GATTAATGAGCT    913  -  924    minus     898000
+TCGTAACGAGGA    601  -  612    minus     Pp1s442_22V6
+CTCTAATGACAT    165  -  176    plus      Pp1s421_9V6
+GATTAATGATCT    900  -  911    minus     AT3G50970
+ATGTAATGAGAA    710  -  721    minus     Ciclev10029952m.g
+GATTAATGAGCT    911  -  922    minus     Carubv10018039m.g
+TCCTAATGATCT    685  -  696    minus     Aquca_007_00851
+GCATAATGAAAT    51   -   62    plus      Eucgr.F01727
+AGTTAATGACGC    592  -  603    plus      Gorai.007G257100
+TTATAATGAGAT    401  -  412    minus     Potri.013G062400
+AAATAATGAGGC    120  -  131    plus      Potri.013G062300
+AAATAATGAGGC    79   -   90    plus      Potri.013G062200
+GAGTAATGAATG    333  -  344    minus     Potri.002G013200
+AAGTAACGAGGT    460  -  471    minus     Thecc1EG006526
 
 Time: 10 second(s)
 
@@ -350,22 +350,22 @@ P11   -1.4899590568139  1.57772718030603  -0.4016377530070  -0.5819332299093
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-TGGAACAGGAGC    387  -  398    plus      PDK_30s870811g004||Pdactylifera
-AGTCAGAGGCGG    808  -  819    minus     PDK_30s943221g001||Pdactylifera
-ATTAACAGGATT    16   -   27    plus      898000|898000|Alyrata
-TTTCACAGGTCC    569  -  580    plus      Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-GATAACAGGACA    809  -  820    minus     Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-GCCCACAGGCCC    689  -  700    plus      AT3G50970|AT3G50970.1|Athaliana
-AATAACAGGGCC    689  -  700    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-AATAGCAGGCTT    704  -  715    minus     Carubv10018039m.g|Carubv10018039m|Cru
-AATCACAGGTCC    789  -  800    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-GATCGCAGGAGC    972  -  983    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-GAAAGCAGGGGC    775  -  786    plus      Gorai.007G257100|Gorai.007G257100.1|G
-CTAAACAGGGAC    708  -  719    plus      Potri.013G062400|Potri.013G062400.1|P
-CTAAACAGGGAC    699  -  710    plus      Potri.013G062300|Potri.013G062300.1;P
-CTGAACAGGGAC    702  -  713    plus      Potri.013G062200|Potri.013G062200.1|P
-CTTAGCAGGAGT    878  -  889    minus     Potri.002G013200|Potri.002G013200.1|P
-CTTCTCAGGGTG    907  -  918    plus      Thecc1EG006526|Thecc1EG006526t1|Tcaca
+TGGAACAGGAGC    387  -  398    plus      PDK_30s870811g004
+AGTCAGAGGCGG    808  -  819    minus     PDK_30s943221g001
+ATTAACAGGATT    16   -   27    plus      898000
+TTTCACAGGTCC    569  -  580    plus      Pp1s442_22V6
+GATAACAGGACA    809  -  820    minus     Pp1s421_9V6
+GCCCACAGGCCC    689  -  700    plus      AT3G50970
+AATAACAGGGCC    689  -  700    plus      Ciclev10029952m.g
+AATAGCAGGCTT    704  -  715    minus     Carubv10018039m.g
+AATCACAGGTCC    789  -  800    plus      Aquca_007_00851
+GATCGCAGGAGC    972  -  983    plus      Eucgr.F01727
+GAAAGCAGGGGC    775  -  786    plus      Gorai.007G257100
+CTAAACAGGGAC    708  -  719    plus      Potri.013G062400
+CTAAACAGGGAC    699  -  710    plus      Potri.013G062300
+CTGAACAGGGAC    702  -  713    plus      Potri.013G062200
+CTTAGCAGGAGT    878  -  889    minus     Potri.002G013200
+CTTCTCAGGGTG    907  -  918    plus      Thecc1EG006526
 
 Time: 10 second(s)
 
@@ -412,22 +412,22 @@ P11   0.93828517310543  -0.4016377530070  -0.4016377530070  -1.4899590568139
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GCAGGTGTGAGA    788  -  799    minus     PDK_30s870811g004||Pdactylifera
-CTAGGTGTTGCA    931  -  942    minus     PDK_30s943221g001||Pdactylifera
-GTCGGTGTAGTA    748  -  759    minus     898000|898000|Alyrata
-CTCGGTATAAGC    760  -  771    plus      Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-CTAGGTATAAAA    149  -  160    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-GTCGGTGTAGTA    734  -  745    minus     AT3G50970|AT3G50970.1|Athaliana
-CTAGGTGTATCC    207  -  218    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-GTCGGTGTAGTA    739  -  750    minus     Carubv10018039m.g|Carubv10018039m|Cru
-CTTGGTATATAG    540  -  551    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-GCTGGTATGGCG    360  -  371    minus     Eucgr.F01727|Eucgr.F01727.1|Egrandis
-TTTGGTATAGTA    826  -  837    minus     Gorai.007G257100|Gorai.007G257100.1|G
-TTTGGTATAATA    196  -  207    plus      Potri.013G062400|Potri.013G062400.1|P
-CCAGGTGTAGAA    393  -  404    minus     Potri.013G062300|Potri.013G062300.1;P
-CCAGGTATAAAA    338  -  349    minus     Potri.013G062200|Potri.013G062200.1|P
-GTTGGAATAAAA    166  -  177    minus     Potri.002G013200|Potri.002G013200.1|P
-CCTGGTATAGGT    421  -  432    plus      Thecc1EG006526|Thecc1EG006526t1|Tcaca
+GCAGGTGTGAGA    788  -  799    minus     PDK_30s870811g004
+CTAGGTGTTGCA    931  -  942    minus     PDK_30s943221g001
+GTCGGTGTAGTA    748  -  759    minus     898000
+CTCGGTATAAGC    760  -  771    plus      Pp1s442_22V6
+CTAGGTATAAAA    149  -  160    plus      Pp1s421_9V6
+GTCGGTGTAGTA    734  -  745    minus     AT3G50970
+CTAGGTGTATCC    207  -  218    plus      Ciclev10029952m.g
+GTCGGTGTAGTA    739  -  750    minus     Carubv10018039m.g
+CTTGGTATATAG    540  -  551    plus      Aquca_007_00851
+GCTGGTATGGCG    360  -  371    minus     Eucgr.F01727
+TTTGGTATAGTA    826  -  837    minus     Gorai.007G257100
+TTTGGTATAATA    196  -  207    plus      Potri.013G062400
+CCAGGTGTAGAA    393  -  404    minus     Potri.013G062300
+CCAGGTATAAAA    338  -  349    minus     Potri.013G062200
+GTTGGAATAAAA    166  -  177    minus     Potri.002G013200
+CCTGGTATAGGT    421  -  432    plus      Thecc1EG006526
 
 Time: 10 second(s)
 
@@ -474,22 +474,22 @@ P11   0.36978312194386  -2.3219280948874  -0.4016377530070  0.36978312194386
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-TCCCTACACAAA    136  -  147    plus      PDK_30s870811g004||Pdactylifera
-GATCAACACAAT    145  -  156    minus     PDK_30s943221g001||Pdactylifera
-CAACAACACGAA    422  -  433    plus      898000|898000|Alyrata
-ACACAACACATT    367  -  378    plus      Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-CAGCAACACAAT    593  -  604    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-CATCATCACATA    839  -  850    minus     AT3G50970|AT3G50970.1|Athaliana
-GCACAACACAAA    760  -  771    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-TCACAACACGAG    382  -  393    plus      Carubv10018039m.g|Carubv10018039m|Cru
-AGGCATCACAAA    812  -  823    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-TCTCAACACACA    986  -  997    minus     Eucgr.F01727|Eucgr.F01727.1|Egrandis
-GGGCAGCACCAG    76   -   87    plus      Gorai.007G257100|Gorai.007G257100.1|G
-CATCAACACTGT    809  -  820    plus      Potri.013G062400|Potri.013G062400.1|P
-CATCAACACTGT    800  -  811    plus      Potri.013G062300|Potri.013G062300.1;P
-CATCAACACTGT    803  -  814    plus      Potri.013G062200|Potri.013G062200.1|P
-CAGCAGCACGCA    740  -  751    minus     Potri.002G013200|Potri.002G013200.1|P
-CCACAACACACT    897  -  908    plus      Thecc1EG006526|Thecc1EG006526t1|Tcaca
+TCCCTACACAAA    136  -  147    plus      PDK_30s870811g004
+GATCAACACAAT    145  -  156    minus     PDK_30s943221g001
+CAACAACACGAA    422  -  433    plus      898000
+ACACAACACATT    367  -  378    plus      Pp1s442_22V6
+CAGCAACACAAT    593  -  604    plus      Pp1s421_9V6
+CATCATCACATA    839  -  850    minus     AT3G50970
+GCACAACACAAA    760  -  771    plus      Ciclev10029952m.g
+TCACAACACGAG    382  -  393    plus      Carubv10018039m.g
+AGGCATCACAAA    812  -  823    plus      Aquca_007_00851
+TCTCAACACACA    986  -  997    minus     Eucgr.F01727
+GGGCAGCACCAG    76   -   87    plus      Gorai.007G257100
+CATCAACACTGT    809  -  820    plus      Potri.013G062400
+CATCAACACTGT    800  -  811    plus      Potri.013G062300
+CATCAACACTGT    803  -  814    plus      Potri.013G062200
+CAGCAGCACGCA    740  -  751    minus     Potri.002G013200
+CCACAACACACT    897  -  908    plus      Thecc1EG006526
 
 Time: 10 second(s)
 
@@ -536,24 +536,24 @@ P11   -0.0289796168776  0.05032430953648  1.27976473220838  -2.3219280948874
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GATCAAGGGGAG    912  -  923    minus     PDK_30s870811g004||Pdactylifera
-GTACAAGGGTGG    17   -   28    plus      PDK_30s943221g001||Pdactylifera
-GCGCAAGGATCA    28   -   39    minus     898000|898000|Alyrata
-GTACAAGGGAAC    930  -  941    minus     Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-GCTCAAGGGCCA    632  -  643    minus     Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-GCGCAAGGATCA    150  -  161    minus     AT3G50970|AT3G50970.1|Athaliana
-CCACAAGTGTTG    910  -  921    plus      Ciclev10029952m.g|Ciclev10029952m|Ccl
-TCGAAAGGGTCG    322  -  333    plus      Carubv10018039m.g|Carubv10018039m|Cru
-TGGCATGGGCCA    699  -  710    minus     Aquca_007_00851|Aquca_007_00851.1|Aco
-ACGCAAGGGGGG    552  -  563    minus     Eucgr.F01727|Eucgr.F01727.1|Egrandis
-GCGCAAGGGGGA    42   -   53    plus      Gorai.007G257100|Gorai.007G257100.1|G
-ATACAAGGGAAG    690  -  701    minus     Potri.013G062400|Potri.013G062400.1|P
-ATACAAGGGAAG    681  -  692    minus     Potri.013G062300|Potri.013G062300.1;P
-ATACAAGGGAAG    684  -  695    minus     Potri.013G062200|Potri.013G062200.1|P
-AGCCAAAGGAGC    809  -  820    minus     Potri.002G013200|Potri.002G013200.1|P
-GGTCAGGGGTCC    333  -  344    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+GATCAAGGGGAG    912  -  923    minus     PDK_30s870811g004
+GTACAAGGGTGG    17   -   28    plus      PDK_30s943221g001
+GCGCAAGGATCA    28   -   39    minus     898000
+GTACAAGGGAAC    930  -  941    minus     Pp1s442_22V6
+GCTCAAGGGCCA    632  -  643    minus     Pp1s421_9V6
+GCGCAAGGATCA    150  -  161    minus     AT3G50970
+CCACAAGTGTTG    910  -  921    plus      Ciclev10029952m.g
+TCGAAAGGGTCG    322  -  333    plus      Carubv10018039m.g
+TGGCATGGGCCA    699  -  710    minus     Aquca_007_00851
+ACGCAAGGGGGG    552  -  563    minus     Eucgr.F01727
+GCGCAAGGGGGA    42   -   53    plus      Gorai.007G257100
+ATACAAGGGAAG    690  -  701    minus     Potri.013G062400
+ATACAAGGGAAG    681  -  692    minus     Potri.013G062300
+ATACAAGGGAAG    684  -  695    minus     Potri.013G062200
+AGCCAAAGGAGC    809  -  820    minus     Potri.002G013200
+GGTCAGGGGTCC    333  -  344    minus     Thecc1EG006526
 
-Time: 11 second(s)
+Time: 10 second(s)
 
 
 ******************************************************************************
@@ -598,23 +598,23 @@ P11   -0.5819332299093  -2.3219280948874  1.10399746384586  0.18413543400508
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-ATACGCTTCGAG    964  -  975    plus      PDK_30s870811g004||Pdactylifera
-TTTCGCTTCGCT    387  -  398    plus      PDK_30s943221g001||Pdactylifera
-GGGCGCTCCAGA    580  -  591    minus     898000|898000|Alyrata
-CTTGGCTCCAGG    675  -  686    plus      Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_2
-CCTCCCTCCATG    620  -  631    plus      Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6
-CTTCGCATCAGG    504  -  515    minus     AT3G50970|AT3G50970.1|Athaliana
-TGGCCCTCCGAG    677  -  688    minus     Ciclev10029952m.g|Ciclev10029952m|Ccl
-GTCCGCTCCAGA    561  -  572    minus     Carubv10018039m.g|Carubv10018039m|Cru
-TGTCGCTTCTCT    388  -  399    plus      Aquca_007_00851|Aquca_007_00851.1|Aco
-GTTCGCTCCGCG    650  -  661    plus      Eucgr.F01727|Eucgr.F01727.1|Egrandis
-CTCCCCTCCCCT    9    -   20    minus     Gorai.007G257100|Gorai.007G257100.1|G
-CTTCGCTCCACT    900  -  911    plus      Potri.013G062400|Potri.013G062400.1|P
-CTTCGCTCCACT    898  -  909    plus      Potri.013G062300|Potri.013G062300.1;P
-CTTCGCTCCACT    901  -  912    plus      Potri.013G062200|Potri.013G062200.1|P
-ATCCGCTCTGCG    840  -  851    plus      Potri.002G013200|Potri.002G013200.1|P
-GGACGCTCCACA    766  -  777    minus     Thecc1EG006526|Thecc1EG006526t1|Tcaca
+ATACGCTTCGAG    964  -  975    plus      PDK_30s870811g004
+TTTCGCTTCGCT    387  -  398    plus      PDK_30s943221g001
+GGGCGCTCCAGA    580  -  591    minus     898000
+CTTGGCTCCAGG    675  -  686    plus      Pp1s442_22V6
+CCTCCCTCCATG    620  -  631    plus      Pp1s421_9V6
+CTTCGCATCAGG    504  -  515    minus     AT3G50970
+TGGCCCTCCGAG    677  -  688    minus     Ciclev10029952m.g
+GTCCGCTCCAGA    561  -  572    minus     Carubv10018039m.g
+TGTCGCTTCTCT    388  -  399    plus      Aquca_007_00851
+GTTCGCTCCGCG    650  -  661    plus      Eucgr.F01727
+CTCCCCTCCCCT    9    -   20    minus     Gorai.007G257100
+CTTCGCTCCACT    900  -  911    plus      Potri.013G062400
+CTTCGCTCCACT    898  -  909    plus      Potri.013G062300
+CTTCGCTCCACT    901  -  912    plus      Potri.013G062200
+ATCCGCTCTGCG    840  -  851    plus      Potri.002G013200
+GGACGCTCCACA    766  -  777    minus     Thecc1EG006526
 
-Time: 10 second(s)
+Time: 11 second(s)
 
 
