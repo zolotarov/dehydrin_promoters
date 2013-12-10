@@ -1,0 +1,750 @@
+
+
+NEW: Starting a medium job
+
+Organism code: PL
+
+Processing *both* strands
+./weederlauncher.out /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_dehydrins_promoters.fas PL medium S M 
+
+
+Searching for motifs of length 6 with 1 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_dehydrins_promoters.fas -R 50 -O PL -W 6 -e 1 -M -S -T 10 )
+1) CGACAT 0.91 
+2) CACGTA 0.82 
+3) ACGTGT 0.78 
+4) CTAAAG 0.78 
+5) CATCCA 0.78 
+6) GGAGCG 0.77 
+7) TCGTTA 0.73 
+8) ACCTGG 0.69 
+9) CTGGAT 0.69 
+10) GTCTGT 0.68 
+
+Elapsed time : 0 min. 0 sec.
+
+
+Searching for motifs of length 8 with 2 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_dehydrins_promoters.fas -R 50 -O PL -W 8 -e 2 -M -S -T 10 )
+1) CTAAAGGC 1.59 
+2) CCAGGTGT 1.56 
+3) ACACGTAG 1.40 
+4) ATGCAGTC 1.32 
+5) TCTAAAGG 1.31 
+6) TAAAGGCC 1.28 
+7) GATCAAAG 1.27 
+8) TACGTCGG 1.23 
+9) TGCAGTCA 1.22 
+10) ATGTCGGC 1.19 
+
+Elapsed time : 0 min. 4 sec.
+
+
+Searching for motifs of length 10 with 3 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_dehydrins_promoters.fas -R 50 -O PL -W 10 -e 3 -M -S -T 10 )
+1) TGACTGCATC 1.99 
+2) TCGATCAAAG 1.78 
+3) GATCAAAGTC 1.67 
+4) GTAAAATATC 1.64 
+5) TACGTCGGTC 1.61 
+6) ACACCTGGCA 1.59 
+7) TCTGAAAGGC 1.58 
+8) ACGTCTGTCG 1.51 
+9) GATCAAAGGC 1.48 
+10) TTGACTGCAT 1.48 
+
+Elapsed time : 1 min. 14 sec.
+
+
+Your sequences:
+
+Sequence 1 : >PDK_30s870811g004||Pdactylifera
+Sequence 2 : >PDK_30s943221g001||Pdactylifera
+Sequence 3 : >898000|898000|Alyrata
+Sequence 4 : >Pp1s442_22V6|Pp1s442_22V6.1;Pp1s442_22
+Sequence 5 : >Pp1s421_9V6|Pp1s421_9V6.2;Pp1s421_9V6.
+Sequence 6 : >AT3G50970|AT3G50970.1|Athaliana
+Sequence 7 : >Ciclev10029952m.g|Ciclev10029952m|Ccle
+Sequence 8 : >Carubv10018039m.g|Carubv10018039m|Crub
+Sequence 9 : >Aquca_007_00851|Aquca_007_00851.1|Acoe
+Sequence 10 : >Eucgr.F01727|Eucgr.F01727.1|Egrandis
+Sequence 11 : >Gorai.007G257100|Gorai.007G257100.1|Gr
+Sequence 12 : >Potri.013G062400|Potri.013G062400.1|Pt
+Sequence 13 : >Potri.013G062300|Potri.013G062300.1;Po
+Sequence 14 : >Potri.013G062200|Potri.013G062200.1|Pt
+Sequence 15 : >Potri.002G013200|Potri.002G013200.1|Pt
+Sequence 16 : >Thecc1EG006526|Thecc1EG006526t1|Tcacao
+
+
+**** MY ADVICE ****
+
+
+ *** Interesting motifs (highest-ranking) seem to be : 
+
+
+CTAAAGGC
+GCCTTTAG
+ 
+3 redundant motifs found:
+TAAAGGCC - TCTAAAGG - CTAAAG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 + [CTAAAGAT]  357  (86.34) 
+  2 - [CTGAAGGC]  275  (88.02) 
+  3 + [CGAAAAGC]  430  (86.24) 
+  3 +  CTAAAGCC   699  (91.04) 
+  3 - [TTAAAGAC]  938  (87.30) 
+  3 -  CTAAAGAC   760  (92.77) 
+  3 - [CAAAAAGC]  549  (85.90) 
+  3 - [CAAAAGGT]  314  (85.39) 
+  5 + [CTAAAGAT]  306  (86.34) 
+  5 + [CTAAAAGT]  435  (87.65) 
+  5 - [TTAAAGTC]  105  (85.98) 
+  6 +  CTAAAGGC   683  (100.00) 
+  6 - [TGAAAGGC]  672  (86.69) 
+  6 - [CAAAAGGT]  317  (85.39) 
+  7 + [CTAAAGAT]  149  (86.34) 
+  7 + [CTTAAGGC]  407  (87.15) 
+  7 + [TTAAAGTC]  516  (85.98) 
+  7 -  CTAAAAGC   989  (94.07) 
+  7 - [CTAAAATC]  474  (85.53) 
+  7 -  TTAAAGGC   413  (94.53) 
+  7 - [CTAAAATC]  197  (85.53) 
+  8 + [CTAAAAGA]  403  (86.60) 
+  8 +  CTAAAAGC   691  (94.07) 
+  8 +  CTAAAGGC   949  (100.00) 
+  8 - [TTAAAGAC]  936  (87.30) 
+  8 - [CTAAAAGA]  355  (86.60) 
+  8 - [CAAAAGGT]  270  (85.39) 
+  9 + [CTAAAAGT]  462  (87.65) 
+  9 +  CTAAAGGA   520  (92.52) 
+ 10 +  CTAAAGGC   408  (100.00) 
+ 10 -  CTAAAGGT   765  (93.57) 
+ 11 + [TGAAAGGC]   99  (86.69) 
+ 12 + [TTAAAAGC]  481  (88.60) 
+ 12 + [TCAAAGGC]  760  (85.98) 
+ 12 +  CTAAAGGA   772  (92.52) 
+ 12 - [AGAAAGGC]  766  (85.57) 
+ 12 -  CGAAAGGC   745  (92.16) 
+ 12 -  CTAAAGGT   738  (93.57) 
+ 13 +  CTAAAGAC   471  (92.77) 
+ 13 +  CTAAAGGA   763  (92.52) 
+ 13 - [TGAAAGGC]  736  (86.69) 
+ 13 -  CTAAAGGT   729  (93.57) 
+ 13 - [ATAAAAGC]  480  (87.48) 
+ 13 -  CTAAAGAC   221  (92.77) 
+ 14 + [TCAAAGGC]  754  (85.98) 
+ 14 +  CTAAAGGA   766  (92.52) 
+ 14 - [AGAAAGGC]  760  (85.57) 
+ 14 - [TGAAAGGC]  739  (86.69) 
+ 14 -  CTAAAGGC   180  (100.00) 
+ 15 + [TTAAATGC]  765  (85.89) 
+ 15 + [ATAAAAGC]  865  (87.48) 
+ 15 -  CTAAAGGC   948  (100.00) 
+ 15 - [CTAAAAAC]  612  (86.84) 
+ 15 - [ATAAAAGC]  369  (87.48) 
+ 16 + [CAAAAAGC]  345  (85.90) 
+ 16 - [ATAAAGGA]  325  (85.93) 
+ 16 - [ATAAAAGC]  291  (87.48) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   15    81     6    20		    0    19     0     1
+2 	   11    10    12    89		    0     0     1    19
+3 	  107     6     5     4		   20     0     0     0
+4 	  108     5     4     5		   20     0     0     0
+5 	  107     3     1    11		   20     0     0     0
+6 	   20     1    91    10		    2     0    18     0
+7 	   14     9    89    10		    3     1    16     0
+8 	   13    88     4    17		    4    13     0     3
+
+==========================================
+
+
+TGACTGCATC
+GATGCAGTCA
+ 
+3 redundant motifs found:
+TTGACTGCAT - TGCAGTCA - ATGCAGTC - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 -  TGACTGCATA   453  (93.52) 
+  2 + [TGACACCATC]  254  (87.07) 
+  2 +  TGACTTCATC   309  (95.20) 
+  3 +  TGACTGCATC   380  (100.00) 
+  6 +  TGACTGCATC   384  (100.00) 
+  7 + [TGATTCCATC]  816  (88.61) 
+  7 -  TGACTACATC   463  (92.13) 
+  8 +  TGACTGCATC   337  (100.00) 
+  9 + [TGATTGCATG]   29  (86.05) 
+  9 + [TCACTGCATT]   93  (86.44) 
+ 12 + [TGTCTGCTTC]  884  (87.07) 
+ 13 + [TGTCTGCTTC]  882  (87.07) 
+ 14 + [TGTCTGCTTC]  885  (87.07) 
+ 15 - [TGATTGGATC]  252  (85.19) 
+ 16 +  TGGCTGCATC   227  (93.22) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	    6     2     6    90		    0     0     0     7
+2 	   10    12    66    16		    0     0     7     0
+3 	   66    13    11    14		    6     0     1     0
+4 	   14    71     3    16		    0     7     0     0
+5 	   12     6     6    80		    0     0     0     7
+6 	    8    14    64    18		    1     0     5     1
+7 	   12    79     7     6		    0     7     0     0
+8 	   84     5     2    13		    7     0     0     0
+9 	    7     7     5    85		    0     0     0     7
+10 	   13    72     8    11		    1     6     0     0
+
+==========================================
+
+ *** Interesting motifs (not highest-ranking) can also be : 
+
+
+CACGTA
+TACGTG
+ 
+2 redundant motifs found:
+ACACGTAG - ACGTGT - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  CACCTA   331  (91.03) 
+  1 + [TACGTA]  463  (88.29) 
+  1 + [CACGGA]  747  (87.11) 
+  1 +  CACGTG   832  (93.16) 
+  1 +  CACGTG   871  (93.16) 
+  1 + [CAAGTG]  900  (87.07) 
+  1 -  GACGTA   955  (90.43) 
+  1 -  CACGTG   871  (93.16) 
+  1 -  CACGTG   832  (93.16) 
+  1 - [TACGTA]  463  (88.29) 
+  2 + [CAAGTG]  614  (87.07) 
+  2 +  CACCTA   936  (91.03) 
+  2 -  CACCTA   644  (91.03) 
+  2 -  CATGTA    98  (91.51) 
+  2 -  CAAGTA    11  (93.91) 
+  3 +  CAAGTA    97  (93.91) 
+  3 + [CACATA]  147  (89.93) 
+  3 +  CACGTA   250  (100.00) 
+  3 + [CACGAA]  428  (88.20) 
+  3 +  CACGTA   834  (100.00) 
+  3 -  GACGTA   726  (90.43) 
+  4 + [CACATA]  334  (89.93) 
+  4 +  CAAGTA   362  (93.91) 
+  4 +  CACGTG   616  (93.16) 
+  4 +  CACGTG   626  (93.16) 
+  4 +  CACGTG   707  (93.16) 
+  4 + [CACGCA]  858  (89.75) 
+  4 + [CACGCA]  862  (89.75) 
+  4 + [CACGCA]  880  (89.75) 
+  4 - [CACGAA]  962  (88.20) 
+  4 -  CACGTG   707  (93.16) 
+  4 -  CACGTG   626  (93.16) 
+  4 -  CACGTG   616  (93.16) 
+  4 -  GACGTA   391  (90.43) 
+  4 - [CACATA]  206  (89.93) 
+  5 +  CAAGTA   376  (93.91) 
+  5 +  CAAGTA   489  (93.91) 
+  5 +  GACGTA   584  (90.43) 
+  5 + [CACATA]  728  (89.93) 
+  5 - [CACGCA]  805  (89.75) 
+  5 - [CAAGTG]  690  (87.07) 
+  5 -  CAAGTA   360  (93.91) 
+  6 + [CACTTA]  101  (87.28) 
+  6 +  CAAGTA   219  (93.91) 
+  6 + [CAGGTA]  233  (88.86) 
+  6 +  CACGTA   819  (100.00) 
+  6 - [CACATA]  839  (89.93) 
+  6 -  CAAGTA   750  (93.91) 
+  6 -  GACGTA   715  (90.43) 
+  6 - [CACGCA]    7  (89.75) 
+  7 +  CACGTA   358  (100.00) 
+  7 + [TACGTA]  648  (88.29) 
+  7 + [CAAGTG]  913  (87.07) 
+  7 -  CAAGTA   852  (93.91) 
+  7 - [TACGTA]  648  (88.29) 
+  7 - [CAAGTG]  616  (87.07) 
+  7 -  CACCTA   208  (91.03) 
+  8 + [CACTTA]  202  (87.28) 
+  8 + [AACGTA]  233  (88.29) 
+  8 +  CACGTA   823  (100.00) 
+  8 - [CAGGTA]  755  (88.86) 
+  8 -  GACGTA   720  (90.43) 
+  9 + [CACGAA]  474  (88.20) 
+  9 -  CAAGTA   329  (93.91) 
+ 10 +  CAAGTA    73  (93.91) 
+ 10 +  CACGTG   372  (93.16) 
+ 10 +  CACGTG   461  (93.16) 
+ 10 -  GACGTA   914  (90.43) 
+ 10 - [CACGGA]  808  (87.11) 
+ 10 -  CACGTG   461  (93.16) 
+ 10 - [CACGGA]  381  (87.11) 
+ 10 -  CACGTG   372  (93.16) 
+ 10 -  CATGTA    46  (91.51) 
+ 11 +  CACCTA   220  (91.03) 
+ 11 +  CACCTA   767  (91.03) 
+ 11 +  CACGTA   866  (100.00) 
+ 11 -  CACCTA   192  (91.03) 
+ 12 + [CAAGTG]  608  (87.07) 
+ 12 +  CACGTA   826  (100.00) 
+ 12 - [AACGTA]  785  (88.29) 
+ 12 -  CATGTA   386  (91.51) 
+ 12 - [CAGGTA]  272  (88.86) 
+ 12 -  CATGTA   172  (91.51) 
+ 13 + [CACGTC]  218  (87.28) 
+ 13 + [CACTTA]  532  (87.28) 
+ 13 +  CACGTA   824  (100.00) 
+ 13 - [CAAGTG]  931  (87.07) 
+ 13 - [AACGTA]  776  (88.29) 
+ 13 -  CAAGTA   494  (93.91) 
+ 13 -  CATGTA   290  (91.51) 
+ 14 +  CACGTA   827  (100.00) 
+ 14 - [CAAGTG]  932  (87.07) 
+ 14 - [AACGTA]  779  (88.29) 
+ 14 - [CACGAA]  570  (88.20) 
+ 14 -  CATGTA   417  (91.51) 
+ 14 - [CAGGTA]  343  (88.86) 
+ 14 - [CACATA]  258  (89.93) 
+ 14 -  CACGTA   249  (100.00) 
+ 15 +  CATGTA    54  (91.51) 
+ 15 +  CAAGTA   531  (93.91) 
+ 15 + [CACGTC]  774  (87.28) 
+ 15 - [CAAGTG]  916  (87.07) 
+ 15 - [CACGCA]  740  (89.75) 
+ 16 +  CAAGTA    18  (93.91) 
+ 16 +  CATGTA   552  (91.51) 
+ 16 +  CACCTA   884  (91.03) 
+ 16 - [CACGTC]  510  (87.28) 
+ 16 -  CAAGTA   467  (93.91) 
+ 16 -  CACGTA   394  (100.00) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	    4    86     7     4		    0    56     7     0
+2 	  100     0     1     0		   63     0     0     0
+3 	   15    74     4     8		   15    40     0     8
+4 	    6     8    84     3		    0     8    55     0
+5 	    4     6     3    88		    0     0     0    63
+6 	   84     3    14     0		   49     0    14     0
+
+==========================================
+
+
+TCGATCAAAG
+CTTTGATCGA
+ 
+3 redundant motifs found:
+GATCAAAGGC - GATCAAAGTC - GATCAAAG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  TTGATCAAAT   196  (90.42) 
+  1 -  TTGATCAAAT   194  (90.42) 
+  3 + [TCTATAAAAG]  892  (89.99) 
+  3 +  TCGATCAAAG   929  (100.00) 
+  3 - [TTGATTAAAG]  783  (89.42) 
+  3 - [TCCATCAAAT]  273  (88.93) 
+  4 + [TCCATCAAAT]  470  (88.93) 
+  4 -  TCGATCAAAA   990  (94.00) 
+  4 - [TGGATCAAAA]  411  (88.44) 
+  6 + [TCTATAAAAG]  879  (89.99) 
+  6 +  TCGATCAAAG   916  (100.00) 
+  7 + [TTGTTCAAAG]  939  (86.66) 
+  8 + [TCTATAAAAG]  890  (89.99) 
+  8 +  TCGATCAAAG   927  (100.00) 
+ 10 -  TCGATCAAGG   792  (90.48) 
+ 10 - [TCAATAAAAG]  304  (88.44) 
+ 11 + [TAGATAAAAG]  750  (89.13) 
+ 12 +  TAGATCAAAG   756  (94.23) 
+ 13 +  TAGATCAAAG   747  (94.23) 
+ 14 +  TAGATCAAAG   750  (94.23) 
+ 15 + [TAAATCAAAG]  284  (87.77) 
+ 16 -  TCTATCAAAG   156  (95.09) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	    9    10    13   117		    0     0     0    11
+2 	   19    80    20    30		    3     6     0     2
+3 	   17    22    85    25		    0     0    10     1
+4 	  125     6     6    12		   11     0     0     0
+5 	   13     6     7   123		    0     0     0    11
+6 	   25    89    18    17		    0    11     0     0
+7 	  115    11    12    11		   11     0     0     0
+8 	  131     3     3    12		   11     0     0     0
+9 	  118     8    11    12		   10     0     1     0
+10 	   22     5    98    24		    1     0     8     2
+
+==========================================
+
+
+GATCAAAGTC
+GACTTTGATC
+ 
+3 redundant motifs found:
+GATCAAAGGC - TCGATCAAAG - GATCAAAG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  GATCAAATTT   198  (90.18) 
+  1 - [GATCAAATTG]  192  (86.60) 
+  3 +  GATCAAAGTC   931  (100.00) 
+  3 - [GATTAAAGTG]  781  (85.17) 
+  3 - [CATCAAATTC]  271  (89.79) 
+  3 - [GATCAAATCC]   23  (86.71) 
+  4 + [AATCAAAATT]  178  (86.43) 
+  4 -  GATCAAAATT   409  (90.45) 
+  6 +  GATCAAAGTC   918  (100.00) 
+  6 - [GATCAAATCC]  145  (86.71) 
+  7 + [GAACAAAGTA]  530  (85.39) 
+  7 +  GTTCAAAGTC   941  (91.00) 
+  8 +  AATCAAAGTC    89  (95.98) 
+  8 +  AATCAAAATC   512  (91.64) 
+  8 +  GATCAAAGTC   929  (100.00) 
+ 10 - [GATAAAAGAC]  924  (85.85) 
+ 10 - [GATGAAATTC]  782  (87.31) 
+ 11 + [CATCAAAGTA]  945  (89.89) 
+ 11 - [GATAAAAATA]  805  (85.13) 
+ 12 + [AATTAAAATC]   83  (85.61) 
+ 12 +  GATCAAAGGC   758  (91.00) 
+ 12 - [AATAAAAATC]  371  (85.61) 
+ 13 + [AATTAAAATC]  203  (85.61) 
+ 13 +  GATCAAAGAC   749  (91.88) 
+ 14 + [TATCAAAATT]   91  (85.87) 
+ 14 +  GATCAAAGGC   752  (91.00) 
+ 15 + [CATCAAATTA]  208  (85.29) 
+ 15 + [AATCAAAGTG]  286  (87.18) 
+ 15 -  GATCAAATTC   988  (95.40) 
+ 15 - [TATCAAAATT]  590  (85.87) 
+ 16 -  TATCAAAGTT   154  (90.20) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   30    20    84    26		    2     0    10     1
+2 	  130    10     7    13		   12     0     0     1
+3 	   10     8     9   133		    0     0     0    13
+4 	   22   103    13    22		    0    13     0     0
+5 	  133     9     7    11		   13     0     0     0
+6 	  144     6     7     3		   13     0     0     0
+7 	  131     6    11    12		   13     0     0     0
+8 	   30    11    91    28		    2     0     9     2
+9 	   15    13    12   120		    1     0     2    10
+10 	   30    95    10    25		    0    10     0     3
+
+==========================================
+
+
+ATGCAGTC
+GACTGCAT
+ 
+3 redundant motifs found:
+TTGACTGCAT - TGACTGCATC - TGCAGTCA - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  ATGCAGTC   454  (100.00) 
+  1 - [ATGCAGAG]  656  (85.78) 
+  2 -  ATACAGTC   896  (90.73) 
+  2 -  ATGAAGTC   310  (93.24) 
+  2 - [ATGTATTC]   95  (86.73) 
+  3 -  ATGCAGTC   381  (100.00) 
+  4 + [ATGCATTT]  146  (86.14) 
+  4 + [ATGTAATC]  174  (86.42) 
+  4 + [ATGCTGAC]  668  (85.09) 
+  4 +  ATGCAGTA   732  (93.35) 
+  4 + [TTGCAGTC]  897  (86.94) 
+  4 - [ATCAAGTC]  890  (85.71) 
+  4 - [ATGCATAC]  144  (86.26) 
+  5 +  ATGCAGTA   778  (93.35) 
+  5 - [ATGAAGTT]  839  (85.88) 
+  5 -  ATGCAGTG   700  (93.01) 
+  6 + [ATGCATTA]  660  (86.84) 
+  6 + [ATGAATTC]  848  (86.73) 
+  6 -  ATGCAGTC   385  (100.00) 
+  7 +  ATGTAGTC   464  (93.24) 
+  8 -  ATGCAGTC   338  (100.00) 
+  8 - [ATGCTATC]  179  (85.51) 
+  9 - [ATGCAATT]  251  (85.83) 
+  9 -  ATGCAGTG    94  (93.01) 
+  9 - [ATGTTGTC]   59  (85.57) 
+  9 -  ATGCAATC    30  (93.18) 
+ 10 - [ATGCTGTA]  942  (85.68) 
+ 11 + [ATGAAGTA]  687  (86.59) 
+ 11 - [ATGCAGAG]  931  (85.78) 
+ 12 + [ATGCTTTC]  175  (85.82) 
+ 12 - [ATGAAGTG]  947  (86.25) 
+ 12 - [ATGTTGTC]  224  (85.57) 
+ 13 + [ATGAAGTT]  169  (85.88) 
+ 13 + [ATGCTTTC]  293  (85.82) 
+ 13 - [ATGAAGTG]  947  (86.25) 
+ 13 - [AAGCAGTC]  476  (89.45) 
+ 14 - [ATGAAGTG]  948  (86.25) 
+ 15 + [ATCCAATC]  253  (85.66) 
+ 15 + [ATCCATTC]  276  (85.97) 
+ 15 +  ATCCAGTC   481  (92.48) 
+ 16 +  ATCCAGTC   707  (92.48) 
+ 16 - [ATGCTGTG]  616  (85.34) 
+ 16 -  ATGCAGCC   228  (90.08) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   88     6     3     3		   15     0     0     0
+2 	    6     2     0    92		    0     0     0    15
+3 	    7    11    77     5		    1     2    12     0
+4 	   12    69     7    12		    1    13     0     1
+5 	   80     6     3    11		   15     0     0     0
+6 	   12     5    70    13		    1     0    14     0
+7 	   12     6     4    78		    0     1     0    14
+8 	   12    67    11    10		    2    11     2     0
+
+==========================================
+
+
+ACGTGT
+ACACGT
+ 
+2 redundant motifs found:
+ACACGTAG - CACGTA - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  ACGTGT   833  (100.00) 
+  1 + [ACGTGC]  872  (86.61) 
+  1 - [ACGTGC]  870  (86.61) 
+  1 - [ACGTGC]  831  (86.61) 
+  1 -  AGGTGT   792  (90.51) 
+  1 -  ACGTAT   462  (90.15) 
+  1 -  AGGTGT   330  (90.51) 
+  2 -  AGGTGT   935  (90.51) 
+  2 - [ACGAGT]  474  (87.22) 
+  3 + [ACGTCT]  758  (89.11) 
+  3 +  ATGTGT   773  (90.51) 
+  3 +  ACGTAT   835  (90.15) 
+  3 -  ACTTGT   972  (92.55) 
+  3 -  ACGTGT   833  (100.00) 
+  3 - [TCGTGT]  427  (86.37) 
+  3 -  ACGTGT   249  (100.00) 
+  3 -  ATGTGT   146  (90.51) 
+  3 - [ACCTGT]  110  (88.73) 
+  3 -  ACTTGT    96  (92.55) 
+  4 +  ACTTGT   294  (92.55) 
+  4 + [ACGTGG]  617  (89.98) 
+  4 +  ACGTGT   627  (100.00) 
+  4 + [ACGTGG]  708  (89.98) 
+  4 + [TCGTGT]  963  (86.37) 
+  4 - [ACGTGG]  706  (89.98) 
+  4 - [ACGTGG]  625  (89.98) 
+  4 - [ACGTGG]  615  (89.98) 
+  4 - [ACCTGT]  573  (88.73) 
+  4 -  ACGTAT   390  (90.15) 
+  4 -  ATGTGT   372  (90.51) 
+  4 -  ATGTGT   333  (90.51) 
+  5 + [ACGAGT]  227  (87.22) 
+  5 +  ACTTGT   691  (92.55) 
+  5 + [GCGTGT]  806  (86.37) 
+  5 +  AGGTGT   893  (90.51) 
+  5 -  ATGTGT   727  (90.51) 
+  5 -  AAGTGT   689  (90.51) 
+  5 - [ACGTCT]  583  (89.11) 
+  5 -  ACTTGT   375  (92.55) 
+  6 + [ACGTCT]  744  (89.11) 
+  6 +  ATGTGT   758  (90.51) 
+  6 +  ACGTAT   820  (90.15) 
+  6 -  ACGTGT   818  (100.00) 
+  6 - [ACCTGT]  232  (88.73) 
+  6 -  ACTTGT   218  (92.55) 
+  7 +  AAGTGT   134  (90.51) 
+  7 +  AGGTGT   209  (90.51) 
+  7 +  AAGTGT   914  (90.51) 
+  7 -  ACTTGT   912  (92.55) 
+  7 - [ACGAGT]  754  (87.22) 
+  7 -  AAGTGT   615  (90.51) 
+  7 - [ACGTGG]  357  (89.98) 
+  8 +  ACTTGT   151  (92.55) 
+  8 + [ACGTTT]  643  (85.58) 
+  8 + [ACGTCT]  749  (89.11) 
+  8 +  ATGTGT   763  (90.51) 
+  8 +  ACGTAT   824  (90.15) 
+  8 -  ACGTGT   822  (100.00) 
+  8 - [ACGTCT]  394  (89.11) 
+  8 - [TCGTGT]  387  (86.37) 
+  8 - [ACGTTT]  232  (85.58) 
+  8 -  AAGTGT   201  (90.51) 
+  9 +  AAGTGT   507  (90.51) 
+  9 + [ACATGT]  778  (87.05) 
+  9 - [ACCTGT]  793  (88.73) 
+  9 - [ACATGT]  778  (87.05) 
+  9 -  ATGTGT   776  (90.51) 
+ 10 + [TCGTGT]  256  (86.37) 
+ 10 +  ACGTGT   462  (100.00) 
+ 10 +  AGGTGT   624  (90.51) 
+ 10 + [ACGTCT]  915  (89.11) 
+ 10 -  ACGTAT   913  (90.15) 
+ 10 - [ACCTGT]  622  (88.73) 
+ 10 - [ACGTGG]  460  (89.98) 
+ 10 - [ACGTGG]  371  (89.98) 
+ 11 +  ACTTGT   541  (92.55) 
+ 11 + [ACGAGT]  821  (87.22) 
+ 11 -  ACGTGT   865  (100.00) 
+ 11 -  AGGTGT   766  (90.51) 
+ 11 -  ACTTGT   471  (92.55) 
+ 12 - [ACGAGT]  932  (87.22) 
+ 12 -  ACGTGT   825  (100.00) 
+ 12 -  ACGTAT   784  (90.15) 
+ 13 +  ACTTGT   138  (92.55) 
+ 13 + [ACGTCT]  219  (89.11) 
+ 13 +  ACTTGT   932  (92.55) 
+ 13 -  ACGTGT   823  (100.00) 
+ 13 -  ACGTAT   775  (90.15) 
+ 13 -  AAGTGT   531  (90.51) 
+ 13 -  AGGTGT   397  (90.51) 
+ 13 - [ACGTGG]  217  (89.98) 
+ 14 + [ACGTGC]  250  (86.61) 
+ 14 +  ATGTGT   259  (90.51) 
+ 14 +  ACTTGT   933  (92.55) 
+ 14 -  ACGTGT   826  (100.00) 
+ 14 -  ACGTAT   778  (90.15) 
+ 15 + [GCGTGT]    4  (86.37) 
+ 15 + [ACATGT]   53  (87.05) 
+ 15 +  AAGTGT   472  (90.51) 
+ 15 +  ACTTGT   608  (92.55) 
+ 15 -  ACGTGT   773  (100.00) 
+ 15 -  AGGTGT   705  (90.51) 
+ 15 - [ACATGT]   53  (87.05) 
+ 15 - [GCGTGT]   13  (86.37) 
+ 16 +  ACGTGT   395  (100.00) 
+ 16 - [ACGTTT]  938  (85.58) 
+ 16 -  AAGTGT   904  (90.51) 
+ 16 - [GCGTGT]  744  (86.37) 
+ 16 - [ACCTGT]   45  (88.73) 
+ 16 -  ACTTGT    17  (92.55) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  106     1     4     4		   64     0     0     0
+2 	    9    88     9     9		    9    37     9     9
+3 	    4     6    90    15		    0     0    49    15
+4 	    5     2     0   108		    0     0     0    64
+5 	    9     7    96     3		    9     0    55     0
+6 	    2     4     9   100		    0     0     0    64
+
+==========================================
+
+
+TCTAAAGG
+CCTTTAGA
+ 
+3 redundant motifs found:
+TAAAGGCC - CTAAAGGC - CTAAAG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 + [ACTAAAGA]  356  (86.51) 
+  1 + [TCTAAAAT]  555  (86.95) 
+  1 - [TATATAGG]  923  (85.46) 
+  1 - [TTTAAAGA]  717  (87.74) 
+  2 + [TATGAAGG]  229  (86.88) 
+  2 - [TCAAAAGA]  920  (87.35) 
+  2 -  TCTGAAGG   276  (92.25) 
+  3 + [TATAAAGA]   73  (88.96) 
+  3 + [TCAAAAGA]  295  (87.35) 
+  3 +  TCTAAAGC   698  (92.21) 
+  3 + [TATAAAAG]  894  (88.85) 
+  3 -  TCTAAAGA   761  (94.33) 
+  3 -  TCAAAAGG   315  (93.02) 
+  4 + [TCTAAAAT]   26  (86.95) 
+  4 + [TACAAAGG]  137  (85.47) 
+  4 - [TCAAAAGC]  830  (85.23) 
+  4 - [TATAAATG]  149  (86.85) 
+  5 + [TCTAATGA]  166  (85.21) 
+  5 +  TCTAAAGA   305  (94.33) 
+  5 + [ACTAAAAG]  434  (86.40) 
+  5 + [TAAAAAGG]  565  (87.65) 
+  5 - [TCAAAAGT]  117  (85.76) 
+  6 + [TATAAAGA]  195  (88.96) 
+  6 + [TCAAAAGA]  592  (87.35) 
+  6 +  TCTAAAGG   682  (100.00) 
+  6 + [TATAAAAG]  881  (88.85) 
+  6 -  TCAAAAGG   318  (93.02) 
+  7 + [ACTAAAGA]  148  (86.51) 
+  7 - [GCTAAAAG]  990  (86.15) 
+  7 - [GTTAAAGG]  414  (85.35) 
+  8 + [TATAAAGA]   15  (88.96) 
+  8 +  TCGAAAGG   322  (91.19) 
+  8 + [GCTAAAAG]  402  (86.15) 
+  8 +  TCTAAAAG   690  (94.21) 
+  8 + [TATAAAAG]  892  (88.85) 
+  8 +  TCTAAAGG   948  (100.00) 
+  8 - [TCTAAAAT]  979  (86.95) 
+  8 - [TCTCAAAG]  504  (85.63) 
+  8 - [GCTAAAAG]  356  (86.15) 
+  8 -  TCAAAAGG   271  (93.02) 
+  8 -  TGTAAAGG   104  (90.41) 
+  9 + [TCTGAAGA]   13  (86.58) 
+  9 + [TTTGAAGG]   71  (85.67) 
+  9 + [TAGAAAGG]  343  (85.83) 
+  9 + [ACTAAAAG]  461  (86.40) 
+  9 + [TCAAAAGT]  503  (85.76) 
+  9 +  ACTAAAGG   519  (92.19) 
+  9 - [TCAAAAGA]  397  (87.35) 
+ 10 +  GCTAAAGG   407  (91.93) 
+ 10 -  TCTAAAGG   766  (100.00) 
+ 11 + [TCTGAAAG]   97  (86.46) 
+ 11 + [TTTAAATG]  477  (85.63) 
+ 11 + [TATAAATG]  911  (86.85) 
+ 11 - [TTTGAAGG]  814  (85.67) 
+ 11 - [TATAAAAG]  498  (88.85) 
+ 11 - [TCTAAAAC]  266  (86.42) 
+ 12 + [TATAAAGA]  342  (88.96) 
+ 12 + [TTTAAAAG]  480  (87.63) 
+ 12 +  TCTAAAGG   771  (100.00) 
+ 12 + [TATAAATG]  920  (86.85) 
+ 12 + [TCAAAAGC]  956  (85.23) 
+ 12 - [TAGAAAGG]  767  (85.83) 
+ 12 -  GCTAAAGG   739  (91.93) 
+ 12 - [TTTAAAGA]  631  (87.74) 
+ 12 - [TATAAAGA]  149  (88.96) 
+ 13 +  TCTAAAGG   762  (100.00) 
+ 13 - [TAGAAAGG]  758  (85.83) 
+ 13 - [TCTGAAAG]  738  (86.46) 
+ 13 -  GCTAAAGG   730  (91.93) 
+ 13 - [TATAAAGA]  267  (88.96) 
+ 13 - [ACTAAAGA]  222  (86.51) 
+ 14 +  TCTAAAGG   765  (100.00) 
+ 14 - [TAGAAAGG]  761  (85.83) 
+ 14 - [TCTGAAAG]  741  (86.46) 
+ 14 - [TATAAAGA]  226  (88.96) 
+ 14 -  ACTAAAGG   181  (92.19) 
+ 15 + [TCTAAAAC]  561  (86.42) 
+ 15 + [TATAAAAG]  864  (88.85) 
+ 15 -  ACTAAAGG   949  (92.19) 
+ 15 - [TTTAAATG]  198  (85.63) 
+ 16 + [TCTCAAAG]  719  (85.63) 
+ 16 + [TATAAATG]  888  (86.85) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   15     5    14   123		    3     0     3    16
+2 	   25   106     8    18		    0    21     1     0
+3 	   18    10    11   118		    3     0     1    18
+4 	  121    12    15     9		   21     0     1     0
+5 	  142     3     0    12		   22     0     0     0
+6 	  140     3     2    12		   22     0     0     0
+7 	   24     5   114    14		    1     0    21     0
+8 	   23    13   106    15		    2     1    19     0
+
+==========================================
