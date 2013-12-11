@@ -34,12 +34,12 @@ with open(argv[1], 'r') as input_file:
         # print evalue
         if evalue <= 0.05:
             list_of_motifs = item.split('sites sorted by position p-value')[
-                1].split(lines)[1].split('----------')[2].strip()
+                1].split(lines)[1].split('Site')[1].strip()
             # print list_of_motifs
             print ">matrix", evalue
 
             motif_list = []
-            for line in list_of_motifs.split('\n'):
+            for line in list_of_motifs.split('\n')[1:]:
                 line_list = filter(None, line.split(' '))
                 motif_list.append(line_list[-2])
             #print len(motif_list)
