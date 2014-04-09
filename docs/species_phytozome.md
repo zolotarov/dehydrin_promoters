@@ -1,0 +1,50 @@
+April 8, 2014
+Needed CDS fro dehydrins for phylogenetic analysis. Downloaded CDSs from phytozome:
+```
+for sp in `cat phytozome_species.txt`; do wget ftp://ftp.jgi-psf.org/pub/compgen/phytozome/v9.0/$sp/annotation/\*cds_primaryTranscriptOnly.fa.gz; done
+```
+Content of `phytozome_species.txt`:
+Acoerulea
+Alyrata
+Athaliana
+Bdistachyon
+Brapa
+Cclementina
+Cpapaya
+Creinhardtii
+Crubella
+Csativus
+Csinensis
+Csubellipsoidea_C-169
+Egrandis
+Fvesca
+Gmax
+Graimondii
+Lusitatissimum
+Mdomestica
+Mesculenta
+Mguttatus
+Mguttatus_v1.1
+Mpusilla_CCMP1545
+Mpusilla_RCC299
+Mtruncatula
+Olucimarinus
+Osativa
+Ppatens
+Ppatens_v1.6
+Ppersica
+Ptrichocarpa
+Pvirgatum
+Pvulgaris
+Rcommunis
+Sbicolor
+Sbicolor_v1.4
+Sitalica
+Slycopersicum
+Smoellendorffii
+Stuberosum
+Tcacao
+Thalophila
+Vcarteri
+Vvinifera
+Zmays
