@@ -1,3 +1,33 @@
+September 19, 2014
+
+Ran the following script to get acidic and basic dehydrins from the database:
+
+`python isoelectric.py > acidic.fas`
+
+```python
+from Bio import SeqIO
+from sys import argv
+from Bio.SeqUtils.ProtParam import ProteinAnalysis
+from sqlalchemy import create_engine
+
+engine = create_engine('sqlite:///database/dehydrins.db')
+conn = engine.connect()
+
+command = """SELECT gene, peptide_seq, promoter_seq from GENES
+		  """
+
+results = conn.execute(command)
+
+for row in results:
+	gene = row[0]
+	peptide_seq = row[1]
+	promoter_seq = row[2]
+	pi = ProteinAnalysis(str(peptide_seq)).isoelectric_point()
+	if pi < 7.0:
+		print ">{0}\n{1}".format(gene,promoter_seq)
+```
+
+
 Nov 26, 2013
 Changed annotation of GSVIVG01023824001 (Vitis vinifera) from SKn to YnSKn due to incorrect annotation on Phytozome. Found proper sequence after finding that this sequence matched another, longer sequence perfectly and that sequence looked like a perfect YnSKn dehydrin, changed the YnSKn dehydrin file and the promoter files
 
