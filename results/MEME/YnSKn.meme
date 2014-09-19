@@ -1,0 +1,3202 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 4.9.1 (Release date: Fri Aug 23 16:49:42 2013 +1000)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme.nbcr.net.
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme.nbcr.net.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+DATAFILE= ../../sequences/promoters/YnSKn_prom.fas
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+PDK_30s875341g003|Pdacty 1.0000   1000  chr1.CM0113.750.r2.m|Lja 1.0000   1000  
+C.cajan_35463|Ccajan     1.0000   1000  Ca_04763|Carietinum      1.0000   1000  
+Aquca_010_00572|Acoerule 1.0000   1000  496967|Alyrata           1.0000   1000  
+899415|Alyrata           1.0000   1000  AT3G50980|Athaliana      1.0000   1000  
+AT5G66400|Athaliana      1.0000   1000  AT2G21490|Athaliana      1.0000   1000  
+Bradi3g43870|Bdistachyon 1.0000   1000  Bradi4g19525|Bdistachyon 1.0000   1000  
+Bradi2g47580|Bdistachyon 1.0000   1000  Bradi3g43855|Bdistachyon 1.0000   1000  
+Bradi1g37410|Bdistachyon 1.0000   1000  Carubv10018719m.g|Crubel 1.0000   1000  
+Carubv10025232m.g|Crubel 1.0000   1000  Carubv10027206m.g|Crubel 1.0000   1000  
+evm.TU.supercontig_106.3 1.0000   1000  evm.TU.supercontig_6.176 1.0000   1000  
+Ciclev10029285m.g|Ccleme 1.0000   1000  Ciclev10026675m.g|Ccleme 1.0000   1000  
+orange1.1g042612m.g|Csin 1.0000   1000  orange1.1g028210m.g|Csin 1.0000   1000  
+orange1.1g046026m.g|Csin 1.0000   1000  Cucsa.106380|Csativus    1.0000   1000  
+Cucsa.109360|Csativus    1.0000   1000  Eucgr.J02380|Egrandis    1.0000   1000  
+Eucgr.I02395|Egrandis    1.0000   1000  Eucgr.I02392|Egrandis    1.0000   1000  
+gene14940-v1.0-hybrid|Fv 1.0000   1000  gene21840-v1.0-hybrid|Fv 1.0000   1000  
+gene14934-v1.0-hybrid|Fv 1.0000   1000  gene14935-v1.0-hybrid|Fv 1.0000   1000  
+gene14938-v1.0-hybrid|Fv 1.0000   1000  Lus10025983.g|Lusitatiss 1.0000   1000  
+Lus10014280.g|Lusitatiss 1.0000   1000  MDP0000868044|Mdomestica 1.0000   1000  
+MDP0000868045|Mdomestica 1.0000   1000  MDP0000360414|Mdomestica 1.0000   1000  
+MDP0000698024|Mdomestica 1.0000   1000  MDP0000629961|Mdomestica 1.0000   1000  
+cassava4.1_018057m.g|Mes 1.0000   1000  cassava4.1_029213m.g|Mes 1.0000   1000  
+Medtr3g117190|Mtruncatul 1.0000   1000  LOC_Os11g26790|Osativa   1.0000   1000  
+LOC_Os11g26780|Osativa   1.0000   1000  LOC_Os11g26750|Osativa   1.0000   1000  
+LOC_Os11g26760|Osativa   1.0000   1000  LOC_Os11g26570|Osativa   1.0000   1000  
+Phvul.009G005300|Pvulgar 1.0000   1000  Potri.009G120100|Ptricho 1.0000   1000  
+ppa011637m.g|Ppersica    1.0000   1000  ppa010975m.g|Ppersica    1.0000   1000  
+30131.t000233|Rcommunis  1.0000   1000  29634.t000016|Rcommunis  1.0000   1000  
+29634.t000017|Rcommunis  1.0000   1000  Si003298m.g|Sitalica     1.0000   1000  
+Si003296m.g|Sitalica     1.0000   1000  Si026583m.g|Sitalica     1.0000   1000  
+Si026926m.g|Sitalica     1.0000   1000  Solyc01g109920.2|Slycope 1.0000   1000  
+Solyc02g084840.2|Slycope 1.0000   1000  Solyc02g084850.2|Slycope 1.0000   1000  
+Solyc02g062390.2|Slycope 1.0000    174  PGSC0003DMG400030949|Stu 1.0000   1000  
+PGSC0003DMG400003531|Stu 1.0000   1000  PGSC0003DMG400003530|Stu 1.0000   1000  
+Thecc1EG006835|Tcacao    1.0000   1000  Thecc1EG000300|Tcacao    1.0000   1000  
+Thhalv10000340m.g|Esalsu 1.0000   1000  Thhalv10004906m.g|Esalsu 1.0000   1000  
+Thhalv10010821m.g|Esalsu 1.0000   1000  GSVIVG01018878001|Vvinif 1.0000   1000  
+GSVIVG01023824001|Vvinif 1.0000   1000  GRMZM2G098750|Zmays      1.0000   1000  
+GRMZM2G052364|Zmays      1.0000   1000  GRMZM2G079440|Zmays      1.0000   1000  
+Glyma.13G201300|Gmax     1.0000   1000  Glyma.04G009900|Gmax     1.0000   1000  
+Glyma.12G235800|Gmax     1.0000   1000  GSMUA_Achr4G11310_001|Ma 1.0000   1000  
+Achn135571|Achinensis    1.0000   1000  Achn232791|Achinensis    1.0000   1000  
+Brara.I04639|Brapa       1.0000   1000  Brara.I00913|Brapa       1.0000   1000  
+Brara.I03437|Brapa       1.0000   1000  Brara.B03992|Brapa       1.0000   1000  
+Eucgr.I01292|Egrandis    1.0000   1000  Gorai.005G245900|Graimon 1.0000   1000  
+Migut.H02513|Mguttatus   1.0000   1000  Migut.B00209|Mguttatus   1.0000   1000  
+LOC_Os01g50700|Osativa   1.0000   1000  Potri.004G158500|Ptricho 1.0000   1000  
+Pavir.J14171|Pvirgatum   1.0000    180  Pavir.Ea02542|Pvirgatum  1.0000   1000  
+Pavir.Ab01356|Pvirgatum  1.0000   1000  Pavir.Hb00975|Pvirgatum  1.0000   1000  
+Pavir.Cb00662|Pvirgatum  1.0000   1000  Sobic.010G041900|Sbicolo 1.0000   1000  
+Sobic.009G116700|Sbicolo 1.0000   1000  Sobic.003G270200|Sbicolo 1.0000   1000  
+Si000953m.g|Sitalica     1.0000   1000  Capana02g000471|Cannuum  1.0000   1000  
+Capana02g000492|Cannuum  1.0000   1000  Capana02g002739|Cannuum  1.0000   1000  
+Capana02g002740|Cannuum  1.0000   1000  Capana08g002571|Cannuum  1.0000   1000  
+XP_006646247.1|Obrachyan 1.0000   1000  XP_006663425.1|Obrachyan 1.0000   1000  
+XP_006662922.1|Obrachyan 1.0000   1000  XP_006662923.1|Obrachyan 1.0000   1000  
+XP_006662924.1|Obrachyan 1.0000   1000  Cagra.2374s0005|Cgrandif 1.0000   1000  
+Bv6_126000_msqq.t1|Bvulg 1.0000   1000  Bv9_223210_acha.t1|Bvulg 1.0000   1000  
+Araha.1084s0018|Ahalleri 1.0000   1000  Araha.12988s0001|Ahaller 1.0000    793  
+Bostr.5022s0083|Bstricta 1.0000   1000  Bostr.0568s0050|Bstricta 1.0000   1000  
+Bostr.6864s0146|Bstricta 1.0000   1000  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme ../../sequences/promoters/YnSKn_prom.fas -text -dna -mod anr -nmotifs 10 -w 8 -revcomp -maxsize 10000000 -bfile all.MEMEbkgr -maxsites 121 
+
+model:  mod=           anr    nmotifs=        10    evt=           inf
+object function=  E-value of product of p-values
+width:  minw=            8    maxw=            8    minic=        0.00
+width:  wg=             11    ws=              1    endgaps=       yes
+nsites: minsites=        2    maxsites=      121    wnsites=       0.8
+theta:  prob=            1    spmap=         uni    spfuzz=        0.5
+global: substring=     yes    branching=      no    wbranch=        no
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=          119147    N=             121
+strands: + -
+sample: seed=            0    seqfrac=         1
+Letter frequencies in dataset:
+A 0.314 C 0.186 G 0.186 T 0.314 
+Background letter frequencies (from all.MEMEbkgr):
+A 0.321 C 0.179 G 0.179 T 0.321 
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  1	width =    8   sites = 121   llr = 1221   E-value = 1.9e-059
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 1 Description
+--------------------------------------------------------------------------------
+Simplified        A  a::::::1
+pos.-specific     C  :a:2::a4
+probability       G  ::a:a5:5
+matrix            T  :::8:5::
+
+         bits    2.5  ** *   
+                 2.2  ** * * 
+                 2.0  ** * * 
+                 1.7 *** * * 
+Relative         1.5 *** * * 
+Entropy          1.2 ***** * 
+(14.6 bits)      1.0 ********
+                 0.7 ********
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           ACGTGGCG
+consensus                 T C
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Bostr.6864s0146|Bstricta     -    928  3.39e-06 CGAGTGACAC ACGTGGCG ATTACGTAAG
+Bostr.5022s0083|Bstricta     -    918  3.39e-06 TGTGTATGAG ACGTGGCG TATTTAGTGT
+Araha.12988s0001|Ahaller     -    636  3.39e-06 TGGCAATGAG ACGTGGCG TATTTAATGT
+Cagra.2374s0005|Cgrandif     -    874  3.39e-06 ATGGTCTGAC ACGTGGCG CAACAACGAA
+XP_006662924.1|Obrachyan     +    798  3.39e-06 ACCGACACGT ACGTGGCG CCACCGCTAG
+XP_006662923.1|Obrachyan     +    651  3.39e-06 GAAACAACGT ACGTGGCG TCCTATGGCC
+XP_006662922.1|Obrachyan     +    788  3.39e-06 GCACATACGT ACGTGGCG CCGCCGACGT
+XP_006646247.1|Obrachyan     +    733  3.39e-06 GCCGCTACGT ACGTGGCG TACCCGGCGG
+Sobic.009G116700|Sbicolo     +    874  3.39e-06 AAGAACCGAG ACGTGGCG GCATGGCGCC
+Pavir.Hb00975|Pvirgatum      +    745  3.39e-06 ACTGATGGGT ACGTGGCG CCGACAGGGC
+Pavir.Ab01356|Pvirgatum      +    830  3.39e-06 AGAGCCCGAG ACGTGGCG CCACCGACGC
+LOC_Os01g50700|Osativa       +    754  3.39e-06 TCAGGCCGCA ACGTGGCG CGCCCGGCGC
+Eucgr.I01292|Egrandis        +    883  3.39e-06 CGGTCCAGCC ACGTGGCG GGATTTCGTT
+Eucgr.I01292|Egrandis        -    859  3.39e-06 ACCGCGGGCA ACGTGGCG CGTTCCCGTG
+Brara.I03437|Brapa           -    840  3.39e-06 CGAGAATCAC ACGTGGCG ATCACCTAAA
+Brara.I03437|Brapa           +    803  3.39e-06 AAAACTTGAT ACGTGGCG CTGACCACTA
+Achn135571|Achinensis        -    820  3.39e-06 AAAGTGGTAC ACGTGGCG ACCAAGTAGT
+GRMZM2G079440|Zmays          +    702  3.39e-06 AAGAACCGAG ACGTGGCG GGCCGGGCCA
+Thhalv10010821m.g|Esalsu     -    883  3.39e-06 GTGTCGACAC ACGTGGCG ACTACGTAAG
+Si026926m.g|Sitalica         +    802  3.39e-06 AGCGCCCGAA ACGTGGCG CCACCGACGC
+Si003296m.g|Sitalica         +    819  3.39e-06 GCGCACACGT ACGTGGCG CCGTTAATGT
+Si003298m.g|Sitalica         +    828  3.39e-06 GCGCACACGT ACGTGGCG CCGTTAATGT
+LOC_Os11g26760|Osativa       +    767  3.39e-06 GTAAACACAT ACGTGGCG GCCGGTGGCC
+LOC_Os11g26750|Osativa       +    820  3.39e-06 CCGTGTACGT ACGTGGCG CCGCGCTGAT
+Eucgr.J02380|Egrandis        -    802  3.39e-06 AGGACGAGGG ACGTGGCG GGGGCAGGGA
+Carubv10025232m.g|Crubel     -    857  3.39e-06 TGATTATGAG ACGTGGCG TATTTAATGT
+Carubv10018719m.g|Crubel     -    813  3.39e-06 AGAGTGACAC ACGTGGCG ATTACGTAAG
+Bradi1g37410|Bdistachyon     +    837  3.39e-06 ATAAGCTGAG ACGTGGCG ACTCCGACGC
+Bradi3g43855|Bdistachyon     +    787  3.39e-06 CGTACTGCAT ACGTGGCG CCACCGACAC
+Bradi2g47580|Bdistachyon     +    772  3.39e-06 TGCGGCGACT ACGTGGCG TCCCTGCGCT
+Bradi3g43870|Bdistachyon     +    750  3.39e-06 AGCCTCCGGT ACGTGGCG CCACCGACCA
+AT2G21490|Athaliana          -    935  3.39e-06 TGGATATGAT ACGTGGCG TATTTAATGT
+AT3G50980|Athaliana          -    936  3.39e-06 GAAGTGACAC ACGTGGCG ATTACGTAAG
+899415|Alyrata               -    848  3.39e-06 TGGAAATGAG ACGTGGCG TATTTAATGT
+Pavir.Hb00975|Pvirgatum      +    872  6.78e-06 TACACCCCTA ACGTGGCC TCCCTGACCT
+GSMUA_Achr4G11310_001|Ma     +    769  6.78e-06 TGGTAAGATA ACGTGGCC GCCGCGTCAG
+MDP0000629961|Mdomestica     +    810  6.78e-06 ACTTCATCAA ACGTGGCC GTGCTGCTAG
+gene21840-v1.0-hybrid|Fv     +    787  6.78e-06 TCTCATTCTG ACGTGGCC ATCCATGCAT
+Bradi2g47580|Bdistachyon     +    751  6.78e-06 GCCAGTGCAT ACGTGGCC GCATGCGGCG
+PDK_30s875341g003|Pdacty     +    661  6.78e-06 ACCACTAGAC ACGTGGCC GACACGCCTA
+XP_006662924.1|Obrachyan     -    790  1.29e-05 GGCGCCACGT ACGTGTCG GTAGGAGGCG
+Sobic.010G041900|Sbicolo     +    930  1.29e-05 CGTAGCTGCA ACGTGTCG ACCCGCCAAT
+Pavir.Cb00662|Pvirgatum      +    907  1.29e-05 GTAGCTTGCG ACGTGTCG AACTGCCGAC
+Brara.B03992|Brapa           +    914  1.29e-05 CTATTGTGCC ACGTGTCG CTTTCACATG
+Brara.B03992|Brapa           -    870  1.29e-05 GCTGCTAGAC ACGTGTCG ATACAAAGTC
+GSMUA_Achr4G11310_001|Ma     +    886  1.29e-05 CACCTTGCAC ACGTGTCG GCAGAACTCC
+GRMZM2G052364|Zmays          +    831  1.29e-05 CGTAGCTGCG ACGTGTCG AAAACTGCCA
+GRMZM2G098750|Zmays          +    913  1.29e-05 CGTAGCTGCG ACGTGTCG AAAACTGCCA
+LOC_Os11g26570|Osativa       +    935  1.29e-05 TGCCCCCTCG ACGTGTCG CGCTCGCGCC
+cassava4.1_029213m.g|Mes     -    873  1.29e-05 AGGTTTCAAC ACGTGTCG TTAAGCATGC
+Eucgr.I02395|Egrandis        +    901  1.29e-05 CGTGGCATGC ACGTGTCG CGTGGCCGAG
+evm.TU.supercontig_6.176     +    878  1.29e-05 GCAAAAAACA ACGTGTCG TCTTGACAAC
+Bostr.0568s0050|Bstricta     -    889  2.08e-05 GCTTGGTCAT ACGTGTCC GTAAATAAAC
+Bostr.0568s0050|Bstricta     +    695  2.08e-05 GAGAAGAATT ACGTGTCC TGTTTCTACG
+Araha.1084s0018|Ahalleri     -    760  2.08e-05 GATAGCAAGT ACGTGTCC ATTAGAATCC
+Araha.1084s0018|Ahalleri     +    659  2.08e-05 GAGATGAATG ACGTGTCC TGTTACTACG
+Araha.1084s0018|Ahalleri     +    469  2.08e-05 AATGATCTAA ACGCGGCG TTTGGTAAAA
+XP_006662924.1|Obrachyan     -    819  2.08e-05 AGGAGCCGGG ACGTGTCC AAGCTAGCGG
+XP_006662923.1|Obrachyan     +     19  2.08e-05 TCTTTCCACG ACGCGGCG ATGCTCCATC
+Sobic.010G041900|Sbicolo     -    915  2.08e-05 CGTTGCAGCT ACGTGTCC CTGCATGCAG
+Migut.B00209|Mguttatus       +    163  2.08e-05 TTATTTCAAC ACGTGTCC TTTTTGAACA
+Migut.H02513|Mguttatus       +    966  2.08e-05 AAGAACCCTA ACGTGTCC ACTTTTGCTG
+GRMZM2G052364|Zmays          -    816  2.08e-05 CGTCGCAGCT ACGTGTCC GTCCGTCGTC
+GRMZM2G098750|Zmays          -    898  2.08e-05 CGTCGCAGCT ACGTGTCC GTCCGTCGTC
+GSVIVG01018878001|Vvinif     +    909  2.08e-05 CTACACTGCC ACGTGTCC TCCCATCCTT
+Thhalv10004906m.g|Esalsu     -    855  2.08e-05 GCTTCGAGAC ACGTGTCC GTAAGTAAAG
+PGSC0003DMG400030949|Stu     +    769  2.08e-05 ACACCGAAAC ACGTGTCC TCAATCTCCT
+Si026583m.g|Sitalica         +    913  2.08e-05 GTAGCTCACG ACGTGTCC AACTTCCAAC
+gene14938-v1.0-hybrid|Fv     +    856  2.08e-05 GGCTAGGGGT ACGTGTCC ATGCGTTGGA
+gene14938-v1.0-hybrid|Fv     +    678  2.08e-05 TCAGACCACC ACGTGTCC ACCTCTGACT
+gene14934-v1.0-hybrid|Fv     +    851  2.08e-05 AGTTATACGT ACGTGTCC ATGCAGAGGT
+gene14940-v1.0-hybrid|Fv     +    856  2.08e-05 GGCTAGGGGT ACGTGTCC ATGCGTTGGA
+gene14940-v1.0-hybrid|Fv     +    685  2.08e-05 TCAGACCACC ACGTGTCC ACCTCTGACT
+Eucgr.I02392|Egrandis        +    904  2.08e-05 CGTGGCATGC ACGTGTCC CGTCGCCGAG
+Eucgr.I02392|Egrandis        +    870  2.08e-05 GCCCCAGCAC ACGTGTCC TCATCCTGTA
+Eucgr.I02395|Egrandis        -    861  2.08e-05 GGATAAGGAC ACGTGTCC GGTTGTGGGA
+Carubv10027206m.g|Crubel     -    905  2.08e-05 GTTTGGACAT ACGTGTCC GTGAACAAAC
+Carubv10027206m.g|Crubel     +    683  2.08e-05 GAGAAGAATT ACGTGTCC AGTTTCTACG
+Carubv10027206m.g|Crubel     +    482  2.08e-05 ATGCATCAAA ACGCGGCG TTTCGTTAAC
+AT5G66400|Athaliana          +    685  2.08e-05 GAGGAGCATT ACGTGTCC TGTTAGCTAC
+AT5G66400|Athaliana          +    484  2.08e-05 AACGATCTAA ACGCGGCG TTTGGTAAAA
+496967|Alyrata               +    686  2.08e-05 AAGATATTTT ACGTGTCC TAGTGTTGTT
+496967|Alyrata               +    498  2.08e-05 TATGATCTAA ACGCGGCG TTTGGTTTTA
+Aquca_010_00572|Acoerule     +    811  2.08e-05 AAATTCTGAT ACGTGTCC CAAAGACTTA
+C.cajan_35463|Ccajan         -    865  2.08e-05 AAATCAGGAC ACGTGTCC CTGCACATTC
+Si003298m.g|Sitalica         -    592  2.27e-05 AATTCTGATC ACGCGGCC CAGTACAAAT
+XP_006663425.1|Obrachyan     +    802  3.22e-05 CGCACTGCAC ACGCGTCG TCGTCTCCCC
+Capana08g002571|Cannuum      +    837  3.22e-05 TCATTCTCCT ACGTGGCA GCTTATGGTG
+Si000953m.g|Sitalica         +    784  3.22e-05 AGGCAATTCA ACGTGGCA CACCAGTGGA
+Sobic.003G270200|Sbicolo     +    832  3.22e-05 CAAATAACCA ACGTGGCA CGCCCGTGAC
+Migut.B00209|Mguttatus       +    837  3.22e-05 AGGTGAGCCT ACGTGGCA GCCGTGAAAT
+Achn135571|Achinensis        +    793  3.22e-05 TTCCAACCAA ACGTGGCA CAAACCGTGA
+GSVIVG01018878001|Vvinif     -    795  3.22e-05 GTTGGAGGGC ACGTGGCA AGGGAGAACG
+Thecc1EG006835|Tcacao        +    886  3.22e-05 CAATTCTCTA ACGTGGCA ATATCTTGGA
+PGSC0003DMG400030949|Stu     +    787  3.22e-05 TCAATCTCCT ACGTGGCA GCTTAGGCGG
+Solyc01g109920.2|Slycope     +    900  3.22e-05 TGAATCTCCT ACGTGGCA GCTTACGCGG
+Si026926m.g|Sitalica         -    765  3.22e-05 ATGGGTCGTG ACGCGTCG TCCCGGGGTG
+Phvul.009G005300|Pvulgar     +    980  3.22e-05 CATTCCCCTT ACGTGGCA ACAGTTGTGA
+LOC_Os11g26570|Osativa       +    896  3.22e-05 ACCGTTCTCC ACGCGTCG CGCATCCACC
+LOC_Os11g26570|Osativa       +    871  3.22e-05 CCGCGCATGC ACGCGTCG GCTCCCCACC
+LOC_Os11g26780|Osativa       +    730  3.22e-05 GAAACACAGT ACGTGGCA GCAGGTTGCC
+MDP0000698024|Mdomestica     -    784  3.22e-05 CAACTTGGAG ACGTGGCA CTGAGAGGAA
+gene14935-v1.0-hybrid|Fv     +    809  3.22e-05 TCAGACATAC ACGCGTCG CCTCCAGGCA
+Cucsa.109360|Csativus        +    762  3.22e-05 CAAATTTCAA ACGTGGCA ACTGCATTCT
+Bradi1g37410|Bdistachyon     -    849  3.22e-05 CAGGCACTAG ACGCGTCG GAGTCGCCAC
+Bradi2g47580|Bdistachyon     +    698  3.22e-05 CCGGGCCAAA ACGTGGCA CGTCCGGAGA
+Bradi4g19525|Bdistachyon     +    850  3.22e-05 CTCCCGTCAC ACGCGTCG CATCGCAGCG
+Aquca_010_00572|Acoerule     +    873  3.22e-05 CTAATGGGCT ACGTGGCA AAATCTCTAA
+Ca_04763|Carietinum          +    854  3.22e-05 CCTTTATCTT ACGTGGCA ATGTGTGATG
+C.cajan_35463|Ccajan         +    888  3.22e-05 GATTTGTCTT ACGTGGCA AGGGTTTGTG
+Araha.1084s0018|Ahalleri     +    888  3.56e-05 TACTGCTGCC ACGCGTCC CTTTCCAAAT
+Sobic.010G041900|Sbicolo     +    864  3.56e-05 CAGCCAGCCC ACGCGTCC ATTCGGCTGC
+Pavir.Cb00662|Pvirgatum      +    840  3.56e-05 ACCCCACCCC ACGCGTCC ACTCGGCATC
+GRMZM2G052364|Zmays          +    782  3.56e-05 CGGCCAGTCC ACGCGTCC TCAGCTCGGC
+GRMZM2G098750|Zmays          +    864  3.56e-05 CGGCCAGTCC ACGCGTCC TCAGCTCGGC
+Si026583m.g|Sitalica         +    852  3.56e-05 CGGCCAGCCC ACGCGTCC ACTCGGCGGC
+Bradi3g43855|Bdistachyon     +    832  3.56e-05 CGGCGCATAC ACGCGTCC AGTACGGATT
+Bradi3g43870|Bdistachyon     +    805  3.56e-05 GCACGCATGC ACGCGTCC CGAGGCCGTA
+XP_006662923.1|Obrachyan     -    682  6.27e-05 AGGGGTAGCG ACGTGGGC GCGTGTGTGG
+Sobic.009G116700|Sbicolo     -    983  6.27e-05 TAGGGGGGGT ACGTGGGC GTGCATTTGT
+Thecc1EG006835|Tcacao        -    850  6.27e-05 CGTGTAGCTT ACGTGGGC GACGAATGGT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Bostr.6864s0146|Bstricta          3.4e-06  927_[-1]_65
+Bostr.5022s0083|Bstricta          3.4e-06  917_[-1]_75
+Araha.12988s0001|Ahaller          3.4e-06  635_[-1]_150
+Cagra.2374s0005|Cgrandif          3.4e-06  873_[-1]_119
+XP_006662924.1|Obrachyan          2.1e-05  789_[-1]_[+1]_13_[-1]_174
+XP_006662923.1|Obrachyan          6.3e-05  18_[+1]_624_[+1]_23_[-1]_311
+XP_006662922.1|Obrachyan          3.4e-06  787_[+1]_205
+XP_006646247.1|Obrachyan          3.4e-06  732_[+1]_260
+Sobic.009G116700|Sbicolo          6.3e-05  873_[+1]_101_[-1]_10
+Pavir.Hb00975|Pvirgatum           6.8e-06  744_[+1]_119_[+1]_121
+Pavir.Ab01356|Pvirgatum           3.4e-06  829_[+1]_163
+LOC_Os01g50700|Osativa            3.4e-06  753_[+1]_239
+Eucgr.I01292|Egrandis             3.4e-06  858_[-1]_16_[+1]_110
+Brara.I03437|Brapa                3.4e-06  802_[+1]_29_[-1]_153
+Achn135571|Achinensis             3.2e-05  792_[+1]_19_[-1]_173
+GRMZM2G079440|Zmays               3.4e-06  701_[+1]_291
+Thhalv10010821m.g|Esalsu          3.4e-06  882_[-1]_110
+Si026926m.g|Sitalica              3.2e-05  764_[-1]_29_[+1]_191
+Si003296m.g|Sitalica              3.4e-06  818_[+1]_174
+Si003298m.g|Sitalica              2.3e-05  591_[-1]_228_[+1]_165
+LOC_Os11g26760|Osativa            3.4e-06  766_[+1]_226
+LOC_Os11g26750|Osativa            3.4e-06  819_[+1]_173
+Eucgr.J02380|Egrandis             3.4e-06  801_[-1]_191
+Carubv10025232m.g|Crubel          3.4e-06  856_[-1]_136
+Carubv10018719m.g|Crubel          3.4e-06  812_[-1]_180
+Bradi1g37410|Bdistachyon          3.2e-05  836_[+1]_4_[-1]_144
+Bradi3g43855|Bdistachyon          3.6e-05  786_[+1]_37_[+1]_161
+Bradi2g47580|Bdistachyon          3.2e-05  697_[+1]_45_[+1]_13_[+1]_221
+Bradi3g43870|Bdistachyon          3.6e-05  749_[+1]_47_[+1]_188
+AT2G21490|Athaliana               3.4e-06  934_[-1]_58
+AT3G50980|Athaliana               3.4e-06  935_[-1]_57
+899415|Alyrata                    3.4e-06  847_[-1]_145
+GSMUA_Achr4G11310_001|Ma          1.3e-05  768_[+1]_109_[+1]_107
+MDP0000629961|Mdomestica          6.8e-06  809_[+1]_183
+gene21840-v1.0-hybrid|Fv          6.8e-06  786_[+1]_206
+PDK_30s875341g003|Pdacty          6.8e-06  660_[+1]_332
+Sobic.010G041900|Sbicolo          3.6e-05  863_[+1]_43_[-1]_7_[+1]_63
+Pavir.Cb00662|Pvirgatum           3.6e-05  839_[+1]_59_[+1]_86
+Brara.B03992|Brapa                1.3e-05  869_[-1]_36_[+1]_79
+GRMZM2G052364|Zmays               3.6e-05  781_[+1]_26_[-1]_7_[+1]_162
+GRMZM2G098750|Zmays               3.6e-05  863_[+1]_26_[-1]_7_[+1]_80
+LOC_Os11g26570|Osativa            3.2e-05  870_[+1]_17_[+1]_31_[+1]_58
+cassava4.1_029213m.g|Mes          1.3e-05  872_[-1]_120
+Eucgr.I02395|Egrandis             1.3e-05  860_[-1]_32_[+1]_92
+evm.TU.supercontig_6.176          1.3e-05  877_[+1]_115
+Bostr.0568s0050|Bstricta          2.1e-05  694_[+1]_186_[-1]_104
+Araha.1084s0018|Ahalleri          3.6e-05  468_[+1]_182_[+1]_93_[-1]_120_[+1]_
+                                           105
+Migut.B00209|Mguttatus            3.2e-05  162_[+1]_666_[+1]_156
+Migut.H02513|Mguttatus            2.1e-05  965_[+1]_27
+GSVIVG01018878001|Vvinif          3.2e-05  794_[-1]_106_[+1]_84
+Thhalv10004906m.g|Esalsu          2.1e-05  854_[-1]_138
+PGSC0003DMG400030949|Stu          3.2e-05  768_[+1]_10_[+1]_206
+Si026583m.g|Sitalica              3.6e-05  851_[+1]_53_[+1]_80
+gene14938-v1.0-hybrid|Fv          2.1e-05  677_[+1]_170_[+1]_137
+gene14934-v1.0-hybrid|Fv          2.1e-05  850_[+1]_142
+gene14940-v1.0-hybrid|Fv          2.1e-05  684_[+1]_163_[+1]_137
+Eucgr.I02392|Egrandis             2.1e-05  869_[+1]_26_[+1]_89
+Carubv10027206m.g|Crubel          2.1e-05  481_[+1]_193_[+1]_214_[-1]_88
+AT5G66400|Athaliana               2.1e-05  483_[+1]_193_[+1]_308
+496967|Alyrata                    2.1e-05  497_[+1]_180_[+1]_307
+Aquca_010_00572|Acoerule          3.2e-05  810_[+1]_54_[+1]_120
+C.cajan_35463|Ccajan              3.2e-05  864_[-1]_15_[+1]_105
+XP_006663425.1|Obrachyan          3.2e-05  801_[+1]_191
+Capana08g002571|Cannuum           3.2e-05  836_[+1]_156
+Si000953m.g|Sitalica              3.2e-05  783_[+1]_209
+Sobic.003G270200|Sbicolo          3.2e-05  831_[+1]_161
+Thecc1EG006835|Tcacao             6.3e-05  849_[-1]_28_[+1]_107
+Solyc01g109920.2|Slycope          3.2e-05  899_[+1]_93
+Phvul.009G005300|Pvulgar          3.2e-05  979_[+1]_13
+LOC_Os11g26780|Osativa            3.2e-05  729_[+1]_263
+MDP0000698024|Mdomestica          3.2e-05  783_[-1]_209
+gene14935-v1.0-hybrid|Fv          3.2e-05  808_[+1]_184
+Cucsa.109360|Csativus             3.2e-05  761_[+1]_231
+Bradi4g19525|Bdistachyon          3.2e-05  849_[+1]_143
+Ca_04763|Carietinum               3.2e-05  853_[+1]_139
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 1 width=8 seqs=121
+Bostr.6864s0146|Bstricta (  928) ACGTGGCG  1 
+Bostr.5022s0083|Bstricta (  918) ACGTGGCG  1 
+Araha.12988s0001|Ahaller (  636) ACGTGGCG  1 
+Cagra.2374s0005|Cgrandif (  874) ACGTGGCG  1 
+XP_006662924.1|Obrachyan (  798) ACGTGGCG  1 
+XP_006662923.1|Obrachyan (  651) ACGTGGCG  1 
+XP_006662922.1|Obrachyan (  788) ACGTGGCG  1 
+XP_006646247.1|Obrachyan (  733) ACGTGGCG  1 
+Sobic.009G116700|Sbicolo (  874) ACGTGGCG  1 
+Pavir.Hb00975|Pvirgatum  (  745) ACGTGGCG  1 
+Pavir.Ab01356|Pvirgatum  (  830) ACGTGGCG  1 
+LOC_Os01g50700|Osativa   (  754) ACGTGGCG  1 
+Eucgr.I01292|Egrandis    (  883) ACGTGGCG  1 
+Eucgr.I01292|Egrandis    (  859) ACGTGGCG  1 
+Brara.I03437|Brapa       (  840) ACGTGGCG  1 
+Brara.I03437|Brapa       (  803) ACGTGGCG  1 
+Achn135571|Achinensis    (  820) ACGTGGCG  1 
+GRMZM2G079440|Zmays      (  702) ACGTGGCG  1 
+Thhalv10010821m.g|Esalsu (  883) ACGTGGCG  1 
+Si026926m.g|Sitalica     (  802) ACGTGGCG  1 
+Si003296m.g|Sitalica     (  819) ACGTGGCG  1 
+Si003298m.g|Sitalica     (  828) ACGTGGCG  1 
+LOC_Os11g26760|Osativa   (  767) ACGTGGCG  1 
+LOC_Os11g26750|Osativa   (  820) ACGTGGCG  1 
+Eucgr.J02380|Egrandis    (  802) ACGTGGCG  1 
+Carubv10025232m.g|Crubel (  857) ACGTGGCG  1 
+Carubv10018719m.g|Crubel (  813) ACGTGGCG  1 
+Bradi1g37410|Bdistachyon (  837) ACGTGGCG  1 
+Bradi3g43855|Bdistachyon (  787) ACGTGGCG  1 
+Bradi2g47580|Bdistachyon (  772) ACGTGGCG  1 
+Bradi3g43870|Bdistachyon (  750) ACGTGGCG  1 
+AT2G21490|Athaliana      (  935) ACGTGGCG  1 
+AT3G50980|Athaliana      (  936) ACGTGGCG  1 
+899415|Alyrata           (  848) ACGTGGCG  1 
+Pavir.Hb00975|Pvirgatum  (  872) ACGTGGCC  1 
+GSMUA_Achr4G11310_001|Ma (  769) ACGTGGCC  1 
+MDP0000629961|Mdomestica (  810) ACGTGGCC  1 
+gene21840-v1.0-hybrid|Fv (  787) ACGTGGCC  1 
+Bradi2g47580|Bdistachyon (  751) ACGTGGCC  1 
+PDK_30s875341g003|Pdacty (  661) ACGTGGCC  1 
+XP_006662924.1|Obrachyan (  790) ACGTGTCG  1 
+Sobic.010G041900|Sbicolo (  930) ACGTGTCG  1 
+Pavir.Cb00662|Pvirgatum  (  907) ACGTGTCG  1 
+Brara.B03992|Brapa       (  914) ACGTGTCG  1 
+Brara.B03992|Brapa       (  870) ACGTGTCG  1 
+GSMUA_Achr4G11310_001|Ma (  886) ACGTGTCG  1 
+GRMZM2G052364|Zmays      (  831) ACGTGTCG  1 
+GRMZM2G098750|Zmays      (  913) ACGTGTCG  1 
+LOC_Os11g26570|Osativa   (  935) ACGTGTCG  1 
+cassava4.1_029213m.g|Mes (  873) ACGTGTCG  1 
+Eucgr.I02395|Egrandis    (  901) ACGTGTCG  1 
+evm.TU.supercontig_6.176 (  878) ACGTGTCG  1 
+Bostr.0568s0050|Bstricta (  889) ACGTGTCC  1 
+Bostr.0568s0050|Bstricta (  695) ACGTGTCC  1 
+Araha.1084s0018|Ahalleri (  760) ACGTGTCC  1 
+Araha.1084s0018|Ahalleri (  659) ACGTGTCC  1 
+Araha.1084s0018|Ahalleri (  469) ACGCGGCG  1 
+XP_006662924.1|Obrachyan (  819) ACGTGTCC  1 
+XP_006662923.1|Obrachyan (   19) ACGCGGCG  1 
+Sobic.010G041900|Sbicolo (  915) ACGTGTCC  1 
+Migut.B00209|Mguttatus   (  163) ACGTGTCC  1 
+Migut.H02513|Mguttatus   (  966) ACGTGTCC  1 
+GRMZM2G052364|Zmays      (  816) ACGTGTCC  1 
+GRMZM2G098750|Zmays      (  898) ACGTGTCC  1 
+GSVIVG01018878001|Vvinif (  909) ACGTGTCC  1 
+Thhalv10004906m.g|Esalsu (  855) ACGTGTCC  1 
+PGSC0003DMG400030949|Stu (  769) ACGTGTCC  1 
+Si026583m.g|Sitalica     (  913) ACGTGTCC  1 
+gene14938-v1.0-hybrid|Fv (  856) ACGTGTCC  1 
+gene14938-v1.0-hybrid|Fv (  678) ACGTGTCC  1 
+gene14934-v1.0-hybrid|Fv (  851) ACGTGTCC  1 
+gene14940-v1.0-hybrid|Fv (  856) ACGTGTCC  1 
+gene14940-v1.0-hybrid|Fv (  685) ACGTGTCC  1 
+Eucgr.I02392|Egrandis    (  904) ACGTGTCC  1 
+Eucgr.I02392|Egrandis    (  870) ACGTGTCC  1 
+Eucgr.I02395|Egrandis    (  861) ACGTGTCC  1 
+Carubv10027206m.g|Crubel (  905) ACGTGTCC  1 
+Carubv10027206m.g|Crubel (  683) ACGTGTCC  1 
+Carubv10027206m.g|Crubel (  482) ACGCGGCG  1 
+AT5G66400|Athaliana      (  685) ACGTGTCC  1 
+AT5G66400|Athaliana      (  484) ACGCGGCG  1 
+496967|Alyrata           (  686) ACGTGTCC  1 
+496967|Alyrata           (  498) ACGCGGCG  1 
+Aquca_010_00572|Acoerule (  811) ACGTGTCC  1 
+C.cajan_35463|Ccajan     (  865) ACGTGTCC  1 
+Si003298m.g|Sitalica     (  592) ACGCGGCC  1 
+XP_006663425.1|Obrachyan (  802) ACGCGTCG  1 
+Capana08g002571|Cannuum  (  837) ACGTGGCA  1 
+Si000953m.g|Sitalica     (  784) ACGTGGCA  1 
+Sobic.003G270200|Sbicolo (  832) ACGTGGCA  1 
+Migut.B00209|Mguttatus   (  837) ACGTGGCA  1 
+Achn135571|Achinensis    (  793) ACGTGGCA  1 
+GSVIVG01018878001|Vvinif (  795) ACGTGGCA  1 
+Thecc1EG006835|Tcacao    (  886) ACGTGGCA  1 
+PGSC0003DMG400030949|Stu (  787) ACGTGGCA  1 
+Solyc01g109920.2|Slycope (  900) ACGTGGCA  1 
+Si026926m.g|Sitalica     (  765) ACGCGTCG  1 
+Phvul.009G005300|Pvulgar (  980) ACGTGGCA  1 
+LOC_Os11g26570|Osativa   (  896) ACGCGTCG  1 
+LOC_Os11g26570|Osativa   (  871) ACGCGTCG  1 
+LOC_Os11g26780|Osativa   (  730) ACGTGGCA  1 
+MDP0000698024|Mdomestica (  784) ACGTGGCA  1 
+gene14935-v1.0-hybrid|Fv (  809) ACGCGTCG  1 
+Cucsa.109360|Csativus    (  762) ACGTGGCA  1 
+Bradi1g37410|Bdistachyon (  849) ACGCGTCG  1 
+Bradi2g47580|Bdistachyon (  698) ACGTGGCA  1 
+Bradi4g19525|Bdistachyon (  850) ACGCGTCG  1 
+Aquca_010_00572|Acoerule (  873) ACGTGGCA  1 
+Ca_04763|Carietinum      (  854) ACGTGGCA  1 
+C.cajan_35463|Ccajan     (  888) ACGTGGCA  1 
+Araha.1084s0018|Ahalleri (  888) ACGCGTCC  1 
+Sobic.010G041900|Sbicolo (  864) ACGCGTCC  1 
+Pavir.Cb00662|Pvirgatum  (  840) ACGCGTCC  1 
+GRMZM2G052364|Zmays      (  782) ACGCGTCC  1 
+GRMZM2G098750|Zmays      (  864) ACGCGTCC  1 
+Si026583m.g|Sitalica     (  852) ACGCGTCC  1 
+Bradi3g43855|Bdistachyon (  832) ACGCGTCC  1 
+Bradi3g43870|Bdistachyon (  805) ACGCGTCC  1 
+XP_006662923.1|Obrachyan (  682) ACGTGGGC  1 
+Sobic.009G116700|Sbicolo (  983) ACGTGGGC  1 
+Thecc1EG006835|Tcacao    (  850) ACGTGGGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 11.2134 E= 1.9e-059 
+   164  -1356  -1356  -1356 
+ -1356    248  -1356  -1356 
+ -1356  -1356    248  -1356 
+ -1356     -4  -1356    136 
+ -1356  -1356    248  -1356 
+ -1356  -1356    161     50 
+ -1356    245   -285  -1356 
+  -119    109    142  -1356 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 121 E= 1.9e-059 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.173554  0.000000  0.826446 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.545455  0.454545 
+ 0.000000  0.975207  0.024793  0.000000 
+ 0.140496  0.380165  0.479339  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 1 regular expression
+--------------------------------------------------------------------------------
+ACGTG[GT]C[GC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 342.29 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  2	width =    8   sites = 121   llr = 1122   E-value = 2.6e-017
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 2 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::2:::::
+pos.-specific     C  9a:a737a
+probability       G  1:5:353:
+matrix            T  ::2::3::
+
+         bits    2.5  * *    
+                 2.2  * *   *
+                 2.0 ** *   *
+                 1.7 ** **  *
+Relative         1.5 ** ** **
+Entropy          1.2 ** ** **
+(13.4 bits)      1.0 ** ** **
+                 0.7 ** *****
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CCGCCGCC
+consensus              A GCG 
+sequence                  T  
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+LOC_Os11g26760|Osativa       +     88  1.05e-06 ACAGCAGCAG CCGCCGCC GGCCGTTGCC
+Bradi3g43855|Bdistachyon     +    239  1.05e-06 GAACTGCAAT CCGCCGCC GAAGAGGATG
+Bradi2g47580|Bdistachyon     +    897  1.05e-06 CGCGAAGGCG CCGCCGCC GATCGAGACT
+Eucgr.I02395|Egrandis        +    185  2.11e-06 CCCGGACTCC CCGCCCCC GCGCTCGCTG
+XP_006662922.1|Obrachyan     -    771  4.22e-06 TACGTATGTG CCGCCGGC ATGGGAATCG
+Pavir.Cb00662|Pvirgatum      +    743  4.22e-06 TCTTGGCCGG CCGCCGGC CGCGCGGGGT
+Pavir.Ab01356|Pvirgatum      +    850  4.22e-06 ACCGACGCGC CCGCGGCC TGCACACGAC
+GRMZM2G079440|Zmays          +    751  4.22e-06 TGCACACGTC CCGCCGGC GTACGTGTAC
+Si026926m.g|Sitalica         -    949  4.22e-06 TTATAGGCTG CCGCCGGC CGGACGGCGA
+Si026926m.g|Sitalica         +    823  4.22e-06 CCGACGCCTT CCGCGGCC TGCACACGTC
+Si026583m.g|Sitalica         -    770  4.22e-06 GGGCCTCCTC CCGCGGCC GGCAACCGGC
+Si003296m.g|Sitalica         -    494  4.22e-06 TATAGTAGTA CCGCGGCC CTTTTAATTT
+Potri.009G120100|Ptricho     -    267  4.22e-06 GGAAGATGTC CCGCGGCC CCCACAATCC
+Bradi4g19525|Bdistachyon     +     78  4.22e-06 CCTCGTGGCG CCGCGGCC GTCCCCTCCC
+Pavir.Ab01356|Pvirgatum      +    887  6.11e-06 TCCCTCCCCT CCGCCTCC CAACCCACTC
+Si026926m.g|Sitalica         +    873  6.11e-06 CCCCTCGCCT CCGCCTCC CAACCCACTC
+LOC_Os11g26760|Osativa       +    859  6.11e-06 CGCACCAGCT CCGCCTCC TGGCTCACCC
+LOC_Os11g26780|Osativa       +    832  6.11e-06 ATTGCCAGCT CCGCCTCC CGGCTCACCC
+Bradi2g47580|Bdistachyon     +    840  6.11e-06 GACGCTTGCT CCGCCTCC ATTGATCGAT
+Bradi3g43870|Bdistachyon     +    855  6.11e-06 GGATAACCAC CCGCCTCC CGACTCACCA
+Bradi3g43870|Bdistachyon     +    593  6.11e-06 GCGGCCAGCT CCGCCTCC AGAGGGTTCG
+XP_006663425.1|Obrachyan     +    828  1.01e-05 CCTCCGCGCG CCGCGCCC GCTAGCACAC
+Sobic.009G116700|Sbicolo     +    934  1.01e-05 CACACACGTC CCGCCCGC GTACGTGTAC
+Pavir.Ea02542|Pvirgatum      -    903  1.01e-05 CGCCCGCCGT CCGCCCGC GTTCGAGCGC
+Glyma.12G235800|Gmax         +    894  1.01e-05 AAGTCTCCGG CCACCGCC CAGGGAAGAC
+GSVIVG01023824001|Vvinif     +    692  1.01e-05 CTTCCAAATC CCACCGCC AATTTGTTTT
+30131.t000233|Rcommunis      +    922  1.01e-05 TTTCAGGCTT CCACCGCC ATCCATTCCC
+Potri.009G120100|Ptricho     +    948  1.01e-05 TGTCTGTTCT CCACCGCC ATTTTATTTT
+LOC_Os11g26760|Osativa       -    214  1.01e-05 TGTCCAGCTG CCGCCCGC GCAAGCCGCG
+cassava4.1_029213m.g|Mes     +    924  1.01e-05 TTTCTGGCTT CCACCGCC ATCCAACTCC
+C.cajan_35463|Ccajan         +    946  1.01e-05 TATATATTGT CCACCGCC GCACGCAGTT
+PDK_30s875341g003|Pdacty     +    724  1.01e-05 TTTGGTAGAT CCACCGCC CTTCTTTAAC
+PDK_30s875341g003|Pdacty     +    697  1.01e-05 TCCGCAACTC CCACCGCC CTTCCTATTT
+LOC_Os11g26780|Osativa       +    800  1.20e-05 ACACGTCCCT CCTCCGCC TTTATTCCCT
+LOC_Os11g26790|Osativa       -     59  1.20e-05 CCAGTGACCT CCTCCGCC AACACCAGCA
+Bradi1g37410|Bdistachyon     +    956  1.20e-05 ATCCCTATCC CCTCCGCC TCGAACTGCT
+Pavir.Cb00662|Pvirgatum      -     18  1.49e-05 GGTGAGGATG CCACCCCC TCCCCTCTTT
+Eucgr.I01292|Egrandis        -    868  1.49e-05 CGTGGCTGGA CCGCGGGC AACGTGGCGC
+LOC_Os11g26570|Osativa       +    841  1.49e-05 CCATGCCGCT CCACCCCC CATCCCAGCA
+MDP0000360414|Mdomestica     +    713  1.49e-05 CCATATGCCC CCACCCCC CACCCCCCAC
+XP_006663425.1|Obrachyan     +    882  1.79e-05 CTGCCTCGCC GCGCCGCC TATAAGTCGG
+Pavir.Ea02542|Pvirgatum      -    260  1.79e-05 GACGGCGACG GCGCCGCC TCTGTCGTGC
+PGSC0003DMG400030949|Stu     -    527  1.79e-05 GTTCTGCCCC CCTCCCCC ACTAAAAAAA
+Si026583m.g|Sitalica         -    864  1.79e-05 TGGGTGGCGG GCGCCGCC GAGTGGACGC
+LOC_Os11g26760|Osativa       +     55  1.79e-05 CCCTTATAGT GCGCCGCC ACCGTTTCAG
+LOC_Os11g26790|Osativa       -    114  1.79e-05 TCGCCGGCAT CCTCCCCC CTTTTTGTGT
+gene14938-v1.0-hybrid|Fv     +    701  1.79e-05 TGACTGTTCA CCTCCCCC CTTTTGGCCG
+gene14940-v1.0-hybrid|Fv     +    708  1.79e-05 TGACTGTTCA CCTCCCCC CTTTTGGCCG
+Bradi4g19525|Bdistachyon     +     62  1.79e-05 GCTATGGCTG CCTCCCCC TCGTGGCGCC
+GSMUA_Achr4G11310_001|Ma     +    926  2.17e-05 CACGTCGGCC CCGCGTCC CTCCCACACG
+GRMZM2G079440|Zmays          +    635  2.17e-05 GCCTGACCGA CCGCCTGC ATTGAATAAT
+MDP0000868044|Mdomestica     -    486  2.17e-05 AGAAAAGAAA CCGCCTGC TTATCTTGTG
+gene14938-v1.0-hybrid|Fv     -    722  2.17e-05 GACACGTTCA CCGCGTCC GGCCGGCCAA
+gene14940-v1.0-hybrid|Fv     -    729  2.17e-05 GACTCGTTCA CCGCGTCC GGCCGGCCAA
+orange1.1g046026m.g|Csin     -    633  2.17e-05 CTTCACCGCA CCGCCTGC CATACATGCG
+orange1.1g042612m.g|Csin     -    636  2.17e-05 CTTCACCGCA CCGCCTGC CATACATGCG
+Ciclev10026675m.g|Ccleme     -    756  2.17e-05 CTTCACCGCA CCGCCTGC CATACATGCG
+XP_006662923.1|Obrachyan     -    612  2.65e-05 TCTGGAGGTT CCGCGCGC GAGCACAGGA
+XP_006662923.1|Obrachyan     +    116  2.65e-05 CGATCTCGTC CCACCGGC CACCACGGAT
+XP_006662923.1|Obrachyan     -     49  2.65e-05 GTGCGTACGC CCGCGCGC GGATGGCCGG
+XP_006663425.1|Obrachyan     +    906  2.65e-05 TCGGACGGCG CCACGGCC CTGCCGCTTC
+XP_006663425.1|Obrachyan     -    227  2.65e-05 ACCCGGGGAA CCACCGGC GATCTATATA
+Si000953m.g|Sitalica         +    679  2.65e-05 ATTTACATGA CCACCGGC CTTGGATTGT
+Migut.H02513|Mguttatus       +    941  2.65e-05 CACTCTATCT CCACCGGC ATCATGCAAG
+GRMZM2G079440|Zmays          +    909  2.65e-05 ACCTGCTTCA CCACCGGC GAGCCACATC
+LOC_Os11g26570|Osativa       +    951  2.65e-05 CGCGCTCGCG CCGCGCGC GCCTCGCCTA
+LOC_Os11g26760|Osativa       -    775  2.65e-05 CGCCATGCGG CCACCGGC CGCCACGTAT
+LOC_Os11g26780|Osativa       +    874  2.65e-05 CCCCCATCTT CCACGGCC TCCTTCCTGA
+LOC_Os11g26780|Osativa       +    581  2.65e-05 GCTCGTTCCC CCACCGGC CACAACAGAT
+LOC_Os11g26790|Osativa       -    746  2.65e-05 AGGCCACGGC CCACGGCC CATCTCTGCG
+Bradi2g47580|Bdistachyon     +    932  2.65e-05 AAGCCACTGC CCACGGCC ACAGAACCCA
+Bradi3g43870|Bdistachyon     +    957  2.65e-05 CGACCATCTC CCGCGCGC GCCGCTATAA
+Pavir.Hb00975|Pvirgatum      +     18  3.24e-05 CGTCGTCGAT CCTCCGGC TTGGTGTGGA
+Bradi3g43870|Bdistachyon     -    480  3.24e-05 ATCGGTCGAT CCTCCGGC TGTCTACACA
+Achn232791|Achinensis        +    181  3.58e-05 TTGTTAATAA CCACCTCC TCCATTCATT
+Si003298m.g|Sitalica         +    215  3.58e-05 CCTAGGCATG CCACCTCC GACGGGGTCC
+XP_006663425.1|Obrachyan     +    772  3.96e-05 CATACACGCT CCACGCCC CCCGTATCCC
+gene14935-v1.0-hybrid|Fv     +    830  3.96e-05 CCAGGCAGTT CCACGCCC TCAGTGACTC
+gene14934-v1.0-hybrid|Fv     +    831  3.96e-05 CCAGGCATCT CCACGCCC TCAGTTATAC
+Eucgr.I02392|Egrandis        -    891  3.96e-05 CACGTGCATG CCACGCCC GCGTACAGGA
+Eucgr.I02395|Egrandis        -    888  3.96e-05 CACGTGCATG CCACGCCC ACTTCCTTCG
+XP_006662922.1|Obrachyan     +    838  4.40e-05 TCCTCCTCCT CCTCCTCC TCTCGTCGTC
+XP_006662922.1|Obrachyan     +    829  4.40e-05 GTACCTACGT CCTCCTCC TCCTCCTCCT
+Pavir.Hb00975|Pvirgatum      +    202  4.40e-05 AGGCCCCTGC CCCCCCCC CCCACGCTGC
+Achn135571|Achinensis        +    843  4.40e-05 ACTTTGGTAA CCCCCCCC ATGCACGATC
+GSMUA_Achr4G11310_001|Ma     +    467  4.40e-05 TCCTTCTTCT CCTCCTCC TCTCATCCTC
+GRMZM2G052364|Zmays          -    984  4.40e-05  ACTTCCTGT CCTCCTCC TGCTCGCTCG
+Thhalv10004906m.g|Esalsu     +    739  4.40e-05 CTAGATATCA CCCCCCCC CCCCCCCCTG
+LOC_Os11g26790|Osativa       -     28  4.40e-05 TCGCCAACGT CCTCCTCC CTCTTTGCGT
+cassava4.1_029213m.g|Mes     +    585  4.40e-05 GGCTAAAAGA CCCCCCCC TTGTGCTTCA
+gene21840-v1.0-hybrid|Fv     -    159  4.40e-05 CTCTCTCTCT CCTCCTCC TCCTCCTCCT
+gene21840-v1.0-hybrid|Fv     -    150  4.40e-05 TCCTCCTCCT CCTCCTCC TCCTCCTCCT
+gene21840-v1.0-hybrid|Fv     -    141  4.40e-05 TCCTCCTCCT CCTCCTCC TCCTCCTCCT
+gene21840-v1.0-hybrid|Fv     -    132  4.40e-05 TCCTCCTCCT CCTCCTCC TCCTCCTCCT
+gene21840-v1.0-hybrid|Fv     -    123  4.40e-05 TCCTCCTCCT CCTCCTCC TCTTCCTCAT
+PDK_30s875341g003|Pdacty     +    899  4.40e-05 CACTCCCTCC CCTCCTCC CTCTCCACTC
+XP_006662923.1|Obrachyan     -    665  4.99e-05 CGCGTGTGTG GCGCGGCC ATAGGACGCC
+XP_006646247.1|Obrachyan     -    227  4.99e-05 GGCTGTTTTC GCGCCGGC AGTGTGATTT
+Pavir.Hb00975|Pvirgatum      -    760  4.99e-05 AATGTCCATG GCGCGGCC CTGTCGGCGC
+Migut.B00209|Mguttatus       +    615  4.99e-05 CCCAAGTTGG GCGCCGGC TNNNNNNNNN
+ppa010975m.g|Ppersica        +    989  4.99e-05 GCCACCGCAC GCGCCGGC AGCG      
+ppa011637m.g|Ppersica        +    852  4.99e-05 TCCTCTCACG GCGCCGGC AGGTGTCCCA
+LOC_Os11g26790|Osativa       +    990  4.99e-05 TCGAGAAACG CCTCGCCC GAC       
+Bradi4g19525|Bdistachyon     +     90  4.99e-05 GCGGCCGTCC CCTCCCGC AGCGTCTTTC
+Bradi3g43870|Bdistachyon     +    783  5.28e-05 CGCGATCTCT CCGCCGCG CGGCGCACGC
+XP_006662924.1|Obrachyan     +    779  5.87e-05 TTCTCCAGAA GCGCCTCC TACCGACACG
+ppa010975m.g|Ppersica        +    438  5.87e-05 AAAAACCTTA CCCCCGGC TCCTAAAAGT
+LOC_Os11g26780|Osativa       +    984  5.87e-05 TGGCAGGGCA CCCCGGCC AGCTGCTTT 
+Pavir.Ea02542|Pvirgatum      -    914  6.46e-05 GCTCGGTGGA GCGCCCGC CGTCCGCCCG
+GRMZM2G079440|Zmays          +    830  6.46e-05 CCCTGCCGTG GCGCGCCC AGATCCTAAT
+Si026583m.g|Sitalica         +    950  6.46e-05 TTGCTTACAC GCGCGCCC TATAAATAAA
+Sobic.010G041900|Sbicolo     +    816  7.24e-05 CACGTCCAAA CCGCCCCG GTCCTTCTAG
+Sobic.010G041900|Sbicolo     +    805  7.24e-05 TACAGCAATC CCACGTCC AAACCGCCCC
+Eucgr.I01292|Egrandis        -    840  7.24e-05 GTTCCCGTGT CCGCCCCG ACTGGTTCGT
+Brara.I03437|Brapa           +    171  7.24e-05 ACCCGCTGAG CCGCCCCG TGAGATCCAT
+LOC_Os11g26790|Osativa       -    176  8.70e-05 GAGGTCCAAC CCTCGTCC GGTCCTCCCT
+XP_006646247.1|Obrachyan     -    743  9.39e-05 GGGCACGTAC CCGCCGGG TACGCCACGT
+LOC_Os11g26780|Osativa       -    960  9.39e-05 GCCATTTATA CCGCGGCG AGACTGTGGG
+XP_006646247.1|Obrachyan     +    771  1.08e-04 TTCTCCGGTC GCGCGCGC CGTCCTTACG
+XP_006662923.1|Obrachyan     +     36  1.57e-04 GATGCTCCAT CGGCCGGC CATCCGCGCG
+Sobic.003G270200|Sbicolo     +    943  1.57e-04 GCCCTGTTCT CGGCCGGC TGTTCGCCGG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+LOC_Os11g26760|Osativa            2.6e-05  54_[+2]_25_[+2]_118_[-2]_553_[-2]_
+                                           76_[+2]_134
+Bradi3g43855|Bdistachyon          1.1e-06  238_[+2]_754
+Bradi2g47580|Bdistachyon          2.6e-05  839_[+2]_49_[+2]_27_[+2]_61
+Eucgr.I02395|Egrandis               4e-05  184_[+2]_695_[-2]_105
+XP_006662922.1|Obrachyan          4.4e-05  770_[-2]_50_[+2]_1_[+2]_155
+Pavir.Cb00662|Pvirgatum           1.5e-05  17_[-2]_717_[+2]_250
+Pavir.Ab01356|Pvirgatum           6.1e-06  849_[+2]_29_[+2]_106
+GRMZM2G079440|Zmays               6.5e-05  634_[+2]_108_[+2]_71_[+2]_71_[+2]_84
+Si026926m.g|Sitalica              6.1e-06  822_[+2]_42_[+2]_68_[-2]_44
+Si026583m.g|Sitalica              6.5e-05  769_[-2]_86_[-2]_78_[+2]_43
+Si003296m.g|Sitalica              4.2e-06  493_[-2]_499
+Potri.009G120100|Ptricho            1e-05  266_[-2]_673_[+2]_45
+Bradi4g19525|Bdistachyon            5e-05  61_[+2]_8_[+2]_4_[+2]_903
+LOC_Os11g26780|Osativa            5.9e-05  580_[+2]_211_[+2]_24_[+2]_34_[+2]_
+                                           78_[-2]_16_[+2]_9
+Bradi3g43870|Bdistachyon          3.2e-05  479_[-2]_105_[+2]_182_[+2]_64_[+2]_
+                                           94_[+2]_36
+XP_006663425.1|Obrachyan            4e-05  226_[-2]_537_[+2]_48_[+2]_46_[+2]_
+                                           16_[+2]_87
+Sobic.009G116700|Sbicolo            1e-05  933_[+2]_59
+Pavir.Ea02542|Pvirgatum           6.5e-05  259_[-2]_635_[-2]_3_[-2]_79
+Glyma.12G235800|Gmax                1e-05  893_[+2]_99
+GSVIVG01023824001|Vvinif            1e-05  691_[+2]_301
+30131.t000233|Rcommunis             1e-05  921_[+2]_71
+cassava4.1_029213m.g|Mes          4.4e-05  584_[+2]_331_[+2]_69
+C.cajan_35463|Ccajan                1e-05  945_[+2]_47
+PDK_30s875341g003|Pdacty          4.4e-05  696_[+2]_19_[+2]_167_[+2]_94
+LOC_Os11g26790|Osativa            8.7e-05  27_[-2]_23_[-2]_47_[-2]_54_[-2]_
+                                           562_[-2]_236_[+2]_3
+Bradi1g37410|Bdistachyon          1.2e-05  955_[+2]_37
+Eucgr.I01292|Egrandis             7.2e-05  839_[-2]_20_[-2]_125
+LOC_Os11g26570|Osativa            1.5e-05  840_[+2]_102_[+2]_42
+MDP0000360414|Mdomestica          1.5e-05  712_[+2]_280
+PGSC0003DMG400030949|Stu          1.8e-05  526_[-2]_466
+gene14938-v1.0-hybrid|Fv          1.8e-05  700_[+2]_13_[-2]_271
+gene14940-v1.0-hybrid|Fv          1.8e-05  707_[+2]_13_[-2]_264
+GSMUA_Achr4G11310_001|Ma          4.4e-05  466_[+2]_451_[+2]_67
+MDP0000868044|Mdomestica          2.2e-05  485_[-2]_507
+orange1.1g046026m.g|Csin          2.2e-05  632_[-2]_360
+orange1.1g042612m.g|Csin          2.2e-05  635_[-2]_357
+Ciclev10026675m.g|Ccleme          2.2e-05  755_[-2]_237
+XP_006662923.1|Obrachyan          0.00016  35_[+2]_5_[-2]_59_[+2]_488_[-2]_
+                                           45_[-2]_328
+Si000953m.g|Sitalica              2.6e-05  678_[+2]_314
+Migut.H02513|Mguttatus            2.6e-05  940_[+2]_52
+Pavir.Hb00975|Pvirgatum           4.4e-05  17_[+2]_176_[+2]_550_[-2]_233
+Achn232791|Achinensis             3.6e-05  180_[+2]_812
+Si003298m.g|Sitalica              3.6e-05  214_[+2]_778
+gene14935-v1.0-hybrid|Fv            4e-05  829_[+2]_163
+gene14934-v1.0-hybrid|Fv            4e-05  830_[+2]_162
+Eucgr.I02392|Egrandis               4e-05  890_[-2]_102
+Achn135571|Achinensis             4.4e-05  842_[+2]_150
+GRMZM2G052364|Zmays               4.4e-05  983_[-2]_9
+Thhalv10004906m.g|Esalsu          4.4e-05  738_[+2]_254
+gene21840-v1.0-hybrid|Fv          4.4e-05  122_[-2]_1_[-2]_1_[-2]_1_[-2]_1_
+                                           [-2]_834
+XP_006646247.1|Obrachyan          9.4e-05  226_[-2]_508_[-2]_20_[+2]_222
+Migut.B00209|Mguttatus              5e-05  614_[+2]_378
+ppa010975m.g|Ppersica             5.9e-05  437_[+2]_543_[+2]_4
+ppa011637m.g|Ppersica               5e-05  851_[+2]_141
+XP_006662924.1|Obrachyan          5.9e-05  778_[+2]_214
+Sobic.010G041900|Sbicolo          7.2e-05  804_[+2]_3_[+2]_177
+Brara.I03437|Brapa                7.2e-05  170_[+2]_822
+Sobic.003G270200|Sbicolo          0.00016  942_[+2]_50
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 2 width=8 seqs=121
+LOC_Os11g26760|Osativa   (   88) CCGCCGCC  1 
+Bradi3g43855|Bdistachyon (  239) CCGCCGCC  1 
+Bradi2g47580|Bdistachyon (  897) CCGCCGCC  1 
+Eucgr.I02395|Egrandis    (  185) CCGCCCCC  1 
+XP_006662922.1|Obrachyan (  771) CCGCCGGC  1 
+Pavir.Cb00662|Pvirgatum  (  743) CCGCCGGC  1 
+Pavir.Ab01356|Pvirgatum  (  850) CCGCGGCC  1 
+GRMZM2G079440|Zmays      (  751) CCGCCGGC  1 
+Si026926m.g|Sitalica     (  949) CCGCCGGC  1 
+Si026926m.g|Sitalica     (  823) CCGCGGCC  1 
+Si026583m.g|Sitalica     (  770) CCGCGGCC  1 
+Si003296m.g|Sitalica     (  494) CCGCGGCC  1 
+Potri.009G120100|Ptricho (  267) CCGCGGCC  1 
+Bradi4g19525|Bdistachyon (   78) CCGCGGCC  1 
+Pavir.Ab01356|Pvirgatum  (  887) CCGCCTCC  1 
+Si026926m.g|Sitalica     (  873) CCGCCTCC  1 
+LOC_Os11g26760|Osativa   (  859) CCGCCTCC  1 
+LOC_Os11g26780|Osativa   (  832) CCGCCTCC  1 
+Bradi2g47580|Bdistachyon (  840) CCGCCTCC  1 
+Bradi3g43870|Bdistachyon (  855) CCGCCTCC  1 
+Bradi3g43870|Bdistachyon (  593) CCGCCTCC  1 
+XP_006663425.1|Obrachyan (  828) CCGCGCCC  1 
+Sobic.009G116700|Sbicolo (  934) CCGCCCGC  1 
+Pavir.Ea02542|Pvirgatum  (  903) CCGCCCGC  1 
+Glyma.12G235800|Gmax     (  894) CCACCGCC  1 
+GSVIVG01023824001|Vvinif (  692) CCACCGCC  1 
+30131.t000233|Rcommunis  (  922) CCACCGCC  1 
+Potri.009G120100|Ptricho (  948) CCACCGCC  1 
+LOC_Os11g26760|Osativa   (  214) CCGCCCGC  1 
+cassava4.1_029213m.g|Mes (  924) CCACCGCC  1 
+C.cajan_35463|Ccajan     (  946) CCACCGCC  1 
+PDK_30s875341g003|Pdacty (  724) CCACCGCC  1 
+PDK_30s875341g003|Pdacty (  697) CCACCGCC  1 
+LOC_Os11g26780|Osativa   (  800) CCTCCGCC  1 
+LOC_Os11g26790|Osativa   (   59) CCTCCGCC  1 
+Bradi1g37410|Bdistachyon (  956) CCTCCGCC  1 
+Pavir.Cb00662|Pvirgatum  (   18) CCACCCCC  1 
+Eucgr.I01292|Egrandis    (  868) CCGCGGGC  1 
+LOC_Os11g26570|Osativa   (  841) CCACCCCC  1 
+MDP0000360414|Mdomestica (  713) CCACCCCC  1 
+XP_006663425.1|Obrachyan (  882) GCGCCGCC  1 
+Pavir.Ea02542|Pvirgatum  (  260) GCGCCGCC  1 
+PGSC0003DMG400030949|Stu (  527) CCTCCCCC  1 
+Si026583m.g|Sitalica     (  864) GCGCCGCC  1 
+LOC_Os11g26760|Osativa   (   55) GCGCCGCC  1 
+LOC_Os11g26790|Osativa   (  114) CCTCCCCC  1 
+gene14938-v1.0-hybrid|Fv (  701) CCTCCCCC  1 
+gene14940-v1.0-hybrid|Fv (  708) CCTCCCCC  1 
+Bradi4g19525|Bdistachyon (   62) CCTCCCCC  1 
+GSMUA_Achr4G11310_001|Ma (  926) CCGCGTCC  1 
+GRMZM2G079440|Zmays      (  635) CCGCCTGC  1 
+MDP0000868044|Mdomestica (  486) CCGCCTGC  1 
+gene14938-v1.0-hybrid|Fv (  722) CCGCGTCC  1 
+gene14940-v1.0-hybrid|Fv (  729) CCGCGTCC  1 
+orange1.1g046026m.g|Csin (  633) CCGCCTGC  1 
+orange1.1g042612m.g|Csin (  636) CCGCCTGC  1 
+Ciclev10026675m.g|Ccleme (  756) CCGCCTGC  1 
+XP_006662923.1|Obrachyan (  612) CCGCGCGC  1 
+XP_006662923.1|Obrachyan (  116) CCACCGGC  1 
+XP_006662923.1|Obrachyan (   49) CCGCGCGC  1 
+XP_006663425.1|Obrachyan (  906) CCACGGCC  1 
+XP_006663425.1|Obrachyan (  227) CCACCGGC  1 
+Si000953m.g|Sitalica     (  679) CCACCGGC  1 
+Migut.H02513|Mguttatus   (  941) CCACCGGC  1 
+GRMZM2G079440|Zmays      (  909) CCACCGGC  1 
+LOC_Os11g26570|Osativa   (  951) CCGCGCGC  1 
+LOC_Os11g26760|Osativa   (  775) CCACCGGC  1 
+LOC_Os11g26780|Osativa   (  874) CCACGGCC  1 
+LOC_Os11g26780|Osativa   (  581) CCACCGGC  1 
+LOC_Os11g26790|Osativa   (  746) CCACGGCC  1 
+Bradi2g47580|Bdistachyon (  932) CCACGGCC  1 
+Bradi3g43870|Bdistachyon (  957) CCGCGCGC  1 
+Pavir.Hb00975|Pvirgatum  (   18) CCTCCGGC  1 
+Bradi3g43870|Bdistachyon (  480) CCTCCGGC  1 
+Achn232791|Achinensis    (  181) CCACCTCC  1 
+Si003298m.g|Sitalica     (  215) CCACCTCC  1 
+XP_006663425.1|Obrachyan (  772) CCACGCCC  1 
+gene14935-v1.0-hybrid|Fv (  830) CCACGCCC  1 
+gene14934-v1.0-hybrid|Fv (  831) CCACGCCC  1 
+Eucgr.I02392|Egrandis    (  891) CCACGCCC  1 
+Eucgr.I02395|Egrandis    (  888) CCACGCCC  1 
+XP_006662922.1|Obrachyan (  838) CCTCCTCC  1 
+XP_006662922.1|Obrachyan (  829) CCTCCTCC  1 
+Pavir.Hb00975|Pvirgatum  (  202) CCCCCCCC  1 
+Achn135571|Achinensis    (  843) CCCCCCCC  1 
+GSMUA_Achr4G11310_001|Ma (  467) CCTCCTCC  1 
+GRMZM2G052364|Zmays      (  984) CCTCCTCC  1 
+Thhalv10004906m.g|Esalsu (  739) CCCCCCCC  1 
+LOC_Os11g26790|Osativa   (   28) CCTCCTCC  1 
+cassava4.1_029213m.g|Mes (  585) CCCCCCCC  1 
+gene21840-v1.0-hybrid|Fv (  159) CCTCCTCC  1 
+gene21840-v1.0-hybrid|Fv (  150) CCTCCTCC  1 
+gene21840-v1.0-hybrid|Fv (  141) CCTCCTCC  1 
+gene21840-v1.0-hybrid|Fv (  132) CCTCCTCC  1 
+gene21840-v1.0-hybrid|Fv (  123) CCTCCTCC  1 
+PDK_30s875341g003|Pdacty (  899) CCTCCTCC  1 
+XP_006662923.1|Obrachyan (  665) GCGCGGCC  1 
+XP_006646247.1|Obrachyan (  227) GCGCCGGC  1 
+Pavir.Hb00975|Pvirgatum  (  760) GCGCGGCC  1 
+Migut.B00209|Mguttatus   (  615) GCGCCGGC  1 
+ppa010975m.g|Ppersica    (  989) GCGCCGGC  1 
+ppa011637m.g|Ppersica    (  852) GCGCCGGC  1 
+LOC_Os11g26790|Osativa   (  990) CCTCGCCC  1 
+Bradi4g19525|Bdistachyon (   90) CCTCCCGC  1 
+Bradi3g43870|Bdistachyon (  783) CCGCCGCG  1 
+XP_006662924.1|Obrachyan (  779) GCGCCTCC  1 
+ppa010975m.g|Ppersica    (  438) CCCCCGGC  1 
+LOC_Os11g26780|Osativa   (  984) CCCCGGCC  1 
+Pavir.Ea02542|Pvirgatum  (  914) GCGCCCGC  1 
+GRMZM2G079440|Zmays      (  830) GCGCGCCC  1 
+Si026583m.g|Sitalica     (  950) GCGCGCCC  1 
+Sobic.010G041900|Sbicolo (  816) CCGCCCCG  1 
+Sobic.010G041900|Sbicolo (  805) CCACGTCC  1 
+Eucgr.I01292|Egrandis    (  840) CCGCCCCG  1 
+Brara.I03437|Brapa       (  171) CCGCCCCG  1 
+LOC_Os11g26790|Osativa   (  176) CCTCGTCC  1 
+XP_006646247.1|Obrachyan (  743) CCGCCGGG  1 
+LOC_Os11g26780|Osativa   (  960) CCGCGGCG  1 
+XP_006646247.1|Obrachyan (  771) GCGCGCGC  1 
+XP_006662923.1|Obrachyan (   36) CGGCCGGC  1 
+Sobic.003G270200|Sbicolo (  943) CGGCCGGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 11.9163 E= 2.6e-017 
+ -1356    229    -53  -1356 
+ -1356    246   -343  -1356 
+   -37   -185    150    -70 
+ -1356    248  -1356  -1356 
+ -1356    201     65  -1356 
+ -1356     69    135    -33 
+ -1356    196     78  -1356 
+ -1356    241   -185  -1356 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 121 E= 2.6e-017 
+ 0.000000  0.876033  0.123967  0.000000 
+ 0.000000  0.983471  0.016529  0.000000 
+ 0.247934  0.049587  0.504132  0.198347 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.719008  0.280992  0.000000 
+ 0.000000  0.289256  0.454545  0.256198 
+ 0.000000  0.694215  0.305785  0.000000 
+ 0.000000  0.950413  0.049587  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 2 regular expression
+--------------------------------------------------------------------------------
+CC[GA]C[CG][GCT][CG]C
+--------------------------------------------------------------------------------
+
+
+
+
+Time 680.23 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  3	width =    8   sites =  58   llr = 628   E-value = 3.0e-020
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 3 Description
+--------------------------------------------------------------------------------
+Simplified        A  :7::::::
+pos.-specific     C  a:a:::3a
+probability       G  :3:a:a3:
+matrix            T  ::::a:4:
+
+         bits    2.5 * ** * *
+                 2.2 * ** * *
+                 2.0 * ** * *
+                 1.7 * **** *
+Relative         1.5 * **** *
+Entropy          1.2 * **** *
+(15.6 bits)      1.0 ****** *
+                 0.7 ****** *
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CACGTGTC
+consensus             G    C 
+sequence                   G 
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+XP_006662923.1|Obrachyan     +    769  6.78e-06 CGCTGCACAA CACGTGCC CCCTCTTCCG
+XP_006662923.1|Obrachyan     +    144  6.78e-06 GTCCATCCAC CACGTGCC TCTCACGACA
+XP_006663425.1|Obrachyan     +    843  6.78e-06 CCCGCTAGCA CACGTGCC CCCCTCGACG
+XP_006646247.1|Obrachyan     +    805  6.78e-06 CATGAGCGCA CACGTGGC TCGCCTGCAC
+Si000953m.g|Sitalica         +    869  6.78e-06 TGTCCTCCCG CACGTGCC GACCTGTCGC
+LOC_Os01g50700|Osativa       +    816  6.78e-06 TACGAGGGCA CACGTGGC TTGCCTGCAG
+Brara.I00913|Brapa           -    910  6.78e-06 ACTGAATCCA CACGTGGC AGCAGAGCAA
+Achn232791|Achinensis        +    794  6.78e-06 AGAAGAGAGA CACGTGGC AATAACTCTT
+GSMUA_Achr4G11310_001|Ma     -    821  6.78e-06 CGCGTGCAGG CACGTGCC CTCAGCCCGA
+Glyma.12G235800|Gmax         -    863  6.78e-06 TGCAGCTATA CACGTGCC TTAAGAATAA
+GSVIVG01023824001|Vvinif     +    857  6.78e-06 TGGCCTCCAC CACGTGCC TTCACCCCCC
+GSVIVG01018878001|Vvinif     -    954  6.78e-06 GATGATCGTA CACGTGCC ATGTGAAGAG
+29634.t000017|Rcommunis      -    809  6.78e-06 TTCGATCTTA CACGTGCC TCAGAAGGTG
+29634.t000016|Rcommunis      -    898  6.78e-06 TCCATTCTTA CACGTGCC TCGTGAGGTG
+29634.t000016|Rcommunis      +    852  6.78e-06 CTGGAAGCTC CACGTGGC TAAGAGAGCA
+30131.t000233|Rcommunis      +    833  6.78e-06 AGCTGAGTCA CACGTGCC CTCTAACGTG
+LOC_Os11g26570|Osativa       +    921  6.78e-06 ACCCCGCTCA CACGTGCC CCCTCGACGT
+MDP0000629961|Mdomestica     -    202  6.78e-06 ACCCACCCAT CACGTGGC AGTACGGGCT
+MDP0000698024|Mdomestica     -    651  6.78e-06 GATTTGGTGA CACGTGCC CTCCGTACCT
+MDP0000360414|Mdomestica     -    604  6.78e-06 GGATTGGTGA CACGTGCC CTCTGTACTT
+Cucsa.106380|Csativus        -    807  6.78e-06 ATTGGAAGAG CACGTGGC ATCTTTCGAT
+evm.TU.supercontig_106.3     -    873  6.78e-06 GCATGTGTTA CACGTGGC AGCAGAGGTG
+Bradi3g43855|Bdistachyon     +    909  6.78e-06 CATACGCTAA CACGTGCC CCAATACTGT
+Ca_04763|Carietinum          -    884  6.78e-06 TTAGCGCCAA CACGTGGC TAAAGAACAC
+C.cajan_35463|Ccajan         -    908  6.78e-06 TTGCCGCCAA CACGTGCC TGCACAAACC
+chr1.CM0113.750.r2.m|Lja     -    806  6.78e-06 TTGATGCCAA CACGTGGC TCCATAAGAA
+Bostr.0568s0050|Bstricta     -    932  1.66e-05 TGGAAGGTGA CGCGTGGC AGCAGTAGAA
+Bostr.5022s0083|Bstricta     -    864  1.66e-05 AAAGGAGTAC CACGTGTC ATGTGTGTGC
+Brara.I04639|Brapa           -    846  1.66e-05 AGAGGAGTAC CACGTGTC ATATGTTTGT
+GSMUA_Achr4G11310_001|Ma     +    835  1.66e-05 CGTGCCTGCA CGCGTGCC CAGACCGCGA
+Glyma.13G201300|Gmax         -    833  1.66e-05 GCATTATAAA CACGTGTC TGTTTTACAT
+Thhalv10004906m.g|Esalsu     +    899  1.66e-05 CTACTGCTGT CACGTGTC ACGTTCCATA
+Solyc01g109920.2|Slycope     +    881  1.66e-05 TACACCGAAA CACGTGTC TTGAATCTCC
+Si026583m.g|Sitalica         +    744  1.66e-05 CAAACCCGAT CGCGTGGC ACCTCTTGGC
+LOC_Os11g26780|Osativa       +    747  1.66e-05 AGCAGGTTGC CGCGTGGC ACCACCGACA
+LOC_Os11g26790|Osativa       -     76  1.66e-05 CGCTGTCATC CGCGTGGC CAGTGACCTC
+MDP0000629961|Mdomestica     +    853  1.66e-05 ATTGTCATAA CACGTGTC AACATGCAGT
+gene21840-v1.0-hybrid|Fv     +    745  1.66e-05 TTACTGTAAT CACGTGTC ACCTGGATAG
+Eucgr.J02380|Egrandis        -    821  1.66e-05 CTCTGCGTTA CACGTGTC AAGGACGAGG
+evm.TU.supercontig_6.176     +    858  1.66e-05 TATATTACAC CACGTGTC ATGCAAAAAA
+evm.TU.supercontig_6.176     +    835  1.66e-05 AAGCCTGTTA CACGTGTC ACTCATATAT
+evm.TU.supercontig_106.3     +    812  1.66e-05 TCCCAAATTA CACGTGTC TTTATCTCTC
+Carubv10027206m.g|Crubel     -    947  1.66e-05 TGTAAAGTGA CGCGTGGC AGCAGTAGAA
+Carubv10025232m.g|Crubel     -    803  1.66e-05 GAAGGAGTAG CACGTGTC ATGTGTGCAC
+AT5G66400|Athaliana          -    902  1.66e-05 TGGAAAGTGA CGCGTGGC AGCAGCAGAA
+496967|Alyrata               -    901  1.66e-05 TGGAAAGTGA CGCGTGGC AGCAGTAGAA
+PDK_30s875341g003|Pdacty     +    825  1.66e-05 ACGAGGCGCA CACGTGTC TGCAGCTCGA
+Si000953m.g|Sitalica         +    855  2.00e-05 CACGCTTCGG CGCGTGTC CTCCCGCACG
+Si000953m.g|Sitalica         -    800  2.00e-05 GGCAGAAGTG CGCGTGTC CACTGGTGTG
+Sobic.003G270200|Sbicolo     +    902  2.00e-05 CATGCGTGCG CGCGTGTC CTCCTGCGCA
+Sobic.003G270200|Sbicolo     -    847  2.00e-05 GAGAGAAGGG CGCGTGTC ACGGGCGTGC
+Brara.I00913|Brapa           -    870  2.00e-05 TGCTTCCAGA CGCGTGTC CAGACGTAGA
+LOC_Os11g26760|Osativa       -    228  2.00e-05 GAGCTGGTGA CGCGTGTC CAGCTGCCGC
+MDP0000868045|Mdomestica     -    887  2.00e-05 CAACAAAACA CGCGTGTC ACAGTAGGGT
+MDP0000868045|Mdomestica     +    321  2.00e-05 CGCGTAAGTC CGCGTGTC AGTTTTTTTT
+Eucgr.I02395|Egrandis        +    163  2.00e-05 AACAGCACCA CGCGTGTC TCATCCCGGA
+Cucsa.109360|Csativus        +    743  2.00e-05 CACGAATCCA CGCGTGTC CCAAATTTCA
+PDK_30s875341g003|Pdacty     +    774  2.00e-05 CACTCTCTCA CGCGTGTC ACCTCGGTCC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+XP_006662923.1|Obrachyan          6.8e-06  143_[+3]_617_[+3]_224
+XP_006663425.1|Obrachyan          6.8e-06  842_[+3]_150
+XP_006646247.1|Obrachyan          6.8e-06  804_[+3]_188
+Si000953m.g|Sitalica                2e-05  799_[-3]_47_[+3]_6_[+3]_124
+LOC_Os01g50700|Osativa            6.8e-06  815_[+3]_177
+Brara.I00913|Brapa                  2e-05  869_[-3]_32_[-3]_83
+Achn232791|Achinensis             6.8e-06  793_[+3]_199
+GSMUA_Achr4G11310_001|Ma          1.7e-05  820_[-3]_6_[+3]_158
+Glyma.12G235800|Gmax              6.8e-06  862_[-3]_130
+GSVIVG01023824001|Vvinif          6.8e-06  856_[+3]_136
+GSVIVG01018878001|Vvinif          6.8e-06  953_[-3]_39
+29634.t000017|Rcommunis           6.8e-06  808_[-3]_184
+29634.t000016|Rcommunis           6.8e-06  851_[+3]_38_[-3]_95
+30131.t000233|Rcommunis           6.8e-06  832_[+3]_160
+LOC_Os11g26570|Osativa            6.8e-06  920_[+3]_72
+MDP0000629961|Mdomestica          6.8e-06  201_[-3]_643_[+3]_140
+MDP0000698024|Mdomestica          6.8e-06  650_[-3]_342
+MDP0000360414|Mdomestica          6.8e-06  603_[-3]_389
+Cucsa.106380|Csativus             6.8e-06  806_[-3]_186
+evm.TU.supercontig_106.3          6.8e-06  811_[+3]_53_[-3]_120
+Bradi3g43855|Bdistachyon          6.8e-06  908_[+3]_84
+Ca_04763|Carietinum               6.8e-06  883_[-3]_109
+C.cajan_35463|Ccajan              6.8e-06  907_[-3]_85
+chr1.CM0113.750.r2.m|Lja          6.8e-06  805_[-3]_187
+Bostr.0568s0050|Bstricta          1.7e-05  931_[-3]_61
+Bostr.5022s0083|Bstricta          1.7e-05  863_[-3]_129
+Brara.I04639|Brapa                1.7e-05  845_[-3]_147
+Glyma.13G201300|Gmax              1.7e-05  832_[-3]_160
+Thhalv10004906m.g|Esalsu          1.7e-05  898_[+3]_94
+Solyc01g109920.2|Slycope          1.7e-05  880_[+3]_112
+Si026583m.g|Sitalica              1.7e-05  743_[+3]_249
+LOC_Os11g26780|Osativa            1.7e-05  746_[+3]_246
+LOC_Os11g26790|Osativa            1.7e-05  75_[-3]_917
+gene21840-v1.0-hybrid|Fv          1.7e-05  744_[+3]_248
+Eucgr.J02380|Egrandis             1.7e-05  820_[-3]_172
+evm.TU.supercontig_6.176          1.7e-05  834_[+3]_15_[+3]_135
+Carubv10027206m.g|Crubel          1.7e-05  946_[-3]_46
+Carubv10025232m.g|Crubel          1.7e-05  802_[-3]_190
+AT5G66400|Athaliana               1.7e-05  901_[-3]_91
+496967|Alyrata                    1.7e-05  900_[-3]_92
+PDK_30s875341g003|Pdacty            2e-05  773_[+3]_43_[+3]_168
+Sobic.003G270200|Sbicolo            2e-05  846_[-3]_47_[+3]_91
+LOC_Os11g26760|Osativa              2e-05  227_[-3]_765
+MDP0000868045|Mdomestica            2e-05  320_[+3]_558_[-3]_106
+Eucgr.I02395|Egrandis               2e-05  162_[+3]_830
+Cucsa.109360|Csativus               2e-05  742_[+3]_250
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 3 width=8 seqs=58
+XP_006662923.1|Obrachyan (  769) CACGTGCC  1 
+XP_006662923.1|Obrachyan (  144) CACGTGCC  1 
+XP_006663425.1|Obrachyan (  843) CACGTGCC  1 
+XP_006646247.1|Obrachyan (  805) CACGTGGC  1 
+Si000953m.g|Sitalica     (  869) CACGTGCC  1 
+LOC_Os01g50700|Osativa   (  816) CACGTGGC  1 
+Brara.I00913|Brapa       (  910) CACGTGGC  1 
+Achn232791|Achinensis    (  794) CACGTGGC  1 
+GSMUA_Achr4G11310_001|Ma (  821) CACGTGCC  1 
+Glyma.12G235800|Gmax     (  863) CACGTGCC  1 
+GSVIVG01023824001|Vvinif (  857) CACGTGCC  1 
+GSVIVG01018878001|Vvinif (  954) CACGTGCC  1 
+29634.t000017|Rcommunis  (  809) CACGTGCC  1 
+29634.t000016|Rcommunis  (  898) CACGTGCC  1 
+29634.t000016|Rcommunis  (  852) CACGTGGC  1 
+30131.t000233|Rcommunis  (  833) CACGTGCC  1 
+LOC_Os11g26570|Osativa   (  921) CACGTGCC  1 
+MDP0000629961|Mdomestica (  202) CACGTGGC  1 
+MDP0000698024|Mdomestica (  651) CACGTGCC  1 
+MDP0000360414|Mdomestica (  604) CACGTGCC  1 
+Cucsa.106380|Csativus    (  807) CACGTGGC  1 
+evm.TU.supercontig_106.3 (  873) CACGTGGC  1 
+Bradi3g43855|Bdistachyon (  909) CACGTGCC  1 
+Ca_04763|Carietinum      (  884) CACGTGGC  1 
+C.cajan_35463|Ccajan     (  908) CACGTGCC  1 
+chr1.CM0113.750.r2.m|Lja (  806) CACGTGGC  1 
+Bostr.0568s0050|Bstricta (  932) CGCGTGGC  1 
+Bostr.5022s0083|Bstricta (  864) CACGTGTC  1 
+Brara.I04639|Brapa       (  846) CACGTGTC  1 
+GSMUA_Achr4G11310_001|Ma (  835) CGCGTGCC  1 
+Glyma.13G201300|Gmax     (  833) CACGTGTC  1 
+Thhalv10004906m.g|Esalsu (  899) CACGTGTC  1 
+Solyc01g109920.2|Slycope (  881) CACGTGTC  1 
+Si026583m.g|Sitalica     (  744) CGCGTGGC  1 
+LOC_Os11g26780|Osativa   (  747) CGCGTGGC  1 
+LOC_Os11g26790|Osativa   (   76) CGCGTGGC  1 
+MDP0000629961|Mdomestica (  853) CACGTGTC  1 
+gene21840-v1.0-hybrid|Fv (  745) CACGTGTC  1 
+Eucgr.J02380|Egrandis    (  821) CACGTGTC  1 
+evm.TU.supercontig_6.176 (  858) CACGTGTC  1 
+evm.TU.supercontig_6.176 (  835) CACGTGTC  1 
+evm.TU.supercontig_106.3 (  812) CACGTGTC  1 
+Carubv10027206m.g|Crubel (  947) CGCGTGGC  1 
+Carubv10025232m.g|Crubel (  803) CACGTGTC  1 
+AT5G66400|Athaliana      (  902) CGCGTGGC  1 
+496967|Alyrata           (  901) CGCGTGGC  1 
+PDK_30s875341g003|Pdacty (  825) CACGTGTC  1 
+Si000953m.g|Sitalica     (  855) CGCGTGTC  1 
+Si000953m.g|Sitalica     (  800) CGCGTGTC  1 
+Sobic.003G270200|Sbicolo (  902) CGCGTGTC  1 
+Sobic.003G270200|Sbicolo (  847) CGCGTGTC  1 
+Brara.I00913|Brapa       (  870) CGCGTGTC  1 
+LOC_Os11g26760|Osativa   (  228) CGCGTGTC  1 
+MDP0000868045|Mdomestica (  887) CGCGTGTC  1 
+MDP0000868045|Mdomestica (  321) CGCGTGTC  1 
+Eucgr.I02395|Egrandis    (  163) CGCGTGTC  1 
+Cucsa.109360|Csativus    (  743) CGCGTGTC  1 
+PDK_30s875341g003|Pdacty (  774) CGCGTGTC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.6819 E= 3.0e-020 
+ -1250    248  -1250  -1250 
+   107  -1250     87  -1250 
+ -1250    248  -1250  -1250 
+ -1250  -1250    248  -1250 
+ -1250  -1250  -1250    164 
+ -1250  -1250    248  -1250 
+ -1250     71     71     36 
+ -1250    248  -1250  -1250 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 58 E= 3.0e-020 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.672414  0.000000  0.327586  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.293103  0.293103  0.413793 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 3 regular expression
+--------------------------------------------------------------------------------
+C[AG]CGTG[TCG]C
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1013.63 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  4	width =    8   sites =  77   llr = 765   E-value = 2.3e-011
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 4 Description
+--------------------------------------------------------------------------------
+Simplified        A  6:::a:6:
+pos.-specific     C  :aa::a15
+probability       G  4::a::3:
+matrix            T  :::::::5
+
+         bits    2.5  *** *  
+                 2.2  *** *  
+                 2.0  *** *  
+                 1.7  *****  
+Relative         1.5  *****  
+Entropy          1.2  *****  
+(14.3 bits)      1.0 ****** *
+                 0.7 ********
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           ACCGACAT
+consensus            G     GC
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Capana02g002739|Cannuum      +    712  3.39e-06 CATGTTTCCA GCCGACAC TTTCACACTT
+Capana02g000471|Cannuum      +    770  3.39e-06 CCGCTTTCCT GCCGACAC TCACACTTGT
+Pavir.Ab01356|Pvirgatum      -    976  3.39e-06 GCAGGTGAAG GCCGACAC CGCCATTTAT
+Solyc02g084850.2|Slycope     +    982  3.39e-06 GTTTATTTAT GCCGACAC TCTTACACTT
+Eucgr.I02395|Egrandis        +    825  3.39e-06 TCCACACGCA GCCGACAC TACCGGACAC
+Thhalv10010821m.g|Esalsu     -    481  5.28e-06 GAATTCTGAG GCCGACGC TTTCGTGTTT
+Si026926m.g|Sitalica         -    973  5.28e-06 GTAGGTGCAG GCCGACGC CACCATTTAT
+LOC_Os11g26760|Osativa       -    171  5.28e-06 TTGGAGCCGA GCCGACGC CTATCGCGCC
+LOC_Os11g26790|Osativa       +    244  5.28e-06 TAGACCAGAT GCCGACGC AACTAGCCCT
+Bostr.0568s0050|Bstricta     +    725  1.14e-05 AGTGTTTAAT ACCGACAC AAAGGAAGAG
+Araha.1084s0018|Ahalleri     +    688  1.14e-05 TACTGTTAGT ACCGACAC AAAGAAAAGA
+Sobic.010G041900|Sbicolo     +    889  1.14e-05 TGCCTACGCG ACCGACAC AAAACTCCCT
+Brara.I00913|Brapa           +    703  1.14e-05 TAATGCCAGT ACCGACAC GAAGAAAAGG
+Thhalv10010821m.g|Esalsu     -    848  1.14e-05 TGTAGTTTTT ACCGACAC ATGTCGGTAA
+LOC_Os11g26780|Osativa       +    758  1.14e-05 GCGTGGCACC ACCGACAC AACGCGCTAC
+MDP0000698024|Mdomestica     -     92  1.14e-05 TCTTGATCTT ACCGACAC TATCCTACGA
+gene14938-v1.0-hybrid|Fv     +    796  1.14e-05 CCTCTCCGTT ACCGACAC TAACGTTACA
+gene14940-v1.0-hybrid|Fv     +    797  1.14e-05 ACTTATCCTT ACCGACAC TAACGTCACA
+Carubv10027206m.g|Crubel     +    720  1.14e-05 ACTGTTAAGT ACCGACAC AAATTATGGA
+Bradi3g43855|Bdistachyon     +    797  1.14e-05 ACGTGGCGCC ACCGACAC CCACGCGGCT
+496967|Alyrata               +    707  1.14e-05 TGTTGTTAAT ACCGACAC AAAGAAAAGG
+Si000953m.g|Sitalica         +    369  1.47e-05 AAATCACACT ACCGACGC GAAAACAGCC
+Sobic.009G116700|Sbicolo     +    892  1.47e-05 GCATGGCGCC ACCGACGC ACCAGCCGAC
+Pavir.Ab01356|Pvirgatum      +    840  1.47e-05 ACGTGGCGCC ACCGACGC GCCCGCGGCC
+Achn232791|Achinensis        +    891  1.47e-05 CCGATCCTTC ACCGACGC CAATTGTTTC
+GRMZM2G079440|Zmays          +    719  1.47e-05 GGGCCGGGCC ACCGACGC ACGGCACCAG
+GRMZM2G052364|Zmays          -    707  1.47e-05 AACTAGAAGC ACCGACGC GGTTTTGGCG
+GRMZM2G098750|Zmays          -    789  1.47e-05 AACTAGAAGC ACCGACGC GGTTTTGGCG
+Thhalv10004906m.g|Esalsu     +    631  1.47e-05 ATTAGTAGCG ACCGACGC AAAGAAAATG
+Si026926m.g|Sitalica         +    812  1.47e-05 ACGTGGCGCC ACCGACGC CTTCCGCGGC
+Araha.1084s0018|Ahalleri     +    866  2.08e-05 CAAGCACCAC GCCGACAT CTTCTACTGC
+Brara.B03992|Brapa           +    893  2.08e-05 GCAGCATCAT GCCGACAT TTGCTATTGT
+Brara.I00913|Brapa           +    892  2.08e-05 GAAGCACCAC GCCGACAT TTGCTCTGCT
+Achn135571|Achinensis        +    737  2.08e-05 CTTATCTACA GCCGACAT TAAATTACAC
+GRMZM2G052364|Zmays          -    558  2.08e-05 GCACCGGTAC GCCGACAT GTAAGTGGCA
+GRMZM2G098750|Zmays          -    648  2.08e-05 GCACCGGTAC GCCGACAT GTAAGTGGCA
+Thhalv10004906m.g|Esalsu     +    878  2.08e-05 GAAGCACCAC GCCGACAT TTTCTACTGC
+LOC_Os11g26790|Osativa       +    198  2.08e-05 GACCTCTGCT GCCGACAT GAAGAGCGTG
+MDP0000868044|Mdomestica     -    686  2.08e-05 GAAAGCAACT GCCGACAT CAAAAAATAA
+gene14934-v1.0-hybrid|Fv     -    155  2.08e-05 TGAGAACGCC GCCGACAT GGGTGACAAC
+Eucgr.I02392|Egrandis        +    830  2.08e-05 TCCACACGCA GCCGACAT TACGGGACAC
+Eucgr.I02395|Egrandis        +    716  2.08e-05 CCTCTCCATT GCCGACAT GAACTCCAAC
+Cucsa.106380|Csativus        +    769  2.08e-05 AAAGGTCATT GCCGACAT AGCCCCTCAC
+Carubv10027206m.g|Crubel     +    928  2.08e-05 CAAACACCAC GCCGACAT TTTCTACTGC
+AT5G66400|Athaliana          +    883  2.08e-05 GAAACACCAC GCCGACAT TTTCTGCTGC
+496967|Alyrata               +    882  2.08e-05 CAAGCACCAC GCCGACAT TTTCTACTGC
+XP_006662922.1|Obrachyan     +    798  2.42e-05 ACGTGGCGCC GCCGACGT GCATGGCCGT
+GSMUA_Achr4G11310_001|Ma     -    917  2.42e-05 GGGACGCGGG GCCGACGT GATGAGGCTG
+MDP0000698024|Mdomestica     +    744  2.42e-05 AAAATATCTT GCCGACGT TAATTTTTCA
+MDP0000360414|Mdomestica     +    753  2.42e-05 AAAATATCTT GCCGACGT TAATTTTCAC
+Achn232791|Achinensis        -    833  3.51e-05 CGTGGATGTC ACCGACAT GCCGTGTGCG
+Glyma.12G235800|Gmax         +    680  3.51e-05 ATATGTTTAT ACCGACAT GTGTTTATAA
+GSVIVG01018878001|Vvinif     -    696  3.51e-05 GTACAACAAG ACCGACAT AAACCTTGAA
+Thhalv10010821m.g|Esalsu     +    840  3.51e-05 CAAGTAAGTT ACCGACAT GTGTCGGTAA
+Thhalv10010821m.g|Esalsu     +    794  3.51e-05 AAGCTATCTT ACCGACAT ATATATTAAT
+Solyc02g084850.2|Slycope     -    816  3.51e-05 TTTTGAACGT ACCGACAT TTCAAGACTC
+MDP0000629961|Mdomestica     +    880  3.51e-05 TGACATGCAA ACCGACAT AACACTTTAT
+MDP0000360414|Mdomestica     -    470  3.51e-05 TCTAGGTCTT ACCGACAT GCTATAAGTT
+Lus10014280.g|Lusitatiss     +    766  3.51e-05 ATGAGTCATG ACCGACAT ATCAAAGGGC
+Lus10025983.g|Lusitatiss     +    766  3.51e-05 AATCGACATG ACCGACAT GTCAAAGGGC
+gene14938-v1.0-hybrid|Fv     -    509  3.51e-05 TGTACGCTGG ACCGACAT GAGAATAGTT
+gene14940-v1.0-hybrid|Fv     -    516  3.51e-05 TGTACGCTGG ACCGACAT GAGAATAGTT
+Cucsa.106380|Csativus        -    594  3.51e-05 CTAACACCAC ACCGACAT GCAGCCTTCA
+Aquca_010_00572|Acoerule     +    970  3.51e-05 ATCTAATGCT ACCGACAT ATTTCACTTG
+Bostr.0568s0050|Bstricta     +    819  4.12e-05 CGTACTTGGT ACCGACGT GAAAGCTCGG
+Bv6_126000_msqq.t1|Bvulg     +    865  4.12e-05 CACCATAGAA ACCGACGT GTCAGCATCA
+XP_006646247.1|Obrachyan     -    277  4.12e-05 ATCTGATTAG ACCGACGT GGTGGCTTCT
+Gorai.005G245900|Graimon     +    852  4.12e-05 GTTAATTGTC ACCGACGT CACCTAAGGT
+Thhalv10004906m.g|Esalsu     +    672  4.12e-05 TTGTTCTTCT ACCGACGT TATAGAAAGA
+evm.TU.supercontig_106.3     -    218  4.12e-05 CGCAAGGTAT ACCGACGT GATACCCGAC
+Pavir.Cb00662|Pvirgatum      +    919  4.31e-05 GTGTCGAACT GCCGACCC CAACACGTTG
+Si003296m.g|Sitalica         +    851  4.31e-05 ACCCATACCT GCCGACCC CAACCATGCA
+Si003298m.g|Sitalica         +    860  4.31e-05 ACCCATACCT GCCGACCC CAACCATGCA
+Eucgr.I02395|Egrandis        +    804  4.31e-05 CGACAACCCC GCCGACCC TCATCCACAC
+LOC_Os11g26760|Osativa       +    795  4.65e-05 GCATGGCGTC ACCGACCC GGCGCGCTAC
+MDP0000868044|Mdomestica     +    902  4.65e-05 GCTTATATAA ACCGACCC AAATTGTCAG
+Bradi4g19525|Bdistachyon     +    939  4.65e-05 TGTCAACTCG ACCGACCC TCAGCTCGTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Capana02g002739|Cannuum           3.4e-06  711_[+4]_281
+Capana02g000471|Cannuum           3.4e-06  769_[+4]_223
+Pavir.Ab01356|Pvirgatum           3.4e-06  839_[+4]_128_[-4]_17
+Solyc02g084850.2|Slycope          3.5e-05  815_[-4]_158_[+4]_11
+Eucgr.I02395|Egrandis             4.3e-05  715_[+4]_80_[+4]_13_[+4]_168
+Thhalv10010821m.g|Esalsu          3.5e-05  480_[-4]_305_[+4]_38_[+4]_[-4]_145
+Si026926m.g|Sitalica              1.5e-05  811_[+4]_153_[-4]_20
+LOC_Os11g26760|Osativa            4.6e-05  170_[-4]_616_[+4]_198
+LOC_Os11g26790|Osativa            2.1e-05  197_[+4]_38_[+4]_749
+Bostr.0568s0050|Bstricta          4.1e-05  724_[+4]_86_[+4]_174
+Araha.1084s0018|Ahalleri          2.1e-05  687_[+4]_170_[+4]_127
+Sobic.010G041900|Sbicolo          1.1e-05  888_[+4]_104
+Brara.I00913|Brapa                2.1e-05  702_[+4]_181_[+4]_101
+LOC_Os11g26780|Osativa            1.1e-05  757_[+4]_235
+MDP0000698024|Mdomestica          2.4e-05  91_[-4]_644_[+4]_249
+gene14938-v1.0-hybrid|Fv          3.5e-05  508_[-4]_279_[+4]_197
+gene14940-v1.0-hybrid|Fv          3.5e-05  515_[-4]_273_[+4]_196
+Carubv10027206m.g|Crubel          2.1e-05  719_[+4]_200_[+4]_65
+Bradi3g43855|Bdistachyon          1.1e-05  796_[+4]_196
+496967|Alyrata                    2.1e-05  706_[+4]_167_[+4]_111
+Si000953m.g|Sitalica              1.5e-05  368_[+4]_624
+Sobic.009G116700|Sbicolo          1.5e-05  891_[+4]_101
+Achn232791|Achinensis             3.5e-05  832_[-4]_50_[+4]_102
+GRMZM2G079440|Zmays               1.5e-05  718_[+4]_274
+GRMZM2G052364|Zmays               2.1e-05  557_[-4]_141_[-4]_286
+GRMZM2G098750|Zmays               2.1e-05  647_[-4]_133_[-4]_204
+Thhalv10004906m.g|Esalsu          2.1e-05  630_[+4]_33_[+4]_198_[+4]_115
+Brara.B03992|Brapa                2.1e-05  892_[+4]_100
+Achn135571|Achinensis             2.1e-05  736_[+4]_256
+MDP0000868044|Mdomestica          4.6e-05  685_[-4]_208_[+4]_91
+gene14934-v1.0-hybrid|Fv          2.1e-05  154_[-4]_838
+Eucgr.I02392|Egrandis             2.1e-05  829_[+4]_163
+Cucsa.106380|Csativus             2.1e-05  593_[-4]_167_[+4]_224
+AT5G66400|Athaliana               2.1e-05  882_[+4]_110
+XP_006662922.1|Obrachyan          2.4e-05  797_[+4]_195
+GSMUA_Achr4G11310_001|Ma          2.4e-05  916_[-4]_76
+MDP0000360414|Mdomestica          3.5e-05  469_[-4]_275_[+4]_240
+Glyma.12G235800|Gmax              3.5e-05  679_[+4]_313
+GSVIVG01018878001|Vvinif          3.5e-05  695_[-4]_297
+MDP0000629961|Mdomestica          3.5e-05  879_[+4]_113
+Lus10014280.g|Lusitatiss          3.5e-05  765_[+4]_227
+Lus10025983.g|Lusitatiss          3.5e-05  765_[+4]_227
+Aquca_010_00572|Acoerule          3.5e-05  969_[+4]_23
+Bv6_126000_msqq.t1|Bvulg          4.1e-05  864_[+4]_128
+XP_006646247.1|Obrachyan          4.1e-05  276_[-4]_716
+Gorai.005G245900|Graimon          4.1e-05  851_[+4]_141
+evm.TU.supercontig_106.3          4.1e-05  217_[-4]_775
+Pavir.Cb00662|Pvirgatum           4.3e-05  918_[+4]_74
+Si003296m.g|Sitalica              4.3e-05  850_[+4]_142
+Si003298m.g|Sitalica              4.3e-05  859_[+4]_133
+Bradi4g19525|Bdistachyon          4.6e-05  938_[+4]_54
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 4 width=8 seqs=77
+Capana02g002739|Cannuum  (  712) GCCGACAC  1 
+Capana02g000471|Cannuum  (  770) GCCGACAC  1 
+Pavir.Ab01356|Pvirgatum  (  976) GCCGACAC  1 
+Solyc02g084850.2|Slycope (  982) GCCGACAC  1 
+Eucgr.I02395|Egrandis    (  825) GCCGACAC  1 
+Thhalv10010821m.g|Esalsu (  481) GCCGACGC  1 
+Si026926m.g|Sitalica     (  973) GCCGACGC  1 
+LOC_Os11g26760|Osativa   (  171) GCCGACGC  1 
+LOC_Os11g26790|Osativa   (  244) GCCGACGC  1 
+Bostr.0568s0050|Bstricta (  725) ACCGACAC  1 
+Araha.1084s0018|Ahalleri (  688) ACCGACAC  1 
+Sobic.010G041900|Sbicolo (  889) ACCGACAC  1 
+Brara.I00913|Brapa       (  703) ACCGACAC  1 
+Thhalv10010821m.g|Esalsu (  848) ACCGACAC  1 
+LOC_Os11g26780|Osativa   (  758) ACCGACAC  1 
+MDP0000698024|Mdomestica (   92) ACCGACAC  1 
+gene14938-v1.0-hybrid|Fv (  796) ACCGACAC  1 
+gene14940-v1.0-hybrid|Fv (  797) ACCGACAC  1 
+Carubv10027206m.g|Crubel (  720) ACCGACAC  1 
+Bradi3g43855|Bdistachyon (  797) ACCGACAC  1 
+496967|Alyrata           (  707) ACCGACAC  1 
+Si000953m.g|Sitalica     (  369) ACCGACGC  1 
+Sobic.009G116700|Sbicolo (  892) ACCGACGC  1 
+Pavir.Ab01356|Pvirgatum  (  840) ACCGACGC  1 
+Achn232791|Achinensis    (  891) ACCGACGC  1 
+GRMZM2G079440|Zmays      (  719) ACCGACGC  1 
+GRMZM2G052364|Zmays      (  707) ACCGACGC  1 
+GRMZM2G098750|Zmays      (  789) ACCGACGC  1 
+Thhalv10004906m.g|Esalsu (  631) ACCGACGC  1 
+Si026926m.g|Sitalica     (  812) ACCGACGC  1 
+Araha.1084s0018|Ahalleri (  866) GCCGACAT  1 
+Brara.B03992|Brapa       (  893) GCCGACAT  1 
+Brara.I00913|Brapa       (  892) GCCGACAT  1 
+Achn135571|Achinensis    (  737) GCCGACAT  1 
+GRMZM2G052364|Zmays      (  558) GCCGACAT  1 
+GRMZM2G098750|Zmays      (  648) GCCGACAT  1 
+Thhalv10004906m.g|Esalsu (  878) GCCGACAT  1 
+LOC_Os11g26790|Osativa   (  198) GCCGACAT  1 
+MDP0000868044|Mdomestica (  686) GCCGACAT  1 
+gene14934-v1.0-hybrid|Fv (  155) GCCGACAT  1 
+Eucgr.I02392|Egrandis    (  830) GCCGACAT  1 
+Eucgr.I02395|Egrandis    (  716) GCCGACAT  1 
+Cucsa.106380|Csativus    (  769) GCCGACAT  1 
+Carubv10027206m.g|Crubel (  928) GCCGACAT  1 
+AT5G66400|Athaliana      (  883) GCCGACAT  1 
+496967|Alyrata           (  882) GCCGACAT  1 
+XP_006662922.1|Obrachyan (  798) GCCGACGT  1 
+GSMUA_Achr4G11310_001|Ma (  917) GCCGACGT  1 
+MDP0000698024|Mdomestica (  744) GCCGACGT  1 
+MDP0000360414|Mdomestica (  753) GCCGACGT  1 
+Achn232791|Achinensis    (  833) ACCGACAT  1 
+Glyma.12G235800|Gmax     (  680) ACCGACAT  1 
+GSVIVG01018878001|Vvinif (  696) ACCGACAT  1 
+Thhalv10010821m.g|Esalsu (  840) ACCGACAT  1 
+Thhalv10010821m.g|Esalsu (  794) ACCGACAT  1 
+Solyc02g084850.2|Slycope (  816) ACCGACAT  1 
+MDP0000629961|Mdomestica (  880) ACCGACAT  1 
+MDP0000360414|Mdomestica (  470) ACCGACAT  1 
+Lus10014280.g|Lusitatiss (  766) ACCGACAT  1 
+Lus10025983.g|Lusitatiss (  766) ACCGACAT  1 
+gene14938-v1.0-hybrid|Fv (  509) ACCGACAT  1 
+gene14940-v1.0-hybrid|Fv (  516) ACCGACAT  1 
+Cucsa.106380|Csativus    (  594) ACCGACAT  1 
+Aquca_010_00572|Acoerule (  970) ACCGACAT  1 
+Bostr.0568s0050|Bstricta (  819) ACCGACGT  1 
+Bv6_126000_msqq.t1|Bvulg (  865) ACCGACGT  1 
+XP_006646247.1|Obrachyan (  277) ACCGACGT  1 
+Gorai.005G245900|Graimon (  852) ACCGACGT  1 
+Thhalv10004906m.g|Esalsu (  672) ACCGACGT  1 
+evm.TU.supercontig_106.3 (  218) ACCGACGT  1 
+Pavir.Cb00662|Pvirgatum  (  919) GCCGACCC  1 
+Si003296m.g|Sitalica     (  851) GCCGACCC  1 
+Si003298m.g|Sitalica     (  860) GCCGACCC  1 
+Eucgr.I02395|Egrandis    (  804) GCCGACCC  1 
+LOC_Os11g26760|Osativa   (  795) ACCGACCC  1 
+MDP0000868044|Mdomestica (  902) ACCGACCC  1 
+Bradi4g19525|Bdistachyon (  939) ACCGACCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.4056 E= 2.3e-011 
+    83  -1291    126  -1291 
+ -1291    248  -1291  -1291 
+ -1291    248  -1291  -1291 
+ -1291  -1291    248  -1291 
+   164  -1291  -1291  -1291 
+ -1291    248  -1291  -1291 
+    93    -97     74  -1291 
+ -1291    143  -1291     69 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 77 E= 2.3e-011 
+ 0.571429  0.000000  0.428571  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.610390  0.090909  0.298701  0.000000 
+ 0.000000  0.480519  0.000000  0.519481 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 4 regular expression
+--------------------------------------------------------------------------------
+[AG]CCGAC[AG][TC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1344.79 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  5	width =    8   sites = 119   llr = 1081   E-value = 5.2e-004
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 5 Description
+--------------------------------------------------------------------------------
+Simplified        A  aaaaaaaa
+pos.-specific     C  ::::::::
+probability       G  ::::::::
+matrix            T  ::::::::
+
+         bits    2.5         
+                 2.2         
+                 2.0         
+                 1.7 ********
+Relative         1.5 ********
+Entropy          1.2 ********
+(13.1 bits)      1.0 ********
+                 0.7 ********
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           AAAAAAAA
+consensus                    
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Bostr.6864s0146|Bstricta     -    619  1.13e-04 AAATTATCCA AAAAAAAA ATTACTCAAA
+Bostr.6864s0146|Bstricta     +    259  1.13e-04 TAGGGCTGTC AAAAAAAA CCAAATCCAA
+Bostr.6864s0146|Bstricta     +    120  1.13e-04 GGTGTGGCTT AAAAAAAA AAAAAAGACA
+Bostr.0568s0050|Bstricta     -    752  1.13e-04 AGAAAGAAAG AAAAAAAA ATATCTGTCC
+Bostr.5022s0083|Bstricta     +    525  1.13e-04 AAAAACCAGA AAAAAAAA AAAGAACTGG
+Bostr.5022s0083|Bstricta     -    216  1.13e-04 ATGCACAAAA AAAAAAAA AGGGCAAAAG
+Araha.12988s0001|Ahaller     +      2  1.13e-04          A AAAAAAAA AGCTTCTCCA
+Bv9_223210_acha.t1|Bvulg     -    460  1.13e-04 GGTAGAGAGT AAAAAAAA AGGAACCCAT
+Bv9_223210_acha.t1|Bvulg     -    408  1.13e-04 TTTATTGCCC AAAAAAAA AGTGTAGCAA
+Bv9_223210_acha.t1|Bvulg     -    207  1.13e-04 TCATTTCAAA AAAAAAAA ATTAAGATAA
+Cagra.2374s0005|Cgrandif     -    449  1.13e-04 ATCATTTTTA AAAAAAAA CATTGATAAG
+Cagra.2374s0005|Cgrandif     -    255  1.13e-04 CAGCTAGCAC AAAAAAAA AGAGCGAGAG
+XP_006662923.1|Obrachyan     -    441  1.13e-04 AATAGTTATT AAAAAAAA TTTAAAAAAA
+XP_006662923.1|Obrachyan     +    242  1.13e-04 ATAAAAAAAT AAAAAAAA TAAGATGGAT
+XP_006662922.1|Obrachyan     +    113  1.13e-04 GTGACAAGGA AAAAAAAA TCTCTGGATC
+XP_006646247.1|Obrachyan     +    511  1.13e-04 TAAGAACGGT AAAAAAAA TATTACTAAT
+Capana02g002740|Cannuum      +     58  1.13e-04 TCCTCCACCC AAAAAAAA CATTCTATGC
+Capana02g002739|Cannuum      -    947  1.13e-04 ACAACAGGGA AAAAAAAA AGGAACCACT
+Sobic.010G041900|Sbicolo     +    739  1.13e-04 TACAAAGGCT AAAAAAAA GATAATGACG
+Sobic.010G041900|Sbicolo     -    501  1.13e-04 CGGTGCCTTA AAAAAAAA AGAAAAAACA
+Pavir.Ab01356|Pvirgatum      -     19  1.13e-04 CCAAACCCTA AAAAAAAA CTAAATAGAT
+Pavir.Ea02542|Pvirgatum      -    615  1.13e-04 GAGAGGCTTC AAAAAAAA GAGACAAAGT
+Migut.B00209|Mguttatus       -    406  1.13e-04 TCGAAAAAAA AAAAAAAA ATCTGAAAAT
+Migut.B00209|Mguttatus       +    235  1.13e-04 TAAGCGACTG AAAAAAAA CAAAACGTTT
+Gorai.005G245900|Graimon     +    534  1.13e-04 AAAAAAGAAC AAAAAAAA GATATGTAAG
+Brara.B03992|Brapa           +    318  1.13e-04 CTTATAACAC AAAAAAAA CAGATGGATA
+Brara.B03992|Brapa           -    217  1.13e-04 AGTTGTAATT AAAAAAAA ATATTAGTGT
+Brara.I00913|Brapa           +    412  1.13e-04 ACGTAAAACC AAAAAAAA TAAGACGATT
+Brara.I04639|Brapa           +    659  1.13e-04 TTTGGTTCAT AAAAAAAA AATCCATTGA
+Brara.I04639|Brapa           -    417  1.13e-04 GTTGAGCCAA AAAAAAAA AAAAAAAAAA
+Brara.I04639|Brapa           -    406  1.13e-04 AAAAAAAAAA AAAAAAAA AGCCAATCTA
+Achn232791|Achinensis        -    676  1.13e-04 TTATTTTTTT AAAAAAAA TATTTGTATA
+Achn232791|Achinensis        -    659  1.13e-04 ATATTTGTAT AAAAAAAA CAATTACCGT
+Achn135571|Achinensis        +    212  1.13e-04 ATAATAACTT AAAAAAAA TCAATGTTAT
+Achn135571|Achinensis        -    161  1.13e-04 TTTTTAATTA AAAAAAAA CAAAATTATC
+Achn135571|Achinensis        +    123  1.13e-04 TTGGTGTATT AAAAAAAA TTAGAATACT
+Achn135571|Achinensis        +     22  1.13e-04 AATTTTTTTT AAAAAAAA TTACTTATTA
+Achn135571|Achinensis        -     14  1.13e-04 AATTTTTTTT AAAAAAAA TTGATCTAAA
+GSMUA_Achr4G11310_001|Ma     -    730  1.13e-04 TGCTTCACAC AAAAAAAA TAATTCATCT
+GSMUA_Achr4G11310_001|Ma     +    525  1.13e-04 CATCATTTGA AAAAAAAA TTAAAATAAA
+Glyma.04G009900|Gmax         +    964  1.13e-04 ATAAATTAGC AAAAAAAA TGATGATTGT
+Glyma.04G009900|Gmax         -    409  1.13e-04 ATGAAAGGAA AAAAAAAA CTTCCCTAAA
+Glyma.04G009900|Gmax         -    386  1.13e-04 CTAAATGGAC AAAAAAAA AGAAATACAG
+Glyma.13G201300|Gmax         -     72  1.13e-04 TATTTCTAGT AAAAAAAA TGAAAACAGA
+GRMZM2G079440|Zmays          -    253  1.13e-04 AAGAGAAAAG AAAAAAAA CTAAGGTTCT
+GSVIVG01023824001|Vvinif     -    343  1.13e-04 CTTTTACCCT AAAAAAAA AGAGCTTTAT
+GSVIVG01018878001|Vvinif     +    580  1.13e-04 TTTAGAAAGA AAAAAAAA ATCGGAGGAA
+GSVIVG01018878001|Vvinif     +     87  1.13e-04 AAAAAAAAAT AAAAAAAA TAATAAAATA
+GSVIVG01018878001|Vvinif     +     76  1.13e-04 TTGAAACACA AAAAAAAA AATAAAAAAA
+GSVIVG01018878001|Vvinif     +     30  1.13e-04 GGTGAAATAT AAAAAAAA ATATCTAAAA
+Thhalv10010821m.g|Esalsu     +    569  1.13e-04 TGGGAAACCA AAAAAAAA AGCTTAAGTA
+Thhalv10004906m.g|Esalsu     +    167  1.13e-04 TTTTTTTTTT AAAAAAAA CAATGGATAT
+Thhalv10004906m.g|Esalsu     -    157  1.13e-04 TTTTTTTTAA AAAAAAAA CATGATGATA
+Thhalv10004906m.g|Esalsu     +     51  1.13e-04 TGATAGAAGA AAAAAAAA ATTGCAAAAC
+Thhalv10000340m.g|Esalsu     -    376  1.13e-04 TCGTCTTTAC AAAAAAAA ATAATAATAA
+Thhalv10000340m.g|Esalsu     +    171  1.13e-04 ATAAATAACC AAAAAAAA TTGTAACAAA
+PGSC0003DMG400003531|Stu     -    901  1.13e-04 AATTATCTAC AAAAAAAA TTATATGATA
+PGSC0003DMG400003531|Stu     +    716  1.13e-04 TTAAAAAAAT AAAAAAAA ACGAAATTAT
+PGSC0003DMG400003531|Stu     -    389  1.13e-04 CAGAAAATAT AAAAAAAA TATAAAATCG
+PGSC0003DMG400030949|Stu     -    514  1.13e-04 CCCCCACTAA AAAAAAAA CCAAAAACAC
+Solyc02g062390.2|Slycope     +     10  1.13e-04  TTACCAAAG AAAAAAAA TATAAGTAGT
+Solyc02g084850.2|Slycope     -    868  1.13e-04 CATAAAGATT AAAAAAAA GTAAAATTAA
+Solyc01g109920.2|Slycope     -    670  1.13e-04 CTACCAAAAA AAAAAAAA CATATACTGT
+Solyc01g109920.2|Slycope     -    269  1.13e-04 TTTCTTTTGT AAAAAAAA TACTGAAATC
+Solyc01g109920.2|Slycope     -    210  1.13e-04 TTACTTTTTT AAAAAAAA TGAAATCTCC
+Solyc01g109920.2|Slycope     -     18  1.13e-04 AGGCACAATT AAAAAAAA TAATTGAGGA
+Si026583m.g|Sitalica         +    579  1.13e-04 TAGAAACAAG AAAAAAAA TAAAAATTTA
+Si026583m.g|Sitalica         +    351  1.13e-04 TATATTTATT AAAAAAAA TATAAAATGT
+Si003296m.g|Sitalica         +    919  1.13e-04 CTCAACTCTT AAAAAAAA ACACCTGAAC
+Si003298m.g|Sitalica         +    927  1.13e-04 CTCAACTCTT AAAAAAAA CACCTGAACC
+29634.t000017|Rcommunis      +    486  1.13e-04 CTAACTATTT AAAAAAAA ATGAATTACA
+29634.t000017|Rcommunis      +    257  1.13e-04 CATAATAAAT AAAAAAAA TAATATATTA
+29634.t000016|Rcommunis      +    758  1.13e-04 TCTTAAAAGA AAAAAAAA AAAGGCCAAC
+29634.t000016|Rcommunis      +    545  1.13e-04 AATAATTTCT AAAAAAAA TACTATTTTT
+30131.t000233|Rcommunis      +    274  1.13e-04 CGCTTTTATT AAAAAAAA ATGAGAATAT
+ppa011637m.g|Ppersica        +    558  1.13e-04 CTTACCGGGA AAAAAAAA ATTCACATAA
+Potri.009G120100|Ptricho     +    248  1.13e-04 TGCGTTGTCA AAAAAAAA AGGATTGTGG
+Phvul.009G005300|Pvulgar     -    906  1.13e-04 ATAATATTAT AAAAAAAA TTATAATATT
+Phvul.009G005300|Pvulgar     -    542  1.13e-04 AAGTAAAAGA AAAAAAAA ATATTTTTTT
+LOC_Os11g26750|Osativa       -    202  1.13e-04 TATTTTTGTG AAAAAAAA TTTAGAAACT
+LOC_Os11g26780|Osativa       -    912  1.13e-04 TACTGGAGTT AAAAAAAA ATGGAAGCTT
+LOC_Os11g26790|Osativa       +    849  1.13e-04 AATCCATCGA AAAAAAAA ACTTTCCTAC
+cassava4.1_018057m.g|Mes     -    716  1.13e-04 ATTATTACTT AAAAAAAA ATTAGCGCTT
+cassava4.1_018057m.g|Mes     +    315  1.13e-04 CCCTATTTCA AAAAAAAA AATAAAATTA
+MDP0000698024|Mdomestica     -    194  1.13e-04 TTTTTAAAAG AAAAAAAA TGCAAACTCA
+MDP0000868045|Mdomestica     -    331  1.13e-04 TTTTAAAAAT AAAAAAAA CTGACACGCG
+gene14938-v1.0-hybrid|Fv     -     10  1.13e-04 AATTGTATCA AAAAAAAA AAAAATAGT 
+gene14935-v1.0-hybrid|Fv     +    217  1.13e-04 NNNNNNNNNA AAAAAAAA AAATGTGTCG
+gene14934-v1.0-hybrid|Fv     -    661  1.13e-04 TTTTCTAAAG AAAAAAAA ATAAAAAAAT
+gene21840-v1.0-hybrid|Fv     -    505  1.13e-04 AATTAATGTT AAAAAAAA TCAGTAAAAT
+Eucgr.J02380|Egrandis        +    483  1.13e-04 TATTTTCATT AAAAAAAA ATTATGGACG
+Eucgr.J02380|Egrandis        -    423  1.13e-04 ACGATTATTT AAAAAAAA TTAAAATTAT
+Eucgr.J02380|Egrandis        +     71  1.13e-04 TAAAAATATT AAAAAAAA TTGTACGCAT
+Cucsa.109360|Csativus        +    620  1.13e-04 AAGTTAAAAT AAAAAAAA AAATGGTTAC
+Cucsa.109360|Csativus        +    286  1.13e-04 AATAATCGAG AAAAAAAA GTAATTGAGA
+orange1.1g042612m.g|Csin     +    515  1.13e-04 TGATTAATAT AAAAAAAA TAATAATAAC
+orange1.1g042612m.g|Csin     -    117  1.13e-04 AGAGAAAAAG AAAAAAAA TAAATACAAA
+orange1.1g042612m.g|Csin     -     80  1.13e-04 ATACTAGTGA AAAAAAAA ATTAATATTG
+Ciclev10029285m.g|Ccleme     -    639  1.13e-04 TTCAAATCCG AAAAAAAA TTAAAATTTA
+evm.TU.supercontig_106.3     +    744  1.13e-04 TTTTTTTTTT AAAAAAAA TAAATATACA
+evm.TU.supercontig_106.3     -    733  1.13e-04 TTTTTTTAAA AAAAAAAA ATTATAATTT
+evm.TU.supercontig_106.3     +    561  1.13e-04 AAAAAAAAAA AAAAAAAA ACAGTTAAAT
+evm.TU.supercontig_106.3     +    549  1.13e-04 TGACCAGTCA AAAAAAAA AAAAAAAAAA
+Carubv10027206m.g|Crubel     -    763  1.13e-04 GAGAGAAAGC AAAAAAAA TATATATATG
+Bradi1g37410|Bdistachyon     -    140  1.13e-04 GCCCTCCCCT AAAAAAAA GGAACATCTG
+Bradi2g47580|Bdistachyon     +    165  1.13e-04 GCTCGAAAGA AAAAAAAA CATTGTCAGT
+Bradi4g19525|Bdistachyon     +    280  1.13e-04 AGCAGAAAAT AAAAAAAA GCCAATAATA
+899415|Alyrata               +    697  1.13e-04 CGTGCTGGCA AAAAAAAA GAAGATAACG
+899415|Alyrata               -    665  1.13e-04 CTTCTACGGA AAAAAAAA AAAAAAAAAA
+899415|Alyrata               -    657  1.13e-04 GAAAAAAAAA AAAAAAAA AAAAAAAAAA
+899415|Alyrata               -    645  1.13e-04 AAAAAAAAAA AAAAAAAA CGTTATCTTC
+899415|Alyrata               -    168  1.13e-04 GGGAATGCAA AAAAAAAA ATGGGAGACT
+Aquca_010_00572|Acoerule     +    386  1.13e-04 GCTTGCTACT AAAAAAAA TAAAAAAATA
+Ca_04763|Carietinum          -    942  1.13e-04 TTTATTATAT AAAAAAAA GCAAAAAGAA
+Ca_04763|Carietinum          +     85  1.13e-04 GGAGGACACA AAAAAAAA GAATGAATGA
+C.cajan_35463|Ccajan         -    752  1.13e-04 GTAATATGAT AAAAAAAA TTAAATATAC
+C.cajan_35463|Ccajan         +    665  1.13e-04 ATATTTAAGA AAAAAAAA TATAGATAGT
+C.cajan_35463|Ccajan         +    370  1.13e-04 TTAAATTATT AAAAAAAA ATATTTTTTA
+chr1.CM0113.750.r2.m|Lja     -    335  1.13e-04 CTAACTACCC AAAAAAAA CACAAACTTG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Bostr.6864s0146|Bstricta          0.00011  119_[+5]_131_[+5]_352_[-5]_374
+Bostr.0568s0050|Bstricta          0.00011  751_[-5]_241
+Bostr.5022s0083|Bstricta          0.00011  215_[-5]_301_[+5]_468
+Araha.12988s0001|Ahaller          0.00011  1_[+5]_784
+Bv9_223210_acha.t1|Bvulg          0.00011  206_[-5]_193_[-5]_44_[-5]_533
+Cagra.2374s0005|Cgrandif          0.00011  254_[-5]_186_[-5]_544
+XP_006662923.1|Obrachyan          0.00011  241_[+5]_191_[-5]_552
+XP_006662922.1|Obrachyan          0.00011  112_[+5]_880
+XP_006646247.1|Obrachyan          0.00011  510_[+5]_482
+Capana02g002740|Cannuum           0.00011  57_[+5]_935
+Capana02g002739|Cannuum           0.00011  946_[-5]_46
+Sobic.010G041900|Sbicolo          0.00011  500_[-5]_230_[+5]_254
+Pavir.Ab01356|Pvirgatum           0.00011  18_[-5]_974
+Pavir.Ea02542|Pvirgatum           0.00011  614_[-5]_378
+Migut.B00209|Mguttatus            0.00011  234_[+5]_163_[-5]_587
+Gorai.005G245900|Graimon          0.00011  533_[+5]_459
+Brara.B03992|Brapa                0.00011  216_[-5]_93_[+5]_675
+Brara.I00913|Brapa                0.00011  411_[+5]_581
+Brara.I04639|Brapa                0.00011  405_[-5]_3_[-5]_234_[+5]_334
+Achn232791|Achinensis             0.00011  658_[-5]_9_[-5]_317
+Achn135571|Achinensis             0.00011  13_[-5]_[+5]_93_[+5]_30_[-5]_43_
+                                           [+5]_781
+GSMUA_Achr4G11310_001|Ma          0.00011  524_[+5]_197_[-5]_263
+Glyma.04G009900|Gmax              0.00011  385_[-5]_15_[-5]_547_[+5]_29
+Glyma.13G201300|Gmax              0.00011  71_[-5]_921
+GRMZM2G079440|Zmays               0.00011  252_[-5]_740
+GSVIVG01023824001|Vvinif          0.00011  342_[-5]_650
+GSVIVG01018878001|Vvinif          0.00011  29_[+5]_38_[+5]_3_[+5]_485_[+5]_413
+Thhalv10010821m.g|Esalsu          0.00011  568_[+5]_424
+Thhalv10004906m.g|Esalsu          0.00011  50_[+5]_98_[-5]_2_[+5]_826
+Thhalv10000340m.g|Esalsu          0.00011  170_[+5]_197_[-5]_617
+PGSC0003DMG400003531|Stu          0.00011  388_[-5]_319_[+5]_177_[-5]_92
+PGSC0003DMG400030949|Stu          0.00011  513_[-5]_479
+Solyc02g062390.2|Slycope          0.00011  9_[+5]_157
+Solyc02g084850.2|Slycope          0.00011  867_[-5]_125
+Solyc01g109920.2|Slycope          0.00011  17_[-5]_184_[-5]_51_[-5]_393_[-5]_323
+Si026583m.g|Sitalica              0.00011  350_[+5]_220_[+5]_414
+Si003296m.g|Sitalica              0.00011  918_[+5]_74
+Si003298m.g|Sitalica              0.00011  926_[+5]_66
+29634.t000017|Rcommunis           0.00011  256_[+5]_221_[+5]_507
+29634.t000016|Rcommunis           0.00011  544_[+5]_205_[+5]_235
+30131.t000233|Rcommunis           0.00011  273_[+5]_719
+ppa011637m.g|Ppersica             0.00011  557_[+5]_435
+Potri.009G120100|Ptricho          0.00011  247_[+5]_745
+Phvul.009G005300|Pvulgar          0.00011  541_[-5]_356_[-5]_87
+LOC_Os11g26750|Osativa            0.00011  201_[-5]_791
+LOC_Os11g26780|Osativa            0.00011  911_[-5]_81
+LOC_Os11g26790|Osativa            0.00011  848_[+5]_144
+cassava4.1_018057m.g|Mes          0.00011  314_[+5]_393_[-5]_277
+MDP0000698024|Mdomestica          0.00011  193_[-5]_799
+MDP0000868045|Mdomestica          0.00011  330_[-5]_662
+gene14938-v1.0-hybrid|Fv          0.00011  9_[-5]_983
+gene14935-v1.0-hybrid|Fv          0.00011  216_[+5]_776
+gene14934-v1.0-hybrid|Fv          0.00011  660_[-5]_332
+gene21840-v1.0-hybrid|Fv          0.00011  504_[-5]_488
+Eucgr.J02380|Egrandis             0.00011  70_[+5]_344_[-5]_52_[+5]_510
+Cucsa.109360|Csativus             0.00011  285_[+5]_326_[+5]_373
+orange1.1g042612m.g|Csin          0.00011  79_[-5]_29_[-5]_390_[+5]_478
+Ciclev10029285m.g|Ccleme          0.00011  638_[-5]_354
+evm.TU.supercontig_106.3          0.00011  548_[+5]_4_[+5]_164_[-5]_3_[+5]_249
+Carubv10027206m.g|Crubel          0.00011  762_[-5]_230
+Bradi1g37410|Bdistachyon          0.00011  139_[-5]_853
+Bradi2g47580|Bdistachyon          0.00011  164_[+5]_828
+Bradi4g19525|Bdistachyon          0.00011  279_[+5]_713
+899415|Alyrata                    0.00011  167_[-5]_469_[-5]_4_[-5]_[-5]_24_
+                                           [+5]_296
+Aquca_010_00572|Acoerule          0.00011  385_[+5]_607
+Ca_04763|Carietinum               0.00011  84_[+5]_849_[-5]_51
+C.cajan_35463|Ccajan              0.00011  369_[+5]_287_[+5]_79_[-5]_241
+chr1.CM0113.750.r2.m|Lja          0.00011  334_[-5]_658
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 5 width=8 seqs=119
+Bostr.6864s0146|Bstricta (  619) AAAAAAAA  1 
+Bostr.6864s0146|Bstricta (  259) AAAAAAAA  1 
+Bostr.6864s0146|Bstricta (  120) AAAAAAAA  1 
+Bostr.0568s0050|Bstricta (  752) AAAAAAAA  1 
+Bostr.5022s0083|Bstricta (  525) AAAAAAAA  1 
+Bostr.5022s0083|Bstricta (  216) AAAAAAAA  1 
+Araha.12988s0001|Ahaller (    2) AAAAAAAA  1 
+Bv9_223210_acha.t1|Bvulg (  460) AAAAAAAA  1 
+Bv9_223210_acha.t1|Bvulg (  408) AAAAAAAA  1 
+Bv9_223210_acha.t1|Bvulg (  207) AAAAAAAA  1 
+Cagra.2374s0005|Cgrandif (  449) AAAAAAAA  1 
+Cagra.2374s0005|Cgrandif (  255) AAAAAAAA  1 
+XP_006662923.1|Obrachyan (  441) AAAAAAAA  1 
+XP_006662923.1|Obrachyan (  242) AAAAAAAA  1 
+XP_006662922.1|Obrachyan (  113) AAAAAAAA  1 
+XP_006646247.1|Obrachyan (  511) AAAAAAAA  1 
+Capana02g002740|Cannuum  (   58) AAAAAAAA  1 
+Capana02g002739|Cannuum  (  947) AAAAAAAA  1 
+Sobic.010G041900|Sbicolo (  739) AAAAAAAA  1 
+Sobic.010G041900|Sbicolo (  501) AAAAAAAA  1 
+Pavir.Ab01356|Pvirgatum  (   19) AAAAAAAA  1 
+Pavir.Ea02542|Pvirgatum  (  615) AAAAAAAA  1 
+Migut.B00209|Mguttatus   (  406) AAAAAAAA  1 
+Migut.B00209|Mguttatus   (  235) AAAAAAAA  1 
+Gorai.005G245900|Graimon (  534) AAAAAAAA  1 
+Brara.B03992|Brapa       (  318) AAAAAAAA  1 
+Brara.B03992|Brapa       (  217) AAAAAAAA  1 
+Brara.I00913|Brapa       (  412) AAAAAAAA  1 
+Brara.I04639|Brapa       (  659) AAAAAAAA  1 
+Brara.I04639|Brapa       (  417) AAAAAAAA  1 
+Brara.I04639|Brapa       (  406) AAAAAAAA  1 
+Achn232791|Achinensis    (  676) AAAAAAAA  1 
+Achn232791|Achinensis    (  659) AAAAAAAA  1 
+Achn135571|Achinensis    (  212) AAAAAAAA  1 
+Achn135571|Achinensis    (  161) AAAAAAAA  1 
+Achn135571|Achinensis    (  123) AAAAAAAA  1 
+Achn135571|Achinensis    (   22) AAAAAAAA  1 
+Achn135571|Achinensis    (   14) AAAAAAAA  1 
+GSMUA_Achr4G11310_001|Ma (  730) AAAAAAAA  1 
+GSMUA_Achr4G11310_001|Ma (  525) AAAAAAAA  1 
+Glyma.04G009900|Gmax     (  964) AAAAAAAA  1 
+Glyma.04G009900|Gmax     (  409) AAAAAAAA  1 
+Glyma.04G009900|Gmax     (  386) AAAAAAAA  1 
+Glyma.13G201300|Gmax     (   72) AAAAAAAA  1 
+GRMZM2G079440|Zmays      (  253) AAAAAAAA  1 
+GSVIVG01023824001|Vvinif (  343) AAAAAAAA  1 
+GSVIVG01018878001|Vvinif (  580) AAAAAAAA  1 
+GSVIVG01018878001|Vvinif (   87) AAAAAAAA  1 
+GSVIVG01018878001|Vvinif (   76) AAAAAAAA  1 
+GSVIVG01018878001|Vvinif (   30) AAAAAAAA  1 
+Thhalv10010821m.g|Esalsu (  569) AAAAAAAA  1 
+Thhalv10004906m.g|Esalsu (  167) AAAAAAAA  1 
+Thhalv10004906m.g|Esalsu (  157) AAAAAAAA  1 
+Thhalv10004906m.g|Esalsu (   51) AAAAAAAA  1 
+Thhalv10000340m.g|Esalsu (  376) AAAAAAAA  1 
+Thhalv10000340m.g|Esalsu (  171) AAAAAAAA  1 
+PGSC0003DMG400003531|Stu (  901) AAAAAAAA  1 
+PGSC0003DMG400003531|Stu (  716) AAAAAAAA  1 
+PGSC0003DMG400003531|Stu (  389) AAAAAAAA  1 
+PGSC0003DMG400030949|Stu (  514) AAAAAAAA  1 
+Solyc02g062390.2|Slycope (   10) AAAAAAAA  1 
+Solyc02g084850.2|Slycope (  868) AAAAAAAA  1 
+Solyc01g109920.2|Slycope (  670) AAAAAAAA  1 
+Solyc01g109920.2|Slycope (  269) AAAAAAAA  1 
+Solyc01g109920.2|Slycope (  210) AAAAAAAA  1 
+Solyc01g109920.2|Slycope (   18) AAAAAAAA  1 
+Si026583m.g|Sitalica     (  579) AAAAAAAA  1 
+Si026583m.g|Sitalica     (  351) AAAAAAAA  1 
+Si003296m.g|Sitalica     (  919) AAAAAAAA  1 
+Si003298m.g|Sitalica     (  927) AAAAAAAA  1 
+29634.t000017|Rcommunis  (  486) AAAAAAAA  1 
+29634.t000017|Rcommunis  (  257) AAAAAAAA  1 
+29634.t000016|Rcommunis  (  758) AAAAAAAA  1 
+29634.t000016|Rcommunis  (  545) AAAAAAAA  1 
+30131.t000233|Rcommunis  (  274) AAAAAAAA  1 
+ppa011637m.g|Ppersica    (  558) AAAAAAAA  1 
+Potri.009G120100|Ptricho (  248) AAAAAAAA  1 
+Phvul.009G005300|Pvulgar (  906) AAAAAAAA  1 
+Phvul.009G005300|Pvulgar (  542) AAAAAAAA  1 
+LOC_Os11g26750|Osativa   (  202) AAAAAAAA  1 
+LOC_Os11g26780|Osativa   (  912) AAAAAAAA  1 
+LOC_Os11g26790|Osativa   (  849) AAAAAAAA  1 
+cassava4.1_018057m.g|Mes (  716) AAAAAAAA  1 
+cassava4.1_018057m.g|Mes (  315) AAAAAAAA  1 
+MDP0000698024|Mdomestica (  194) AAAAAAAA  1 
+MDP0000868045|Mdomestica (  331) AAAAAAAA  1 
+gene14938-v1.0-hybrid|Fv (   10) AAAAAAAA  1 
+gene14935-v1.0-hybrid|Fv (  217) AAAAAAAA  1 
+gene14934-v1.0-hybrid|Fv (  661) AAAAAAAA  1 
+gene21840-v1.0-hybrid|Fv (  505) AAAAAAAA  1 
+Eucgr.J02380|Egrandis    (  483) AAAAAAAA  1 
+Eucgr.J02380|Egrandis    (  423) AAAAAAAA  1 
+Eucgr.J02380|Egrandis    (   71) AAAAAAAA  1 
+Cucsa.109360|Csativus    (  620) AAAAAAAA  1 
+Cucsa.109360|Csativus    (  286) AAAAAAAA  1 
+orange1.1g042612m.g|Csin (  515) AAAAAAAA  1 
+orange1.1g042612m.g|Csin (  117) AAAAAAAA  1 
+orange1.1g042612m.g|Csin (   80) AAAAAAAA  1 
+Ciclev10029285m.g|Ccleme (  639) AAAAAAAA  1 
+evm.TU.supercontig_106.3 (  744) AAAAAAAA  1 
+evm.TU.supercontig_106.3 (  733) AAAAAAAA  1 
+evm.TU.supercontig_106.3 (  561) AAAAAAAA  1 
+evm.TU.supercontig_106.3 (  549) AAAAAAAA  1 
+Carubv10027206m.g|Crubel (  763) AAAAAAAA  1 
+Bradi1g37410|Bdistachyon (  140) AAAAAAAA  1 
+Bradi2g47580|Bdistachyon (  165) AAAAAAAA  1 
+Bradi4g19525|Bdistachyon (  280) AAAAAAAA  1 
+899415|Alyrata           (  697) AAAAAAAA  1 
+899415|Alyrata           (  665) AAAAAAAA  1 
+899415|Alyrata           (  657) AAAAAAAA  1 
+899415|Alyrata           (  645) AAAAAAAA  1 
+899415|Alyrata           (  168) AAAAAAAA  1 
+Aquca_010_00572|Acoerule (  386) AAAAAAAA  1 
+Ca_04763|Carietinum      (  942) AAAAAAAA  1 
+Ca_04763|Carietinum      (   85) AAAAAAAA  1 
+C.cajan_35463|Ccajan     (  752) AAAAAAAA  1 
+C.cajan_35463|Ccajan     (  665) AAAAAAAA  1 
+C.cajan_35463|Ccajan     (  370) AAAAAAAA  1 
+chr1.CM0113.750.r2.m|Lja (  335) AAAAAAAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 10.6224 E= 5.2e-004 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+   164  -1354  -1354  -1354 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 119 E= 5.2e-004 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 5 regular expression
+--------------------------------------------------------------------------------
+AAAAAAAA
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1672.98 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  6	width =    8   sites =  43   llr = 456   E-value = 7.1e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 6 Description
+--------------------------------------------------------------------------------
+Simplified        A  a:::::::
+pos.-specific     C  :a:::::a
+probability       G  ::a:a35:
+matrix            T  :::a:75:
+
+         bits    2.5  ** *  *
+                 2.2  ** *  *
+                 2.0  ** *  *
+                 1.7 *****  *
+Relative         1.5 *****  *
+Entropy          1.2 *****  *
+(15.3 bits)      1.0 ********
+                 0.7 ********
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           ACGTGTGC
+consensus                 GT 
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+XP_006662924.1|Obrachyan     -    888  6.08e-06 CCATGGAGCG ACGTGTGC GGGCGCAAGT
+Capana08g002571|Cannuum      +    819  6.08e-06 ACACCGATAC ACGTGTGC TCATTCTCCT
+Pavir.Cb00662|Pvirgatum      -    891  6.08e-06 GTCGCAAGCT ACGTGTGC GCGCATGCAG
+Pavir.Ab01356|Pvirgatum      -    907  6.08e-06 GTAGGGGGGT ACGTGTGC TTGAGTGGGT
+GRMZM2G079440|Zmays          -    742  6.08e-06 CGCCGGCGGG ACGTGTGC AGTCGCTGGT
+Si026926m.g|Sitalica         -    897  6.08e-06 GCAGGGAGGT ACGTGTGC TTGCATGAGT
+Si026926m.g|Sitalica         -    832  6.08e-06 GAGGCGCGGG ACGTGTGC AGGCCGCGGA
+Si026583m.g|Sitalica         -    897  6.08e-06 GTCGTGAGCT ACGTGTGC GCGCATGCAG
+Si003296m.g|Sitalica         -    870  6.08e-06 GCAGCGGTGT ACGTGTGC GTGCATGGTT
+Si003296m.g|Sitalica         -    811  6.08e-06 GGCGCCACGT ACGTGTGC GCACCATCTG
+Si003298m.g|Sitalica         -    879  6.08e-06 GCAGCGGTGT ACGTGTGC GTGCATGGTT
+Si003298m.g|Sitalica         -    820  6.08e-06 GGCGCCACGT ACGTGTGC GCACCATCTG
+LOC_Os11g26760|Osativa       -    815  6.08e-06 CGGAGCAAGG ACGTGTGC GTGTAGCGCG
+LOC_Os11g26750|Osativa       +    362  6.08e-06 ACAGTAACCC ACGTGTGC TAACGACGGA
+Eucgr.I02392|Egrandis        +    722  6.08e-06 TTCACATGCG ACGTGTGC ACCGACGACT
+Bradi1g37410|Bdistachyon     -    866  6.08e-06 GACTAGCCAG ACGTGTGC AGGCACTAGA
+Bradi3g43870|Bdistachyon     -    878  6.08e-06 GCAGGAGGGT ACGTGTGC GCGTGTGGTG
+GRMZM2G079440|Zmays          -    808  9.47e-06 GCAGGGGTGT ACGTGGGC ATGCATGAGT
+LOC_Os11g26570|Osativa       -    784  9.47e-06 ATGAGTGCGG ACGTGGGC TTCGGCGGAG
+Bradi1g37410|Bdistachyon     -    252  9.47e-06 CCACCGGATC ACGTGGGC CGGGCGGGCC
+Bradi4g19525|Bdistachyon     -    788  9.47e-06 CGGACCGGGG ACGTGGGC TTTGGACTTT
+Bradi3g43870|Bdistachyon     +    452  9.47e-06 AGGTAAAAAC ACGTGGGC CAAGAAGGGT
+Bostr.0568s0050|Bstricta     -    804  2.04e-05 GGTACCAAGT ACGTGTTC ATTACAATCC
+Migut.B00209|Mguttatus       -    882  2.04e-05 AGGTCTCAAC ACGTGTTC GAAAAAACGG
+Brara.B03992|Brapa           -    798  2.04e-05 TCGAGTACGT ACGTGTTC GTAACAATCC
+Brara.I00913|Brapa           -    773  2.04e-05 TCGAGTACGT ACGTGTTC ATAACAAACC
+Thhalv10004906m.g|Esalsu     -    771  2.04e-05 CAAAGTACGT ACGTGTTC TAACGATCCC
+Si003298m.g|Sitalica         -    470  2.04e-05 GGATGTCAAG ACGTGTTC GACGCGACCC
+LOC_Os11g26750|Osativa       +    439  2.04e-05 GTTTTTTTAT ACGTGTTC CTTCCAATAT
+LOC_Os11g26780|Osativa       -    602  2.04e-05 GAAGACATGC ACGTGTTC GATATCTGTT
+Eucgr.J02380|Egrandis        -    631  2.04e-05 ATGCTCAAAC ACGTGTTC ATATTGGATT
+evm.TU.supercontig_106.3     -    180  2.04e-05 ACAAAATGTT ACGTGTTC AACCCTCTGA
+Carubv10027206m.g|Crubel     -    816  2.04e-05 GATACCAAGT ACGTGTTC ATTACAATCC
+AT5G66400|Athaliana          -    860  2.04e-05 GTTTCGCCAT ACGTGTTC GTATTTAAAA
+AT5G66400|Athaliana          -    775  2.04e-05 GATACCAAGT ACGTGTTC ATATCAATCC
+496967|Alyrata               -    769  2.04e-05 GATACCAAGT ACGTGTTC ATATCAATCC
+Bv9_223210_acha.t1|Bvulg     +    912  2.64e-05 TAGCATGATT ACGTGGTC ACTCTCTTTC
+gene14938-v1.0-hybrid|Fv     -    832  2.64e-05 AGCCCTAGAA ACGTGGTC GTCTATAAAA
+gene14940-v1.0-hybrid|Fv     -    832  2.64e-05 AGCCCTAGAA ACGTGGTC GTCTATAAAC
+orange1.1g046026m.g|Csin     +    549  2.64e-05 GTTTAAACAC ACGTGGTC AACTCGTTCA
+orange1.1g042612m.g|Csin     +    556  2.64e-05 CTTTAAACAC ACGTGGTC AACTCGTTCA
+Ciclev10026675m.g|Ccleme     +    672  2.64e-05 GTTTAAACAC ACGTGGTC AACTCGTTCA
+Bradi3g43870|Bdistachyon     +    822  2.64e-05 CCGAGGCCGT ACGTGGTC CGTCTTTTAC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+XP_006662924.1|Obrachyan          6.1e-06  887_[-6]_105
+Capana08g002571|Cannuum           6.1e-06  818_[+6]_174
+Pavir.Cb00662|Pvirgatum           6.1e-06  890_[-6]_102
+Pavir.Ab01356|Pvirgatum           6.1e-06  906_[-6]_86
+GRMZM2G079440|Zmays               9.5e-06  741_[-6]_58_[-6]_185
+Si026926m.g|Sitalica              6.1e-06  831_[-6]_57_[-6]_96
+Si026583m.g|Sitalica              6.1e-06  896_[-6]_96
+Si003296m.g|Sitalica              6.1e-06  810_[-6]_51_[-6]_123
+Si003298m.g|Sitalica                2e-05  469_[-6]_342_[-6]_51_[-6]_114
+LOC_Os11g26760|Osativa            6.1e-06  814_[-6]_178
+LOC_Os11g26750|Osativa              2e-05  361_[+6]_69_[+6]_554
+Eucgr.I02392|Egrandis             6.1e-06  721_[+6]_271
+Bradi1g37410|Bdistachyon          9.5e-06  251_[-6]_606_[-6]_127
+Bradi3g43870|Bdistachyon          2.6e-05  451_[+6]_362_[+6]_48_[-6]_115
+LOC_Os11g26570|Osativa            9.5e-06  783_[-6]_209
+Bradi4g19525|Bdistachyon          9.5e-06  787_[-6]_205
+Bostr.0568s0050|Bstricta            2e-05  803_[-6]_189
+Migut.B00209|Mguttatus              2e-05  881_[-6]_111
+Brara.B03992|Brapa                  2e-05  797_[-6]_195
+Brara.I00913|Brapa                  2e-05  772_[-6]_220
+Thhalv10004906m.g|Esalsu            2e-05  770_[-6]_222
+LOC_Os11g26780|Osativa              2e-05  601_[-6]_391
+Eucgr.J02380|Egrandis               2e-05  630_[-6]_362
+evm.TU.supercontig_106.3            2e-05  179_[-6]_813
+Carubv10027206m.g|Crubel            2e-05  815_[-6]_177
+AT5G66400|Athaliana                 2e-05  774_[-6]_77_[-6]_133
+496967|Alyrata                      2e-05  768_[-6]_224
+Bv9_223210_acha.t1|Bvulg          2.6e-05  911_[+6]_81
+gene14938-v1.0-hybrid|Fv          2.6e-05  831_[-6]_161
+gene14940-v1.0-hybrid|Fv          2.6e-05  831_[-6]_161
+orange1.1g046026m.g|Csin          2.6e-05  548_[+6]_444
+orange1.1g042612m.g|Csin          2.6e-05  555_[+6]_437
+Ciclev10026675m.g|Ccleme          2.6e-05  671_[+6]_321
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 6 width=8 seqs=43
+XP_006662924.1|Obrachyan (  888) ACGTGTGC  1 
+Capana08g002571|Cannuum  (  819) ACGTGTGC  1 
+Pavir.Cb00662|Pvirgatum  (  891) ACGTGTGC  1 
+Pavir.Ab01356|Pvirgatum  (  907) ACGTGTGC  1 
+GRMZM2G079440|Zmays      (  742) ACGTGTGC  1 
+Si026926m.g|Sitalica     (  897) ACGTGTGC  1 
+Si026926m.g|Sitalica     (  832) ACGTGTGC  1 
+Si026583m.g|Sitalica     (  897) ACGTGTGC  1 
+Si003296m.g|Sitalica     (  870) ACGTGTGC  1 
+Si003296m.g|Sitalica     (  811) ACGTGTGC  1 
+Si003298m.g|Sitalica     (  879) ACGTGTGC  1 
+Si003298m.g|Sitalica     (  820) ACGTGTGC  1 
+LOC_Os11g26760|Osativa   (  815) ACGTGTGC  1 
+LOC_Os11g26750|Osativa   (  362) ACGTGTGC  1 
+Eucgr.I02392|Egrandis    (  722) ACGTGTGC  1 
+Bradi1g37410|Bdistachyon (  866) ACGTGTGC  1 
+Bradi3g43870|Bdistachyon (  878) ACGTGTGC  1 
+GRMZM2G079440|Zmays      (  808) ACGTGGGC  1 
+LOC_Os11g26570|Osativa   (  784) ACGTGGGC  1 
+Bradi1g37410|Bdistachyon (  252) ACGTGGGC  1 
+Bradi4g19525|Bdistachyon (  788) ACGTGGGC  1 
+Bradi3g43870|Bdistachyon (  452) ACGTGGGC  1 
+Bostr.0568s0050|Bstricta (  804) ACGTGTTC  1 
+Migut.B00209|Mguttatus   (  882) ACGTGTTC  1 
+Brara.B03992|Brapa       (  798) ACGTGTTC  1 
+Brara.I00913|Brapa       (  773) ACGTGTTC  1 
+Thhalv10004906m.g|Esalsu (  771) ACGTGTTC  1 
+Si003298m.g|Sitalica     (  470) ACGTGTTC  1 
+LOC_Os11g26750|Osativa   (  439) ACGTGTTC  1 
+LOC_Os11g26780|Osativa   (  602) ACGTGTTC  1 
+Eucgr.J02380|Egrandis    (  631) ACGTGTTC  1 
+evm.TU.supercontig_106.3 (  180) ACGTGTTC  1 
+Carubv10027206m.g|Crubel (  816) ACGTGTTC  1 
+AT5G66400|Athaliana      (  860) ACGTGTTC  1 
+AT5G66400|Athaliana      (  775) ACGTGTTC  1 
+496967|Alyrata           (  769) ACGTGTTC  1 
+Bv9_223210_acha.t1|Bvulg (  912) ACGTGGTC  1 
+gene14938-v1.0-hybrid|Fv (  832) ACGTGGTC  1 
+gene14940-v1.0-hybrid|Fv (  832) ACGTGGTC  1 
+orange1.1g046026m.g|Csin (  549) ACGTGGTC  1 
+orange1.1g042612m.g|Csin (  556) ACGTGGTC  1 
+Ciclev10026675m.g|Ccleme (  672) ACGTGGTC  1 
+Bradi3g43870|Bdistachyon (  822) ACGTGGTC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.4323 E= 7.1e-002 
+   164  -1207  -1207  -1207 
+ -1207    248  -1207  -1207 
+ -1207  -1207    248  -1207 
+ -1207  -1207  -1207    164 
+ -1207  -1207    248  -1207 
+ -1207  -1207     64    117 
+ -1207  -1207    152     60 
+ -1207    248  -1207  -1207 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 43 E= 7.1e-002 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.279070  0.720930 
+ 0.000000  0.000000  0.511628  0.488372 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 6 regular expression
+--------------------------------------------------------------------------------
+ACGTG[TG][GT]C
+--------------------------------------------------------------------------------
+
+
+
+
+Time 1997.09 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  7	width =    8   sites =  24   llr = 277   E-value = 5.3e+001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 7 Description
+--------------------------------------------------------------------------------
+Simplified        A  5:::::8:
+pos.-specific     C  2aa:::2a
+probability       G  3::aaa::
+matrix            T  ::::::::
+
+         bits    2.5  ***** *
+                 2.2  ***** *
+                 2.0  ***** *
+                 1.7  ***** *
+Relative         1.5  ***** *
+Entropy          1.2  *******
+(16.6 bits)      1.0  *******
+                 0.7  *******
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           ACCGGGAC
+consensus            G       
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Pavir.Hb00975|Pvirgatum      +    277  5.28e-06 TCCAAAGACA GCCGGGAC AAATGATTTG
+Pavir.Hb00975|Pvirgatum      +    181  5.28e-06 GGTGGCTCCA ACCGGGAC AAAAGGCCCC
+Pavir.Hb00975|Pvirgatum      -    162  5.28e-06 GGAGCCACCA ACCGGGAC CAAATCCCCT
+Pavir.Hb00975|Pvirgatum      +    138  5.28e-06 GGAGCCACCA ACCGGGAC AAATGGAGGG
+Pavir.Hb00975|Pvirgatum      -     71  5.28e-06 GGAGCCACCA ACCGGGAC CATACAAAAT
+Pavir.J14171|Pvirgatum       +    138  5.28e-06 CCCAAAGGCT GCCGGGAC AAATGGCCAG
+Pavir.J14171|Pvirgatum       +     49  5.28e-06 GGTGTCTCCA ACCGGGAC AAAAGGCCCC
+Pavir.J14171|Pvirgatum       -     30  5.28e-06 GGAGACACCA ACCGGGAC AAAATGGGAG
+Pavir.J14171|Pvirgatum       +      6  5.28e-06      CACCA ACCGGGAC AAAAGGCTCC
+Si003296m.g|Sitalica         +    710  5.28e-06 ACCCTTACCA ACCGGGAC TAATGCTCAG
+Si003296m.g|Sitalica         -    659  5.28e-06 GGATAAACCA ACCGGGAC TAAAGGGTAC
+Si003296m.g|Sitalica         +    634  5.28e-06 GGGAAATCCA ACCGGGAC TAAAGGGGTA
+Si003296m.g|Sitalica         -    615  5.28e-06 GGATTTCCCA ACCGGGAC TAAAGGGGTC
+Si003296m.g|Sitalica         +    590  5.28e-06 TTGGAATTGA GCCGGGAC TAAAGGGGAC
+Si003296m.g|Sitalica         -    573  5.28e-06 CTCAATTCCA ACCGGGAC TAAATTGCGC
+LOC_Os11g26750|Osativa       -     47  5.28e-06 CTACACCGTC GCCGGGAC ATGGTTGCCG
+Pavir.Hb00975|Pvirgatum      -    259  7.17e-06 TGTCTTTGGA CCCGGGAC CAAAGAGTGC
+Pavir.J14171|Pvirgatum       -    120  7.17e-06 AGCCTTTGGG CCCGGGAC AATAGGTGGC
+Pavir.J14171|Pvirgatum       +     98  7.17e-06 AGCCGTTGGA CCCGGGAC AAAAGCCACC
+Brara.B03992|Brapa           -    408  7.17e-06 GTGAGGTGAA CCCGGGAC GTCAAGACTC
+Pavir.Cb00662|Pvirgatum      -    136  1.01e-05 TTACACTATC GCCGGGCC GCCTTCGCGA
+Pavir.J14171|Pvirgatum       -     79  1.01e-05 CCAACGGCTA GCCGGGCC AGCGGGGGGA
+GRMZM2G079440|Zmays          +    711  1.01e-05 GACGTGGCGG GCCGGGCC ACCGACGCAC
+Bradi2g47580|Bdistachyon     +    687  1.01e-05 GGTCTCCCAG ACCGGGCC AAAACGTGGC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Pavir.Hb00975|Pvirgatum           7.2e-06  70_[-7]_59_[+7]_16_[-7]_11_[+7]_
+                                           70_[-7]_10_[+7]_716
+Pavir.J14171|Pvirgatum              1e-05  5_[+7]_16_[-7]_11_[+7]_22_[-7]_
+                                           11_[+7]_14_[-7]_10_[+7]_35
+Si003296m.g|Sitalica              5.3e-06  572_[-7]_9_[+7]_17_[-7]_11_[+7]_
+                                           17_[-7]_43_[+7]_283
+LOC_Os11g26750|Osativa            5.3e-06  46_[-7]_946
+Brara.B03992|Brapa                7.2e-06  407_[-7]_585
+Pavir.Cb00662|Pvirgatum             1e-05  135_[-7]_857
+GRMZM2G079440|Zmays                 1e-05  710_[+7]_282
+Bradi2g47580|Bdistachyon            1e-05  686_[+7]_306
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 7 width=8 seqs=24
+Pavir.Hb00975|Pvirgatum  (  277) GCCGGGAC  1 
+Pavir.Hb00975|Pvirgatum  (  181) ACCGGGAC  1 
+Pavir.Hb00975|Pvirgatum  (  162) ACCGGGAC  1 
+Pavir.Hb00975|Pvirgatum  (  138) ACCGGGAC  1 
+Pavir.Hb00975|Pvirgatum  (   71) ACCGGGAC  1 
+Pavir.J14171|Pvirgatum   (  138) GCCGGGAC  1 
+Pavir.J14171|Pvirgatum   (   49) ACCGGGAC  1 
+Pavir.J14171|Pvirgatum   (   30) ACCGGGAC  1 
+Pavir.J14171|Pvirgatum   (    6) ACCGGGAC  1 
+Si003296m.g|Sitalica     (  710) ACCGGGAC  1 
+Si003296m.g|Sitalica     (  659) ACCGGGAC  1 
+Si003296m.g|Sitalica     (  634) ACCGGGAC  1 
+Si003296m.g|Sitalica     (  615) ACCGGGAC  1 
+Si003296m.g|Sitalica     (  590) GCCGGGAC  1 
+Si003296m.g|Sitalica     (  573) ACCGGGAC  1 
+LOC_Os11g26750|Osativa   (   47) GCCGGGAC  1 
+Pavir.Hb00975|Pvirgatum  (  259) CCCGGGAC  1 
+Pavir.J14171|Pvirgatum   (  120) CCCGGGAC  1 
+Pavir.J14171|Pvirgatum   (   98) CCCGGGAC  1 
+Brara.B03992|Brapa       (  408) CCCGGGAC  1 
+Pavir.Cb00662|Pvirgatum  (  136) GCCGGGCC  1 
+Pavir.J14171|Pvirgatum   (   79) GCCGGGCC  1 
+GRMZM2G079440|Zmays      (  711) GCCGGGCC  1 
+Bradi2g47580|Bdistachyon (  687) ACCGGGCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 13.3665 E= 5.3e+001 
+    75    -10     71  -1123 
+ -1123    248  -1123  -1123 
+ -1123    248  -1123  -1123 
+ -1123  -1123    248  -1123 
+ -1123  -1123    248  -1123 
+ -1123  -1123    248  -1123 
+   137    -10  -1123  -1123 
+ -1123    248  -1123  -1123 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 24 E= 5.3e+001 
+ 0.541667  0.166667  0.291667  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.833333  0.166667  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 7 regular expression
+--------------------------------------------------------------------------------
+[AG]CCGGGAC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 2319.48 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  8	width =    8   sites =  22   llr = 253   E-value = 2.1e+003
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 8 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::7:::::
+pos.-specific     C  9a:aa::a
+probability       G  1:1::a::
+matrix            T  ::2:::a:
+
+         bits    2.5  * *** *
+                 2.2  * *** *
+                 2.0 ** *** *
+                 1.7 ** *****
+Relative         1.5 ** *****
+Entropy          1.2 ** *****
+(16.6 bits)      1.0 ** *****
+                 0.7 ** *****
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CCACCGTC
+consensus                    
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Bostr.5022s0083|Bstricta     +    394  3.39e-06 TACTATACTA CCACCGTC TACAAACTAT
+XP_006662924.1|Obrachyan     +    852  3.39e-06 CGCGCGCTGG CCACCGTC CTCCCCGCGC
+Capana08g002571|Cannuum      +    915  3.39e-06 AGCTGAAGTT CCACCGTC TCTTCACCCT
+Pavir.Ea02542|Pvirgatum      -    461  3.39e-06 ACATCGATAT CCACCGTC GCAGGATAAG
+Gorai.005G245900|Graimon     +    979  3.39e-06 TTACTCTTCT CCACCGTC TTTTCATGTA
+Eucgr.I01292|Egrandis        +    949  3.39e-06 CTTGCATGTT CCACCGTC ATTGCATCTC
+Thecc1EG006835|Tcacao        +    976  3.39e-06 CTCTTCTTCT CCACCGTC TCCGGATTTT
+PGSC0003DMG400030949|Stu     +    867  3.39e-06 AGTTGATGCT CCACCGTC TCTACCCTTT
+Solyc01g109920.2|Slycope     +    980  3.39e-06 ATCTGATGTT CCACCGTC TCTTGTCCTT
+MDP0000629961|Mdomestica     +    898  3.39e-06 AACACTTTAT CCACCGTC ATTCATTTCC
+gene14934-v1.0-hybrid|Fv     -    317  3.39e-06 ACGGCGTCGC CCACCGTC CCCGCCTAAA
+gene21840-v1.0-hybrid|Fv     +    885  3.39e-06 CTCTGCAACT CCACCGTC CTCCTTTTTG
+Ciclev10029285m.g|Ccleme     +    934  3.39e-06 TTCTCGGGAT CCACCGTC ACTCTTTTAC
+XP_006662922.1|Obrachyan     -    593  6.78e-06 CTGAGCGGTA CCTCCGTC ACAAAATAAA
+Si000953m.g|Sitalica         -    406  6.78e-06 GACGGTGTCG CCTCCGTC GTCCCATCTT
+Pavir.Ab01356|Pvirgatum      +    649  6.78e-06 TGCTATACTC CCTCCGTC CCAAAGACCG
+orange1.1g028210m.g|Csin     +    875  6.78e-06 TTCTCTGGAT CCTCCGTC ACTCTTTCAC
+Sobic.010G041900|Sbicolo     -    425  8.67e-06 GCCAACGTCA CCGCCGTC ATGGTCTGGA
+Bradi2g47580|Bdistachyon     +    792  8.67e-06 CCTGCGCTTA CCGCCGTC CTCCTACGGC
+LOC_Os11g26790|Osativa       +    626  1.21e-05 TTTATCGACA GCACCGTC CAACAATTTA
+Bradi2g47580|Bdistachyon     +    429  1.21e-05 GTCAGAAGCA GCACCGTC TCCCTGATCA
+Bradi4g19525|Bdistachyon     +    706  1.21e-05 TGCTGTAAAA GCACCGTC ATGAACCTCC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Bostr.5022s0083|Bstricta          3.4e-06  393_[+8]_599
+XP_006662924.1|Obrachyan          3.4e-06  851_[+8]_141
+Capana08g002571|Cannuum           3.4e-06  914_[+8]_78
+Pavir.Ea02542|Pvirgatum           3.4e-06  460_[-8]_532
+Gorai.005G245900|Graimon          3.4e-06  978_[+8]_14
+Eucgr.I01292|Egrandis             3.4e-06  948_[+8]_44
+Thecc1EG006835|Tcacao             3.4e-06  975_[+8]_17
+PGSC0003DMG400030949|Stu          3.4e-06  866_[+8]_126
+Solyc01g109920.2|Slycope          3.4e-06  979_[+8]_13
+MDP0000629961|Mdomestica          3.4e-06  897_[+8]_95
+gene14934-v1.0-hybrid|Fv          3.4e-06  316_[-8]_676
+gene21840-v1.0-hybrid|Fv          3.4e-06  884_[+8]_108
+Ciclev10029285m.g|Ccleme          3.4e-06  933_[+8]_59
+XP_006662922.1|Obrachyan          6.8e-06  592_[-8]_400
+Si000953m.g|Sitalica              6.8e-06  405_[-8]_587
+Pavir.Ab01356|Pvirgatum           6.8e-06  648_[+8]_344
+orange1.1g028210m.g|Csin          6.8e-06  874_[+8]_118
+Sobic.010G041900|Sbicolo          8.7e-06  424_[-8]_568
+Bradi2g47580|Bdistachyon          1.2e-05  428_[+8]_355_[+8]_201
+LOC_Os11g26790|Osativa            1.2e-05  625_[+8]_367
+Bradi4g19525|Bdistachyon          1.2e-05  705_[+8]_287
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 8 width=8 seqs=22
+Bostr.5022s0083|Bstricta (  394) CCACCGTC  1 
+XP_006662924.1|Obrachyan (  852) CCACCGTC  1 
+Capana08g002571|Cannuum  (  915) CCACCGTC  1 
+Pavir.Ea02542|Pvirgatum  (  461) CCACCGTC  1 
+Gorai.005G245900|Graimon (  979) CCACCGTC  1 
+Eucgr.I01292|Egrandis    (  949) CCACCGTC  1 
+Thecc1EG006835|Tcacao    (  976) CCACCGTC  1 
+PGSC0003DMG400030949|Stu (  867) CCACCGTC  1 
+Solyc01g109920.2|Slycope (  980) CCACCGTC  1 
+MDP0000629961|Mdomestica (  898) CCACCGTC  1 
+gene14934-v1.0-hybrid|Fv (  317) CCACCGTC  1 
+gene21840-v1.0-hybrid|Fv (  885) CCACCGTC  1 
+Ciclev10029285m.g|Ccleme (  934) CCACCGTC  1 
+XP_006662922.1|Obrachyan (  593) CCTCCGTC  1 
+Si000953m.g|Sitalica     (  406) CCTCCGTC  1 
+Pavir.Ab01356|Pvirgatum  (  649) CCTCCGTC  1 
+orange1.1g028210m.g|Csin (  875) CCTCCGTC  1 
+Sobic.010G041900|Sbicolo (  425) CCGCCGTC  1 
+Bradi2g47580|Bdistachyon (  792) CCGCCGTC  1 
+LOC_Os11g26790|Osativa   (  626) GCACCGTC  1 
+Bradi2g47580|Bdistachyon (  429) GCACCGTC  1 
+Bradi4g19525|Bdistachyon (  706) GCACCGTC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.7475 E= 2.1e+003 
+ -1111    227    -39  -1111 
+ -1111    248  -1111  -1111 
+   118  -1111    -97    -82 
+ -1111    248  -1111  -1111 
+ -1111    248  -1111  -1111 
+ -1111  -1111    248  -1111 
+ -1111  -1111  -1111    164 
+ -1111    248  -1111  -1111 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 22 E= 2.1e+003 
+ 0.000000  0.863636  0.136364  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.727273  0.000000  0.090909  0.181818 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 8 regular expression
+--------------------------------------------------------------------------------
+CCACCGTC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 2640.99 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF  9	width =    8   sites =  77   llr = 742   E-value = 1.3e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 9 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::9:::7:
+pos.-specific     C  6a13:a:6
+probability       G  4:::a:34
+matrix            T  :::7::::
+
+         bits    2.5  *  **  
+                 2.2  *  **  
+                 2.0  *  **  
+                 1.7  *  **  
+Relative         1.5 *** ** *
+Entropy          1.2 *** ** *
+(13.9 bits)      1.0 ********
+                 0.7 ********
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CCATGCAC
+consensus            G  C  GG
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Bv6_126000_msqq.t1|Bvulg     +    923  6.08e-06 ACTACGCATG CCATGCAC GTGAGCATTC
+Cagra.2374s0005|Cgrandif     +    888  6.08e-06 ACGTGTCAGA CCATGCAC ATGACTGATG
+Capana02g000492|Cannuum      +     30  6.08e-06 GATTTGCTTC CCATGCAC ACATACAAAA
+GSVIVG01018878001|Vvinif     +    208  6.08e-06 GTTGATTGTT CCATGCAC CGCGCAAGAT
+Si003296m.g|Sitalica         +    862  6.08e-06 CCGACCCCAA CCATGCAC GCACACGTAC
+Si003298m.g|Sitalica         +    871  6.08e-06 CCGACCCCAA CCATGCAC GCACACGTAC
+ppa011637m.g|Ppersica        -    888  6.08e-06 AATAGTGACT CCATGCAC TGCAGCCACG
+LOC_Os11g26760|Osativa       +    876  6.08e-06 CTGGCTCACC CCATGCAC GTACACGTAC
+gene21840-v1.0-hybrid|Fv     -    854  6.08e-06 GGTGTGGCTT CCATGCAC GCTACACGTG
+Eucgr.I02392|Egrandis        +    922  6.08e-06 CGTCGCCGAG CCATGCAC GTGGAGGCTT
+Bostr.5022s0083|Bstricta     -    889  9.47e-06 AAATGTTTTG CCACGCAC GGTTAGAAAA
+Araha.12988s0001|Ahaller     -    607  9.47e-06 ATATGTTTTG CCACGCAC GGATAGTAAA
+XP_006662924.1|Obrachyan     +    709  9.47e-06 AACCGTCCAT CCACGCAC AGTACACATA
+XP_006663425.1|Obrachyan     +    673  9.47e-06 GCCTAACCGA CCACGCAC CCCAACGCGA
+LOC_Os11g26570|Osativa       +    748  9.47e-06 TCGACGTCGC CCACGCAC ACCCCCGACG
+Eucgr.I02395|Egrandis        +    919  9.47e-06 CGTGGCCGAG CCACGCAC TTGGAGGCTC
+Carubv10025232m.g|Crubel     -    828  9.47e-06 AAACGTTTTG CCACGCAC GGACAGAGAA
+AT2G21490|Athaliana          -    907  9.47e-06 GAAATGTTTG CCACGCAC GGATAGAATT
+899415|Alyrata               -    819  9.47e-06 AAATCTTTTG CCACGCAC GTATAGAAAA
+Araha.12988s0001|Ahaller     +    651  2.50e-05 CGTCTCATTG CCATGCAG ATTAACATGT
+Araha.1084s0018|Ahalleri     +    965  2.50e-05 AAACTACCTT CCATGCGC TAACAAATCT
+Bv9_223210_acha.t1|Bvulg     +    952  2.50e-05 AAAAATATAT GCATGCAC GGTGCAACAT
+XP_006662923.1|Obrachyan     +    721  2.50e-05 CATCGATGAC GCATGCAC CAGCTCTCGA
+Capana02g002739|Cannuum      +    860  2.50e-05 AATCCCTACT CCATGCAG CTCTTTTCCA
+Pavir.Ea02542|Pvirgatum      +    437  2.50e-05 AGAGTACTCG CCATGCAG CCCTCACTTA
+Brara.I04639|Brapa           +    915  2.50e-05 TCGATCATAA CCATGCAG AGGTTAACAT
+GSMUA_Achr4G11310_001|Ma     +    902  2.50e-05 CGGCAGAACT CCATGCAG CCTCATCACG
+GRMZM2G079440|Zmays          -     68  2.50e-05 CTGACCCTTA GCATGCAC GCATTGCATA
+Thhalv10004906m.g|Esalsu     +    965  2.50e-05 AAGCTACCTT CCATGCGC TAACGAACCT
+Thhalv10000340m.g|Esalsu     +    926  2.50e-05 CGTCTCATAA CCATGCAG ATGAACATGT
+Thecc1EG006835|Tcacao        -    949  2.50e-05 GTACTTTTCT GCATGCAC GTAACTAGGT
+PGSC0003DMG400003530|Stu     -    511  2.50e-05 CATGTATATA CCATGCAG GCAAACTCTT
+Solyc02g084840.2|Slycope     +    919  2.50e-05 CTGGTGCCAT GCATGCAC CTCCACTTCT
+Si003298m.g|Sitalica         -    333  2.50e-05 GCTTGCTCGC GCATGCAC CAAAAATCAC
+LOC_Os11g26780|Osativa       -    638  2.50e-05 ACCATCATAT CCATGCAG ATGGATAGAG
+cassava4.1_029213m.g|Mes     +    903  2.50e-05 CTAGTTACAT CCATGCAG ACATTTCTGG
+cassava4.1_029213m.g|Mes     -    302  2.50e-05 AAGCCTTTCT CCATGCAG GTCAACAGTC
+gene14938-v1.0-hybrid|Fv     -    534  2.50e-05 TGGATGTTAT CCATGCAG ATATTTCTGT
+gene14940-v1.0-hybrid|Fv     -    541  2.50e-05 TGGATGTTAT CCATGCAG ATATTTCTGT
+Ciclev10029285m.g|Ccleme     -    172  2.50e-05 TTTGAATATT GCATGCAC GTGCTTTAGG
+AT2G21490|Athaliana          +    950  2.50e-05 CGTATCATAT CCATGCAG ATTAACATGT
+899415|Alyrata               +    863  2.50e-05 CGTCTCATTT CCATGCAG ATTAACATGT
+chr1.CM0113.750.r2.m|Lja     +    831  2.50e-05 CAAGTTACAT GCATGCAC ACCGCCACGA
+XP_006662924.1|Obrachyan     +    839  3.37e-05 CGGCTCCTGT CCACGCGC GCTGGCCACC
+Capana02g002740|Cannuum      +    827  3.37e-05 TGCCATGCAT GCACGCAC CTACATTTCT
+ppa010975m.g|Ppersica        +    973  3.37e-05 CTACACTCGC CCACGCGC CACCGCACGC
+LOC_Os11g26790|Osativa       +    917  3.37e-05 AACCGTCCAT CCACGCGC ACAGTACACA
+Lus10014280.g|Lusitatiss     -    812  3.37e-05 TGGGGTGTTG CCACGCAG TTGGTAGGCG
+Lus10025983.g|Lusitatiss     -    812  3.37e-05 TGGGGTGTTG CCACGCAG TTGGTAGGCG
+Sobic.003G270200|Sbicolo     -    915  4.65e-05 GGCATGGACG GCATGCGC AGGAGGACAC
+Sobic.003G270200|Sbicolo     -    889  4.65e-05 ACGCGCGCAC GCATGCAG CCACATAGGG
+Sobic.010G041900|Sbicolo     -    905  4.65e-05 ACGTGTCCCT GCATGCAG GGAGTTTTGT
+Pavir.Cb00662|Pvirgatum      +    883  4.65e-05 CCAACTTGCT GCATGCGC GCACACGTAG
+Glyma.12G235800|Gmax         -    876  4.65e-05 CCGGAGACTT GCATGCAG CTATACACGT
+Thecc1EG006835|Tcacao        -    570  4.65e-05 TACGAAGAAA GCATGCGC AGTCTTACGA
+Si026583m.g|Sitalica         +    889  4.65e-05 CCAACTCGCT GCATGCGC GCACACGTAG
+Si003298m.g|Sitalica         +    391  4.65e-05 CAGTTCATCA GCATGCAG CATGCTTTTG
+LOC_Os11g26570|Osativa       -    863  4.65e-05 GCCGACGCGT GCATGCGC GGTGTGCTGG
+LOC_Os11g26760|Osativa       -    783  4.65e-05 GTCGGTGACG CCATGCGG CCACCGGCCG
+MDP0000360414|Mdomestica     -    838  4.65e-05 CACCAGCAAG GCATGCAG ATATAGCGGT
+gene14935-v1.0-hybrid|Fv     +    864  4.65e-05 ACGTAGGTTT CCATGCGG AGCTGCCTAT
+gene21840-v1.0-hybrid|Fv     -    805  4.65e-05 GCCATGAACA GCATGCAG ATGCATGGAT
+Cucsa.106380|Csativus        -    560  4.65e-05 ACACCAACAT GCATGCAG CCTTCTAAAT
+Bradi4g19525|Bdistachyon     -    898  4.65e-05 GTGTACAGCT GCATGCAG GTGCGTGTGT
+Bradi4g19525|Bdistachyon     -    865  4.65e-05 GGGCGTCGGG GCATGCGC TGCGATGCGA
+Pavir.Hb00975|Pvirgatum      +    363  5.37e-05 GCCGCCTTCT GCACGCGC CAGCTGAATG
+LOC_Os11g26780|Osativa       +    665  5.37e-05 TATGCATGCA GCACGCGC GGTCATCTCC
+Bradi1g37410|Bdistachyon     +    283  5.37e-05 AAGCCGATTT GCACGCGC GGTGCCGGAG
+Bradi3g43855|Bdistachyon     +    805  5.37e-05 CCACCGACAC CCACGCGG CTCCCCGCAC
+Bradi2g47580|Bdistachyon     +    880  5.37e-05 TCTGCGAGCA GCACGCGC GCGAAGGCGC
+C.cajan_35463|Ccajan         +    954  5.37e-05 GTCCACCGCC GCACGCAG TTTAAAGAGG
+Bradi2g47580|Bdistachyon     +    759  5.71e-05 ATACGTGGCC GCATGCGG CGACTACGTG
+PDK_30s875341g003|Pdacty     -    790  5.71e-05 TAGGGTGGGG GCATGCGG ACCGAGGTGA
+Bradi3g43870|Bdistachyon     -    610  6.24e-05 GGTGCTCTTC CCCTGCAC GAACCCTCTG
+MDP0000868045|Mdomestica     +     46  6.43e-05 AGTTGGCACA CCCCGCAC ACAACCGAAT
+Bradi3g43855|Bdistachyon     +    815  6.43e-05 CCACGCGGCT CCCCGCAC GGCGCATACA
+Pavir.Cb00662|Pvirgatum      -    752  7.78e-05 GAAACGGCAA CCCCGCGC GGCCGGCGGC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Bv6_126000_msqq.t1|Bvulg          6.1e-06  922_[+9]_70
+Cagra.2374s0005|Cgrandif          6.1e-06  887_[+9]_105
+Capana02g000492|Cannuum           6.1e-06  29_[+9]_963
+GSVIVG01018878001|Vvinif          6.1e-06  207_[+9]_785
+Si003296m.g|Sitalica              6.1e-06  861_[+9]_131
+Si003298m.g|Sitalica              4.7e-05  332_[-9]_50_[+9]_472_[+9]_122
+ppa011637m.g|Ppersica             6.1e-06  887_[-9]_105
+LOC_Os11g26760|Osativa            4.7e-05  782_[-9]_85_[+9]_117
+gene21840-v1.0-hybrid|Fv          4.7e-05  804_[-9]_41_[-9]_139
+Eucgr.I02392|Egrandis             6.1e-06  921_[+9]_71
+Bostr.5022s0083|Bstricta          9.5e-06  888_[-9]_104
+Araha.12988s0001|Ahaller          2.5e-05  606_[-9]_36_[+9]_135
+XP_006662924.1|Obrachyan          3.4e-05  708_[+9]_122_[+9]_154
+XP_006663425.1|Obrachyan          9.5e-06  672_[+9]_320
+LOC_Os11g26570|Osativa            4.7e-05  747_[+9]_107_[-9]_130
+Eucgr.I02395|Egrandis             9.5e-06  918_[+9]_74
+Carubv10025232m.g|Crubel          9.5e-06  827_[-9]_165
+AT2G21490|Athaliana               2.5e-05  906_[-9]_35_[+9]_43
+899415|Alyrata                    2.5e-05  818_[-9]_36_[+9]_130
+Araha.1084s0018|Ahalleri          2.5e-05  964_[+9]_28
+Bv9_223210_acha.t1|Bvulg          2.5e-05  951_[+9]_41
+XP_006662923.1|Obrachyan          2.5e-05  720_[+9]_272
+Capana02g002739|Cannuum           2.5e-05  859_[+9]_133
+Pavir.Ea02542|Pvirgatum           2.5e-05  436_[+9]_556
+Brara.I04639|Brapa                2.5e-05  914_[+9]_78
+GSMUA_Achr4G11310_001|Ma          2.5e-05  901_[+9]_91
+GRMZM2G079440|Zmays               2.5e-05  67_[-9]_925
+Thhalv10004906m.g|Esalsu          2.5e-05  964_[+9]_28
+Thhalv10000340m.g|Esalsu          2.5e-05  925_[+9]_67
+Thecc1EG006835|Tcacao             4.7e-05  569_[-9]_371_[-9]_44
+PGSC0003DMG400003530|Stu          2.5e-05  510_[-9]_482
+Solyc02g084840.2|Slycope          2.5e-05  918_[+9]_74
+LOC_Os11g26780|Osativa            2.5e-05  637_[-9]_19_[+9]_328
+cassava4.1_029213m.g|Mes          2.5e-05  301_[-9]_593_[+9]_90
+gene14938-v1.0-hybrid|Fv          2.5e-05  533_[-9]_459
+gene14940-v1.0-hybrid|Fv          2.5e-05  540_[-9]_452
+Ciclev10029285m.g|Ccleme          2.5e-05  171_[-9]_821
+chr1.CM0113.750.r2.m|Lja          2.5e-05  830_[+9]_162
+Capana02g002740|Cannuum           3.4e-05  826_[+9]_166
+ppa010975m.g|Ppersica             3.4e-05  972_[+9]_20
+LOC_Os11g26790|Osativa            3.4e-05  916_[+9]_76
+Lus10014280.g|Lusitatiss          3.4e-05  811_[-9]_181
+Lus10025983.g|Lusitatiss          3.4e-05  811_[-9]_181
+Sobic.003G270200|Sbicolo          4.7e-05  888_[-9]_18_[-9]_78
+Sobic.010G041900|Sbicolo          4.7e-05  904_[-9]_88
+Pavir.Cb00662|Pvirgatum           7.8e-05  751_[-9]_123_[+9]_110
+Glyma.12G235800|Gmax              4.7e-05  875_[-9]_117
+Si026583m.g|Sitalica              4.7e-05  888_[+9]_104
+MDP0000360414|Mdomestica          4.7e-05  837_[-9]_155
+gene14935-v1.0-hybrid|Fv          4.7e-05  863_[+9]_129
+Cucsa.106380|Csativus             4.7e-05  559_[-9]_433
+Bradi4g19525|Bdistachyon          4.7e-05  864_[-9]_25_[-9]_95
+Pavir.Hb00975|Pvirgatum           5.4e-05  362_[+9]_630
+Bradi1g37410|Bdistachyon          5.4e-05  282_[+9]_710
+Bradi3g43855|Bdistachyon          6.4e-05  804_[+9]_2_[+9]_178
+Bradi2g47580|Bdistachyon          5.7e-05  758_[+9]_113_[+9]_113
+C.cajan_35463|Ccajan              5.4e-05  953_[+9]_39
+PDK_30s875341g003|Pdacty          5.7e-05  789_[-9]_203
+Bradi3g43870|Bdistachyon          6.2e-05  609_[-9]_383
+MDP0000868045|Mdomestica          6.4e-05  45_[+9]_947
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 9 width=8 seqs=77
+Bv6_126000_msqq.t1|Bvulg (  923) CCATGCAC  1 
+Cagra.2374s0005|Cgrandif (  888) CCATGCAC  1 
+Capana02g000492|Cannuum  (   30) CCATGCAC  1 
+GSVIVG01018878001|Vvinif (  208) CCATGCAC  1 
+Si003296m.g|Sitalica     (  862) CCATGCAC  1 
+Si003298m.g|Sitalica     (  871) CCATGCAC  1 
+ppa011637m.g|Ppersica    (  888) CCATGCAC  1 
+LOC_Os11g26760|Osativa   (  876) CCATGCAC  1 
+gene21840-v1.0-hybrid|Fv (  854) CCATGCAC  1 
+Eucgr.I02392|Egrandis    (  922) CCATGCAC  1 
+Bostr.5022s0083|Bstricta (  889) CCACGCAC  1 
+Araha.12988s0001|Ahaller (  607) CCACGCAC  1 
+XP_006662924.1|Obrachyan (  709) CCACGCAC  1 
+XP_006663425.1|Obrachyan (  673) CCACGCAC  1 
+LOC_Os11g26570|Osativa   (  748) CCACGCAC  1 
+Eucgr.I02395|Egrandis    (  919) CCACGCAC  1 
+Carubv10025232m.g|Crubel (  828) CCACGCAC  1 
+AT2G21490|Athaliana      (  907) CCACGCAC  1 
+899415|Alyrata           (  819) CCACGCAC  1 
+Araha.12988s0001|Ahaller (  651) CCATGCAG  1 
+Araha.1084s0018|Ahalleri (  965) CCATGCGC  1 
+Bv9_223210_acha.t1|Bvulg (  952) GCATGCAC  1 
+XP_006662923.1|Obrachyan (  721) GCATGCAC  1 
+Capana02g002739|Cannuum  (  860) CCATGCAG  1 
+Pavir.Ea02542|Pvirgatum  (  437) CCATGCAG  1 
+Brara.I04639|Brapa       (  915) CCATGCAG  1 
+GSMUA_Achr4G11310_001|Ma (  902) CCATGCAG  1 
+GRMZM2G079440|Zmays      (   68) GCATGCAC  1 
+Thhalv10004906m.g|Esalsu (  965) CCATGCGC  1 
+Thhalv10000340m.g|Esalsu (  926) CCATGCAG  1 
+Thecc1EG006835|Tcacao    (  949) GCATGCAC  1 
+PGSC0003DMG400003530|Stu (  511) CCATGCAG  1 
+Solyc02g084840.2|Slycope (  919) GCATGCAC  1 
+Si003298m.g|Sitalica     (  333) GCATGCAC  1 
+LOC_Os11g26780|Osativa   (  638) CCATGCAG  1 
+cassava4.1_029213m.g|Mes (  903) CCATGCAG  1 
+cassava4.1_029213m.g|Mes (  302) CCATGCAG  1 
+gene14938-v1.0-hybrid|Fv (  534) CCATGCAG  1 
+gene14940-v1.0-hybrid|Fv (  541) CCATGCAG  1 
+Ciclev10029285m.g|Ccleme (  172) GCATGCAC  1 
+AT2G21490|Athaliana      (  950) CCATGCAG  1 
+899415|Alyrata           (  863) CCATGCAG  1 
+chr1.CM0113.750.r2.m|Lja (  831) GCATGCAC  1 
+XP_006662924.1|Obrachyan (  839) CCACGCGC  1 
+Capana02g002740|Cannuum  (  827) GCACGCAC  1 
+ppa010975m.g|Ppersica    (  973) CCACGCGC  1 
+LOC_Os11g26790|Osativa   (  917) CCACGCGC  1 
+Lus10014280.g|Lusitatiss (  812) CCACGCAG  1 
+Lus10025983.g|Lusitatiss (  812) CCACGCAG  1 
+Sobic.003G270200|Sbicolo (  915) GCATGCGC  1 
+Sobic.003G270200|Sbicolo (  889) GCATGCAG  1 
+Sobic.010G041900|Sbicolo (  905) GCATGCAG  1 
+Pavir.Cb00662|Pvirgatum  (  883) GCATGCGC  1 
+Glyma.12G235800|Gmax     (  876) GCATGCAG  1 
+Thecc1EG006835|Tcacao    (  570) GCATGCGC  1 
+Si026583m.g|Sitalica     (  889) GCATGCGC  1 
+Si003298m.g|Sitalica     (  391) GCATGCAG  1 
+LOC_Os11g26570|Osativa   (  863) GCATGCGC  1 
+LOC_Os11g26760|Osativa   (  783) CCATGCGG  1 
+MDP0000360414|Mdomestica (  838) GCATGCAG  1 
+gene14935-v1.0-hybrid|Fv (  864) CCATGCGG  1 
+gene21840-v1.0-hybrid|Fv (  805) GCATGCAG  1 
+Cucsa.106380|Csativus    (  560) GCATGCAG  1 
+Bradi4g19525|Bdistachyon (  898) GCATGCAG  1 
+Bradi4g19525|Bdistachyon (  865) GCATGCGC  1 
+Pavir.Hb00975|Pvirgatum  (  363) GCACGCGC  1 
+LOC_Os11g26780|Osativa   (  665) GCACGCGC  1 
+Bradi1g37410|Bdistachyon (  283) GCACGCGC  1 
+Bradi3g43855|Bdistachyon (  805) CCACGCGG  1 
+Bradi2g47580|Bdistachyon (  880) GCACGCGC  1 
+C.cajan_35463|Ccajan     (  954) GCACGCAG  1 
+Bradi2g47580|Bdistachyon (  759) GCATGCGG  1 
+PDK_30s875341g003|Pdacty (  790) GCATGCGG  1 
+Bradi3g43870|Bdistachyon (  610) CCCTGCAC  1 
+MDP0000868045|Mdomestica (   46) CCCCGCAC  1 
+Bradi3g43855|Bdistachyon (  815) CCCCGCAC  1 
+Pavir.Cb00662|Pvirgatum  (  752) CCCCGCGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.0341 E= 1.3e-001 
+ -1291    177    112  -1291 
+ -1291    248  -1291  -1291 
+   156   -178  -1291  -1291 
+ -1291     80  -1291    110 
+ -1291  -1291    248  -1291 
+ -1291    248  -1291  -1291 
+   118  -1291     61  -1291 
+ -1291    177    112  -1291 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 77 E= 1.3e-001 
+ 0.000000  0.610390  0.389610  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.948052  0.051948  0.000000  0.000000 
+ 0.000000  0.311688  0.000000  0.688312 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.727273  0.000000  0.272727  0.000000 
+ 0.000000  0.610390  0.389610  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 9 regular expression
+--------------------------------------------------------------------------------
+[CG]CA[TC]GC[AG][CG]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 2961.60 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF 10	width =    8   sites =  20   llr = 229   E-value = 6.4e+005
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif 10 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::::
+pos.-specific     C  a2:a3:aa
+probability       G  :3a::a::
+matrix            T  :5::8:::
+
+         bits    2.5 * ** ***
+                 2.2 * ** ***
+                 2.0 * ** ***
+                 1.7 * ** ***
+Relative         1.5 * ** ***
+Entropy          1.2 * ** ***
+(16.5 bits)      1.0 * ******
+                 0.7 * ******
+                 0.5 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           CTGCTGCC
+consensus             G  C   
+sequence              C      
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+Sobic.009G116700|Sbicolo     -    107  1.89e-06 AATAAAAAAG CGGCTGCC AGACATCGAA
+Sobic.010G041900|Sbicolo     +    875  1.89e-06 CGCGTCCATT CGGCTGCC TACGCGACCG
+Pavir.Cb00662|Pvirgatum      +    154  1.89e-06 GATAGTGTAA CGGCTGCC TGCGAGCTAA
+GRMZM2G052364|Zmays          +    796  1.89e-06 GTCCTCAGCT CGGCTGCC TAGACGACGG
+GRMZM2G098750|Zmays          +    878  1.89e-06 GTCCTCAGCT CGGCTGCC TAGACGACGG
+Bradi3g43855|Bdistachyon     +    880  1.89e-06 CCACTCGCAT CGGCTGCC TTCCAACTCA
+Araha.1084s0018|Ahalleri     +    880  5.28e-06 ACATCTTCTA CTGCTGCC ACGCGTCCCT
+Capana02g002740|Cannuum      +    813  5.28e-06 CTGTGATGCT CTGCTGCC ATGCATGCAC
+Capana02g002739|Cannuum      +    742  5.28e-06 CTCCAATTTT CTGCTGCC ACGCTTTACC
+Capana02g002739|Cannuum      +    395  5.28e-06 TGAGTCATAG CTGCTGCC TCTCTTACTA
+GRMZM2G079440|Zmays          +    868  5.28e-06 TTCTGCACTT CTGCTGCC TATAAATGGC
+Potri.004G158500|Ptricho     -    409  7.17e-06 GGAAGACGTC CCGCTGCC CCAACAATCC
+Si003296m.g|Sitalica         +    881  7.17e-06 CACACGTACA CCGCTGCC GTGGCCTCCC
+Si003298m.g|Sitalica         +    890  7.17e-06 CACACGTACA CCGCTGCC GTGGCCTCCT
+Eucgr.I02395|Egrandis        +    947  7.17e-06 GCACGGTCTC CCGCTGCC TTGCGGGGCT
+Bostr.0568s0050|Bstricta     +    340  1.01e-05 TCTCTAGCAG CTGCCGCC AATACATTCC
+Araha.1084s0018|Ahalleri     +    231  1.01e-05 TCTCGAGCAG CTGCCGCC AATACATTCC
+Brara.I03437|Brapa           +    525  1.01e-05 TCTCTAGCAG CTGCCGCC AATACGTTTC
+AT5G66400|Athaliana          +    271  1.01e-05 TCTCTAGCAG CTGCCGCC AATACATTCC
+496967|Alyrata               +    293  1.01e-05 TCTCGAGCAG CTGCCGCC AATACATTCC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Sobic.009G116700|Sbicolo          1.9e-06  106_[-10]_886
+Sobic.010G041900|Sbicolo          1.9e-06  874_[+10]_118
+Pavir.Cb00662|Pvirgatum           1.9e-06  153_[+10]_839
+GRMZM2G052364|Zmays               1.9e-06  795_[+10]_197
+GRMZM2G098750|Zmays               1.9e-06  877_[+10]_115
+Bradi3g43855|Bdistachyon          1.9e-06  879_[+10]_113
+Araha.1084s0018|Ahalleri            1e-05  230_[+10]_641_[+10]_113
+Capana02g002740|Cannuum           5.3e-06  812_[+10]_180
+Capana02g002739|Cannuum           5.3e-06  394_[+10]_339_[+10]_251
+GRMZM2G079440|Zmays               5.3e-06  867_[+10]_125
+Potri.004G158500|Ptricho          7.2e-06  408_[-10]_584
+Si003296m.g|Sitalica              7.2e-06  880_[+10]_112
+Si003298m.g|Sitalica              7.2e-06  889_[+10]_103
+Eucgr.I02395|Egrandis             7.2e-06  946_[+10]_46
+Bostr.0568s0050|Bstricta            1e-05  339_[+10]_653
+Brara.I03437|Brapa                  1e-05  524_[+10]_468
+AT5G66400|Athaliana                 1e-05  270_[+10]_722
+496967|Alyrata                      1e-05  292_[+10]_700
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF 10 width=8 seqs=20
+Sobic.009G116700|Sbicolo (  107) CGGCTGCC  1 
+Sobic.010G041900|Sbicolo (  875) CGGCTGCC  1 
+Pavir.Cb00662|Pvirgatum  (  154) CGGCTGCC  1 
+GRMZM2G052364|Zmays      (  796) CGGCTGCC  1 
+GRMZM2G098750|Zmays      (  878) CGGCTGCC  1 
+Bradi3g43855|Bdistachyon (  880) CGGCTGCC  1 
+Araha.1084s0018|Ahalleri (  880) CTGCTGCC  1 
+Capana02g002740|Cannuum  (  813) CTGCTGCC  1 
+Capana02g002739|Cannuum  (  742) CTGCTGCC  1 
+Capana02g002739|Cannuum  (  395) CTGCTGCC  1 
+GRMZM2G079440|Zmays      (  868) CTGCTGCC  1 
+Potri.004G158500|Ptricho (  409) CCGCTGCC  1 
+Si003296m.g|Sitalica     (  881) CCGCTGCC  1 
+Si003298m.g|Sitalica     (  890) CCGCTGCC  1 
+Eucgr.I02395|Egrandis    (  947) CCGCTGCC  1 
+Bostr.0568s0050|Bstricta (  340) CTGCCGCC  1 
+Araha.1084s0018|Ahalleri (  231) CTGCCGCC  1 
+Brara.I03437|Brapa       (  525) CTGCCGCC  1 
+AT5G66400|Athaliana      (  271) CTGCCGCC  1 
+496967|Alyrata           (  293) CTGCCGCC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 118300 bayes= 12.7815 E= 6.4e+005 
+ -1097    248  -1097  -1097 
+ -1097     16     75     64 
+ -1097  -1097    248  -1097 
+ -1097    248  -1097  -1097 
+ -1097     48  -1097    122 
+ -1097  -1097    248  -1097 
+ -1097    248  -1097  -1097 
+ -1097    248  -1097  -1097 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 6.4e+005 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.200000  0.300000  0.500000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.250000  0.000000  0.750000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif 10 regular expression
+--------------------------------------------------------------------------------
+C[TGC]GC[TC]GCC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 3279.48 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PDK_30s875341g003|Pdacty         8.99e-06  665_[+4(3.39e-06)]_23_\
+    [+2(1.01e-05)]_19_[+2(1.01e-05)]_42_[+3(2.00e-05)]_8_[-9(5.71e-05)]_16_\
+    [+3(6.39e-05)]_[-6(6.08e-06)]_69_[+2(4.40e-05)]_94
+chr1.CM0113.750.r2.m|Lja         7.91e-02  805_[-3(6.78e-06)]_17_\
+    [+9(2.50e-05)]_3_[-3(4.01e-05)]_151
+C.cajan_35463|Ccajan             4.93e-04  865_[-3(1.66e-05)]_14_\
+    [+1(3.22e-05)]_12_[-3(6.78e-06)]_30_[+2(1.01e-05)]_[+9(5.37e-05)]_39
+Ca_04763|Carietinum              3.15e-01  853_[+1(3.22e-05)]_22_\
+    [-3(6.78e-06)]_109
+Aquca_010_00572|Acoerule         4.76e-02  46_[-2(4.40e-05)]_756_\
+    [+1(2.08e-05)]_54_[+1(3.22e-05)]_89_[+4(3.51e-05)]_23
+496967|Alyrata                   7.88e-04  292_[+10(1.01e-05)]_197_\
+    [+1(2.08e-05)]_46_[+2(5.47e-05)]_126_[+1(2.08e-05)]_13_[+4(1.14e-05)]_54_\
+    [-6(2.04e-05)]_105_[+4(2.08e-05)]_6_[+10(5.28e-06)]_97
+899415|Alyrata                   3.61e-02  547_[+4(5.59e-05)]_263_\
+    [-9(9.47e-06)]_21_[-1(3.39e-06)]_7_[+9(2.50e-05)]_130
+AT3G50980|Athaliana              1.20e-02  44_[+10(1.46e-05)]_73_\
+    [+10(1.46e-05)]_802_[-1(3.39e-06)]_57
+AT5G66400|Athaliana              2.47e-03  55_[-1(4.65e-05)]_207_\
+    [+10(1.01e-05)]_205_[+1(2.08e-05)]_193_[+1(2.08e-05)]_82_[-6(2.04e-05)]_77_\
+    [-6(2.04e-05)]_15_[+4(2.08e-05)]_6_[+10(5.28e-06)]_96
+AT2G21490|Athaliana              1.02e-01  715_[+4(5.59e-05)]_183_\
+    [-9(9.47e-06)]_20_[-1(3.39e-06)]_7_[+9(2.50e-05)]_43
+Bradi3g43870|Bdistachyon         2.28e-04  451_[+6(9.47e-06)]_20_\
+    [-2(3.24e-05)]_105_[+2(6.11e-06)]_9_[-9(6.24e-05)]_132_[+1(3.39e-06)]_\
+    [+8(2.64e-05)]_17_[+2(5.28e-05)]_8_[+9(2.50e-05)]_15_[+6(2.64e-05)]_25_\
+    [+2(6.11e-06)]_15_[-6(6.08e-06)]_2_[+2(8.70e-05)]_61_[+2(2.65e-05)]_36
+Bradi4g19525|Bdistachyon         2.06e-05  37_[+9(6.24e-05)]_16_[+2(1.79e-05)]_\
+    8_[+2(4.22e-06)]_4_[+2(4.99e-05)]_608_[+8(1.21e-05)]_74_[-6(9.47e-06)]_54_\
+    [+1(3.22e-05)]_7_[-9(4.65e-05)]_[+4(8.96e-05)]_17_[-9(4.65e-05)]_4_\
+    [-6(5.29e-05)]_8_[+1(4.65e-05)]_5_[+4(4.65e-05)]_54
+Bradi2g47580|Bdistachyon         3.52e-06  428_[+8(1.21e-05)]_52_\
+    [+9(7.78e-05)]_190_[+7(1.01e-05)]_3_[+1(3.22e-05)]_45_[+1(6.78e-06)]_\
+    [+9(5.71e-05)]_5_[+1(3.39e-06)]_1_[+9(7.29e-05)]_3_[+8(8.67e-06)]_40_\
+    [+2(6.11e-06)]_32_[+9(5.37e-05)]_9_[+2(1.05e-06)]_27_[+2(2.65e-05)]_61
+Bradi3g43855|Bdistachyon         1.93e-06  69_[+9(8.49e-05)]_161_\
+    [+2(1.05e-06)]_540_[+1(3.39e-06)]_2_[+4(1.14e-05)]_[+9(5.37e-05)]_2_\
+    [+9(6.43e-05)]_9_[+1(3.56e-05)]_40_[+10(1.89e-06)]_21_[+3(6.78e-06)]_84
+Bradi1g37410|Bdistachyon         1.80e-04  251_[-6(9.47e-06)]_23_\
+    [+9(5.37e-05)]_546_[+1(3.39e-06)]_4_[-1(3.22e-05)]_9_[-6(6.08e-06)]_42_\
+    [-1(6.88e-05)]_32_[+2(1.20e-05)]_21_[-7(2.28e-05)]_8
+Carubv10018719m.g|Crubel         1.25e-01  812_[-1(3.39e-06)]_180
+Carubv10025232m.g|Crubel         1.20e-02  615_[+4(5.59e-05)]_179_\
+    [-3(1.66e-05)]_17_[-9(9.47e-06)]_21_[-1(3.39e-06)]_136
+Carubv10027206m.g|Crubel         1.71e-03  259_[+10(2.28e-05)]_214_\
+    [+1(2.08e-05)]_193_[+1(2.08e-05)]_29_[+4(1.14e-05)]_88_[-6(2.04e-05)]_81_\
+    [-1(2.08e-05)]_15_[+4(2.08e-05)]_6_[+10(5.28e-06)]_51
+evm.TU.supercontig_106.3         1.49e-03  58_[-4(6.88e-05)]_113_\
+    [-6(2.04e-05)]_30_[-4(4.12e-05)]_586_[+3(1.66e-05)]_48_[+10(5.28e-06)]_125
+evm.TU.supercontig_6.176         5.73e-01  834_[+3(1.66e-05)]_15_\
+    [+3(1.66e-05)]_12_[+1(1.29e-05)]_115
+Ciclev10029285m.g|Ccleme         4.81e-02  171_[-9(2.50e-05)]_754_\
+    [+8(3.39e-06)]_59
+Ciclev10026675m.g|Ccleme         3.70e-02  671_[+6(2.64e-05)]_76_\
+    [-2(2.17e-05)]_120_[-3(6.39e-05)]_109
+orange1.1g042612m.g|Csin         1.62e-02  555_[+6(2.64e-05)]_72_\
+    [-2(2.17e-05)]_120_[-3(6.39e-05)]_229
+orange1.1g028210m.g|Csin         8.72e-02  588_[+3(4.01e-05)]_278_\
+    [+8(6.78e-06)]_118
+orange1.1g046026m.g|Csin         3.70e-02  548_[+6(2.64e-05)]_76_\
+    [-2(2.17e-05)]_120_[-3(6.39e-05)]_232
+Cucsa.106380|Csativus            2.12e-02  188_[+1(5.93e-05)]_363_\
+    [-9(4.65e-05)]_26_[-4(3.51e-05)]_167_[+4(2.08e-05)]_30_[-3(6.78e-06)]_13_\
+    [+1(4.65e-05)]_165
+Cucsa.109360|Csativus            1.80e-01  232_[+4(8.96e-05)]_502_\
+    [+3(2.00e-05)]_11_[+1(3.22e-05)]_29_[-6(5.29e-05)]_194
+Eucgr.J02380|Egrandis            5.51e-03  630_[-6(2.04e-05)]_163_\
+    [-1(3.39e-06)]_1_[+2(8.70e-05)]_2_[-3(1.66e-05)]_172
+Eucgr.I02395|Egrandis            5.25e-06  162_[+3(2.00e-05)]_14_\
+    [+2(2.11e-06)]_360_[+4(8.96e-05)]_155_[+4(2.08e-05)]_80_[+4(4.31e-05)]_13_\
+    [+4(3.39e-06)]_29_[-3(1.66e-05)]_18_[-2(3.96e-05)]_5_[+1(1.29e-05)]_10_\
+    [+9(9.47e-06)]_20_[+10(7.17e-06)]_46
+Eucgr.I02392|Egrandis            1.33e-04  721_[+6(6.08e-06)]_20_\
+    [+4(6.88e-05)]_72_[+4(2.08e-05)]_28_[-6(6.08e-06)]_17_[-2(3.96e-05)]_4_\
+    [+3(1.66e-05)]_11_[+9(6.08e-06)]_71
+gene14940-v1.0-hybrid|Fv         1.94e-03  515_[-4(3.51e-05)]_17_\
+    [-9(2.50e-05)]_135_[+3(1.66e-05)]_16_[+2(1.79e-05)]_13_[-2(2.17e-05)]_9_\
+    [+3(8.47e-05)]_43_[+4(1.14e-05)]_27_[-6(2.64e-05)]_16_[+1(2.08e-05)]_137
+gene21840-v1.0-hybrid|Fv         2.04e-04  122_[-2(4.40e-05)]_1_[-2(4.40e-05)]_\
+    1_[-2(4.40e-05)]_1_[-2(4.40e-05)]_1_[-2(4.40e-05)]_578_[+3(1.66e-05)]_12_\
+    [-1(5.93e-05)]_14_[+1(6.78e-06)]_10_[-9(4.65e-05)]_41_[-9(6.08e-06)]_23_\
+    [+8(3.39e-06)]_108
+gene14934-v1.0-hybrid|Fv         3.88e-04  154_[-4(2.08e-05)]_21_\
+    [+8(1.54e-05)]_125_[-8(3.39e-06)]_469_[+4(8.96e-05)]_29_[+2(3.96e-05)]_12_\
+    [+1(2.08e-05)]_142
+gene14935-v1.0-hybrid|Fv         1.49e-02  228_[-4(6.88e-05)]_119_\
+    [+3(4.01e-05)]_445_[+1(3.22e-05)]_13_[+2(3.96e-05)]_26_[+9(4.65e-05)]_129
+gene14938-v1.0-hybrid|Fv         8.56e-04  508_[-4(3.51e-05)]_17_\
+    [-9(2.50e-05)]_135_[+3(1.66e-05)]_16_[+2(1.79e-05)]_13_[-2(2.17e-05)]_3_\
+    [+1(4.65e-05)]_55_[+4(1.14e-05)]_28_[-6(2.64e-05)]_16_[+1(2.08e-05)]_137
+Lus10025983.g|Lusitatiss         2.24e-01  765_[+4(3.51e-05)]_38_\
+    [-9(3.37e-05)]_43_[-1(8.81e-05)]_130
+Lus10014280.g|Lusitatiss         2.72e-01  765_[+4(3.51e-05)]_38_\
+    [-9(3.37e-05)]_43_[-1(8.81e-05)]_130
+MDP0000868044|Mdomestica         1.25e-01  382_[+10(1.46e-05)]_95_\
+    [-2(2.17e-05)]_192_[-4(2.08e-05)]_208_[+4(4.65e-05)]_91
+MDP0000868045|Mdomestica         3.45e-02  45_[+9(6.43e-05)]_36_[+9(7.29e-05)]_\
+    223_[+3(2.00e-05)]_219_[-1(5.93e-05)]_213_[+4(8.96e-05)]_48_[+1(4.65e-05)]_\
+    54_[-3(2.00e-05)]_106
+MDP0000360414|Mdomestica         1.58e-02  469_[-4(3.51e-05)]_93_\
+    [+1(8.81e-05)]_25_[-3(6.78e-06)]_101_[+2(1.49e-05)]_32_[+4(2.42e-05)]_77_\
+    [-9(4.65e-05)]_155
+MDP0000698024|Mdomestica         4.49e-02  91_[-4(1.14e-05)]_551_\
+    [-3(6.78e-06)]_85_[+4(2.42e-05)]_32_[-1(3.22e-05)]_209
+MDP0000629961|Mdomestica         2.49e-03  201_[-3(6.78e-06)]_46_\
+    [-1(7.68e-05)]_546_[+1(6.78e-06)]_35_[+3(1.66e-05)]_19_[+4(3.51e-05)]_10_\
+    [+8(3.39e-06)]_95
+cassava4.1_018057m.g|Mes         7.66e-01  834_[+1(4.65e-05)]_158
+cassava4.1_029213m.g|Mes         6.78e-03  301_[-9(2.50e-05)]_275_\
+    [+2(4.40e-05)]_256_[+1(4.65e-05)]_16_[-1(1.29e-05)]_22_[+9(2.50e-05)]_13_\
+    [+2(1.01e-05)]_69
+Medtr3g117190|Mtruncatul         9.99e-01  1000
+LOC_Os11g26790|Osativa           3.01e-05  27_[-2(4.40e-05)]_23_[-2(1.20e-05)]_\
+    9_[-3(1.66e-05)]_30_[-2(1.79e-05)]_54_[-2(8.70e-05)]_9_[+10(5.28e-06)]_43_\
+    [+4(5.28e-06)]_99_[+3(4.01e-05)]_267_[+8(1.21e-05)]_112_[-2(2.65e-05)]_163_\
+    [+9(3.37e-05)]_46_[+3(4.95e-05)]_11_[+2(4.99e-05)]_3
+LOC_Os11g26780|Osativa           3.32e-06  540_[-10(7.96e-05)]_32_\
+    [+8(2.64e-05)]_13_[-6(2.04e-05)]_28_[-9(2.50e-05)]_12_[+9(4.65e-05)]_68_\
+    [-10(5.28e-06)]_5_[+3(1.66e-05)]_3_[+4(1.14e-05)]_9_[-9(8.49e-05)]_5_\
+    [-6(5.29e-05)]_4_[+2(1.20e-05)]_24_[+2(6.11e-06)]_34_[+2(2.65e-05)]_78_\
+    [-2(9.39e-05)]_16_[+2(5.87e-05)]_9
+LOC_Os11g26750|Osativa           5.58e-04  46_[-7(5.28e-06)]_[-8(3.86e-05)]_\
+    299_[+6(6.08e-06)]_69_[+6(2.04e-05)]_373_[+1(3.39e-06)]_173
+LOC_Os11g26760|Osativa           1.77e-08  54_[+2(1.79e-05)]_25_[+2(1.05e-06)]_\
+    42_[-9(7.78e-05)]_25_[-4(5.28e-06)]_35_[-2(1.01e-05)]_6_[-3(2.00e-05)]_514_\
+    [-2(6.46e-05)]_9_[+1(3.39e-06)]_[-8(2.64e-05)]_[-9(4.65e-05)]_7_\
+    [-7(2.28e-05)]_9_[-6(6.08e-06)]_4_[+2(7.81e-05)]_24_[+2(6.11e-06)]_9_\
+    [+9(6.08e-06)]_[-6(5.29e-05)]_109
+LOC_Os11g26570|Osativa           3.88e-05  747_[+9(9.47e-06)]_3_[+4(8.96e-05)]_\
+    17_[-6(9.47e-06)]_33_[+10(7.96e-05)]_8_[+2(1.49e-05)]_16_[+9(2.50e-05)]_\
+    [-4(5.28e-06)]_15_[+1(3.22e-05)]_17_[+3(6.78e-06)]_6_[+1(1.29e-05)]_8_\
+    [+2(2.65e-05)]_42
+Phvul.009G005300|Pvulgar         5.28e-01  33_[-3(4.01e-05)]_938_\
+    [+1(3.22e-05)]_13
+Potri.009G120100|Ptricho         2.13e-02  266_[-2(4.22e-06)]_568_\
+    [-1(4.65e-05)]_97_[+2(1.01e-05)]_45
+ppa011637m.g|Ppersica            1.05e-02  851_[+2(4.99e-05)]_28_\
+    [-9(6.08e-06)]_105
+ppa010975m.g|Ppersica            1.47e-02  349_[+2(8.70e-05)]_80_\
+    [+2(5.87e-05)]_127_[+3(8.47e-05)]_21_[-10(7.96e-05)]_129_[+7(1.46e-05)]_\
+    226_[+9(3.37e-05)]_8_[+2(4.99e-05)]_4
+30131.t000233|Rcommunis          1.32e-02  832_[+3(6.78e-06)]_5_[+1(4.65e-05)]_\
+    68_[+2(1.01e-05)]_71
+29634.t000016|Rcommunis          1.10e-01  811_[+10(2.47e-05)]_32_\
+    [+3(6.78e-06)]_10_[+1(4.65e-05)]_20_[-3(6.78e-06)]_95
+29634.t000017|Rcommunis          2.72e-01  780_[+1(4.65e-05)]_20_\
+    [-3(6.78e-06)]_184
+Si003298m.g|Sitalica             3.02e-06  156_[-8(1.73e-05)]_50_\
+    [+2(3.58e-05)]_110_[-9(2.50e-05)]_50_[+9(4.65e-05)]_71_[-6(2.04e-05)]_114_\
+    [-1(2.27e-05)]_220_[-6(6.08e-06)]_[+1(3.39e-06)]_24_[+4(4.31e-05)]_3_\
+    [+9(6.08e-06)]_[-6(6.08e-06)]_3_[+10(7.17e-06)]_103
+Si003296m.g|Sitalica             5.56e-07  211_[-2(8.70e-05)]_274_\
+    [-2(4.22e-06)]_71_[-7(5.28e-06)]_9_[+7(5.28e-06)]_17_[-7(5.28e-06)]_11_\
+    [+7(5.28e-06)]_17_[-7(5.28e-06)]_43_[+7(5.28e-06)]_93_[-6(6.08e-06)]_\
+    [+1(3.39e-06)]_24_[+4(4.31e-05)]_3_[+9(6.08e-06)]_[-6(6.08e-06)]_3_\
+    [+10(7.17e-06)]_112
+Si026583m.g|Sitalica             1.87e-04  743_[+3(1.66e-05)]_10_\
+    [+10(7.96e-05)]_[-2(4.22e-06)]_58_[-10(7.96e-05)]_8_[+1(3.56e-05)]_4_\
+    [-2(1.79e-05)]_15_[-9(4.65e-05)]_2_[-6(6.08e-06)]_8_[+1(2.08e-05)]_29_\
+    [+2(6.46e-05)]_43
+Si026926m.g|Sitalica             8.72e-07  757_[+7(7.17e-06)]_36_\
+    [+1(3.39e-06)]_2_[+4(1.47e-05)]_3_[+2(4.22e-06)]_1_[-6(6.08e-06)]_33_\
+    [+2(6.11e-06)]_16_[-6(6.08e-06)]_44_[-2(4.22e-06)]_16_[-4(5.28e-06)]_20
+Solyc01g109920.2|Slycope         3.07e-02  880_[+3(1.66e-05)]_11_\
+    [+1(3.22e-05)]_72_[+8(3.39e-06)]_13
+Solyc02g084840.2|Slycope         2.48e-01  842_[+1(4.65e-05)]_68_\
+    [+9(2.50e-05)]_74
+Solyc02g084850.2|Slycope         8.68e-02  500_[-4(9.49e-05)]_266_\
+    [-1(3.22e-05)]_33_[-4(3.51e-05)]_158_[+4(3.39e-06)]_11
+Solyc02g062390.2|Slycope         2.71e-01  174
+PGSC0003DMG400030949|Stu         3.99e-03  526_[-2(1.79e-05)]_233_\
+    [+3(1.66e-05)]_11_[+1(3.22e-05)]_72_[+8(3.39e-06)]_126
+PGSC0003DMG400003531|Stu         9.97e-01  1000
+PGSC0003DMG400003530|Stu         8.33e-01  510_[-9(2.50e-05)]_448_\
+    [-10(7.96e-05)]_26
+Thecc1EG006835|Tcacao            8.34e-03  569_[-9(4.65e-05)]_272_\
+    [-6(9.47e-06)]_28_[+1(3.22e-05)]_55_[-9(2.50e-05)]_19_[+8(3.39e-06)]_17
+Thecc1EG000300|Tcacao            3.58e-01  17_[+1(8.81e-05)]_856_\
+    [+2(9.58e-05)]_7_[+1(4.99e-05)]_96
+Thhalv10000340m.g|Esalsu         3.30e-01  705_[+2(7.24e-05)]_212_\
+    [+9(2.50e-05)]_67
+Thhalv10004906m.g|Esalsu         6.27e-04  594_[+1(4.65e-05)]_28_\
+    [+4(1.47e-05)]_33_[+4(4.12e-05)]_59_[+2(4.40e-05)]_[+2(4.40e-05)]_16_\
+    [-6(2.04e-05)]_77_[-3(1.66e-05)]_14_[+4(2.08e-05)]_13_[+3(1.66e-05)]_58_\
+    [+9(2.50e-05)]_28
+Thhalv10010821m.g|Esalsu         2.45e-03  378_[+10(2.28e-05)]_94_\
+    [-4(5.28e-06)]_305_[+4(3.51e-05)]_38_[+4(3.51e-05)]_[-4(1.14e-05)]_27_\
+    [-1(3.39e-06)]_110
+GSVIVG01018878001|Vvinif         9.83e-04  207_[+9(6.08e-06)]_82_\
+    [-1(6.88e-05)]_390_[-4(3.51e-05)]_92_[-3(6.78e-06)]_102_[-3(6.78e-06)]_40_\
+    [-3(6.78e-06)]_39
+GSVIVG01023824001|Vvinif         1.40e-02  647_[-3(4.01e-05)]_36_\
+    [+2(1.01e-05)]_157_[+3(6.78e-06)]_36_[+1(4.65e-05)]_92
+GRMZM2G098750|Zmays              5.27e-04  13_[+3(2.61e-05)]_626_\
+    [-4(2.08e-05)]_133_[-4(1.47e-05)]_51_[-10(7.96e-05)]_8_[+1(3.56e-05)]_6_\
+    [+10(1.89e-06)]_12_[-1(2.08e-05)]_7_[+1(1.29e-05)]_63_[+2(8.70e-05)]_9
+GRMZM2G052364|Zmays              3.49e-04  98_[+3(2.61e-05)]_451_\
+    [-4(2.08e-05)]_141_[-4(1.47e-05)]_51_[-10(7.96e-05)]_8_[+1(3.56e-05)]_6_\
+    [+10(1.89e-06)]_12_[-1(2.08e-05)]_7_[+1(1.29e-05)]_58_[+2(8.70e-05)]_79_\
+    [-2(4.40e-05)]_9
+GRMZM2G079440|Zmays              2.13e-07  67_[-9(2.50e-05)]_559_\
+    [+2(2.17e-05)]_59_[+1(3.39e-06)]_1_[+7(1.01e-05)]_[+4(1.47e-05)]_15_\
+    [-6(6.08e-06)]_1_[+2(4.22e-06)]_2_[+6(5.29e-05)]_39_[-6(9.47e-06)]_14_\
+    [+2(6.46e-05)]_30_[+10(5.28e-06)]_33_[+8(2.64e-05)]_84
+Glyma.13G201300|Gmax             6.77e-01  832_[-3(1.66e-05)]_160
+Glyma.04G009900|Gmax             9.97e-01  1000
+Glyma.12G235800|Gmax             1.23e-02  679_[+4(3.51e-05)]_175_\
+    [-3(6.78e-06)]_5_[-9(4.65e-05)]_10_[+2(1.01e-05)]_99
+GSMUA_Achr4G11310_001|Ma         1.62e-06  55_[+3(2.61e-05)]_403_\
+    [+2(4.40e-05)]_294_[+1(6.78e-06)]_44_[-3(6.78e-06)]_6_[+3(1.66e-05)]_45_\
+    [-4(3.39e-06)]_6_[+9(2.50e-05)]_7_[-4(2.42e-05)]_1_[+2(2.17e-05)]_67
+Achn135571|Achinensis            2.33e-04  736_[+4(2.08e-05)]_48_\
+    [+1(3.22e-05)]_19_[-1(3.39e-06)]_21_[+9(6.08e-06)]_144
+Achn232791|Achinensis            1.66e-03  180_[+2(3.58e-05)]_10_\
+    [+6(7.86e-05)]_587_[+3(6.78e-06)]_22_[-6(7.86e-05)]_1_[-4(3.51e-05)]_50_\
+    [+4(1.47e-05)]_102
+Brara.I04639|Brapa               3.73e-02  707_[+2(7.24e-05)]_130_\
+    [-3(1.66e-05)]_61_[+9(2.50e-05)]_78
+Brara.I00913|Brapa               6.05e-04  702_[+4(1.14e-05)]_62_\
+    [-6(2.04e-05)]_89_[-3(2.00e-05)]_14_[+4(2.08e-05)]_5_[+10(5.28e-06)]_88
+Brara.I03437|Brapa               4.58e-03  172_[-3(6.39e-05)]_344_\
+    [+10(1.01e-05)]_270_[+1(3.39e-06)]_29_[-1(3.39e-06)]_153
+Brara.B03992|Brapa               9.65e-04  407_[-7(7.17e-06)]_382_\
+    [-6(2.04e-05)]_64_[-1(1.29e-05)]_15_[+4(2.08e-05)]_10_[-3(6.78e-06)]_82
+Eucgr.I01292|Egrandis            1.11e-03  846_[-3(4.95e-05)]_4_[-1(3.39e-06)]_\
+    1_[-2(1.49e-05)]_7_[+1(3.39e-06)]_34_[-1(8.81e-05)]_16_[+8(3.39e-06)]_44
+Gorai.005G245900|Graimon         1.44e-01  62_[-8(3.86e-05)]_781_\
+    [+4(4.12e-05)]_119_[+8(3.39e-06)]_14
+Migut.H02513|Mguttatus           2.85e-02  940_[+8(2.64e-05)]_17_\
+    [+1(2.08e-05)]_27
+Migut.B00209|Mguttatus           1.08e-03  161_[+3(1.66e-05)]_445_\
+    [+2(4.99e-05)]_194_[+1(4.65e-05)]_16_[-10(1.89e-06)]_33_[-6(2.04e-05)]_111
+LOC_Os01g50700|Osativa           9.42e-05  402_[-10(2.28e-05)]_343_\
+    [+1(3.39e-06)]_34_[+8(1.73e-05)]_9_[-6(6.08e-06)]_13_[-10(2.28e-05)]_159
+Potri.004G158500|Ptricho         2.17e-01  408_[-10(7.17e-06)]_399_\
+    [+9(8.49e-05)]_62_[-1(4.65e-05)]_107
+Pavir.J14171|Pvirgatum           4.54e-05  5_[+7(5.28e-06)]_16_[-7(5.28e-06)]_\
+    11_[+7(5.28e-06)]_6_[+8(1.92e-05)]_8_[-7(1.01e-05)]_11_[+7(7.17e-06)]_14_\
+    [-7(7.17e-06)]_10_[+7(5.28e-06)]_35
+Pavir.Ea02542|Pvirgatum          2.29e-04  23_[+7(2.28e-05)]_200_\
+    [+9(9.08e-05)]_24_[+8(1.73e-05)]_20_[-7(2.28e-05)]_137_[+9(2.50e-05)]_16_\
+    [-8(3.39e-06)]_62_[+8(2.64e-05)]_52_[+6(3.59e-05)]_221_[-1(8.81e-05)]_75_\
+    [-2(1.01e-05)]_3_[-2(6.46e-05)]_79
+Pavir.Ab01356|Pvirgatum          7.10e-07  128_[+4(9.49e-05)]_512_\
+    [+8(6.78e-06)]_138_[+1(4.65e-05)]_27_[+1(3.39e-06)]_2_[+4(1.47e-05)]_2_\
+    [+2(4.22e-06)]_1_[-6(7.86e-05)]_20_[+2(6.11e-06)]_12_[-6(6.08e-06)]_61_\
+    [-4(3.39e-06)]_17
+Pavir.Hb00975|Pvirgatum          4.18e-04  17_[+2(3.24e-05)]_45_[-7(5.28e-06)]_\
+    24_[-7(2.76e-05)]_8_[-7(1.46e-05)]_11_[+7(5.28e-06)]_16_[-7(5.28e-06)]_11_\
+    [+7(5.28e-06)]_12_[+2(4.40e-05)]_9_[-7(2.28e-05)]_33_[-7(7.17e-06)]_10_\
+    [+7(5.28e-06)]_78_[+9(5.37e-05)]_356_[-6(7.86e-05)]_10_[+1(3.39e-06)]_7_\
+    [-2(4.99e-05)]_104_[+1(6.78e-06)]_121
+Pavir.Cb00662|Pvirgatum          1.00e-06  17_[-2(1.49e-05)]_41_[-4(4.99e-05)]_\
+    61_[-7(1.01e-05)]_10_[+10(1.89e-06)]_39_[-8(1.54e-05)]_505_[+3(8.47e-05)]_\
+    21_[+2(4.22e-06)]_1_[-9(7.78e-05)]_80_[+1(3.56e-05)]_33_[-9(4.65e-05)]_2_\
+    [-6(6.08e-06)]_8_[+1(1.29e-05)]_4_[+4(4.31e-05)]_74
+Sobic.010G041900|Sbicolo         5.08e-06  424_[-8(8.67e-06)]_334_\
+    [-4(8.96e-05)]_30_[+2(7.24e-05)]_5_[-7(2.28e-05)]_38_[+1(3.56e-05)]_3_\
+    [+10(1.89e-06)]_6_[+4(1.14e-05)]_8_[-9(4.65e-05)]_2_[-1(2.08e-05)]_7_\
+    [+1(1.29e-05)]_63
+Sobic.009G116700|Sbicolo         1.12e-05  106_[-10(1.89e-06)]_55_\
+    [+6(3.59e-05)]_696_[+1(3.39e-06)]_10_[+4(1.47e-05)]_19_[+9(6.24e-05)]_7_\
+    [+2(1.01e-05)]_2_[+6(5.29e-05)]_31_[-6(9.47e-06)]_10
+Sobic.003G270200|Sbicolo         2.36e-02  182_[+8(3.86e-05)]_64_\
+    [+8(3.86e-05)]_[+4(8.96e-05)]_561_[+1(3.22e-05)]_7_[-3(2.00e-05)]_34_\
+    [-9(4.65e-05)]_5_[+3(2.00e-05)]_5_[-9(4.65e-05)]_46_[-3(4.95e-05)]_24
+Si000953m.g|Sitalica             1.26e-03  368_[+4(1.47e-05)]_7_[+9(9.08e-05)]_\
+    14_[-8(6.78e-06)]_2_[+8(3.86e-05)]_255_[+8(2.64e-05)]_97_[+1(3.22e-05)]_8_\
+    [-3(2.00e-05)]_45_[-3(6.39e-05)]_8_[+3(6.78e-06)]_124
+Capana02g000471|Cannuum          6.25e-01  769_[+4(3.39e-06)]_223
+Capana02g000492|Cannuum          8.84e-01  29_[+9(6.08e-06)]_963
+Capana02g002739|Cannuum          9.10e-03  394_[+10(5.28e-06)]_10_\
+    [-1(3.22e-05)]_291_[+4(3.39e-06)]_22_[+10(5.28e-06)]_110_[+9(2.50e-05)]_\
+    133
+Capana02g002740|Cannuum          4.29e-02  766_[-1(3.22e-05)]_38_\
+    [+10(5.28e-06)]_2_[+9(2.50e-05)]_170
+Capana08g002571|Cannuum          2.80e-02  292_[-2(7.81e-05)]_518_\
+    [+6(6.08e-06)]_10_[+1(3.22e-05)]_70_[+8(3.39e-06)]_78
+XP_006646247.1|Obrachyan         3.67e-05  226_[-2(4.99e-05)]_42_\
+    [-4(4.12e-05)]_33_[+2(7.81e-05)]_407_[+1(3.39e-06)]_2_[-2(9.39e-05)]_24_\
+    [+8(1.73e-05)]_19_[-6(6.08e-06)]_5_[+9(7.29e-05)]_178
+XP_006663425.1|Obrachyan         2.13e-05  7_[+8(3.86e-05)]_211_[-8(2.64e-05)]_\
+    3_[+7(2.76e-05)]_427_[+9(9.47e-06)]_91_[+2(3.96e-05)]_22_[+1(3.22e-05)]_18_\
+    [+2(1.01e-05)]_4_[-6(6.08e-06)]_10_[+1(4.65e-05)]_3_[+10(7.96e-05)]_5_\
+    [+2(1.79e-05)]_9_[-8(1.73e-05)]_94
+XP_006662922.1|Obrachyan         6.52e-05  592_[-8(6.78e-06)]_170_\
+    [-2(4.22e-06)]_9_[+1(3.39e-06)]_8_[-9(6.08e-06)]_17_[+2(4.40e-05)]_1_\
+    [+2(4.40e-05)]_5_[-4(9.49e-05)]_142
+XP_006662923.1|Obrachyan         6.72e-05  18_[+1(2.08e-05)]_20_[+2(2.65e-05)]_\
+    61_[+8(2.64e-05)]_20_[+3(6.78e-06)]_460_[-2(2.65e-05)]_31_[+1(3.39e-06)]_6_\
+    [-2(4.99e-05)]_9_[-6(9.47e-06)]_31_[+9(2.50e-05)]_40_[+3(6.78e-06)]_224
+XP_006662924.1|Obrachyan         3.04e-06  708_[+9(9.47e-06)]_62_\
+    [+2(5.87e-05)]_1_[+4(1.14e-05)]_2_[+1(3.39e-06)]_19_[-7(5.28e-06)]_6_\
+    [+9(3.37e-05)]_5_[+8(3.39e-06)]_8_[+8(1.54e-05)]_12_[-6(6.08e-06)]_105
+Cagra.2374s0005|Cgrandif         1.74e-02  873_[-1(3.39e-06)]_6_[+9(6.08e-06)]_\
+    105
+Bv6_126000_msqq.t1|Bvulg         1.02e-01  826_[+1(4.65e-05)]_30_\
+    [+4(4.12e-05)]_50_[+9(6.08e-06)]_70
+Bv9_223210_acha.t1|Bvulg         3.67e-01  911_[+6(2.64e-05)]_32_\
+    [+9(2.50e-05)]_41
+Araha.1084s0018|Ahalleri         1.13e-03  230_[+10(1.01e-05)]_230_\
+    [+1(2.08e-05)]_182_[+1(2.08e-05)]_21_[+4(1.14e-05)]_64_[-1(2.08e-05)]_98_\
+    [+4(2.08e-05)]_6_[+10(5.28e-06)]_77_[+9(2.50e-05)]_28
+Araha.12988s0001|Ahaller         8.72e-03  416_[+4(5.59e-05)]_12_\
+    [+2(7.24e-05)]_162_[-9(9.47e-06)]_21_[-1(3.39e-06)]_7_[+9(2.50e-05)]_135
+Bostr.5022s0083|Bstricta         1.15e-03  393_[+8(3.39e-06)]_294_\
+    [+4(5.59e-05)]_160_[-3(1.66e-05)]_17_[-9(9.47e-06)]_21_[-1(3.39e-06)]_75
+Bostr.0568s0050|Bstricta         5.85e-04  339_[+10(1.01e-05)]_347_\
+    [+1(2.08e-05)]_22_[+4(1.14e-05)]_71_[-6(2.04e-05)]_7_[+4(4.12e-05)]_62_\
+    [-1(2.08e-05)]_30_[+10(5.28e-06)]_66
+Bostr.6864s0146|Bstricta         3.52e-02  774_[+10(7.96e-05)]_145_\
+    [-1(3.39e-06)]_65
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because nmotifs = 10 reached.
+********************************************************************************
+
+CPU: Sigrun
+
+********************************************************************************
