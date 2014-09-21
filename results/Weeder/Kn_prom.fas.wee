@@ -1,0 +1,1453 @@
+
+
+NEW: Starting a medium job
+
+Organism code: PL
+
+Processing *both* strands
+./weederlauncher.out /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_prom.fas PL medium S M 
+
+
+Searching for motifs of length 6 with 1 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_prom.fas -R 50 -O PL -W 6 -e 1 -M -S -T 10 )
+1) ATGTCG 0.87 
+2) TGTCGG 0.79 
+3) GTCGGT 0.76 
+4) ATCTGG 0.69 
+5) GGATAC 0.68 
+6) TATCCA 0.66 
+7) GCCATA 0.65 
+8) CCATCT 0.62 
+9) TCTATC 0.61 
+10) CATCTT 0.61 
+
+Elapsed time : 0 min. 1 sec.
+
+
+Searching for motifs of length 8 with 2 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_prom.fas -R 50 -O PL -W 8 -e 2 -M -S -T 10 )
+1) ATGTCGGC 1.18 
+2) ACCTGGCA 1.05 
+3) CACCTGGC 1.01 
+4) ATGTCGGT 0.97 
+5) CAGATAGA 0.89 
+6) CATCTCAT 0.89 
+7) CTAAAGGC 0.88 
+8) ATCTGGAG 0.84 
+9) ATTAAAGC 0.84 
+10) CATCTTAT 0.84 
+
+Elapsed time : 0 min. 13 sec.
+
+
+Searching for motifs of length 10 with 3 mutations.....
+(Actual commandline is : 
+./weederTFBS.out -f /home/yzolotarov/dehydrin_promoters/sequences/promoters/Kn_prom.fas -R 50 -O PL -W 10 -e 3 -M -S -T 10 )
+1) ACACCTGGCA 1.22 
+2) ATGTCGGCCA 1.11 
+3) CCAGATAGAT 1.10 
+4) CAAAGTAGCA 1.10 
+5) GATGAGATGA 1.08 
+6) CACCTGGCAA 1.08 
+7) GACACCTGGC 1.06 
+8) GATCAAAGTC 1.05 
+9) AACCAGATAG 1.03 
+10) TAGCCGACAT 1.02 
+
+Elapsed time : 2 min. 48 sec.
+
+
+Your sequences:
+
+Sequence 1 : >PDK_30s870811g004|Pdactylifera
+Sequence 2 : >PDK_30s943221g001|Pdactylifera
+Sequence 3 : >Aquca_007_00851|Acoerulea
+Sequence 4 : >898000|Alyrata
+Sequence 5 : >AT3G50970|Athaliana
+Sequence 6 : >Carubv10018039m.g|Crubella
+Sequence 7 : >Ciclev10029952m.g|Cclementina
+Sequence 8 : >Eucgr.F01727|Egrandis
+Sequence 9 : >Potri.013G062200|Ptrichocarpa
+Sequence 10 : >Potri.013G062300|Ptrichocarpa
+Sequence 11 : >Potri.002G013200|Ptrichocarpa
+Sequence 12 : >Thecc1EG006526|Tcacao
+Sequence 13 : >MA_45025g0010|Pabies
+Sequence 14 : >MA_95995g0010|Pabies
+Sequence 15 : >MA_43017g0010|Pabies
+Sequence 16 : >MA_107783g0020|Pabies
+Sequence 17 : >Achn363381|Achinensis
+Sequence 18 : >Achn020151|Achinensis
+Sequence 19 : >Phpat.003G055500|Ppatens
+Sequence 20 : >Phpat.005G044800|Ppatens
+Sequence 21 : >Phpat.004G078700|Ppatens
+Sequence 22 : >Phpat.013G071500|Ppatens
+Sequence 23 : >PITA_000094784-RA|Ptaeda
+Sequence 24 : >PITA_000064607-RA|Ptaeda
+Sequence 25 : >PITA_000095704-RA|Ptaeda
+Sequence 26 : >PITA_000074804-RA|Ptaeda
+Sequence 27 : >PITA_000075731-RA|Ptaeda
+Sequence 28 : >PITA_000089444-RA|Ptaeda
+Sequence 29 : >PITA_000092564-RA|Ptaeda
+Sequence 30 : >PITA_000094676-RA|Ptaeda
+Sequence 31 : >Cagra.0926s0062|Cgrandiflora
+Sequence 32 : >SapurV1A.0016s0910|Spurpurea
+Sequence 33 : >SapurV1A.2659s0010|Spurpurea
+Sequence 34 : >SapurV1A.0732s0100|Spurpurea
+Sequence 35 : >SapurV1A.2014s0020|Spurpurea
+Sequence 36 : >SapurV1A.2014s0030|Spurpurea
+Sequence 37 : >Spipo1G0074600|Spolyrhiza
+Sequence 38 : >Bostr.6864s0147|Bstricta
+
+
+**** MY ADVICE ****
+
+
+ *** Interesting motifs (highest-ranking) seem to be : 
+
+
+ATGTCG
+CGACAT
+ 
+4 redundant motifs found:
+ATGTCGGT - ATGTCGGC - GTCGGT - TGTCGG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  ATGTCA    77  (90.61) 
+  1 +  ATGTTG    90  (92.65) 
+  2 +  ATGTCA    64  (90.61) 
+  2 - [ATGTCT]  977  (87.96) 
+  2 - [ATTTCG]  869  (87.51) 
+  2 - [ATGGCG]  320  (88.21) 
+  3 +  ATGTCA   192  (90.61) 
+  3 +  ATGTCG   460  (100.00) 
+  3 +  ATGTCA   602  (90.61) 
+  3 +  ATGTCG   736  (100.00) 
+  3 +  ATGTCA   882  (90.61) 
+  3 -  ATGTTG   902  (92.65) 
+  3 -  ATGTCG   775  (100.00) 
+  3 -  ATGTGG   378  (90.70) 
+  3 -  ATGTTG   163  (92.65) 
+  4 + [ATATCG]  535  (85.03) 
+  4 + [ACGTCG]  727  (86.75) 
+  4 +  ATGTCG   823  (100.00) 
+  4 +  ATGTTG   857  (92.65) 
+  4 - [ACGTCG]  756  (86.75) 
+  4 -  ATGTCG   647  (100.00) 
+  4 - [ATTTCG]  539  (87.51) 
+  4 - [ATGGCG]  340  (88.21) 
+  4 - [ATGTCT]  170  (87.96) 
+  5 + [ACGTCG]  764  (86.75) 
+  5 +  ATGTCG   856  (100.00) 
+  5 - [ACGTCG]  790  (86.75) 
+  5 -  ATGTCG   679  (100.00) 
+  5 - [ATTTCG]  595  (87.51) 
+  5 - [ATGGCG]  391  (88.21) 
+  5 -  ATGTTG   141  (92.65) 
+  6 + [ACGTCG]  870  (86.75) 
+  6 +  ATGTCG   961  (100.00) 
+  6 - [ACGTCG]  896  (86.75) 
+  6 - [ATTTCG]  670  (87.51) 
+  6 - [ATGGCG]  445  (88.21) 
+  6 - [ATTTCG]  339  (87.51) 
+  6 - [ATGTCT]  260  (87.96) 
+  7 +  ATGTGG   398  (90.70) 
+  7 +  ATGTTG   458  (92.65) 
+  7 + [ATGTAG]  464  (88.26) 
+  7 +  ATGTCG   662  (100.00) 
+  7 - [ATGTCC]  738  (85.93) 
+  8 +  ATGTCG   253  (100.00) 
+  8 + [ATTTCG]  337  (87.51) 
+  8 -  ATGTTG   719  (92.65) 
+  8 - [ATGTCC]  438  (85.93) 
+  8 -  ATGTCG   416  (100.00) 
+  8 - [ATGGCG]  360  (88.21) 
+  8 -  ATGTCA   187  (90.61) 
+  8 -  ATGTTG    13  (92.65) 
+  9 -  ATGTTG   918  (92.65) 
+  9 - [ATTTCG]  297  (87.51) 
+  9 -  ATGTTG   195  (92.65) 
+  9 - [ATTTCG]   66  (87.51) 
+  9 - [ACGTCG]   47  (86.75) 
+ 10 + [ATGGCG]  660  (88.21) 
+ 10 + [ATGGCG]  990  (88.21) 
+ 10 - [ATGTCC]  898  (85.93) 
+ 10 -  ATGTTG   787  (92.65) 
+ 10 -  ATGTCG   677  (100.00) 
+ 10 -  ATGTTG   623  (92.65) 
+ 10 - [ATTTCG]   73  (87.51) 
+ 10 -  ATGTTG    26  (92.65) 
+ 11 + [ATGTAG]   55  (88.26) 
+ 11 + [ACGTCG]  775  (86.75) 
+ 11 - [ATGTAG]  268  (88.26) 
+ 11 -  ATGTTG   174  (92.65) 
+ 11 -  ATGTTG    51  (92.65) 
+ 12 +  ATGTCA    51  (90.61) 
+ 12 -  ATGTGG   811  (90.70) 
+ 12 - [ATGTAG]  135  (88.26) 
+ 13 +  ATGTCG   225  (100.00) 
+ 13 + [ATGTAG]  445  (88.26) 
+ 13 + [ATGTAG]  608  (88.26) 
+ 13 + [ATGTCT]  888  (87.96) 
+ 13 - [ATGTCT]  894  (87.96) 
+ 13 - [ATTTCG]  780  (87.51) 
+ 13 -  ATGTGG   752  (90.70) 
+ 14 + [ATGTCT]   14  (87.96) 
+ 14 + [ATGTCC]  168  (85.93) 
+ 14 + [ATGTCC]  205  (85.93) 
+ 14 -  ATGTCA   986  (90.61) 
+ 14 -  ATGTCA   545  (90.61) 
+ 14 -  ATGTCA   465  (90.61) 
+ 14 -  ATGTGG   175  (90.70) 
+ 15 +  ATGTCA   366  (90.61) 
+ 15 -  ATGTTG   711  (92.65) 
+ 15 - [ACGTCG]  615  (86.75) 
+ 16 + [ATGTCT]  250  (87.96) 
+ 16 +  ATGTGG   282  (90.70) 
+ 16 + [ATTTCG]  492  (87.51) 
+ 16 -  ATGTCG   779  (100.00) 
+ 16 - [ACGTCG]  598  (86.75) 
+ 16 -  ATGTGG   380  (90.70) 
+ 16 -  ATGTTG   295  (92.65) 
+ 16 - [ATGTAG]  254  (88.26) 
+ 17 +  ATGTTG   538  (92.65) 
+ 17 + [ATGTCT]  552  (87.96) 
+ 17 + [ATTTCG]  653  (87.51) 
+ 17 -  ATGTCA   988  (90.61) 
+ 17 -  ATGTCG   750  (100.00) 
+ 17 -  ATGTGG   595  (90.70) 
+ 17 - [ATGTAG]  197  (88.26) 
+ 18 + [ATGTCT]  392  (87.96) 
+ 18 + [ATTTCG]  515  (87.51) 
+ 18 -  ATGTCG   608  (100.00) 
+ 18 -  ATGTGG   437  (90.70) 
+ 19 + [ATGTCC]  412  (85.93) 
+ 19 -  ATGTCA   727  (90.61) 
+ 19 - [ATGTAG]   93  (88.26) 
+ 20 +  ATGTGG    50  (90.70) 
+ 20 + [ATGTCT]  371  (87.96) 
+ 20 +  ATGTTG   727  (92.65) 
+ 20 - [ATATCG]  980  (85.03) 
+ 20 - [ATGTAG]  451  (88.26) 
+ 20 - [ATGTAG]  157  (88.26) 
+ 21 + [ATGGCG]  164  (88.21) 
+ 21 +  ATGTTG   222  (92.65) 
+ 21 +  ATGTCA   440  (90.61) 
+ 21 + [ATTTCG]  539  (87.51) 
+ 21 -  ATGTTG   745  (92.65) 
+ 21 - [ATGTCC]  711  (85.93) 
+ 21 - [ATGTCC]  436  (85.93) 
+ 21 -  ATGTCG   228  (100.00) 
+ 22 + [ATGTCT]  377  (87.96) 
+ 22 +  ATGTCA   455  (90.61) 
+ 22 +  ATGTGG   794  (90.70) 
+ 22 +  ATGTGG   815  (90.70) 
+ 22 -  ATGTGG   922  (90.70) 
+ 22 -  ATGTGG   830  (90.70) 
+ 22 -  ATGTTG   440  (92.65) 
+ 22 -  ATGTCA   357  (90.61) 
+ 22 -  ATGTCA   147  (90.61) 
+ 23 + [ATGGCG]   16  (88.21) 
+ 23 +  ATGTGG   147  (90.70) 
+ 23 +  ATGTCG   397  (100.00) 
+ 23 + [ATATCG]  558  (85.03) 
+ 23 -  ATGTGG   503  (90.70) 
+ 23 - [ATATCG]  257  (85.03) 
+ 24 +  ATGTCA   247  (90.61) 
+ 24 + [ATGGCG]  316  (88.21) 
+ 24 + [ATGTCT]  628  (87.96) 
+ 24 +  ATGTCG   824  (100.00) 
+ 24 + [ATGGCG]  852  (88.21) 
+ 24 + [ATATCG]  970  (85.03) 
+ 24 -  ATGTGG   915  (90.70) 
+ 24 - [ATGGCG]  893  (88.21) 
+ 24 -  ATGTCG   806  (100.00) 
+ 24 -  ATGTCA   337  (90.61) 
+ 24 -  ATGTCA   287  (90.61) 
+ 24 -  ATGTCA   243  (90.61) 
+ 25 +  ATGTCG   394  (100.00) 
+ 25 - [ATGTAG]  937  (88.26) 
+ 25 -  ATGTGG   513  (90.70) 
+ 25 - [ATTTCG]  398  (87.51) 
+ 25 -  ATGTTG   368  (92.65) 
+ 25 -  ATGTTG    99  (92.65) 
+ 26 +  ATGTTG    77  (92.65) 
+ 26 -  ATGTTG   204  (92.65) 
+ 26 - [ATGTCC]   82  (85.93) 
+ 27 + [ATGTCC]   84  (85.93) 
+ 27 - [ATTTCG]   97  (87.51) 
+ 27 -  ATGTTG    73  (92.65) 
+ 28 +  ATGTCA    69  (90.61) 
+ 28 + [ATGGCG]  518  (88.21) 
+ 28 +  ATGTGG   557  (90.70) 
+ 28 +  ATGTTG   805  (92.65) 
+ 28 + [ATGGCG]  833  (88.21) 
+ 28 + [ATGGCG]  844  (88.21) 
+ 28 + [ATATCG]  958  (85.03) 
+ 28 -  ATGTGG   896  (90.70) 
+ 28 -  ATGTCG   787  (100.00) 
+ 28 - [ATATCG]  568  (85.03) 
+ 28 - [ATATCG]  503  (85.03) 
+ 28 -  ATGTCA   489  (90.61) 
+ 28 -  ATGTCA   445  (90.61) 
+ 28 -  ATGTGG    65  (90.70) 
+ 29 - [ATATCG]  679  (85.03) 
+ 29 -  ATGTTG   572  (92.65) 
+ 29 -  ATGTCA   307  (90.61) 
+ 29 - [ATGGCG]    1  (88.21) 
+ 30 -  ATGTTG   468  (92.65) 
+ 30 -  ATGTTG   453  (92.65) 
+ 30 - [ATGTCC]  334  (85.93) 
+ 31 + [ACGTCG]  778  (86.75) 
+ 31 +  ATGTCG   869  (100.00) 
+ 31 - [ACGTCG]  804  (86.75) 
+ 31 - [ATTTCG]  588  (87.51) 
+ 31 - [ATGGCG]  367  (88.21) 
+ 31 - [ATGTCT]  169  (87.96) 
+ 32 -  ATGTCG   319  (100.00) 
+ 33 + [ATGTCT]   27  (87.96) 
+ 33 +  ATGTGG    56  (90.70) 
+ 33 +  ATGTTG   220  (92.65) 
+ 33 -  ATGTTG   844  (92.65) 
+ 33 - [ATGTCT]  552  (87.96) 
+ 33 -  ATGTTG   536  (92.65) 
+ 33 - [ATGTAG]  358  (88.26) 
+ 33 -  ATGTCA   122  (90.61) 
+ 33 -  ATGTGG    68  (90.70) 
+ 34 +  ATGTCA   653  (90.61) 
+ 34 -  ATGTTG   912  (92.65) 
+ 34 -  ATGTCG   877  (100.00) 
+ 34 - [ATGTAG]  428  (88.26) 
+ 34 -  ATGTCA    65  (90.61) 
+ 35 +  ATGTGG     9  (90.70) 
+ 35 + [ATGTCT]   88  (87.96) 
+ 35 +  ATGTGG   117  (90.70) 
+ 35 -  ATGTTG   906  (92.65) 
+ 35 -  ATGTTG   598  (92.65) 
+ 35 - [ATGTAG]  419  (88.26) 
+ 35 -  ATGTCA   183  (90.61) 
+ 35 -  ATGTGG   129  (90.70) 
+ 35 -  ATGTTG     2  (92.65) 
+ 36 +  ATGTCA   517  (90.61) 
+ 36 -  ATGTTG   798  (92.65) 
+ 36 - [ATATCG]  758  (85.03) 
+ 36 -  ATGTTG   673  (92.65) 
+ 36 -  ATGTTG   634  (92.65) 
+ 36 -  ATGTGG   333  (90.70) 
+ 36 - [ATGTAG]  307  (88.26) 
+ 37 + [ATGGCG]  614  (88.21) 
+ 37 + [ACGTCG]  641  (86.75) 
+ 37 - [ATGGCG]  342  (88.21) 
+ 37 -  ATGTCG    68  (100.00) 
+ 38 + [ACGTCG]  721  (86.75) 
+ 38 +  ATGTCG   805  (100.00) 
+ 38 - [ACGTCG]  744  (86.75) 
+ 38 - [ATGGCG]  330  (88.21) 
+ 38 - [ATGTCT]  117  (87.96) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  262     4     6    10		  125     0     0     0
+2 	    7    15     4   256		    0     0     0   125
+3 	   10     8   247    17		    0     0   125     0
+4 	    9     3    20   250		    0     0     0   125
+5 	   16   198    27    41		    0    57    27    41
+6 	   30    11   224    17		   30     0    95     0
+
+==========================================
+
+
+ATGTCGGC
+GCCGACAT
+ 
+5 redundant motifs found:
+TAGCCGACAT - ATGTCGGCCA - ATGTCGGT - TGTCGG - ATGTCG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  3 + [ATGTCGAT]  460  (85.36) 
+  3 + [ATGTCGAC]  736  (89.78) 
+  3 - [AGGTCGGC]  847  (86.82) 
+  3 - [ATGTTGTC]  161  (85.57) 
+  4 + [ACGTCGGT]  727  (87.18) 
+  4 +  ATGTCGGC   823  (100.00) 
+  4 - [ACGTCGGT]  754  (87.18) 
+  4 -  ATGTCGTC   645  (92.29) 
+  4 -  ATGGCGGC   338  (90.53) 
+  4 - [ATGTCTGT]  168  (88.79) 
+  5 + [ACGTCGGT]  764  (87.18) 
+  5 +  ATGTCGGC   856  (100.00) 
+  5 - [ACGTCGGT]  788  (87.18) 
+  5 - [ATGTCGTT]  677  (87.86) 
+  5 -  ATGGCGGC   389  (90.53) 
+  6 + [ACGTCGGT]  870  (87.18) 
+  6 +  ATGTCGGC   961  (100.00) 
+  6 - [ACGTCGGT]  894  (87.18) 
+  6 -  ATGGCGGC   443  (90.53) 
+  6 - [ATGTCTGT]  258  (88.79) 
+  6 - [ATGTTTGC]   61  (86.49) 
+  7 + [ATGTCGTT]  662  (87.86) 
+  8 -  ATGTCGGC   414  (100.00) 
+  8 - [AGGTCGGC]  396  (86.82) 
+  8 - [ATGTTGGT]   11  (88.86) 
+  9 +  GTGTCGGC    22  (90.58) 
+  9 -  ACGTCGGC    45  (91.60) 
+ 10 + [TTGTTGGC]  294  (85.85) 
+ 11 +  ACGTCGGC   775  (91.60) 
+ 12 - [TTGTGGGC]  974  (85.67) 
+ 12 - [CTGTCGGC]  889  (88.99) 
+ 13 + [ATGTCGTT]  225  (87.86) 
+ 14 - [GTGTCGGT]  709  (86.16) 
+ 16 - [ATGTCGTT]  777  (87.86) 
+ 17 -  ATGTCGGC   748  (100.00) 
+ 17 - [ATGTGGGT]  593  (88.68) 
+ 18 -  ATGTCGGC   606  (100.00) 
+ 20 - [TTGTGGGC]  126  (85.67) 
+ 21 + [ATGTTTGC]  377  (86.49) 
+ 21 + [TTGTCTGC]  930  (85.78) 
+ 22 -  ATGTGGGC   828  (93.10) 
+ 23 +  ATGTCGGT   397  (95.58) 
+ 23 + [TTGTGGGC]  417  (85.67) 
+ 24 +  ATGTCGGT   824  (95.58) 
+ 24 + [TTGTGGGC]  844  (85.67) 
+ 24 - [ATGGCGGT]  891  (86.11) 
+ 24 -  ATGTCGGT   804  (95.58) 
+ 25 + [ATGACGGT]  698  (85.46) 
+ 25 + [TTGTCGGT]  773  (88.15) 
+ 26 + [TTGTCGGT]  788  (88.15) 
+ 27 + [ATGTCCGC]   84  (86.38) 
+ 28 + [ATGTGGGT]  557  (88.68) 
+ 28 + [ATGTTGGT]  805  (88.86) 
+ 28 + [TTGTGGGC]  825  (85.67) 
+ 28 -  ATGTCGGT   785  (95.58) 
+ 28 - [ATATCGGT]  501  (85.80) 
+ 30 + [TTGTCGGT]  787  (88.15) 
+ 31 + [ACGTCGGT]  778  (87.18) 
+ 31 +  ATGTCGGC   869  (100.00) 
+ 31 - [ACGTCGGT]  802  (87.18) 
+ 31 -  ATGGCGGC   365  (90.53) 
+ 31 - [ATGTCTGT]  167  (88.79) 
+ 32 - [AAGTCGGC]  548  (87.54) 
+ 32 -  GTGTCGGC   356  (90.58) 
+ 32 -  ATGTCGGT   317  (95.58) 
+ 33 + [TTGTCTGC]  922  (85.78) 
+ 34 -  ATGTCGGT   875  (95.58) 
+ 35 + [TTGTCTGC]  983  (85.78) 
+ 36 + [TTGTCTGC]  887  (85.78) 
+ 37 +  TTGTCGGC   137  (92.57) 
+ 37 -  ATGTCGGC    66  (100.00) 
+ 38 + [ACGTCGGT]  721  (87.18) 
+ 38 +  ATGTCGGC   805  (100.00) 
+ 38 - [ACGTCGGT]  742  (87.18) 
+ 38 -  ATGGCGGC   328  (90.53) 
+ 38 - [ATGTCTGT]  115  (88.79) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  134     8    12    20		   24     0     2     1
+2 	    6    17     5   146		    0     2     0    25
+3 	   12     7   147     8		    0     0    27     0
+4 	   11     3    13   147		    0     0     5    22
+5 	    8   123    21    22		    0    26     1     0
+6 	   16     4   131    23		    0     0    27     0
+7 	   10     8   137    19		    0     0    26     1
+8 	   11   121     3    39		    0    21     0     6
+
+==========================================
+
+
+ACACCTGGCA
+TGCCAGGTGT
+ 
+4 redundant motifs found:
+GACACCTGGC - CACCTGGCAA - CACCTGGC - ACCTGGCA - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  2 + [TCACCTTGCA]  217  (85.56) 
+  3 + [TCACCTGGAA]  516  (85.78) 
+  3 + [ACACATGTCA]  878  (88.33) 
+  4 -  ACACATGGCA   769  (94.41) 
+  5 -  ACACATGGCA   802  (94.41) 
+  6 -  ACACATGGCA   908  (94.41) 
+  8 - [ACACGTGGAA]  458  (87.88) 
+ 10 + [ACACCTGGCT]  462  (89.07) 
+ 11 +  ACACCTGGCA   705  (100.00) 
+ 13 - [ACATGTGGCA]  750  (86.94) 
+ 14 - [AAACCTGCCA]  617  (89.76) 
+ 15 + [TCACCTGGAA]  910  (85.78) 
+ 17 + [ACACCTATCA]  225  (87.30) 
+ 17 + [ACACCTCCCA]  663  (87.69) 
+ 20 - [CCACATGGCA]   46  (87.29) 
+ 22 + [ACACTTGTCA]  875  (86.46) 
+ 26 -  ACAACTGCCA   296  (90.21) 
+ 31 -  ACACATGGCA   816  (94.41) 
+ 32 + [ACACGTGTCA]  410  (87.35) 
+ 32 +  ACACCTGGCA   942  (100.00) 
+ 33 + [ACATTTGGCA]  554  (86.05) 
+ 33 +  GCACCTGGCA   829  (90.54) 
+ 34 +  GCACCTGGCA   897  (90.54) 
+ 35 +  GCACCTGGCA   891  (90.54) 
+ 36 + [ACATTTGGCA]  691  (86.05) 
+ 36 +  GCACCTGGCA   783  (90.54) 
+ 38 -  ACACATGGCA   756  (94.41) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  155    24    13    16		    8     0     4     0
+2 	   33   145    10    20		    0    12     0     0
+3 	  176    13     5    14		   12     0     0     0
+4 	   35   137    11    25		    1    11     0     0
+5 	   31   134    24    19		    5     7     0     0
+6 	   14    15     6   173		    0     0     0    12
+7 	   24    18   136    30		    0     0    12     0
+8 	   23    37   123    25		    0     1    11     0
+9 	   35   150    12    11		    0    12     0     0
+10 	  175    18     5    10		   12     0     0     0
+
+==========================================
+
+ *** Interesting motifs (not highest-ranking) can also be : 
+
+
+TGTCGG
+CCGACA
+ 
+4 redundant motifs found:
+ATGTCGGT - ATGTCGGC - GTCGGT - ATGTCG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  TGTTGG    91  (91.69) 
+  1 - [TGTAGG]  138  (89.11) 
+  2 + [TGTCTG]  106  (88.95) 
+  2 - [CGTCGG]  784  (89.28) 
+  3 -  TGTTGG   901  (91.69) 
+  4 + [CGTCGG]  728  (89.28) 
+  4 +  TGTCGG   824  (100.00) 
+  4 -  TGTTGG   830  (91.69) 
+  4 - [CGTCGG]  755  (89.28) 
+  4 - [TGTCGT]  646  (86.69) 
+  4 - [TGGCGG]  339  (85.60) 
+  4 - [TGTCTG]  169  (88.95) 
+  4 - [TGTCTG]  124  (88.95) 
+  4 - [TGTAGG]   60  (89.11) 
+  5 + [CGTCGG]  765  (89.28) 
+  5 +  TGTCGG   857  (100.00) 
+  5 -  TGTTGG   863  (91.69) 
+  5 - [CGTCGG]  789  (89.28) 
+  5 -  TGTGGG   738  (92.07) 
+  5 - [TGTCGT]  678  (86.69) 
+  5 - [TGGCGG]  390  (85.60) 
+  5 - [TGTCTG]  294  (88.95) 
+  5 - [TGTAGG]  230  (89.11) 
+  5 - [TGTAGG]   81  (89.11) 
+  6 +  TGTTGG   800  (91.69) 
+  6 + [CGTCGG]  871  (89.28) 
+  6 +  TGTCGG   962  (100.00) 
+  6 -  TGTTGG   968  (91.69) 
+  6 - [CGTCGG]  895  (89.28) 
+  6 - [TGTCGT]  786  (86.69) 
+  6 - [TGGCGG]  444  (85.60) 
+  6 - [TGTCTG]  259  (88.95) 
+  6 - [TGTAGG]  152  (89.11) 
+  7 + [TGTCGT]  663  (86.69) 
+  7 + [TGTAGG]  734  (89.11) 
+  7 -  TGTTGG   774  (91.69) 
+  8 + [TGTCGT]  254  (86.69) 
+  8 + [TGTCTG]  707  (88.95) 
+  8 + [TGTCGT]  920  (86.69) 
+  8 -  TGTCGG   415  (100.00) 
+  8 -  TGTTGG    12  (91.69) 
+  9 +  TGTCGG    23  (100.00) 
+  9 +  TGTGGG   594  (92.07) 
+  9 + [TGTCTG]  643  (88.95) 
+  9 -  TGTGGG   951  (92.07) 
+  9 -  TGTGGG   191  (92.07) 
+  9 - [CGTCGG]   46  (89.28) 
+ 10 +  TGTTGG   295  (91.69) 
+ 10 + [TGGCGG]  661  (85.60) 
+ 10 + [TGTCTG]  874  (88.95) 
+ 10 + [TGTCTG]  947  (88.95) 
+ 11 +  TGTGGG   326  (92.07) 
+ 11 + [CGTCGG]  776  (89.28) 
+ 11 - [TGTAGG]  873  (89.11) 
+ 11 -  TGTTGG   173  (91.69) 
+ 11 -  TGTTGG    10  (91.69) 
+ 12 -  TGTGGG   975  (92.07) 
+ 12 -  TGTCGG   890  (100.00) 
+ 12 -  TGTGGG   609  (92.07) 
+ 13 + [TGTCGT]  226  (86.69) 
+ 14 +  TGTGGG   601  (92.07) 
+ 14 -  TGTCGG   710  (100.00) 
+ 14 -  TGTTGG   647  (91.69) 
+ 14 -  TGTGGG   584  (92.07) 
+ 15 -  TGTTGG    53  (91.69) 
+ 16 -  TGTCGG   797  (100.00) 
+ 16 - [TGTCGT]  778  (86.69) 
+ 17 -  TGTCGG   749  (100.00) 
+ 17 -  TGTGGG   594  (92.07) 
+ 17 - [TGTCTG]  407  (88.95) 
+ 18 + [TGTAGG]  407  (89.11) 
+ 18 -  TGTCGG   993  (100.00) 
+ 18 -  TGTTGG   731  (91.69) 
+ 18 -  TGTCGG   607  (100.00) 
+ 19 - [TGTCGT]  887  (86.69) 
+ 19 -  TGTGGG   782  (92.07) 
+ 20 -  TGTGGG   966  (92.07) 
+ 20 -  TGTGGG   127  (92.07) 
+ 21 +  TGTGGG   566  (92.07) 
+ 21 + [TGTCTG]  931  (88.95) 
+ 21 - [TGTAGG]  650  (89.11) 
+ 22 -  TGTTGG   937  (91.69) 
+ 22 -  TGTGGG   921  (92.07) 
+ 22 -  TGTGGG   829  (92.07) 
+ 23 +  TGTCGG   398  (100.00) 
+ 23 +  TGTGGG   418  (92.07) 
+ 23 - [TGGCGG]  480  (85.60) 
+ 23 -  TGTGGG   219  (92.07) 
+ 24 +  TGTCGG   825  (100.00) 
+ 24 +  TGTGGG   845  (92.07) 
+ 24 - [TGGCGG]  892  (85.60) 
+ 24 -  TGTCGG   805  (100.00) 
+ 24 - [TGTCTG]  695  (88.95) 
+ 24 - [TGTAGG]  398  (89.11) 
+ 24 -  TGTGGG   203  (92.07) 
+ 25 +  TGTTGG    75  (91.69) 
+ 25 +  TGTCGG   774  (100.00) 
+ 25 -  TGTTGG   553  (91.69) 
+ 26 +  TGTTGG    78  (91.69) 
+ 26 +  TGTCGG   789  (100.00) 
+ 28 +  TGTGGG   558  (92.07) 
+ 28 +  TGTTGG   713  (91.69) 
+ 28 +  TGTTGG   806  (91.69) 
+ 28 +  TGTGGG   826  (92.07) 
+ 28 - [TGGCGG]  873  (85.60) 
+ 28 -  TGTCGG   786  (100.00) 
+ 28 -  TGTGGG   405  (92.07) 
+ 29 +  TGTTGG   234  (91.69) 
+ 29 + [TGTAGG]  291  (89.11) 
+ 30 + [TGTAGG]  131  (89.11) 
+ 30 +  TGTCGG   788  (100.00) 
+ 31 +  TGTTGG   707  (91.69) 
+ 31 + [CGTCGG]  779  (89.28) 
+ 31 +  TGTCGG   870  (100.00) 
+ 31 -  TGTTGG   876  (91.69) 
+ 31 - [CGTCGG]  803  (89.28) 
+ 31 - [TGTCGT]  693  (86.69) 
+ 31 - [TGGCGG]  366  (85.60) 
+ 31 - [TGTCTG]  168  (88.95) 
+ 31 - [TGTAGG]   60  (89.11) 
+ 32 -  TGTTGG   514  (91.69) 
+ 32 -  TGTCGG   357  (100.00) 
+ 32 -  TGTCGG   318  (100.00) 
+ 33 +  TGTGGG   631  (92.07) 
+ 33 + [CGTCGG]  637  (89.28) 
+ 33 + [TGTCTG]  923  (88.95) 
+ 34 -  TGTCGG   876  (100.00) 
+ 35 +  TGTGGG   693  (92.07) 
+ 35 + [CGTCGG]  699  (89.28) 
+ 35 + [TGTCTG]  984  (88.95) 
+ 36 + [TGTCTG]  888  (88.95) 
+ 37 +  TGTCGG   138  (100.00) 
+ 37 + [CGTCGG]  645  (89.28) 
+ 37 -  TGTGGG   740  (92.07) 
+ 37 - [CGTCGG]  464  (89.28) 
+ 37 - [CGTCGG]  315  (89.28) 
+ 37 -  TGTCGG    67  (100.00) 
+ 38 + [CGTCGG]  722  (89.28) 
+ 38 +  TGTCGG   806  (100.00) 
+ 38 - [CGTCGG]  743  (89.28) 
+ 38 - [TGTCGT]  614  (86.69) 
+ 38 - [TGGCGG]  329  (85.60) 
+ 38 - [TGTCTG]  116  (88.95) 
+ 38 - [TGTAGG]   17  (89.11) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	    7    18     6   170		    0     0     0    75
+2 	    5     3   188     5		    0     0    75     0
+3 	    5     3     9   184		    0     0     0    75
+4 	   14   137    26    24		    0    25    26    24
+5 	    7     5   172    17		    0     0    75     0
+6 	    7     4   179    11		    0     0    75     0
+
+==========================================
+
+
+ACCTGGCA
+TGCCAGGT
+ 
+3 redundant motifs found:
+CACCTGGCAA - ACACCTGGCA - CACCTGGC - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 + [ACCTGGCT]  504  (88.79) 
+  1 + [ACGTGCCA]  872  (86.29) 
+  1 - [ACGTAGCA]  952  (86.26) 
+  2 +  ACCTTGCA   219  (92.99) 
+  3 +  ACCTGGAA   518  (92.03) 
+  3 + [ACATGGAA]  777  (87.72) 
+  3 + [ACATGTCA]  880  (88.30) 
+  3 - [ATGTGGCA]  376  (85.83) 
+  3 - [ACCTTCCA]   65  (85.46) 
+  4 -  ACATGGCA   769  (95.69) 
+  5 + [ACATTGCA]  143  (88.69) 
+  5 + [ACTTGCCA]  799  (85.25) 
+  5 -  ACATGGCA   802  (95.69) 
+  6 + [ACATTGCA]   65  (88.69) 
+  6 +  ACCTGCCA   905  (92.46) 
+  6 -  ACATGGCA   908  (95.69) 
+  7 + [ACCTTTCA]  338  (85.60) 
+  7 + [ACATGCCA]  503  (88.16) 
+  7 - [ACATTGCA]  394  (88.69) 
+  7 - [ACCTTCCA]  310  (85.46) 
+  8 - [ACGTGGAA]  458  (85.86) 
+  9 + [ACGTGTCA]   49  (86.43) 
+  9 - [ACCAGGCA]  183  (88.64) 
+ 10 + [ACCTGGCT]  464  (88.79) 
+ 10 -  ACGTGGCA   280  (93.83) 
+ 11 +  ACCTGGCA   707  (100.00) 
+ 12 + [ACGTGTCA]  474  (86.43) 
+ 12 + [ACCTGGTA]  499  (89.35) 
+ 13 + [ACCTTTCA]  429  (85.60) 
+ 13 + [ACCTTTCA]  592  (85.60) 
+ 13 + [AAGTGGCA]  861  (85.66) 
+ 13 - [ACATGGAA]  967  (87.72) 
+ 13 - [ATGTGGCA]  750  (85.83) 
+ 13 - [ACATGGTA]  604  (85.04) 
+ 13 - [ACATGGTA]  441  (85.04) 
+ 14 + [ACACGGCA]  835  (85.66) 
+ 14 -  ACCTGCCA   617  (92.46) 
+ 14 - [AAGTGGCA]  382  (85.66) 
+ 15 +  ACCTGGAA   912  (92.03) 
+ 15 - [AAATGGCA]  880  (87.53) 
+ 15 - [ATATGGCA]  459  (87.69) 
+ 16 + [ACATGGAA]  472  (87.72) 
+ 16 - [AAATGGCA]  880  (87.53) 
+ 17 +  ACCTGGAA    86  (92.03) 
+ 17 + [ACCTATCA]  227  (85.04) 
+ 18 + [ACCTATCA]   49  (85.04) 
+ 18 + [AGATGGCA]  471  (86.36) 
+ 18 - [ACGTGGAA]  340  (85.86) 
+ 20 + [ACATGCCA]   43  (88.16) 
+ 20 - [CCCTGGCA]  942  (87.11) 
+ 20 -  ACATGGCA    46  (95.69) 
+ 21 + [ACATTGCA]  110  (88.69) 
+ 21 + [ACATGTCA]  438  (88.30) 
+ 21 + [ACATGCCA]  747  (88.16) 
+ 21 - [ACCTTTCA]   59  (85.60) 
+ 22 + [ACCTTTCA]  317  (85.60) 
+ 22 + [ACATGGAA]  742  (87.72) 
+ 22 + [ACTTGTCA]  877  (85.39) 
+ 22 - [ACTTTGCA]  690  (85.78) 
+ 24 + [ACATGTCA]  245  (88.30) 
+ 24 - [ACATGTCA]  243  (88.30) 
+ 25 +  ACCTGCCA   599  (92.46) 
+ 25 + [ACACGGCA]  808  (85.66) 
+ 25 - [ACTTTGCA]  752  (85.78) 
+ 26 +  ACCTGCCA   621  (92.46) 
+ 26 - [ACTTTGCA]  767  (85.78) 
+ 27 - [ACTTTGCA]  487  (85.78) 
+ 28 + [ACATGTCA]   67  (88.30) 
+ 30 +  ACCTGCCA   620  (92.46) 
+ 30 - [ACTTTGCA]  766  (85.78) 
+ 31 +  ACCTGCCA   813  (92.46) 
+ 31 -  ACATGGCA   816  (95.69) 
+ 32 + [ACATGGTA]    1  (85.04) 
+ 32 + [ACTTGTCA]  177  (85.39) 
+ 32 + [ACGTGTCA]  412  (86.43) 
+ 32 +  ACCTGGCA   944  (100.00) 
+ 33 + [ACATGGTA]  360  (85.04) 
+ 33 +  ACCTGGCA   831  (100.00) 
+ 33 + [AAATGGCA]  961  (87.53) 
+ 34 + [ACATGGTA]  430  (85.04) 
+ 34 + [ACATGCCA]  879  (88.16) 
+ 34 +  ACCTGGCA   899  (100.00) 
+ 35 + [ACATGGTA]  421  (85.04) 
+ 35 +  ACCTGGCA   893  (100.00) 
+ 36 + [ACATGGTA]  309  (85.04) 
+ 36 +  ACCTGGCA   785  (100.00) 
+ 36 + [ATATGGCA]  926  (87.69) 
+ 38 -  ACATGGCA   756  (95.69) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  213     9     9    14		   23     0     0     0
+2 	   24   178    18    25		    0    23     0     0
+3 	   49   141    31    24		    6    16     1     0
+4 	   13    18     3   211		    0     0     0    23
+5 	   27    14   173    31		    0     0    22     1
+6 	   10    28   178    29		    0     6    17     0
+7 	   27   191    13    14		    3    20     0     0
+8 	  219    11     1    14		   23     0     0     0
+
+==========================================
+
+
+GTCGGT
+ACCGAC
+ 
+3 redundant motifs found:
+ATGTCGGT - TGTCGG - ATGTCG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 + [ATCGGT]  442  (85.98) 
+  2 + [GTCTGT]  107  (89.64) 
+  2 + [GTTGGT]  363  (89.49) 
+  2 - [CTCGGT]  239  (86.94) 
+  3 + [GTCGCT]  491  (86.04) 
+  3 - [GTAGGT]  866  (87.43) 
+  3 -  GTCGGC   847  (90.11) 
+  3 - [GTGGGT]  812  (88.57) 
+  3 - [GTCGCT]  773  (86.04) 
+  3 - [GTAGGT]  742  (87.43) 
+  4 +  GTCGGT   729  (100.00) 
+  4 + [GTCGCT]  733  (86.04) 
+  4 +  GTCGGC   825  (90.11) 
+  4 -  GTCGGT   754  (100.00) 
+  4 - [GTAGGT]  225  (87.43) 
+  4 - [GTCTGT]  168  (89.64) 
+  4 - [GTCTGT]  123  (89.64) 
+  5 +  GTCGGT   766  (100.00) 
+  5 + [GTCGCT]  770  (86.04) 
+  5 +  GTCGGC   858  (90.11) 
+  5 -  GTCGGT   788  (100.00) 
+  5 - [GTCGTT]  677  (86.99) 
+  5 - [GTAGGT]  116  (87.43) 
+  6 +  GTCGGT   872  (100.00) 
+  6 + [GTCGTT]  876  (86.99) 
+  6 +  GTCGGC   963  (90.11) 
+  6 -  GTCGGT   894  (100.00) 
+  6 - [GTCGTT]  785  (86.99) 
+  6 - [GTCTGT]  258  (89.64) 
+  7 + [GTTGGT]  432  (89.49) 
+  7 + [GTCGTT]  664  (86.99) 
+  7 + [GTCTGT]  948  (89.64) 
+  7 - [GTTGGT]  773  (89.49) 
+  7 - [GGCGGT]  655  (85.29) 
+  7 -  GTCGGT   642  (100.00) 
+  8 +  GTCGGC   691  (90.11) 
+  8 + [ATCGGT]  723  (85.98) 
+  8 + [GTCTGT]  917  (89.64) 
+  8 + [GTCGTT]  966  (86.99) 
+  8 -  GTCGGC   414  (90.11) 
+  8 -  GTCGGC   396  (90.11) 
+  8 - [GTTGGT]   11  (89.49) 
+  8 - [GTGGGT]    7  (88.57) 
+  9 +  GTCGGC    24  (90.11) 
+  9 + [GGCGGT]   97  (85.29) 
+  9 + [GTGGGT]  595  (88.57) 
+  9 -  GTCGGC    45  (90.11) 
+ 10 + [GTCTGT]  875  (89.64) 
+ 10 + [GTCTGT]  882  (89.64) 
+ 10 - [GTCGCT]  675  (86.04) 
+ 11 + [GTGGGT]  327  (88.57) 
+ 11 + [CTCGGT]  426  (86.94) 
+ 11 +  GTCGGC   777  (90.11) 
+ 11 -  GTCGGT    44  (100.00) 
+ 12 + [CTCGGT]  342  (86.94) 
+ 12 + [GTCTGT]  447  (89.64) 
+ 12 - [GTCTGT]  893  (89.64) 
+ 12 -  GTCGGC   889  (90.11) 
+ 12 -  GTCGGT   859  (100.00) 
+ 12 - [GTTGGT]  485  (89.49) 
+ 13 + [GTCGTT]  227  (86.99) 
+ 13 + [GTTGGT]  869  (89.49) 
+ 13 - [ATCGGT]  367  (85.98) 
+ 14 + [GTGGGT]  602  (88.57) 
+ 14 -  GTCGGT   709  (100.00) 
+ 14 - [GTCTGT]  587  (89.64) 
+ 15 - [GTTGGT]   52  (89.49) 
+ 16 - [GTCGTT]  777  (86.99) 
+ 17 -  GTCGGC   748  (90.11) 
+ 17 -  GTCGGT   717  (100.00) 
+ 17 - [GTGGGT]  593  (88.57) 
+ 17 - [GTCTGT]  406  (89.64) 
+ 18 + [CTCGGT]  244  (86.94) 
+ 18 + [GTAGGT]  408  (87.43) 
+ 18 - [GTCTGT]  962  (89.64) 
+ 18 -  GTCGGC   606  (90.11) 
+ 18 - [GACGGT]  570  (85.29) 
+ 18 - [CTCGGT]  539  (86.94) 
+ 19 + [GGCGGT]  735  (85.29) 
+ 19 - [GTCTGT]  793  (89.64) 
+ 19 - [GTGGGT]  781  (88.57) 
+ 21 + [GTTGGT]  839  (89.49) 
+ 21 - [ATCGGT]  523  (85.98) 
+ 21 - [GTCTGT]  391  (89.64) 
+ 21 - [ATCGGT]   89  (85.98) 
+ 23 + [CTCGGT]   70  (86.94) 
+ 23 +  GTCGGT   399  (100.00) 
+ 23 - [GTTGGT]  576  (89.49) 
+ 23 - [GGCGGT]  479  (85.29) 
+ 23 - [GTAGGT]  348  (87.43) 
+ 24 + [GTCGCT]  413  (86.04) 
+ 24 + [CTCGGT]  468  (86.94) 
+ 24 + [GTCTGT]  523  (89.64) 
+ 24 +  GTCGGT   826  (100.00) 
+ 24 - [GGCGGT]  891  (85.29) 
+ 24 -  GTCGGT   804  (100.00) 
+ 24 - [GTAGGT]  397  (87.43) 
+ 24 - [GTGGGT]  202  (88.57) 
+ 25 + [GTTGGT]   27  (89.49) 
+ 25 + [GACGGT]  690  (85.29) 
+ 25 + [GACGGT]  700  (85.29) 
+ 25 +  GTCGGT   775  (100.00) 
+ 25 - [GGCGGT]  815  (85.29) 
+ 25 - [GTTGGT]  552  (89.49) 
+ 26 + [GTGGGT]  336  (88.57) 
+ 26 + [GACGGT]  710  (85.29) 
+ 26 +  GTCGGT   790  (100.00) 
+ 27 + [GACGGT]  430  (85.29) 
+ 28 + [GTCGTT]  413  (86.99) 
+ 28 + [GTGGGT]  559  (88.57) 
+ 28 + [GTCTGT]  710  (89.64) 
+ 28 + [GTTGGT]  807  (89.49) 
+ 28 - [GGCGGT]  872  (85.29) 
+ 28 -  GTCGGT   785  (100.00) 
+ 28 - [ATCGGT]  501  (85.98) 
+ 28 - [GTGGGT]  404  (88.57) 
+ 29 + [GACGGT]  802  (85.29) 
+ 30 + [GACGGT]  709  (85.29) 
+ 30 +  GTCGGT   789  (100.00) 
+ 31 +  GTCGGT   780  (100.00) 
+ 31 + [GTCGCT]  784  (86.04) 
+ 31 +  GTCGGC   871  (90.11) 
+ 31 -  GTCGGT   802  (100.00) 
+ 31 - [GTCGTT]  692  (86.99) 
+ 31 - [GTCTGT]  167  (89.64) 
+ 32 -  GTCGGC   548  (90.11) 
+ 32 -  GTCGGC   356  (90.11) 
+ 32 - [GGCGGT]  327  (85.29) 
+ 32 -  GTCGGT   317  (100.00) 
+ 33 + [GTGGGT]  348  (88.57) 
+ 33 + [GTTGGT]  616  (89.49) 
+ 33 + [GTTGGT]  651  (89.49) 
+ 34 + [GTAGGT]  418  (87.43) 
+ 34 -  GTCGGT   875  (100.00) 
+ 34 - [CTCGGT]  275  (86.94) 
+ 35 + [GTGGGT]  409  (88.57) 
+ 35 + [GTTGGT]  678  (89.49) 
+ 35 + [GTTGGT]  713  (89.49) 
+ 36 + [GTTGGT]  663  (89.49) 
+ 36 + [GTAGGT]  869  (87.43) 
+ 36 - [GTAGGT]  546  (87.43) 
+ 37 +  GTCGGC   139  (90.11) 
+ 37 + [GTAGGT]  272  (87.43) 
+ 37 + [GTGGGT]  373  (88.57) 
+ 37 + [CTCGGT]  759  (86.94) 
+ 37 - [GTCGCT]  929  (86.04) 
+ 37 - [ATCGGT]  802  (85.98) 
+ 37 -  GTCGGT   779  (100.00) 
+ 37 - [ATCGGT]  734  (85.98) 
+ 37 - [CTCGGT]  679  (86.94) 
+ 37 - [CTCGGT]  571  (86.94) 
+ 37 -  GTCGGC   463  (90.11) 
+ 37 - [GTCGCT]  395  (86.04) 
+ 37 - [GACGGT]   75  (85.29) 
+ 37 -  GTCGGC    66  (90.11) 
+ 37 -  GTCGGC    44  (90.11) 
+ 37 -  GTCGGT    16  (100.00) 
+ 38 +  GTCGGT   723  (100.00) 
+ 38 +  GTCGGC   807  (90.11) 
+ 38 - [ATCGGT]  912  (85.98) 
+ 38 -  GTCGGT   742  (100.00) 
+ 38 - [GTCGTT]  639  (86.99) 
+ 38 - [GTCGTT]  613  (86.99) 
+ 38 - [GTCTGT]  115  (89.64) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	    9    11   173     5		    0     0    47     0
+2 	    8     4     8   178		    0     0     0    47
+3 	   11   156    14    17		    0    47     0     0
+4 	    4     6   169    19		    0     0    47     0
+5 	    7     9   171    11		    0     0    47     0
+6 	    2    21     6   169		    0    21     0    26
+
+==========================================
+
+
+CACCTGGC
+GCCAGGTG
+ 
+4 redundant motifs found:
+GACACCTGGC - CACCTGGCAA - ACACCTGGCA - ACCTGGCA - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 + [AACCTGGC]  503  (89.13) 
+  2 + [CACCTTGC]  218  (89.53) 
+  3 +  CACCTGGA   517  (92.71) 
+  4 -  CACATGGC   770  (92.40) 
+  5 + [CATCTGGA]  438  (85.30) 
+  5 -  CACATGGC   803  (92.40) 
+  6 -  CACATGGC   909  (92.40) 
+  7 +  CACTTGGC   616  (91.39) 
+  8 -  CACGTGGC   370  (91.92) 
+ 10 +  CACCTGGC   463  (100.00) 
+ 11 +  CACCTGGC   706  (100.00) 
+ 14 + [CACCTCGC]  492  (88.70) 
+ 14 + [CACCTCGC]  573  (88.70) 
+ 14 - [CACCTCGC]  611  (88.70) 
+ 15 +  CACCTGGA   911  (92.71) 
+ 20 -  CACATGGC    47  (92.40) 
+ 21 +  CATCTGGC   714  (92.59) 
+ 22 + [CACATGGA]  741  (85.11) 
+ 22 - [CACATGGA]  812  (85.11) 
+ 25 + [CATCTGGA]  922  (85.30) 
+ 26 + [CATCTGGA]  923  (85.30) 
+ 27 + [CATCTGGA]  648  (85.30) 
+ 27 + [CATCTGGA]  923  (85.30) 
+ 29 + [CATCTGGA]  923  (85.30) 
+ 30 + [CATCTGGA]  922  (85.30) 
+ 31 -  CACATGGC   817  (92.40) 
+ 32 +  CACCTGGC   943  (100.00) 
+ 33 +  CACCTGGC   830  (100.00) 
+ 34 +  CACCTGGC   898  (100.00) 
+ 35 +  CACCTGGC   892  (100.00) 
+ 36 +  CACCTGGC   784  (100.00) 
+ 37 - [CACCAGGC]  975  (87.03) 
+ 38 -  CACATGGC   757  (92.40) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   12   132     8     9		    0    18     0     0
+2 	  141    10     4     6		   18     0     0     0
+3 	   12   118     8    23		    0    17     0     1
+4 	   20   107    18    16		    6    10     1     1
+5 	    8     8     5   140		    0     0     0    18
+6 	   18    10   121    12		    0     0    18     0
+7 	   10    21   118    12		    0     0    18     0
+8 	   24   120     6    11		    2    16     0     0
+
+==========================================
+
+
+ATGTCGGT
+ACCGACAT
+ 
+4 redundant motifs found:
+ATGTCGGC - GTCGGT - TGTCGG - ATGTCG - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  2 - [ATGTCTAT]  975  (85.83) 
+  2 - [ATTTCGTT]  867  (85.61) 
+  3 + [ATGTTTGT]   51  (86.88) 
+  3 +  ATGTCGAT   460  (93.42) 
+  3 + [ATCTTGGT]  640  (85.64) 
+  3 - [ATGTGTGT]  876  (85.39) 
+  3 - [ATGTCGCT]  773  (88.68) 
+  4 +  ACGTCGGT   727  (90.01) 
+  4 + [ATGTGTGT]  773  (85.39) 
+  4 +  ATGTCGGC   823  (91.49) 
+  4 -  ACGTCGGT   754  (90.01) 
+  4 - [ATTTCGAT]  537  (85.83) 
+  4 -  ATGTCTGT   168  (92.42) 
+  5 +  ACGTCGGT   764  (90.01) 
+  5 + [ATGTGTGT]  806  (85.39) 
+  5 +  ATGTCGGC   856  (91.49) 
+  5 -  ACGTCGGT   788  (90.01) 
+  5 -  ATGTCGTT   677  (93.19) 
+  5 - [ATTTCGAT]  593  (85.83) 
+  6 +  ACGTCGGT   870  (90.01) 
+  6 +  ATGTCGGC   961  (91.49) 
+  6 -  ACGTCGGT   894  (90.01) 
+  6 - [TTGTCGTT]  785  (85.09) 
+  6 - [ATTTCGAT]  668  (85.83) 
+  6 -  ATGTCTGT   258  (92.42) 
+  7 + [ATGTTGAT]  458  (87.88) 
+  7 +  ATGTCGTT   662  (93.19) 
+  7 - [TTGTTGGT]  773  (86.36) 
+  8 -  ATGTCGGC   414  (91.49) 
+  8 - [ATGTCAAT]  185  (85.11) 
+  8 -  ATGTTGGT    11  (94.46) 
+  9 - [ATGTTGAT]  916  (87.88) 
+ 10 - [ATGTCGCT]  675  (88.68) 
+ 10 - [ATGTTGAT]  621  (87.88) 
+ 11 - [ATTTGGGT]  313  (85.39) 
+ 12 + [ATCTTGGT]  866  (85.64) 
+ 12 - [ATCTTGGT]  203  (85.64) 
+ 13 +  ATGTCGTT   225  (93.19) 
+ 13 - [ATTTCGAT]  778  (85.83) 
+ 14 - [GTGTCGGT]  709  (88.38) 
+ 15 - [ATGTTGAT]  709  (87.88) 
+ 15 - [TTGTTGGT]   52  (86.36) 
+ 16 + [ATGTGGAT]  282  (86.39) 
+ 16 + [ATTTCGTT]  492  (85.61) 
+ 16 -  ATGTCGTT   777  (93.19) 
+ 16 - [ATGTGGAT]  378  (86.39) 
+ 17 + [ATGTTGTT]  538  (87.65) 
+ 17 -  ATGTCGGC   748  (91.49) 
+ 17 -  ATGTGGGT   593  (92.97) 
+ 17 - [ATCTTGGT]  388  (85.64) 
+ 18 -  ATGTCGGC   606  (91.49) 
+ 19 - [ATGTGTGT]  599  (85.39) 
+ 20 + [ATGTGGAT]   50  (86.39) 
+ 20 + [ATGTCTTT]  371  (85.61) 
+ 20 + [ATGTTGAT]  727  (87.88) 
+ 21 + [ATTTTGGT]  474  (86.88) 
+ 21 + [ATTTCGAT]  539  (85.83) 
+ 22 + [ATGTTTGT]  397  (86.88) 
+ 22 - [ATGTCAAT]  145  (85.11) 
+ 23 + [ATGTGGTT]  147  (86.16) 
+ 23 +  ATGTCGGT   397  (100.00) 
+ 24 +  ATGTCGGT   824  (100.00) 
+ 24 -  ATGGCGGT   891  (90.45) 
+ 24 -  ATGTCGGT   804  (100.00) 
+ 25 + [ATGACGGT]  698  (88.54) 
+ 25 +  TTGTCGGT   773  (91.90) 
+ 25 - [TTGTTGGT]  552  (86.36) 
+ 25 - [ATGTGGAT]  511  (86.39) 
+ 25 - [ATGTTGAT]   97  (87.88) 
+ 26 +  TTGTCGGT   788  (91.90) 
+ 26 - [ATTTTGGT]  235  (86.88) 
+ 27 - [ATTTCGTT]   95  (85.61) 
+ 28 +  ATGTGGGT   557  (92.97) 
+ 28 +  ATGTTGGT   805  (94.46) 
+ 28 -  ATGTCGGT   785  (100.00) 
+ 28 - [ATATCGGT]  501  (89.91) 
+ 29 - [ATTTTGGT]  603  (86.88) 
+ 30 +  TTGTCGGT   787  (91.90) 
+ 30 - [ATTTTGGT]  499  (86.88) 
+ 31 +  ACGTCGGT   778  (90.01) 
+ 31 +  ATGTCGGC   869  (91.49) 
+ 31 -  ACGTCGGT   802  (90.01) 
+ 31 - [TTGTCGTT]  692  (85.09) 
+ 31 - [ATTTCGAT]  586  (85.83) 
+ 31 -  ATGTCTGT   167  (92.42) 
+ 32 + [ATGTTAGT]  921  (86.15) 
+ 32 - [ATTTTGGT]  740  (86.88) 
+ 32 -  ATGTCGGT   317  (100.00) 
+ 33 + [ATGTGGTT]   56  (86.16) 
+ 33 - [ATGTTGAT]  842  (87.88) 
+ 34 + [ATGTCAAT]  653  (85.11) 
+ 34 - [ATGTTGAT]  910  (87.88) 
+ 34 -  ATGTCGGT   875  (100.00) 
+ 34 - [ATTTGGGT]  285  (85.39) 
+ 35 + [ATGTGGTT]  117  (86.16) 
+ 35 - [ATGTTGAT]  904  (87.88) 
+ 36 + [ATGTCAAT]  517  (85.11) 
+ 36 - [ATGTTGAT]  796  (87.88) 
+ 36 - [ATGTTGAT]  632  (87.88) 
+ 36 - [ATGTGGTT]  331  (86.16) 
+ 37 -  ATGTCGGC    66  (91.49) 
+ 37 - [AAGTCGGT]   16  (88.39) 
+ 38 +  ACGTCGGT   721  (90.01) 
+ 38 + [ATGTGTGT]  760  (85.39) 
+ 38 +  ATGTCGGC   805  (91.49) 
+ 38 -  ACGTCGGT   742  (90.01) 
+ 38 - [TTGTCGTT]  613  (85.09) 
+ 38 -  ATGTCTGT   115  (92.42) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	  220     7    12    29		   39     0     0     3
+2 	   12    18    19   219		    0    10     0    32
+3 	   16    22   200    30		    0     0    42     0
+4 	   13     5    21   229		    0     0     1    41
+5 	   12   180    31    45		    0    38     2     2
+6 	   25    13   200    30		    0     0    38     4
+7 	   36    11   187    34		    1     0    37     4
+8 	   11    27     3   227		    0     9     0    33
+
+==========================================
+
+
+CATCTCAT
+ATGAGATG
+ 
+2 redundant motifs found:
+GATGAGATGA - CATCTTAT - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  1 +  CATCTCTT   150  (92.99) 
+  1 +  CATCTTAT   162  (93.15) 
+  2 + [ATTCTCAT]  438  (85.12) 
+  2 - [CATCTTTT]  578  (86.13) 
+  2 -  CATCTCTT    48  (92.99) 
+  3 - [TATTTCAT]  834  (85.92) 
+  3 - [CATCTCCT]  795  (89.80) 
+  3 - [CATCTTTT]  727  (86.13) 
+  3 - [CTTTTCAT]  713  (85.25) 
+  3 -  CATCTCTT   705  (92.99) 
+  4 +  CTTCTCAT    40  (91.49) 
+  4 + [CATCTTTT]  396  (86.13) 
+  4 + [AATTTCAT]  944  (87.40) 
+  4 - [CATATCTT]  671  (85.58) 
+  4 - [CATCTTTT]  610  (86.13) 
+  4 - [CATTTTAT]  452  (86.91) 
+  5 +  CTTCTCAT   210  (91.49) 
+  5 + [CATCTTTT]  448  (86.13) 
+  5 + [TATTTCAT]  981  (85.92) 
+  5 - [AATTTCAT]  913  (87.40) 
+  5 -  CATCACAT   888  (90.83) 
+  5 - [CATATCTT]  703  (85.58) 
+  5 - [CATCTTTT]  642  (86.13) 
+  6 + [CATTTCAA]  283  (85.52) 
+  6 + [AATCTCAA]  395  (85.39) 
+  6 + [CATCTTTT]  502  (86.13) 
+  6 - [CATCTTTT]  750  (86.13) 
+  7 + [TATCTTAT]    8  (85.30) 
+  7 +  CTTCTCAT   709  (91.49) 
+  7 + [CATTTCTT]  741  (86.75) 
+  7 - [CATTTTAT]   35  (86.91) 
+  8 + [AATTTCAT]  783  (87.40) 
+  8 - [AATTTCAT]  191  (87.40) 
+  8 - [TATTTCAT]   56  (85.92) 
+  9 + [AATCTTAT]  324  (86.78) 
+  9 + [TATTTCAT]  763  (85.92) 
+  9 + [TATCTCTT]  895  (85.14) 
+  9 + [CATATCTT]  943  (85.58) 
+  9 - [CATATTAT]  341  (85.74) 
+ 10 + [AATCTTAT]  100  (86.78) 
+ 10 + [TATTTCAT]  573  (85.92) 
+ 10 + [CATTTCTT]  680  (86.75) 
+ 10 - [CATTTTAT]  707  (86.91) 
+ 11 +  CATCTTAT   260  (93.15) 
+ 11 + [AATTTCAT]  455  (87.40) 
+ 11 + [CATTTCAA]  460  (85.52) 
+ 12 +  AATCTCAT    83  (93.63) 
+ 12 + [ATTCTCAT]  626  (85.12) 
+ 12 + [AATTTCAT]  745  (87.40) 
+ 12 +  CATCTCTT   831  (92.99) 
+ 12 + [CATATTAT]  908  (85.74) 
+ 12 - [AATCTCTT]  103  (86.62) 
+ 13 + [CATCTTTT]  262  (86.13) 
+ 13 + [AATCTCAA]  522  (85.39) 
+ 13 +  CATATCAT   615  (92.60) 
+ 13 -  TATCTCAT   104  (92.15) 
+ 13 -  CATCTTAT    99  (93.15) 
+ 13 - [AATCTCAA]   45  (85.39) 
+ 14 +  CATCTCTT   101  (92.99) 
+ 14 + [CAACTCAT]  916  (89.47) 
+ 14 +  CATCTTAT   921  (93.15) 
+ 14 - [CCTCTCAT]  344  (89.13) 
+ 14 - [CCTCTCAT]  305  (89.13) 
+ 15 +  CATCTCAT   126  (100.00) 
+ 15 + [CATCTTTT]  306  (86.13) 
+ 15 + [CATCTCGT]  714  (87.11) 
+ 15 +  TATCTCAT   896  (92.15) 
+ 15 +  CATCTTAT   901  (93.15) 
+ 15 - [CATCTTTT]  756  (86.13) 
+ 15 -  CATCTCAA   583  (91.75) 
+ 15 -  CATCTCAA   374  (91.75) 
+ 15 - [AATATCAT]  200  (86.23) 
+ 16 + [AATATCAT]   36  (86.23) 
+ 16 +  TATCTCAT   896  (92.15) 
+ 16 +  CATCTTAT   901  (93.15) 
+ 16 - [CATCTTTT]  740  (86.13) 
+ 17 + [CAACTCAT]  894  (89.47) 
+ 19 -  CATGTCAT   726  (91.06) 
+ 19 - [AATCTCAA]  403  (85.39) 
+ 21 +  CATGTCAT   439  (91.06) 
+ 21 +  CTTCTCAT   454  (91.49) 
+ 21 + [CATCTTTT]  790  (86.13) 
+ 21 - [CATATCTT]  268  (85.58) 
+ 21 -  CATCTCAT   159  (100.00) 
+ 22 + [CATTTCAA]  577  (85.52) 
+ 22 -  CATGTCAT   356  (91.06) 
+ 23 + [CATCGCAT]   52  (87.06) 
+ 23 + [CAACTCAT]   92  (89.47) 
+ 23 - [AATATCAT]  372  (86.23) 
+ 23 -  CATCTCAT   194  (100.00) 
+ 23 -  CATCTTAT   189  (93.15) 
+ 23 - [TATCTTAT]  184  (85.30) 
+ 24 +  CATGTCAT   246  (91.06) 
+ 24 +  CATATCAT   290  (92.60) 
+ 24 + [CAACTCAT]  490  (89.47) 
+ 24 + [CATCTCAC]  834  (88.28) 
+ 24 - [AATATCAT]  791  (86.23) 
+ 24 -  CATCTCAT   579  (100.00) 
+ 24 - [TATCTTAT]  569  (85.30) 
+ 24 -  CATGTCAT   242  (91.06) 
+ 25 + [CATCTTTT]  102  (86.13) 
+ 25 + [CATCCCAT]  587  (88.78) 
+ 25 + [CAACTCAT]  849  (89.47) 
+ 25 + [CATCTCGT]  912  (87.11) 
+ 25 + [ATTCTCAT]  941  (85.12) 
+ 25 - [AATTTCAT]  578  (87.40) 
+ 25 - [CATATCTT]  324  (85.58) 
+ 26 + [CATCCCAT]  609  (88.78) 
+ 26 +  CATCTCAA   731  (91.75) 
+ 26 +  TATCTCAT   908  (92.15) 
+ 26 +  CATCTCAT   913  (100.00) 
+ 26 +  CATTTCAT   918  (93.76) 
+ 26 + [ATTCTCAT]  941  (85.12) 
+ 26 -  AATCTCAT   600  (93.63) 
+ 27 + [CATCCCAT]  327  (88.78) 
+ 27 + [CATCCCAT]  332  (88.78) 
+ 27 +  CATCTCAA   451  (91.75) 
+ 27 +  TATCTCAT   633  (92.15) 
+ 27 +  CATCTCAT   638  (100.00) 
+ 27 +  CATTTCAT   643  (93.76) 
+ 27 + [ATTCTCAT]  666  (85.12) 
+ 27 +  TATCTCAT   908  (92.15) 
+ 27 +  CATCTCAT   913  (100.00) 
+ 27 +  CATTTCAT   918  (93.76) 
+ 27 + [ATTCTCAT]  941  (85.12) 
+ 28 + [CCTCTCAT]   10  (89.13) 
+ 28 +  CATATCAT   448  (92.60) 
+ 28 +  CATATCAT   492  (92.60) 
+ 28 + [CGTCTCAT]  661  (86.02) 
+ 28 -  CATCTCAT   615  (100.00) 
+ 28 -  CATCTCAT   610  (100.00) 
+ 28 -  CATCTTAT   605  (93.15) 
+ 29 + [AATCTCAA]  818  (85.39) 
+ 29 + [ATTCTCAT]  908  (85.12) 
+ 29 +  CATCTCAT   913  (100.00) 
+ 29 +  CATTTCAT   918  (93.76) 
+ 29 + [ATTCTCAT]  941  (85.12) 
+ 29 - [CATTTTAT]  136  (86.91) 
+ 30 + [CTTTTCAT]  603  (85.25) 
+ 30 + [CATCCCAT]  608  (88.78) 
+ 30 +  CATCTCAA   730  (91.75) 
+ 30 +  TATCTCAT   907  (92.15) 
+ 30 +  CATCTCAT   912  (100.00) 
+ 30 +  CATTTCAT   917  (93.76) 
+ 30 + [ATTCTCAT]  940  (85.12) 
+ 30 - [AATTTCAT]  589  (87.40) 
+ 30 - [AATATCAT]  363  (86.23) 
+ 31 + [AATCTCAA]  317  (85.39) 
+ 31 + [CATCTTTT]  424  (86.13) 
+ 31 - [CATCTTTT]  657  (86.13) 
+ 31 -  CATTTCAT   240  (93.76) 
+ 32 + [AATATCAT]   73  (86.23) 
+ 32 + [AATTTCAT]  842  (87.40) 
+ 32 + [AATTTCAT]  857  (87.40) 
+ 32 - [AATCTTAT]   60  (86.78) 
+ 33 + [AATTTCAT]   76  (87.40) 
+ 33 +  CATTTCAT   125  (93.76) 
+ 33 + [TATCTTAT]  492  (85.30) 
+ 33 +  CATCTCTT   539  (92.99) 
+ 33 - [ATTCTCAT]  782  (85.12) 
+ 33 -  CTTCTCAT   599  (91.49) 
+ 33 -  CATCTTAT   566  (93.15) 
+ 33 -  CATCTCTT   329  (92.99) 
+ 33 - [TATCTTAT]  319  (85.30) 
+ 33 - [AATTTCAT]  273  (87.40) 
+ 34 + [TATTTCAT]  440  (85.92) 
+ 34 + [AATATCAT]  608  (86.23) 
+ 34 -  CATCTCAT   855  (100.00) 
+ 34 -  CATCTTAT   822  (93.15) 
+ 34 - [CATTTTAT]  631  (86.91) 
+ 35 + [AATTTCAT]  137  (87.40) 
+ 35 +  CATTTCAT   186  (93.76) 
+ 35 + [TATCTTAT]  554  (85.30) 
+ 35 - [ATTCTCAT]  844  (85.12) 
+ 35 -  CTTCTCAT   661  (91.49) 
+ 35 -  CATCTTAT   628  (93.15) 
+ 35 -  CATCTCTT   390  (92.99) 
+ 35 - [TATCTTAT]  380  (85.30) 
+ 35 - [AATTTCAT]  334  (87.40) 
+ 36 + [CATCTGAT]  336  (89.45) 
+ 36 + [AATATCAT]  472  (86.23) 
+ 36 +  CATCTCTT   676  (92.99) 
+ 36 + [CATTTCAA]  965  (85.52) 
+ 36 -  CATCTCAT   736  (100.00) 
+ 36 -  CATCTCAT   703  (100.00) 
+ 36 - [AATTTCAT]  222  (87.40) 
+ 36 - [AATATCAT]   30  (86.23) 
+ 37 -  CTTCTCAT   698  (91.49) 
+ 37 -  CTTCTCAT   590  (91.49) 
+ 38 + [CATTTCAA]  133  (85.52) 
+ 38 + [CATCTTTT]  387  (86.13) 
+ 38 + [CATATCTT]  683  (85.58) 
+ 38 -  CATCACAT   836  (90.83) 
+ 38 - [CATCTTTT]  605  (86.13) 
+ 38 - [AATTTCAT]  264  (87.40) 
+ 38 - [TATTTCAT]  194  (85.92) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   72   345    30    50		    2    66     0     7
+2 	  406    28    13    50		   67     0     0     8
+3 	   33    15     8   441		    0     0     0    75
+4 	   54   334    37    72		    4    58     5     8
+5 	   43    26    17   411		    2     0     0    73
+6 	   41   362    27    67		    0    64     0    11
+7 	  382    31    16    68		   66     0     0     9
+8 	   54    23     9   411		    5     0     0    70
+
+==========================================
+
+
+CACCTGGCAA
+TTGCCAGGTG
+ 
+3 redundant motifs found:
+ACACCTGGCA - CACCTGGC - ACCTGGCA - 
+
+Best occurrences: 
+Seq  St  oligo  pos  match
+  2 +  CACCTTGCAA   218  (93.38) 
+  3 + [CACCTGGAAT]  517  (88.60) 
+  4 - [CACATGGCAT]  768  (88.15) 
+  5 -  CACATGGCAA   801  (94.70) 
+  6 - [CACATGGCAG]  907  (85.27) 
+  7 + [CACATGCCAA]  502  (88.54) 
+ 11 +  CACCTGGCAG   706  (90.56) 
+ 12 + [CACCTATAAA]  963  (85.38) 
+ 13 - [CATGTGGCAA]  749  (87.32) 
+ 13 - [CACCCAGCAA]  194  (85.65) 
+ 15 +  CACCTGGAAA   911  (95.15) 
+ 16 + [CACCCAGCAA]  806  (85.65) 
+ 17 +  CACCTATCAA   226  (90.24) 
+ 17 + [CACCTCCCAA]  664  (87.21) 
+ 19 + [CACATGTAAA]  602  (85.36) 
+ 19 + [CTCCTAGCAA]  752  (85.84) 
+ 20 - [CAAATAGCAA]  695  (85.16) 
+ 20 - [CACATGGCAT]   45  (88.15) 
+ 21 + [CACCTCGAAA]  397  (88.52) 
+ 21 + [CATCTTGCAA]  444  (87.35) 
+ 22 + [CACTTGTCAA]  876  (88.68) 
+ 28 +  CACATGTCAA    66  (90.21) 
+ 29 - [CAACTAGAAA]  408  (85.61) 
+ 30 - [CAACTAGAAA]  243  (85.61) 
+ 31 - [CACATGGCAG]  815  (85.27) 
+ 32 +  CACCTGGCAG   943  (90.56) 
+ 33 +  CACCTGGCAA   830  (100.00) 
+ 33 + [CAACTATCAA]  837  (85.96) 
+ 33 -  CAACTAGCAA   645  (90.46) 
+ 33 -  CAACTAGCAA   610  (90.46) 
+ 34 +  CACCTGGCAA   898  (100.00) 
+ 34 + [CAACTATCAA]  905  (85.96) 
+ 35 +  CACCTGGCAA   892  (100.00) 
+ 35 + [CAACTATCAA]  899  (85.96) 
+ 35 -  CAACTAGCAA   707  (90.46) 
+ 35 -  CAACTAGCAA   672  (90.46) 
+ 36 +  CACCTGGCAA   784  (100.00) 
+ 36 + [CAACTATCAA]  791  (85.96) 
+ 38 - [CACATGGCAT]  755  (88.15) 
+
+	                   Frequency Matrix               
+	      All Occurrences  		      Best Occurrences  
+	    A     C     G     T		    A     C     G     T
+1 	   26   154    13    20		    0    15     0     0
+2 	  181     9     6    17		   15     0     0     0
+3 	   43   134     9    27		    4    11     0     0
+4 	   33   135    23    22		    2    13     0     0
+5 	   14    16     4   179		    0     0     0    15
+6 	   33    23   134    23		    5     0     9     1
+7 	   20    25   129    39		    0     0    13     2
+8 	   41   149    11    12		    1    14     0     0
+9 	  184    14     4    11		   15     0     0     0
+10 	  160    12    13    28		   13     0     2     0
+
+==========================================
