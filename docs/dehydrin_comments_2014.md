@@ -1,5 +1,13 @@
 # Dehydrins project
 
+## 20141110, Monday, November 10, 2014
+
+A paper on drought-tolerant wild relative of tomato (http://www.nature.com/ng/journal/v46/n9/full/ng.3046.html):
+
+```
+ One S. pennellii gene, a member of the drought tolerance–promoting dehydrin family (Solyc02g084850), contained two upstream insertions. A search for cis-acting elements in these two insertions showed the presence of several overlapping motifs, including some cis elements specifically responsive to dehydration (for example, MYCATRD22). This gene has been reported to show higher expression in the more drought-tolerant S. pennellii seedlings in comparison to M82. 
+ ```
+
 ## 20141106, Thursday, November 6, 2014
 
 ### Kn Seeder results
