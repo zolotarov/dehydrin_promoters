@@ -1,42 +1,42 @@
 ******************************************************************************
-Motif 1, width = 12, seed width = 6, sites = 121
-Sum of HD to ACCGAC in 121 seqs: 31
-P-value(ACCGAC) = 1.07304e-47
-Q-value(ACCGAC) = 2.19758e-44
-Information Content = 9.25797479373104
+Motif 1, width = 12, seed width = 6, sites = 120
+Sum of HD to ACCGAC in 120 seqs: 31
+P-value(ACCGAC) = 5.15536e-47
+Q-value(ACCGAC) = 1.05582e-43
+Information Content = 9.2480377201176
 ******************************************************************************
 
 >NFM 1
 
       A                 C                 G                 T                 
-P0    26                31                29                35                
-P1    32                39                23                27                
-P2    29                57                28                7                 
-P3    111               3                 7                 0                 
-P4    1                 118               1                 1                 
-P5    0                 118               0                 3                 
-P6    1                 2                 117               1                 
-P7    105               13                2                 1                 
-P8    0                 118               3                 0                 
-P9    38                47                23                13                
-P10   15                13                2                 91                
-P11   6                 45                28                42                
+P0    25                29                30                36                
+P1    31                37                24                28                
+P2    28                56                29                7                 
+P3    111               3                 6                 0                 
+P4    2                 116               1                 1                 
+P5    0                 117               0                 3                 
+P6    1                 2                 117               0                 
+P7    104               13                2                 1                 
+P8    0                 117               3                 0                 
+P9    39                45                23                13                
+P10   14                13                2                 91                
+P11   7                 43                29                41                
 
 >PWM 1
 
       A                 C                 G                 T                 
-P0    -0.5223300478514  0.48339257751893  0.39309585536080  -0.1385866193879  
-P1    -0.2555152139323  0.79684957359094  0.08236397191529  -0.4742918637835  
-P2    -0.3827632444741  1.32231695357988  0.34573573543902  -2.0095626388086  
-P3    1.43295985064546  -2.2476844644784  -1.3951706155432  -3.5849625007212  
-P4    -3.2255729301132  2.34700012465208  -2.9914520998984  -3.2255729301132  
-P5    -3.5849625007212  2.34700012465208  -3.5849625007212  -2.6984912363345  
-P6    -3.2255729301132  -2.5721595680688  2.33492375219222  -3.2255729301132  
-P7    1.35533169574335  -0.6559518424368  -2.5721595680688  -3.2255729301132  
-P8    -3.5849625007212  2.34700012465208  -2.2476844644784  -3.5849625007212  
-P9    -0.0304285390090  1.05420882012359  0.08236397191529  -1.3592314342769  
-P10   -1.1945026539267  -0.6559518424368  -2.5721595680688  1.15609187012476  
-P11   -2.1534476680211  0.99404390620853  0.34573573543902  0.10221969692582  
+P0    -0.5612904745659  0.40418954552102  0.45005610076248  -0.0906870407322  
+P1    -0.2858354459091  0.73580806041170  0.15004602755974  -0.4169988129671  
+P2    -0.4169988129671  1.30891042792404  0.40418954552102  -2.0000957498447  
+P3    1.44424829049441  -2.2385778497135  -1.5558021533180  -3.5794759897884  
+P4    -2.9304414847750  2.33411875749796  -2.9839437954999  -3.2187642650734  
+P5    -3.5794759897884  2.34629790812798  -3.5794759897884  -2.6902535340921  
+P6    -3.2187642650734  -2.5636503473057  2.34629790812798  -3.5794759897884  
+P7    1.35325408047906  -0.6452636269143  -2.5636503473057  -3.2187642650734  
+P8    -3.5794759897884  2.34629790812798  -2.2385778497135  -3.5794759897884  
+P9    0.01487059737013  1.00526677331382  0.09336652555483  -1.3490363344762  
+P10   -1.2642492044741  -0.6452636269143  -2.5636503473057  1.16734129666976  
+P11   -2.0000957498447  0.94247207163464  0.40418954552102  0.08118199437745  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
@@ -85,7 +85,7 @@ TACACCGACCTT    79   -   90    plus      Lus10021827.g|Lusitatissimum
 CCGACCGACGTG    541  -  552    minus     MDP0000770493|Mdomestica
 CCGACCGACGTG    736  -  747    minus     MDP0000529003|Mdomestica
 TGCACCGCCCTC    668  -  679    plus      cassava4.1_015875m.g|Mesculenta
-ACTACCTCCGTC    507  -  518    minus     Medtr3g117290|Mtruncatula
+TGTAACGCCGTG    41   -   52    plus      Medtr3g117290|Mtruncatula
 GCCACCGACATT    28   -   39    plus      LOC_Os02g44870|Osativa
 CACACCGACTTC    275  -  286    plus      Phvul.009G004400|Pvulgaris
 GTAACCGACGTG    967  -  978    minus     Potri.005G248100|Ptrichocarpa
@@ -123,7 +123,7 @@ ACCACCGACATC    194  -  205    plus      Brara.G03414|Brapa
 TGGACCGACATC    229  -  240    plus      Brara.G02195|Brapa
 ACCACCGACATT    362  -  373    plus      Brara.B02255|Brapa
 ATGACCGACATC    208  -  219    plus      Brara.F01455|Brapa
-CGAACCGACCCG    586  -  597    plus      Brara.G01101|Brapa
+GGAACCGACCCG    182  -  193    plus      Brara.G01101|Brapa
 CACACCGACCAT    759  -  770    plus      Brara.H00486|Brapa
 TGGACCGACTAT    29   -   40    minus     Migut.C00923|Mguttatus
 CCGACCGACCCG    500  -  511    plus      Pavir.Aa00887|Pvirgatum
@@ -156,54 +156,53 @@ TACACCGCCCCC    137  -  148    plus      SapurV1A.5414s0010|Spurpurea
 TCCACCGCGGAT    916  -  927    minus     Araha.3199s0027|Ahalleri
 TCCACCGACGTA    353  -  364    plus      Araha.23419s0001|Ahalleri
 ATGACCGACATC    35   -   46    plus      Araha.9031s0001|Ahalleri
-AAAACCGACCAT    111  -  122    plus      Bostr.7128s0640|Bstricta
+ATGACCGACATA    83   -   94    plus      Bostr.7128s0640|Bstricta
 TCCACCGACGTA    828  -  839    plus      Bostr.7128s0641|Bstricta
 CACACCGACCAT    716  -  727    plus      Bostr.25542s0027|Bstricta
 CGGCCCCACGTC    851  -  862    minus     Bostr.20129s0054|Bstricta
-CCCGCCGACCTC    857  -  868    plus      MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 5 second(s)
+Time: 4 minute(s), 2 second(s)
 
 
 ******************************************************************************
-Motif 2, width = 12, seed width = 6, sites = 121
-Sum of HD to CGTGTC in 121 seqs: 52
-P-value(CGTGTC) = 2.29525e-23
-Q-value(CGTGTC) = 9.40136e-20
-Information Content = 9.02606018635387
+Motif 2, width = 12, seed width = 6, sites = 120
+Sum of HD to CGTGTC in 120 seqs: 53
+P-value(CGTGTC) = 4.49219e-22
+Q-value(CGTGTC) = 9.20000e-19
+Information Content = 8.98129971675197
 ******************************************************************************
 
 >NFM 2
 
       A                 C                 G                 T                 
-P0    53                64                1                 3                 
-P1    10                100               4                 7                 
-P2    102               1                 12                6                 
-P3    2                 112               0                 7                 
-P4    15                3                 95                8                 
-P5    1                 31                1                 88                
-P6    2                 0                 116               3                 
-P7    0                 12                29                80                
-P8    8                 111               2                 0                 
-P9    51                17                31                22                
-P10   27                32                22                40                
-P11   4                 56                45                16                
+P0    53                61                2                 4                 
+P1    11                98                4                 7                 
+P2    99                1                 12                8                 
+P3    3                 110               0                 7                 
+P4    10                3                 101               6                 
+P5    1                 28                3                 88                
+P6    2                 0                 116               2                 
+P7    0                 12                28                80                
+P8    7                 111               2                 0                 
+P9    50                17                30                23                
+P10   28                31                23                38                
+P11   4                 52                47                17                
 
 >PWM 2
 
       A                 C                 G                 T                 
-P0    0.41438791912181  1.48415892486193  -2.9914520998984  -2.6984912363345  
-P1    -1.6480589980423  2.11246052584571  -1.9829545475403  -2.0095626388086  
-P2    1.31489289299879  -2.9914520998984  -0.7557287597673  -2.1534476680211  
-P3    -2.9380939298373  2.27297737048854  -3.5849625007212  -2.0095626388086  
-P4    -1.1945026539267  -2.2476844644784  2.03992247700866  -1.8787353137215  
-P5    -3.2255729301132  0.48339257751893  -2.9914520998984  1.10956681202899  
-P6    -2.9380939298373  -3.5849625007212  2.32274543807522  -2.6984912363345  
-P7    -3.5849625007212  -0.7557287597673  0.39309585536080  0.97762416332310  
-P8    -1.8787353137215  2.26026239432831  -2.5721595680688  -3.5849625007212  
-P9    0.36242608607263  -0.3142041248797  0.48339257751893  -0.7322793656526  
-P10   -0.4742918637835  0.52650638993662  0.02338593111167  0.03741958087619  
-P11   -2.4930718607589  1.29764012174813  0.99404390620853  -1.1186936359888  
+P0    0.42548716448668  1.42829463511924  -2.5636503473057  -2.4844043955541  
+P1    -1.5352038423866  2.09523686086494  -1.9734509763739  -2.0000957498447  
+P2    1.28455467807716  -2.9839437954999  -0.7450967452225  -1.8690944142164  
+P3    -2.6902535340921  2.25880234601298  -3.5794759897884  -2.0000957498447  
+P4    -1.6381472570708  -2.2385778497135  2.13789934498907  -2.1441913168650  
+P5    -3.2187642650734  0.35681677105291  -2.2385778497135  1.12080891603035  
+P6    -2.9304414847750  -3.5794759897884  2.33411875749796  -2.9304414847750  
+P7    -3.5794759897884  -0.7450967452225  0.35681677105291  0.98884416900421  
+P8    -2.0000957498447  2.27163130902595  -2.5636503473057  -3.5794759897884  
+P9    0.34680437688515  -0.3033503863642  0.45005610076248  -0.6661821822223  
+P10   -0.4169988129671  0.49450927321591  0.09336652555483  -0.0194642347684  
+P11   -2.4844043955541  1.20573733684367  1.06544189801571  -1.0362259778836  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
@@ -257,7 +256,7 @@ ACACGCGTCGCG    822  -  833    plus      LOC_Os02g44870|Osativa
 CCACGTGTCTCT    351  -  362    plus      Phvul.009G004400|Pvulgaris
 CCACGTGTCGCC    723  -  734    plus      Potri.005G248100|Ptrichocarpa
 CCACGTGGCAGC    428  -  439    minus     ppa010326m.g|Ppersica
-CCACATTCCACC    32   -   43    minus     ppa026861m.g|Ppersica
+CTACGTGCAAGG    639  -  650    minus     ppa026861m.g|Ppersica
 ACACGTGTCAGC    603  -  614    plus      30170.t000735|Rcommunis
 ACACGCGTCGCG    729  -  740    plus      Si017975m.g|Sitalica
 CCTCTCGTCATC    784  -  795    minus     Si027536m.g|Sitalica
@@ -266,10 +265,10 @@ CCACGTGTCATG    198  -  209    plus      PGSC0003DMG400009968|Stuberosum
 CCACGTGTCATA    560  -  571    plus      Thecc1EG034339|Tcacao
 GTACGTGTCTTC    145  -  156    plus      Thhalv10026303m.g|Esalsugineum
 CCACGTGTCAAC    214  -  225    plus      Thhalv10019152m.g|Esalsugineum
-CCACATGGCGTG    194  -  205    plus      Thhalv10008706m.g|Esalsugineum
+CCACGTGGCTAT    31   -   42    plus      Thhalv10008706m.g|Esalsugineum
 CCACATGTCAAC    423  -  434    plus      GRMZM2G373522|Zmays
 ACACGCGTCGTG    808  -  819    plus      GRMZM2G147014|Zmays
-CTTCATGTCCAC    349  -  360    plus      MA_474985g0010|Pabies
+CATCGGGTCCTC    974  -  985    plus      MA_474985g0010|Pabies
 CCTCACGGCACC    797  -  808    plus      MA_86965g0010|Pabies
 CCGCGTGGCCGC    787  -  798    plus      MA_65580g0010|Pabies
 ACAAGTGTCATG    554  -  565    minus     MA_187114g0010|Pabies
@@ -284,13 +283,13 @@ CATCGCGTCGAG    834  -  845    plus      Achn252561|Achinensis
 ACACCTGTCACT    694  -  705    minus     Achn095551|Achinensis
 CCACGTGGATTG    26   -   37    minus     Achn343961|Achinensis
 CCAAACGGCACC    604  -  615    plus      Achn132121|Achinensis
-CCACACGTCATC    615  -  626    plus      evm_27.model.AmTr_v1.0_scaffold00001.
+GCACGTGTCGAG    530  -  541    plus      evm_27.model.AmTr_v1.0_scaffold00001.
 TCACGTGTCGGG    763  -  774    plus      evm_27.model.AmTr_v1.0_scaffold00082.
 ACACGTGTCAAT    269  -  280    minus     Brara.G03414|Brapa
 ACACGTGTCCAC    317  -  328    plus      Brara.G02195|Brapa
 ACACGTGTCGAC    546  -  557    minus     Brara.B02255|Brapa
 CCGCGTGTCCGG    279  -  290    minus     Brara.F01455|Brapa
-CAACGCGGAGGT    918  -  929    minus     Brara.G01101|Brapa
+TCTCGGGTCCGG    595  -  606    minus     Brara.G01101|Brapa
 TAACGTGTACCG    745  -  756    plus      Brara.H00486|Brapa
 ACACGTGTCAAT    635  -  646    plus      Migut.C00923|Mguttatus
 CCACGCGTCCGG    100  -  111    plus      Pavir.Aa00887|Pvirgatum
@@ -301,7 +300,7 @@ CCACGTTCCTCC    425  -  436    plus      PITA_000087634-RA|Ptaeda
 CCTCATTTCTTC    754  -  765    minus     PITA_000078888-RA|Ptaeda
 ATGCGCGTCTAC    819  -  830    plus      PITA_000008706-RA|Ptaeda
 ACACGCGCCATG    910  -  921    minus     PITA_000008705-RA|Ptaeda
-CCGCTCGTCGCC    226  -  237    minus     PITA_000008704-RA|Ptaeda
+CAGCGTGGCGAC    220  -  231    plus      PITA_000008704-RA|Ptaeda
 ACACGCGCCATG    789  -  800    minus     PITA_000008703-RA|Ptaeda
 ACACGCGGCGCC    805  -  816    plus      PITA_000000201-RA|Ptaeda
 ACACGCGCCATG    913  -  924    minus     PITA_000000200-RA|Ptaeda
@@ -325,52 +324,51 @@ CAGCGTGTGACC    418  -  429    plus      Araha.23419s0001|Ahalleri
 ACACGTGTCAGT    112  -  123    plus      Araha.9031s0001|Ahalleri
 AAACGTGTCAGC    150  -  161    plus      Bostr.7128s0640|Bstricta
 CCACGTGGCGTG    70   -   81    plus      Bostr.7128s0641|Bstricta
-CCACTTGGACTC    479  -  490    minus     Bostr.25542s0027|Bstricta
+CCTAGTGTCACT    880  -  891    plus      Bostr.25542s0027|Bstricta
 ACACGTGTCAAG    189  -  200    minus     Bostr.20129s0054|Bstricta
-CCACATGTCAAC    405  -  416    plus      MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 11 second(s)
+Time: 4 minute(s), 7 second(s)
 
 
 ******************************************************************************
-Motif 3, width = 12, seed width = 6, sites = 121
-Sum of HD to AACGCG in 121 seqs: 85
-P-value(AACGCG) = 2.43995e-13
-Q-value(AACGCG) = 9.99405e-10
-Information Content = 7.57312674253922
+Motif 3, width = 12, seed width = 6, sites = 120
+Sum of HD to AACGCG in 120 seqs: 83
+P-value(AACGCG) = 4.93814e-14
+Q-value(AACGCG) = 2.02266e-10
+Information Content = 7.51130531263298
 ******************************************************************************
 
 >NFM 3
 
       A                 C                 G                 T                 
-P0    24                34                48                15                
-P1    8                 64                47                2                 
-P2    15                83                19                4                 
-P3    75                5                 37                4                 
-P4    115               5                 1                 0                 
-P5    10                97                4                 10                
-P6    15                0                 105               1                 
-P7    0                 110               3                 8                 
-P8    36                5                 77                3                 
-P9    35                18                60                8                 
-P10   59                28                11                23                
-P11   18                5                 71                27                
+P0    27                31                48                14                
+P1    10                60                46                4                 
+P2    9                 86                18                7                 
+P3    75                3                 37                5                 
+P4    112               6                 1                 1                 
+P5    7                 101               3                 9                 
+P6    9                 0                 111               0                 
+P7    1                 101               7                 11                
+P8    36                1                 81                2                 
+P9    29                19                61                11                
+P10   58                30                14                18                
+P11   21                8                 61                30                
 
 >PWM 3
 
       A                 C                 G                 T                 
-P0    -0.6234889423072  0.60905121243255  1.08337580841562  -1.1945026539267  
-P1    -1.8787353137215  1.48415892486193  1.05420882012359  -2.9380939298373  
-P2    -1.1945026539267  1.84932698715948  -0.1695604433477  -2.4930718607589  
-P3    0.88857915422838  -1.7593522656619  0.72463651956548  -2.4930718607589  
-P4    1.48248441683373  -1.7593522656619  -2.9914520998984  -3.5849625007212  
-P5    -1.6480589980423  2.06937678426251  -1.9829545475403  -1.6480589980423  
-P6    -1.1945026539267  -3.5849625007212  2.18152533117510  -3.2255729301132  
-P7    -3.5849625007212  2.24743435947033  -2.2476844644784  -1.8787353137215  
-P8    -0.1016256147946  -1.7593522656619  1.74367162247507  -2.6984912363345  
-P9    -0.1385866193879  -0.2400703074667  1.39391168640872  -1.8787353137215  
-P10   0.55990742103548  0.34573573543902  -0.8629223720271  -0.6768589413759  
-P11   -0.9780717786739  -1.7593522656619  1.62966282836074  -0.4742918637835  
+P0    -0.4635107964327  0.49450927321591  1.09461368513783  -1.2642492044741  
+P1    -1.6381472570708  1.40519506699687  1.03566805262103  -2.4844043955541  
+P2    -1.7490044982114  1.91072732706822  -0.2291855536544  -2.0000957498447  
+P3    0.89978306201994  -2.2385778497135  0.73580806041170  -2.3042924726183  
+P4    1.45679131954053  -1.5558021533180  -2.9839437954999  -3.2187642650734  
+P5    -2.0000957498447  2.13789934498907  -2.2385778497135  -1.7490044982114  
+P6    -1.7490044982114  -3.5794759897884  2.27163130902595  -3.5794759897884  
+P7    -3.2187642650734  2.13789934498907  -1.3850077599124  -1.5352038423866  
+P8    -0.0906870407322  -2.9839437954999  1.82629248595397  -2.9304414847750  
+P9    -0.3719396432714  -0.1586476335864  1.42829463511924  -1.5352038423866  
+P10   0.54778038711886  0.45005610076248  -0.5518940086563  -0.9675799143840  
+P11   -0.7793022354891  -1.2323095299150  1.42829463511924  -0.3282452715796  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
@@ -378,10 +376,10 @@ ACCGACGCGACG    802  -  813    minus     PDK_30s1199051g001|Pdactylifera
 ACCAACGCGACG    793  -  804    minus     PDK_30s674821g002|Pdactylifera
 TGCAACGCGCCA    683  -  694    plus      chr1.CM0113.680.r2.d|Ljaponicus
 GCCAAGGCGGGC    329  -  340    minus     chr5.CM0335.70.r2.d|Ljaponicus
-CCAAAAGCAAAG    942  -  953    minus     C.cajan_18977|Ccajan
+CATAACGCGCAC    880  -  891    minus     C.cajan_18977|Ccajan
 GCGGATGCAGGG    671  -  682    minus     C.cajan_11145|Ccajan
 GCCCACGCTCCT    811  -  822    minus     Ca_04759|Carietinum
-GCCAATGCCATG    632  -  643    plus      Aquca_043_00099|Acoerulea
+GCCACCGTGTCA    930  -  941    plus      Aquca_043_00099|Acoerulea
 GCAAACGCATCA    919  -  930    plus      Aquca_007_00853|Acoerulea
 CGAAAAGCAGAG    751  -  762    plus      490603|Alyrata
 GGTAACGCTGTA    832  -  843    minus     921008|Alyrata
@@ -399,7 +397,7 @@ AGCAACGCACAT    121  -  132    plus      Bradi4g22290|Bdistachyon
 CGGAACGCAAAG    870  -  881    plus      Carubv10005866m.g|Crubella
 GACAACGCAAAA    552  -  563    minus     Carubv10020984m.g|Crubella
 ACCGACGTGGAT    219  -  230    plus      Carubv10010037m.g|Crubella
-GGGAACTCAATG    252  -  263    minus     Carubv10010040m.g|Crubella
+ATCATCGCGCAT    54   -   65    plus      Carubv10010040m.g|Crubella
 TGCAACGCGGTT    748  -  759    minus     evm.TU.supercontig_26.225|Cpapaya
 CACCACGCGGAT    832  -  843    minus     Ciclev10002349m.g|Cclementina
 GGCAATGCAAGT    853  -  864    minus     orange1.1g038463m.g|Csinensis
@@ -407,28 +405,28 @@ GCCAACGCAAGT    615  -  626    plus      orange1.1g026736m.g|Csinensis
 CCCGACGCGGAT    761  -  772    minus     Cucsa.077690|Csativus
 AGCGACGCGACA    427  -  438    minus     Eucgr.F01726|Egrandis
 ACCAATGGGGAG    795  -  806    minus     gene17179-v1.0-hybrid|Fvesca
-CCACAGGCAGAG    279  -  290    minus     Gorai.008G038700|Graimondii
+AGTAACGAGGTG    988  -  999    minus     Gorai.008G038700|Graimondii
 CGTAACGCGGTT    974  -  985    minus     Gorai.009G189500|Graimondii
 GGGAAAGCGACG    560  -  571    plus      Gorai.002G119600|Graimondii
-CCAAACACAAAG    194  -  205    plus      Lus10003340.g|Lusitatissimum
+ACTAACGTAGAG    969  -  980    minus     Lus10003340.g|Lusitatissimum
 CGAAACACAAAG    176  -  187    plus      Lus10022643.g|Lusitatissimum
 GGCAACGGGGAG    31   -   42    minus     Lus10005652.g|Lusitatissimum
 GGGGAGGCGGGG    889  -  900    minus     Lus10034568.g|Lusitatissimum
 GGCAAAACGGAG    238  -  249    minus     Lus10021240.g|Lusitatissimum
 GGGGATGCGGAG    871  -  882    minus     Lus10021827.g|Lusitatissimum
 ACCAACGTGATG    84   -   95    plus      MDP0000770493|Mdomestica
-GCCGACACTGAG    444  -  455    plus      MDP0000529003|Mdomestica
+GGCGACGTACCG    9    -   20    minus     MDP0000529003|Mdomestica
 ACCAACGCGTAT    958  -  969    minus     cassava4.1_015875m.g|Mesculenta
-GGAGACACGGCG    46   -   57    minus     Medtr3g117290|Mtruncatula
+AGGGACGGAGGT    504  -  515    plus      Medtr3g117290|Mtruncatula
 GGCGACGCGAGG    908  -  919    minus     LOC_Os02g44870|Osativa
 CCCGACGCAACT    253  -  264    plus      Phvul.009G004400|Pvulgaris
-GCCGACACCACG    676  -  687    plus      Potri.005G248100|Ptrichocarpa
+CAATACGCGGAG    818  -  829    minus     Potri.005G248100|Ptrichocarpa
 CCCAACGCGGAT    987  -  998    minus     ppa010326m.g|Ppersica
 ACCAAGGCAGTG    801  -  812    minus     ppa026861m.g|Ppersica
 GGCGACGTGGCG    487  -  498    minus     30170.t000735|Rcommunis
 CGCGACGCGAGG    835  -  846    minus     Si017975m.g|Sitalica
 CGCGACGTAGTA    483  -  494    minus     Si027536m.g|Sitalica
-ACAGACACGCTG    412  -  423    minus     Solyc04g082200.2|Slycopersicum
+ACCGACACACAA    295  -  306    plus      Solyc04g082200.2|Slycopersicum
 GACAACGCGTGA    287  -  298    minus     PGSC0003DMG400009968|Stuberosum
 AACGACGCAAAT    445  -  456    plus      Thecc1EG034339|Tcacao
 GGCAACGCCTTG    789  -  800    plus      Thhalv10026303m.g|Esalsugineum
@@ -442,29 +440,29 @@ TCCTACGCGCTG    806  -  817    minus     MA_65580g0010|Pabies
 ACCACCGCGGCT    806  -  817    plus      MA_187114g0010|Pabies
 TCGGCCGCAGGG    817  -  828    plus      MA_104214g0010|Pabies
 CGGAATGCAGAG    913  -  924    minus     MA_9972323g0010|Pabies
-TGAAACGCGCTG    211  -  222    minus     MA_130855g0010|Pabies
+GCCAACGGACTG    568  -  579    minus     MA_130855g0010|Pabies
 CGGAATGCAGAG    913  -  924    minus     MA_151075g0010|Pabies
 CGGAATGCAGAG    912  -  923    minus     MA_120345g0010|Pabies
 AGTAAAGCGAAT    109  -  120    plus      Glyma.04G009400|Gmax
 ACGAACGCGACG    975  -  986    minus     GSMUA_Achr11P16760_001|Macuminata
-ACCAAAGCAGTT    662  -  673    plus      Achn252561|Achinensis
+CCAAACGGGGCC    687  -  698    plus      Achn252561|Achinensis
 GGCGAAGCAATG    795  -  806    minus     Achn095551|Achinensis
 TCGCACGCGGAT    862  -  873    minus     Achn343961|Achinensis
 ATGAACGCGGGT    569  -  580    plus      Achn132121|Achinensis
 TGCAACGCGCTG    755  -  766    minus     evm_27.model.AmTr_v1.0_scaffold00001.
-GCCAAAGCCAAG    497  -  508    plus      evm_27.model.AmTr_v1.0_scaffold00082.
+CCCGACACGTCC    720  -  731    plus      evm_27.model.AmTr_v1.0_scaffold00082.
 CTCTACGCGGAT    946  -  957    minus     Brara.G03414|Brapa
 ACCGACACGGAG    932  -  943    minus     Brara.G02195|Brapa
 TCCAACGCGGAT    938  -  949    minus     Brara.B02255|Brapa
 GCCAACGCGGAG    939  -  950    minus     Brara.F01455|Brapa
-CCGAACGCCCAG    718  -  729    plus      Brara.G01101|Brapa
-CGAAACACAATG    782  -  793    plus      Brara.H00486|Brapa
+GCCAACGCGGAG    920  -  931    minus     Brara.G01101|Brapa
+ATCAACACAAAG    317  -  328    plus      Brara.H00486|Brapa
 GGCGACGTGTCG    316  -  327    minus     Migut.C00923|Mguttatus
 CCCGACGCGCCG    591  -  602    plus      Pavir.Aa00887|Pvirgatum
 CCCGACGCGCCG    706  -  717    plus      Pavir.J04551|Pvirgatum
 CGCGACGCGGAG    352  -  363    minus     Sobic.004G286600|Sbicolor
-CCCAACATGAAG    645  -  656    minus     PITA_000086992-RA|Ptaeda
-ACAAACACAGAG    225  -  236    minus     PITA_000087634-RA|Ptaeda
+GCCAACACGTGA    596  -  607    minus     PITA_000086992-RA|Ptaeda
+GCCAACGGACCT    745  -  756    minus     PITA_000087634-RA|Ptaeda
 CGCAGAGCGCAG    986  -  997    minus     PITA_000078888-RA|Ptaeda
 CCCTACGCGCTG    891  -  902    minus     PITA_000008706-RA|Ptaeda
 AAGGACGCAAAG    932  -  943    plus      PITA_000008705-RA|Ptaeda
@@ -472,11 +470,11 @@ GGCGATGCGCCG    39   -   50    plus      PITA_000008704-RA|Ptaeda
 TCCAACGCGCTA    713  -  724    plus      PITA_000008703-RA|Ptaeda
 CGGAACGCGCTT    886  -  897    minus     PITA_000000201-RA|Ptaeda
 ACCACCGCAACG    389  -  400    minus     PITA_000000200-RA|Ptaeda
-CCCCACACGCCG    750  -  761    plus      PITA_000050018-RA|Ptaeda
+CGCGACGTGACT    848  -  859    minus     PITA_000050018-RA|Ptaeda
 GCCAACGCGGAG    808  -  819    minus     Thhalv10008313m.g|Esalsugineum
 ACAAACGCGGAC    825  -  836    minus     Capana04g000100|Cannuum
 TGCAATGCAGCA    320  -  331    plus      Capana08g002792|Cannuum
-CGCGACGCGACA    579  -  590    minus     XP_006647663.1|Obrachyantha
+GCCGACGCGAGA    269  -  280    minus     XP_006647663.1|Obrachyantha
 GCCAACGCGGAG    923  -  934    minus     Cagra.25489s0002|Cgrandiflora
 GCCAACGCGGAG    919  -  930    minus     Cagra.25489s0001|Cgrandiflora
 TCCAACGCGGAT    911  -  922    minus     Cagra.0799s0088|Cgrandiflora
@@ -494,231 +492,63 @@ GCCAACGCGGAG    927  -  938    minus     Bostr.7128s0640|Bstricta
 GCCGACGCGGAA    927  -  938    minus     Bostr.7128s0641|Bstricta
 CGGAACGCAGAG    739  -  750    plus      Bostr.25542s0027|Bstricta
 TCCACCGCGGAT    959  -  970    minus     Bostr.20129s0054|Bstricta
-GCCGACACGCTG    974  -  985    plus      MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 16 second(s)
+Time: 4 minute(s), 12 second(s)
 
 
 ******************************************************************************
-Motif 4, width = 12, seed width = 6, sites = 121
-Sum of HD to GTCGGT in 121 seqs: 73
-P-value(GTCGGT) = 6.60391e-12
-Q-value(GTCGGT) = 2.70496e-08
-Information Content = 7.71996348903921
+Motif 4, width = 12, seed width = 6, sites = 120
+Sum of HD to AGCGTG in 120 seqs: 77
+P-value(AGCGTG) = 5.26101e-11
+Q-value(AGCGTG) = 8.32183e-08
+Information Content = 8.56000716035497
 ******************************************************************************
 
 >NFM 4
 
       A                 C                 G                 T                 
-P0    52                7                 34                27                
-P1    19                1                 49                52                
-P2    26                11                52                32                
-P3    1                 1                 119               0                 
-P4    17                0                 2                 102               
-P5    0                 78                41                2                 
-P6    1                 0                 119               1                 
-P7    1                 0                 118               2                 
-P8    6                 40                2                 73                
-P9    12                45                38                26                
-P10   13                46                19                43                
-P11   35                25                27                34                
+P0    12                8                 72                28                
+P1    69                19                7                 25                
+P2    36                20                63                1                 
+P3    100               0                 16                4                 
+P4    1                 1                 115               3                 
+P5    40                24                32                24                
+P6    0                 0                 116               4                 
+P7    58                3                 0                 59                
+P8    2                 3                 115               0                 
+P9    30                6                 79                5                 
+P10   59                9                 35                17                
+P11   18                2                 92                8                 
 
 >PWM 4
 
       A                 C                 G                 T                 
-P0    0.39512088261110  -1.3554898986346  0.61904499213751  -0.4625281522009  
-P1    -0.9125877435443  -2.9914520998984  1.11196479345169  0.38864092990764  
-P2    -0.5223300478514  -0.8629223720271  1.19448204343344  -0.2555152139323  
-P3    -3.2255729301132  -2.9914520998984  2.35897624795394  -3.5849625007212  
-P4    -1.0466700546964  -3.5849625007212  -2.5721595680688  1.31489289299879  
-P5    -3.5849625007212  1.76182696933324  0.86561970412482  -2.9380939298373  
-P6    -3.2255729301132  -3.5849625007212  2.35897624795394  -3.2255729301132  
-P7    -3.2255729301132  -3.5849625007212  2.34700012465208  -2.9380939298373  
-P8    -2.1534476680211  0.83164436536226  -2.5721595680688  0.85136307191433  
-P9    -1.4492320657758  0.99404390620853  0.76119482092538  -0.5223300478514  
-P10   -1.3592314342769  1.02443997367326  -0.1695604433477  0.13355999913963  
-P11   -0.1385866193879  0.19354523079437  0.29676797546694  -0.1765194967038  
-
-Site            Position       Strand    Sequence
-------------    -----------    ------    -------------------------------------
-CTGGTGGGCCCC    505  -  516    minus     PDK_30s1199051g001|Pdactylifera
-TGTGTCGGCCTT    351  -  362    minus     PDK_30s674821g002|Pdactylifera
-GGGGTGGGTATC    305  -  316    minus     chr1.CM0113.680.r2.d|Ljaponicus
-AATGTGGGCCCA    411  -  422    minus     chr5.CM0335.70.r2.d|Ljaponicus
-AGAGTGGGACAC    905  -  916    minus     C.cajan_18977|Ccajan
-TGTGTGGGCCCG    730  -  741    minus     C.cajan_11145|Ccajan
-TAAGACGGTATC    642  -  653    plus      Ca_04759|Carietinum
-ATGGTCGGTTTG    180  -  191    minus     Aquca_043_00099|Acoerulea
-GTCGTGGGCATG    797  -  808    minus     Aquca_007_00853|Acoerulea
-GTGGACGGTCCA    717  -  728    minus     490603|Alyrata
-AGCGGGGGTTTT    895  -  906    minus     921008|Alyrata
-TTCGTGGGACCC    32   -   43    minus     927009|Alyrata
-ATGGTCGGTTTT    457  -  468    minus     472273|Alyrata
-ATAGAGGGTTTT    375  -  386    plus      937958|Alyrata
-TGTGTGGGCCCG    53   -   64    plus      AT1G20440|Athaliana
-TACGTGGGTCCA    172  -  183    minus     AT1G76180|Athaliana
-CATGTGGGCCAA    416  -  427    minus     AT1G20450|Athaliana
-AGAGTCGGTGCA    97   -  108    minus     AT4G38410|Athaliana
-ATGGTCGGTGGC    85   -   96    minus     Bradi5g10860|Bdistachyon
-AGAGTGGGCCGG    558  -  569    plus      Bradi4g22280|Bdistachyon
-TGCGTCGGTGCG    644  -  655    minus     Bradi3g51200|Bdistachyon
-AAAGTGGGCGAC    534  -  545    plus      Bradi4g22290|Bdistachyon
-AGAGTCGGTGCA    16   -   27    minus     Carubv10005866m.g|Crubella
-ATGGACGGCGGA    323  -  334    minus     Carubv10020984m.g|Crubella
-ATGGTCGGTTTT    268  -  279    minus     Carubv10010037m.g|Crubella
-ATGGTCGGTTTT    243  -  254    minus     Carubv10010040m.g|Crubella
-GTGGTCGGTTTG    248  -  259    minus     evm.TU.supercontig_26.225|Cpapaya
-AGTGTCGGTCTT    464  -  475    minus     Ciclev10002349m.g|Cclementina
-GTAGTCGGTCCG    639  -  650    minus     orange1.1g038463m.g|Csinensis
-AGAGTCGTTCCC    815  -  826    minus     orange1.1g026736m.g|Csinensis
-AGAGTCGGTGGA    456  -  467    minus     Cucsa.077690|Csativus
-GGTGTCGGCCTC    670  -  681    minus     Eucgr.F01726|Egrandis
-GTGGACGGTGTG    761  -  772    minus     gene17179-v1.0-hybrid|Fvesca
-AAGGTGGTTTCG    605  -  616    minus     Gorai.008G038700|Graimondii
-AACGTGGGTGTG    644  -  655    minus     Gorai.009G189500|Graimondii
-ATGGTCGGTGTA    703  -  714    minus     Gorai.002G119600|Graimondii
-TTGGACGGTGTG    237  -  248    minus     Lus10003340.g|Lusitatissimum
-ATGGTGGGCAGA    298  -  309    minus     Lus10022643.g|Lusitatissimum
-CTGGACGGTGCG    731  -  742    plus      Lus10005652.g|Lusitatissimum
-GTGGACGGTCGA    705  -  716    plus      Lus10034568.g|Lusitatissimum
-AGAGTCGGTGTG    117  -  128    minus     Lus10021240.g|Lusitatissimum
-GTGGACGGTCGT    153  -  164    minus     Lus10021827.g|Lusitatissimum
-AGTGTCGGCCTT    270  -  281    minus     MDP0000770493|Mdomestica
-ATGGTGGGTGCA    343  -  354    minus     MDP0000529003|Mdomestica
-TTGGTCGGCTGA    450  -  461    minus     cassava4.1_015875m.g|Mesculenta
-AGGGTTGGCTTA    387  -  398    minus     Medtr3g117290|Mtruncatula
-GAGGTCGGCGCC    741  -  752    minus     LOC_Os02g44870|Osativa
-GAGGTCGGCATT    304  -  315    plus      Phvul.009G004400|Pvulgaris
-GGGGGCGGTGTA    641  -  652    minus     Potri.005G248100|Ptrichocarpa
-AGTGTCGGCCTT    479  -  490    minus     ppa010326m.g|Ppersica
-TTGGTCGGTGCT    566  -  577    minus     ppa026861m.g|Ppersica
-TTGGTCGGTCCA    311  -  322    minus     30170.t000735|Rcommunis
-TGGGTCGGTCGG    581  -  592    minus     Si017975m.g|Sitalica
-AGTGTGGGTACC    77   -   88    plus      Si027536m.g|Sitalica
-GGTGTCGGCCTT    319  -  330    minus     Solyc04g082200.2|Slycopersicum
-AGTGTCGGCCTT    253  -  264    minus     PGSC0003DMG400009968|Stuberosum
-ATTGTCGGTCGT    509  -  520    minus     Thecc1EG034339|Tcacao
-GGAGTGGGTGTG    862  -  873    plus      Thhalv10026303m.g|Esalsugineum
-GATGTGGGTCCA    126  -  137    minus     Thhalv10019152m.g|Esalsugineum
-CATGTGGGTCCA    53   -   64    minus     Thhalv10008706m.g|Esalsugineum
-GTGGACGGCCCG    960  -  971    minus     GRMZM2G373522|Zmays
-ATGGTCGGCGCG    300  -  311    plus      GRMZM2G147014|Zmays
-TGGGTGGGTGCA    500  -  511    plus      MA_474985g0010|Pabies
-ATAGTCGGTTTA    262  -  273    minus     MA_86965g0010|Pabies
-GTAGTCGGTGGA    752  -  763    minus     MA_65580g0010|Pabies
-AGTGTCAGTGGC    485  -  496    minus     MA_187114g0010|Pabies
-NGAGTCGGTGGA    736  -  747    minus     MA_104214g0010|Pabies
-TGGGTGGGTGAA    593  -  604    minus     MA_9972323g0010|Pabies
-ATTGTCGGTGCT    643  -  654    minus     MA_130855g0010|Pabies
-TGGGTGGGTGAA    593  -  604    minus     MA_151075g0010|Pabies
-ATAGTCGGCAAA    742  -  753    plus      MA_120345g0010|Pabies
-GAGGTTGGTATT    886  -  897    plus      Glyma.04G009400|Gmax
-TGTGTCGGTCCA    619  -  630    minus     GSMUA_Achr11P16760_001|Macuminata
-GTGGTGGGTTTT    867  -  878    minus     Achn252561|Achinensis
-ATAGTGGGATAG    859  -  870    minus     Achn095551|Achinensis
-GTAGTGGGTGTT    130  -  141    minus     Achn343961|Achinensis
-GTAGTGGGTTTT    875  -  886    minus     Achn132121|Achinensis
-CGTGTCGGTTCT    769  -  780    plus      evm_27.model.AmTr_v1.0_scaffold00001.
-GTTGTCGGATGA    798  -  809    minus     evm_27.model.AmTr_v1.0_scaffold00082.
-GGTGTGGGTCCG    185  -  196    minus     Brara.G03414|Brapa
-AGTGTCGGTGAT    238  -  249    minus     Brara.G02195|Brapa
-GGTGTCGGTCCA    353  -  364    minus     Brara.B02255|Brapa
-GATGTGGGTCCT    256  -  267    plus      Brara.F01455|Brapa
-TGGGTCGGTTCT    690  -  701    minus     Brara.G01101|Brapa
-ACGGTGGGCTTA    575  -  586    minus     Brara.H00486|Brapa
-AATATCGGCTCA    432  -  443    minus     Migut.C00923|Mguttatus
-GGCGTCGGCTCG    704  -  715    plus      Pavir.Aa00887|Pvirgatum
-CGTGTCGGCCTC    26   -   37    minus     Pavir.J04551|Pvirgatum
-GAGGTCGGCGCC    772  -  783    minus     Sobic.004G286600|Sbicolor
-TTGGTGGGTTGT    166  -  177    plus      PITA_000086992-RA|Ptaeda
-GGAGTCGGTACC    717  -  728    plus      PITA_000087634-RA|Ptaeda
-GGTGACGGAATC    737  -  748    plus      PITA_000078888-RA|Ptaeda
-AAAGACGGCCCT    365  -  376    plus      PITA_000008706-RA|Ptaeda
-GGGGACGGCCAG    481  -  492    plus      PITA_000008705-RA|Ptaeda
-ATGGTGTGCGCG    706  -  717    plus      PITA_000008704-RA|Ptaeda
-GGGGACGGCCAC    71   -   82    plus      PITA_000008703-RA|Ptaeda
-ATAGTCGGTGAT    385  -  396    plus      PITA_000000201-RA|Ptaeda
-AGGGTGGGGCCC    837  -  848    minus     PITA_000000200-RA|Ptaeda
-ATGGACGGTCCA    812  -  823    plus      PITA_000050018-RA|Ptaeda
-GGCGTGGGGCCT    42   -   53    plus      Thhalv10008313m.g|Esalsugineum
-TGAGTGGACTTT    36   -   47    plus      Capana04g000100|Cannuum
-ATGGTCGGTTTG    785  -  796    minus     Capana08g002792|Cannuum
-CGGGTCGGCGTC    639  -  650    minus     XP_006647663.1|Obrachyantha
-ATGGTCGGTTTT    79   -   90    minus     Cagra.25489s0002|Cgrandiflora
-ATGGTCGGTTTT    50   -   61    minus     Cagra.25489s0001|Cgrandiflora
-ATGGACGGCGGA    195  -  206    minus     Cagra.0799s0088|Cgrandiflora
-AGAGTCGGTGCA    28   -   39    minus     Cagra.1383s0028|Cgrandiflora
-TGTGTCGGTACT    579  -  590    minus     Cagra.2007s0059|Cgrandiflora
-TACGTCGGTCGC    777  -  788    plus      Cagra.0926s0063|Cgrandiflora
-TTGGTCGGTCTG    769  -  780    minus     Bv9_218990_uifq.t1|Bvulgaris
-ATCGTGGGCATG    61   -   72    plus      Bv_34440_phes.t1|Bvulgaris
-GTTGTCGGCGCC    118  -  129    minus     SapurV1A.0573s0050|Spurpurea
-AGTGTCGGCCTC    166  -  177    minus     SapurV1A.5414s0010|Spurpurea
-TTCGTGGGACCC    1    -   12    minus     Araha.3199s0027|Ahalleri
-GAAGAGGGTCCA    442  -  453    minus     Araha.23419s0001|Ahalleri
-ATGGTCGGCTTT    64   -   75    minus     Araha.9031s0001|Ahalleri
-TATGTCGGTCAT    83   -   94    minus     Bostr.7128s0640|Bstricta
-TGAGTCGGTGAC    796  -  807    plus      Bostr.7128s0641|Bstricta
-TTGGTCGGCGGA    731  -  742    plus      Bostr.25542s0027|Bstricta
-TTTCTGGGTCCC    5    -   16    plus      Bostr.20129s0054|Bstricta
-ATGGTCGGTGGG    793  -  804    minus     MLOC_14884|Hvulgare
-
-Time: 4 minute(s), 21 second(s)
-
-
-******************************************************************************
-Motif 5, width = 12, seed width = 6, sites = 121
-Sum of HD to AGCGTG in 121 seqs: 80
-P-value(AGCGTG) = 8.40776e-10
-Q-value(AGCGTG) = 1.70584e-06
-Information Content = 8.71331541579237
-******************************************************************************
-
->NFM 5
-
-      A                 C                 G                 T                 
-P0    19                8                 68                26                
-P1    76                21                12                12                
-P2    38                6                 75                2                 
-P3    103               0                 7                 11                
-P4    2                 0                 114               5                 
-P5    56                22                29                14                
-P6    1                 0                 115               5                 
-P7    60                1                 2                 58                
-P8    4                 1                 107               9                 
-P9    34                1                 83                3                 
-P10   61                8                 39                13                
-P11   26                1                 87                7                 
-
->PWM 5
-
-      A                 C                 G                 T                 
-P0    -0.9125877435443  -1.2426038973728  1.56909160143222  -0.5223300478514  
-P1    0.90683326604054  -0.0381063058315  -0.7557287597673  -1.4492320657758  
-P2    -0.0304285390090  -1.5658004576812  1.70666079116701  -2.9380939298373  
-P3    1.32849882798111  -3.5849625007212  -1.3951706155432  -1.5452230394455  
-P4    -2.9380939298373  -3.5849625007212  2.29807599725530  -2.3132889086066  
-P5    0.48898164694666  0.02338593111167  0.39309585536080  -1.2745172021027  
-P6    -3.2255729301132  -3.5849625007212  2.31046344657529  -2.3132889086066  
-P7    0.58279509607355  -2.9914520998984  -2.5721595680688  0.53665078255536  
-P8    -2.4930718607589  -2.9914520998984  2.20825133885625  -1.7587916281476  
-P9    -0.1765194967038  -2.9914520998984  1.84932698715948  -2.6984912363345  
-P10   0.60532533218340  -1.2426038973728  0.79684957359094  -1.3592314342769  
-P11   -0.5223300478514  -2.9914520998984  1.91569621511354  -2.0095626388086  
+P0    -1.4391192531894  -1.2323095299150  1.66061511375781  -0.4169988129671  
+P1    0.78510241149490  -0.1586476335864  -1.3850077599124  -0.5612904745659  
+P2    -0.0906870407322  -0.0913983672105  1.47341296140698  -3.2187642650734  
+P3    1.29855876337429  -3.5794759897884  -0.3815354217070  -2.4844043955541  
+P4    -3.2187642650734  -2.9839437954999  2.32183591518085  -2.6902535340921  
+P5    0.04840725080799  0.15004602755974  0.53763357228330  -0.6127832641989  
+P6    -3.5794759897884  -3.5794759897884  2.33411875749796  -2.4844043955541  
+P7    0.54778038711886  -2.2385778497135  -3.5794759897884  0.57104251480042  
+P8    -2.9304414847750  -2.2385778497135  2.32183591518085  -3.5794759897884  
+P9    -0.3282452715796  -1.5558021533180  1.79108452111586  -2.3042924726183  
+P10   0.57104251480042  -1.0942375070995  0.65977279263108  -1.0362259778836  
+P11   -0.9675799143840  -2.5636503473057  2.00592975363534  -1.8690944142164  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
 GCGAGAGTCGCG    308  -  319    minus     PDK_30s1199051g001|Pdactylifera
 GAGAGAGAGACG    424  -  435    minus     PDK_30s674821g002|Pdactylifera
-AAGAGCGTGGCA    750  -  761    plus      chr1.CM0113.680.r2.d|Ljaponicus
+GTCAGAGTGGGA    385  -  396    minus     chr1.CM0113.680.r2.d|Ljaponicus
 GCGAGAGAGGCG    533  -  544    minus     chr5.CM0335.70.r2.d|Ljaponicus
-GCGTGAGTGAAG    55   -   66    minus     C.cajan_18977|Ccajan
+GCAAGAGTGGGA    908  -  919    minus     C.cajan_18977|Ccajan
 GAAAAGGTGGAG    657  -  668    minus     C.cajan_11145|Ccajan
-AAAAGAGAAGGG    956  -  967    minus     Ca_04759|Carietinum
-GGGGGAGAGGGA    652  -  663    minus     Aquca_043_00099|Acoerulea
-AAGAGGATGGTG    305  -  316    plus      Aquca_007_00853|Acoerulea
+GAAGGGGAGTGG    950  -  961    minus     Ca_04759|Carietinum
+GTGGGGGAGAGG    654  -  665    minus     Aquca_043_00099|Acoerulea
+CTCAGCGTGGAT    33   -   44    plus      Aquca_007_00853|Acoerulea
 GAGAGGGAGAAG    330  -  341    minus     490603|Alyrata
-TCAAGAGAAGGG    860  -  871    minus     921008|Alyrata
+GAGAGAGCGGGG    900  -  911    minus     921008|Alyrata
 TAGAGCGTGAAA    844  -  855    plus      927009|Alyrata
 CAAGGTGTGGAG    264  -  275    minus     472273|Alyrata
 AAGAGAGTGATG    422  -  433    plus      937958|Alyrata
@@ -728,24 +558,24 @@ AACAGATAGGGG    69   -   80    minus     AT1G20450|Athaliana
 GAGAGGGAGAAG    366  -  377    minus     AT4G38410|Athaliana
 CAAAGCGAGAAG    121  -  132    plus      Bradi5g10860|Bdistachyon
 TTGAGCGAAGAG    34   -   45    plus      Bradi4g22280|Bdistachyon
-GAAAGAGAGGAA    141  -  152    minus     Bradi3g51200|Bdistachyon
+GAGAGGGAGCAG    619  -  630    plus      Bradi3g51200|Bdistachyon
 GCAAGTGTGGGG    880  -  891    minus     Bradi4g22290|Bdistachyon
 GAGAGGGAGGAG    419  -  430    minus     Carubv10005866m.g|Crubella
 TCCAGCGTGGCA    136  -  147    plus      Carubv10020984m.g|Crubella
 GAGATGTAGGAG    364  -  375    minus     Carubv10010037m.g|Crubella
-TAGAGGGATATG    590  -  601    plus      Carubv10010040m.g|Crubella
+TACAGGGAGCTG    868  -  879    minus     Carubv10010040m.g|Crubella
 GCGAGAGAGGGG    731  -  742    minus     evm.TU.supercontig_26.225|Cpapaya
 GAGAGAGTGGAT    721  -  732    plus      Ciclev10002349m.g|Cclementina
-GGAAGCTTGGAA    25   -   36    plus      orange1.1g038463m.g|Csinensis
-TCAAGAGAGGAA    287  -  298    minus     orange1.1g026736m.g|Csinensis
+ATGGGGGCGGAG    597  -  608    minus     orange1.1g038463m.g|Csinensis
+TTCAGGGTGAAG    98   -  109    plus      orange1.1g026736m.g|Csinensis
 GCAAGAGTGGGG    521  -  532    minus     Cucsa.077690|Csativus
 AAGAGAGAGGGG    781  -  792    minus     Eucgr.F01726|Egrandis
 TTGAGCGTGGAT    864  -  875    minus     gene17179-v1.0-hybrid|Fvesca
-GGGAGCGATGAA    117  -  128    minus     Gorai.008G038700|Graimondii
-CAAAGCGAGTAG    817  -  828    plus      Gorai.009G189500|Graimondii
+CTAAGTGTGAAG    498  -  509    minus     Gorai.008G038700|Graimondii
+GTGGGTGTGGTG    641  -  652    minus     Gorai.009G189500|Graimondii
 GAGATTGTGGAG    620  -  631    minus     Gorai.002G119600|Graimondii
-GAGAGAGTTGGA    932  -  943    minus     Lus10003340.g|Lusitatissimum
-GAGAGAGTTGGA    945  -  956    minus     Lus10022643.g|Lusitatissimum
+GACGGTGTGGTG    234  -  245    minus     Lus10003340.g|Lusitatissimum
+GACGGTGTGGTG    214  -  225    minus     Lus10022643.g|Lusitatissimum
 GAAAGGGAGGGG    792  -  803    minus     Lus10005652.g|Lusitatissimum
 GAGAGAGAGACA    69   -   80    minus     Lus10034568.g|Lusitatissimum
 GAAAGAGTGGGG    153  -  164    minus     Lus10021240.g|Lusitatissimum
@@ -758,35 +588,35 @@ GAGGGAGAGGAG    703  -  714    minus     LOC_Os02g44870|Osativa
 GCGAGGGTGGGA    398  -  409    minus     Phvul.009G004400|Pvulgaris
 TTGAGTGTGGGG    596  -  607    minus     Potri.005G248100|Ptrichocarpa
 GAGAGGGAGGTG    397  -  408    minus     ppa010326m.g|Ppersica
-CATTGGGAGGAG    718  -  729    minus     ppa026861m.g|Ppersica
+GACGGTGTGCAG    685  -  696    minus     ppa026861m.g|Ppersica
 GCGTGAGAGAAG    736  -  747    plus      30170.t000735|Rcommunis
 TAGGGTGTGGAG    810  -  821    minus     Si017975m.g|Sitalica
-GAGAAGGAGAGA    665  -  676    plus      Si027536m.g|Sitalica
+GTAAGTGTGGGT    74   -   85    plus      Si027536m.g|Sitalica
 GAAAGTGTGAAG    921  -  932    plus      Solyc04g082200.2|Slycopersicum
 GAAAGTGTGAAG    912  -  923    plus      PGSC0003DMG400009968|Stuberosum
 TCGAGGGAGGGG    397  -  408    minus     Thecc1EG034339|Tcacao
 GAGAGGGAGGAG    327  -  338    minus     Thhalv10026303m.g|Esalsugineum
 TAGAGCGTGAAA    938  -  949    plus      Thhalv10019152m.g|Esalsugineum
 TAGTGTGAGGAG    950  -  961    minus     Thhalv10008706m.g|Esalsugineum
-GAGAGAGTTAAG    937  -  948    plus      GRMZM2G373522|Zmays
+GAAAGCGTGGAC    966  -  977    minus     GRMZM2G373522|Zmays
 GGGGGAGTGGAG    335  -  346    plus      GRMZM2G147014|Zmays
 GAAATGGAGAGG    586  -  597    minus     MA_474985g0010|Pabies
-GGAAGAGTGGAT    191  -  202    plus      MA_86965g0010|Pabies
+CACAGGGAGGCG    612  -  623    plus      MA_86965g0010|Pabies
 GAGAGAGTGGGT    866  -  877    minus     MA_65580g0010|Pabies
-CAGAGCGTGTGT    824  -  835    minus     MA_187114g0010|Pabies
+ATCAGCGAGGAA    691  -  702    plus      MA_187114g0010|Pabies
 CAAAGAGAGCAG    663  -  674    minus     MA_104214g0010|Pabies
-GAGATAGAGATG    434  -  445    minus     MA_9972323g0010|Pabies
+TTCAGTGAGGTG    7    -   18    minus     MA_9972323g0010|Pabies
 GAGAGCGTGGGT    829  -  840    minus     MA_130855g0010|Pabies
-GAGATAGAGATG    434  -  445    minus     MA_151075g0010|Pabies
+TTCAGTGAGGTG    7    -   18    minus     MA_151075g0010|Pabies
 TAGAGCGTGGTG    877  -  888    minus     MA_120345g0010|Pabies
 GAAAGAGAGAAT    939  -  950    plus      Glyma.04G009400|Gmax
 ACGAGAGAGGAG    599  -  610    plus      GSMUA_Achr11P16760_001|Macuminata
 GTAAGAGAGGTG    876  -  887    minus     Achn252561|Achinensis
 GATAGAGTGATG    878  -  889    minus     Achn095551|Achinensis
-GGGTGAGTGGGG    890  -  901    minus     Achn343961|Achinensis
+GGGAGCGAGTAG    138  -  149    minus     Achn343961|Achinensis
 GAGAGAGAGAGG    543  -  554    plus      Achn132121|Achinensis
 TAAAGAGTGGGG    847  -  858    minus     evm_27.model.AmTr_v1.0_scaffold00001.
-GCAAGAGGGGAA    75   -   86    plus      evm_27.model.AmTr_v1.0_scaffold00082.
+TAAGGCGAGGTG    693  -  704    minus     evm_27.model.AmTr_v1.0_scaffold00082.
 TAGAGCGTGAAA    935  -  946    plus      Brara.G03414|Brapa
 TAGTGTGAGGAG    945  -  956    minus     Brara.G02195|Brapa
 GACAGAGAGAAA    472  -  483    minus     Brara.B02255|Brapa
@@ -803,619 +633,781 @@ ATAAGGGAGAAG    965  -  976    minus     PITA_000078888-RA|Ptaeda
 GTAAGGGAGGAG    969  -  980    minus     PITA_000008706-RA|Ptaeda
 GCCGGTGTGGAG    948  -  959    minus     PITA_000008705-RA|Ptaeda
 GGAAGGGAGGAG    860  -  871    minus     PITA_000008704-RA|Ptaeda
-AAATGAGTGGAG    403  -  414    minus     PITA_000008703-RA|Ptaeda
+GTAAGGGAGCAG    846  -  857    minus     PITA_000008703-RA|Ptaeda
 TAGAGTGTGGAA    38   -   49    minus     PITA_000000201-RA|Ptaeda
-ATAAGGGAGGAG    985  -  996    minus     PITA_000000200-RA|Ptaeda
-TAGTGGGATGGG    642  -  653    minus     PITA_000050018-RA|Ptaeda
+CGGAGGGTGGGG    840  -  851    minus     PITA_000000200-RA|Ptaeda
+GACGGTTTGGGG    684  -  695    minus     PITA_000050018-RA|Ptaeda
 ACGAGAGTGGGG    856  -  867    minus     Thhalv10008313m.g|Esalsugineum
 GGAAGTGTGAAG    636  -  647    plus      Capana04g000100|Cannuum
 GAAAGAGTGGTA    628  -  639    minus     Capana08g002792|Cannuum
 GTGAGCGAGACG    706  -  717    minus     XP_006647663.1|Obrachyantha
 TCAAGAGAAGGG    940  -  951    minus     Cagra.25489s0002|Cgrandiflora
-AAGAGAGTTGGG    971  -  982    minus     Cagra.25489s0001|Cgrandiflora
+TACAGGGAGCTG    683  -  694    minus     Cagra.25489s0001|Cgrandiflora
 TAGAGCGTGAAA    900  -  911    plus      Cagra.0799s0088|Cgrandiflora
 GAGAGGGAGGAG    433  -  444    minus     Cagra.1383s0028|Cgrandiflora
 GACAGGGTGATG    653  -  664    minus     Cagra.2007s0059|Cgrandiflora
-CAGAGATAGAAG    498  -  509    plus      Cagra.0926s0063|Cgrandiflora
-AGGAGGGTTGAA    219  -  230    plus      Bv9_218990_uifq.t1|Bvulgaris
+GAAAGGGTCGAT    395  -  406    plus      Cagra.0926s0063|Cgrandiflora
+GTCGGAGTCGGG    533  -  544    plus      Bv9_218990_uifq.t1|Bvulgaris
 CAAAGAGTGAAA    604  -  615    plus      Bv_34440_phes.t1|Bvulgaris
 TCAAGCGAGTGG    739  -  750    plus      SapurV1A.0573s0050|Spurpurea
-AAGAGCGTTGGG    655  -  666    minus     SapurV1A.5414s0010|Spurpurea
-AAGAGAGAGAGA    208  -  219    minus     Araha.3199s0027|Ahalleri
-TGATGAGTGGGG    468  -  479    minus     Araha.23419s0001|Ahalleri
+TCAAGCGAGTGG    378  -  389    plus      SapurV1A.5414s0010|Spurpurea
+TAGAGCGTGAAA    905  -  916    plus      Araha.3199s0027|Ahalleri
+GGAACCGTGGAG    900  -  911    minus     Araha.23419s0001|Ahalleri
 GAGAGAGTGGGG    963  -  974    minus     Araha.9031s0001|Ahalleri
 AAGAGAGTGGGG    966  -  977    minus     Bostr.7128s0640|Bstricta
-TGATGAGTGGGG    966  -  977    minus     Bostr.7128s0641|Bstricta
+GTGAGTGAGTCG    791  -  802    plus      Bostr.7128s0641|Bstricta
 GAGAGGGAGGAG    258  -  269    minus     Bostr.25542s0027|Bstricta
 TAGAGCGTGAAA    948  -  959    plus      Bostr.20129s0054|Bstricta
-GAGAGGGGGGAG    774  -  785    plus      MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 19 second(s)
+Time: 4 minute(s), 15 second(s)
 
 
 ******************************************************************************
-Motif 6, width = 12, seed width = 6, sites = 121
-Sum of HD to ACGTTA in 121 seqs: 69
-P-value(ACGTTA) = 1.66586e-09
-Q-value(ACGTTA) = 3.41169e-06
-Information Content = 7.68224222091856
+Motif 5, width = 12, seed width = 6, sites = 120
+Sum of HD to GTCGGT in 120 seqs: 75
+P-value(GTCGGT) = 2.06809e-10
+Q-value(GTCGGT) = 4.86073e-07
+Information Content = 7.81656122333612
+******************************************************************************
+
+>NFM 5
+
+      A                 C                 G                 T                 
+P0    44                11                49                16                
+P1    24                2                 36                58                
+P2    7                 4                 72                37                
+P3    5                 0                 114               1                 
+P4    33                2                 0                 85                
+P5    0                 81                33                6                 
+P6    2                 0                 117               1                 
+P7    1                 1                 116               2                 
+P8    2                 45                6                 67                
+P9    8                 50                22                40                
+P10   8                 50                10                52                
+P11   35                25                21                39                
+
+>PWM 5
+
+      A                 C                 G                 T                 
+P0    0.17526243413870  -0.8523552308483  1.12320728067018  -1.1083022409781  
+P1    -0.6127832641989  -2.5636503473057  0.69829128539945  0.54778038711886  
+P2    -2.0000957498447  -1.9734509763739  1.66061511375781  -0.0546361674447  
+P3    -2.3042924726183  -3.5794759897884  2.30944760036948  -3.2187642650734  
+P4    -0.2045820442501  -2.5636503473057  -3.5794759897884  1.07272552493180  
+P5    -3.5794759897884  1.82629248595397  0.57950614735392  -2.1441913168650  
+P6    -2.9304414847750  -3.5794759897884  2.34629790812798  -3.2187642650734  
+P7    -3.2187642650734  -2.9839437954999  2.33411875749796  -2.9304414847750  
+P8    -2.9304414847750  1.00526677331382  -1.5558021533180  0.74475618271912  
+P9    -1.8690944142164  1.15124515965652  0.03436885785424  0.04840725080799  
+P10   -1.8690944142164  1.15124515965652  -0.9682330468601  0.39973344734526  
+P11   -0.1276619121682  0.20458267036994  -0.0271447155789  0.01487059737013  
+
+Site            Position       Strand    Sequence
+------------    -----------    ------    -------------------------------------
+CTGGTGGGCCCC    505  -  516    minus     PDK_30s1199051g001|Pdactylifera
+TGTGTCGGCCTT    351  -  362    minus     PDK_30s674821g002|Pdactylifera
+GGGGTGGGTATC    305  -  316    minus     chr1.CM0113.680.r2.d|Ljaponicus
+AATGTGGGCCCA    411  -  422    minus     chr5.CM0335.70.r2.d|Ljaponicus
+GTGAAGGGTGTG    49   -   60    minus     C.cajan_18977|Ccajan
+AATGTCGGTCTG    716  -  727    minus     C.cajan_11145|Ccajan
+GTTGTCGACATG    769  -  780    plus      Ca_04759|Carietinum
+ATGGTCGGTTTG    180  -  191    minus     Aquca_043_00099|Acoerulea
+ATGGACGGCTAA    504  -  515    minus     Aquca_007_00853|Acoerulea
+GTGGACGGTCCA    717  -  728    minus     490603|Alyrata
+GAGAAGGGTCCA    856  -  867    minus     921008|Alyrata
+GGGTACGGTTCA    437  -  448    minus     927009|Alyrata
+ATGGTCGGTTTT    457  -  468    minus     472273|Alyrata
+AAGGTCGCCTCA    584  -  595    minus     937958|Alyrata
+ATGGTCGGCTTT    32   -   43    minus     AT1G20440|Athaliana
+TACGTGGGTCCA    172  -  183    minus     AT1G76180|Athaliana
+ATGGCCGGTTTT    453  -  464    minus     AT1G20450|Athaliana
+GTGGACGGTCCA    733  -  744    minus     AT4G38410|Athaliana
+ATGGTCGGTGGC    85   -   96    minus     Bradi5g10860|Bdistachyon
+GTGGAGGGCCTC    594  -  605    minus     Bradi4g22280|Bdistachyon
+AATGTCGGTGGC    250  -  261    plus      Bradi3g51200|Bdistachyon
+CTGGACGGCTAT    955  -  966    minus     Bradi4g22290|Bdistachyon
+GTGGACGGTCCA    835  -  846    minus     Carubv10005866m.g|Crubella
+ATGGACGGCGGA    323  -  334    minus     Carubv10020984m.g|Crubella
+ATGGTCGGTTTT    268  -  279    minus     Carubv10010037m.g|Crubella
+ATGGTCGGTTTT    243  -  254    minus     Carubv10010040m.g|Crubella
+GTGGTCGGTTTG    248  -  259    minus     evm.TU.supercontig_26.225|Cpapaya
+AGTGTCGGTCTT    464  -  475    minus     Ciclev10002349m.g|Cclementina
+GTAGTCGGTCCG    639  -  650    minus     orange1.1g038463m.g|Csinensis
+AAGGAGGGCCAC    781  -  792    minus     orange1.1g026736m.g|Csinensis
+ATGGTCGGTTTT    367  -  378    minus     Cucsa.077690|Csativus
+GGTGTCGGCCTC    670  -  681    minus     Eucgr.F01726|Egrandis
+TTGGCCGGTGCT    635  -  646    minus     gene17179-v1.0-hybrid|Fvesca
+AAGGTGGTTTCG    605  -  616    minus     Gorai.008G038700|Graimondii
+GGGGTTGGCTTC    495  -  506    minus     Gorai.009G189500|Graimondii
+ATGGTCGGTGTA    703  -  714    minus     Gorai.002G119600|Graimondii
+AAGGATGGTCTC    165  -  176    minus     Lus10003340.g|Lusitatissimum
+CTGGTCGGGCTG    265  -  276    minus     Lus10022643.g|Lusitatissimum
+CTGGACGGTGCG    731  -  742    plus      Lus10005652.g|Lusitatissimum
+GTGGACGGTCGT    8    -   19    minus     Lus10034568.g|Lusitatissimum
+CTGGACGGTGCG    759  -  770    plus      Lus10021240.g|Lusitatissimum
+GTGGACGGTCGT    153  -  164    minus     Lus10021827.g|Lusitatissimum
+AGTGTCGGCCTT    270  -  281    minus     MDP0000770493|Mdomestica
+AGTGTCGGCCTT    441  -  452    minus     MDP0000529003|Mdomestica
+TTGGTCGGCTGA    450  -  461    minus     cassava4.1_015875m.g|Mesculenta
+AGGGTTGGCTTA    387  -  398    minus     Medtr3g117290|Mtruncatula
+GAGGTCGGCGCC    741  -  752    minus     LOC_Os02g44870|Osativa
+GAGGTCGGCATT    304  -  315    plus      Phvul.009G004400|Pvulgaris
+GGTGTCGGCCTC    673  -  684    minus     Potri.005G248100|Ptrichocarpa
+AGTGTCGGCCTT    479  -  490    minus     ppa010326m.g|Ppersica
+TTGGTCGGTGCT    566  -  577    minus     ppa026861m.g|Ppersica
+TTGGTCGGTCCA    311  -  322    minus     30170.t000735|Rcommunis
+GTGGACGGCTCG    610  -  621    minus     Si017975m.g|Sitalica
+GATGACGGCATC    523  -  534    minus     Si027536m.g|Sitalica
+GGTGTCGGCCTT    319  -  330    minus     Solyc04g082200.2|Slycopersicum
+AGTGTCGGCCTT    253  -  264    minus     PGSC0003DMG400009968|Stuberosum
+ATTGTCGGTCGT    509  -  520    minus     Thecc1EG034339|Tcacao
+GTGGACGGTCCA    639  -  650    minus     Thhalv10026303m.g|Esalsugineum
+GATGTGGGTCCA    126  -  137    minus     Thhalv10019152m.g|Esalsugineum
+CATGTGGGTCCA    53   -   64    minus     Thhalv10008706m.g|Esalsugineum
+ATTGTCGGGCCA    325  -  336    plus      GRMZM2G373522|Zmays
+ATGGTCGGCGCG    300  -  311    plus      GRMZM2G147014|Zmays
+TGGGTGGGTGCA    500  -  511    plus      MA_474985g0010|Pabies
+ATAGTCGGTTTA    262  -  273    minus     MA_86965g0010|Pabies
+GGAGTGGGCTTT    255  -  266    minus     MA_65580g0010|Pabies
+GTGGAGGTCGCC    789  -  800    minus     MA_187114g0010|Pabies
+CGTGTGGGTTCG    544  -  555    plus      MA_104214g0010|Pabies
+TGGGTGGGTGAA    593  -  604    minus     MA_9972323g0010|Pabies
+ATTGTCGGTGCT    643  -  654    minus     MA_130855g0010|Pabies
+TGGGTGGGTGAA    593  -  604    minus     MA_151075g0010|Pabies
+GTTGTGAGTCTC    763  -  774    minus     MA_120345g0010|Pabies
+GAGGTTGGTATT    886  -  897    plus      Glyma.04G009400|Gmax
+TGTGTCGGTCCA    619  -  630    minus     GSMUA_Achr11P16760_001|Macuminata
+GTGGTGGGTTTT    867  -  878    minus     Achn252561|Achinensis
+TTGGTGTGTTGA    888  -  899    minus     Achn095551|Achinensis
+GCTGTCGGCCTG    53   -   64    minus     Achn343961|Achinensis
+GTAGTGGGTTTT    875  -  886    minus     Achn132121|Achinensis
+CGTGTCGGTTCT    769  -  780    plus      evm_27.model.AmTr_v1.0_scaffold00001.
+GTTGTCGGATGA    798  -  809    minus     evm_27.model.AmTr_v1.0_scaffold00082.
+GGTGTGGGTCCG    185  -  196    minus     Brara.G03414|Brapa
+AGTGTCGGTGAT    238  -  249    minus     Brara.G02195|Brapa
+GGTGTCGGTCCA    353  -  364    minus     Brara.B02255|Brapa
+GATGTGGGTCCT    256  -  267    plus      Brara.F01455|Brapa
+TGGGTCGGTTCT    690  -  701    minus     Brara.G01101|Brapa
+ACGGTGGGCTTA    575  -  586    minus     Brara.H00486|Brapa
+AATATCGGCTCA    432  -  443    minus     Migut.C00923|Mguttatus
+GGCGTCGGCTCG    704  -  715    plus      Pavir.Aa00887|Pvirgatum
+CGTGTCGGCCTC    26   -   37    minus     Pavir.J04551|Pvirgatum
+GAGGTCGGCGCC    772  -  783    minus     Sobic.004G286600|Sbicolor
+GGTGTTGGTGCT    578  -  589    plus      PITA_000086992-RA|Ptaeda
+GATGTCGGTTCC    875  -  886    plus      PITA_000087634-RA|Ptaeda
+GGTGACGGAATC    737  -  748    plus      PITA_000078888-RA|Ptaeda
+AAAGACGGCCCT    365  -  376    plus      PITA_000008706-RA|Ptaeda
+GGGGACGGCCAG    481  -  492    plus      PITA_000008705-RA|Ptaeda
+GGGAAGGGTCCC    236  -  247    minus     PITA_000008704-RA|Ptaeda
+GGGGACGGCCAC    71   -   82    plus      PITA_000008703-RA|Ptaeda
+AAGGTGGGGTTT    451  -  462    minus     PITA_000000201-RA|Ptaeda
+GAAGTCGGTTCC    885  -  896    plus      PITA_000000200-RA|Ptaeda
+ATGGACGGTCCA    812  -  823    plus      PITA_000050018-RA|Ptaeda
+GGCGTGGGGCCT    42   -   53    plus      Thhalv10008313m.g|Esalsugineum
+TTGAACGGCTTT    355  -  366    plus      Capana04g000100|Cannuum
+ATGGTCGGTTTG    785  -  796    minus     Capana08g002792|Cannuum
+CGGGTCGGCGTC    639  -  650    minus     XP_006647663.1|Obrachyantha
+ATGGTCGGTTTT    79   -   90    minus     Cagra.25489s0002|Cgrandiflora
+ATGGTCGGTTTT    50   -   61    minus     Cagra.25489s0001|Cgrandiflora
+ATGGACGGCGGA    195  -  206    minus     Cagra.0799s0088|Cgrandiflora
+GTGGACGGTCCA    837  -  848    minus     Cagra.1383s0028|Cgrandiflora
+TGTGTCGGTACT    579  -  590    minus     Cagra.2007s0059|Cgrandiflora
+TTGGATGGCCCA    733  -  744    minus     Cagra.0926s0063|Cgrandiflora
+TTGGTCGGTCTG    769  -  780    minus     Bv9_218990_uifq.t1|Bvulgaris
+ATCGTGGGCATG    61   -   72    plus      Bv_34440_phes.t1|Bvulgaris
+GTTGTCGGCGCC    118  -  129    minus     SapurV1A.0573s0050|Spurpurea
+AGTGTCGGCCTC    166  -  177    minus     SapurV1A.5414s0010|Spurpurea
+CGGGAGGGGTCC    930  -  941    minus     Araha.3199s0027|Ahalleri
+GAAGAGGGTCCA    442  -  453    minus     Araha.23419s0001|Ahalleri
+ATGGTCGGCTTT    64   -   75    minus     Araha.9031s0001|Ahalleri
+ATGGTCGGTTTT    111  -  122    minus     Bostr.7128s0640|Bstricta
+GAGGAGGGTCCA    940  -  951    minus     Bostr.7128s0641|Bstricta
+GTGGTGGGGCTG    487  -  498    plus      Bostr.25542s0027|Bstricta
+ATGGTGAGTTTA    211  -  222    plus      Bostr.20129s0054|Bstricta
+
+Time: 4 minute(s), 18 second(s)
+
+
+******************************************************************************
+Motif 6, width = 12, seed width = 6, sites = 120
+Sum of HD to ATAACG in 120 seqs: 70
+P-value(ATAACG) = 2.01108e-08
+Q-value(ATAACG) = 2.78022e-05
+Information Content = 8.62813536106937
 ******************************************************************************
 
 >NFM 6
 
       A                 C                 G                 T                 
-P0    17                47                15                42                
-P1    11                83                24                3                 
-P2    10                87                24                0                 
-P3    119               0                 0                 2                 
-P4    11                110               0                 0                 
-P5    8                 11                94                8                 
-P6    6                 2                 0                 113               
-P7    17                4                 30                70                
-P8    54                28                38                1                 
-P9    9                 70                1                 41                
-P10   45                40                18                18                
-P11   18                57                24                22                
+P0    77                8                 7                 28                
+P1    78                7                 35                0                 
+P2    79                4                 25                12                
+P3    119               1                 0                 0                 
+P4    2                 0                 25                93                
+P5    91                0                 27                2                 
+P6    117               0                 1                 2                 
+P7    13                92                4                 11                
+P8    2                 15                90                13                
+P9    16                32                18                53                
+P10   16                25                71                7                 
+P11   29                27                52                11                
 
 >PWM 6
 
       A                 C                 G                 T                 
-P0    -1.0466700546964  1.05420882012359  -0.4749823420169  0.10221969692582  
-P1    -1.5452230394455  1.84932698715948  0.13902535905838  -2.6984912363345  
-P2    -1.6480589980423  1.91569621511354  0.13902535905838  -3.5849625007212  
-P3    1.53036518489537  -3.5849625007212  -3.5849625007212  -2.9380939298373  
-P4    -1.5452230394455  2.24743435947033  -3.5849625007212  -3.5849625007212  
-P5    -1.8787353137215  -0.8629223720271  2.02496670631071  -1.8787353137215  
-P6    -2.1534476680211  -2.5721595680688  -3.5849625007212  1.45793463206473  
-P7    -1.0466700546964  -1.9829545475403  0.43895054793261  0.79367452619947  
-P8    0.43968346086783  0.34573573543902  0.76119482092538  -3.2255729301132  
-P9    -1.7587916281476  1.60975365085316  -2.9914520998984  0.07018342871750  
-P10   0.19426924459038  0.83164436536226  -0.2400703074667  -0.9780717786739  
-P11   -0.9780717786739  1.32231695357988  0.13902535905838  -0.7322793656526  
+P0    0.93606988218741  -1.2323095299150  -1.3850077599124  -0.4169988129671  
+P1    0.95387667508700  -1.3850077599124  0.65977279263108  -3.5794759897884  
+P2    0.97146636055547  -1.9734509763739  0.20458267036994  -1.4391192531894  
+P3    1.54166566394197  -2.9839437954999  -3.5794759897884  -3.5794759897884  
+P4    -2.9304414847750  -3.5794759897884  0.20458267036994  1.19754945866239  
+P5    1.16734129666976  -3.5794759897884  0.30783548262889  -2.9304414847750  
+P6    1.51792104670352  -3.5794759897884  -2.9839437954999  -2.9304414847750  
+P7    -1.3490363344762  2.00592975363534  -1.9734509763739  -1.5352038423866  
+P8    -2.9304414847750  -0.4642016059054  1.97488844863817  -1.3490363344762  
+P9    -1.0899427899686  0.54821620087638  -0.2112251202899  0.43185439626827  
+P10   -1.0899427899686  0.21790068784914  1.64590998059416  -1.9662134551375  
+P11   -0.3608913607616  0.32023758894818  1.21240638602975  -1.5105761302927  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-CCCACCATCCAC    841  -  852    plus      PDK_30s1199051g001|Pdactylifera
-GCGACGTTCCAC    644  -  655    plus      PDK_30s674821g002|Pdactylifera
-TCAACGTCCCAC    379  -  390    plus      chr1.CM0113.680.r2.d|Ljaponicus
-GCCACGTACCCC    353  -  364    plus      chr5.CM0335.70.r2.d|Ljaponicus
-CGCACTTGCCGC    873  -  884    minus     C.cajan_18977|Ccajan
-TCCACGTCATGC    623  -  634    minus     C.cajan_11145|Ccajan
-GGCACTTTATAC    940  -  951    minus     Ca_04759|Carietinum
-CCCACCATCTAC    319  -  330    plus      Aquca_043_00099|Acoerulea
-ACCACGTACCCC    725  -  736    minus     Aquca_007_00853|Acoerulea
-TCCAAGTGGTGG    518  -  529    plus      490603|Alyrata
-ACCACGTAACCA    551  -  562    plus      921008|Alyrata
-CCCACGTTATAT    54   -   65    plus      927009|Alyrata
-GGCACGTCGTCG    1    -   12    plus      472273|Alyrata
-ACCACTTAATAC    116  -  127    minus     937958|Alyrata
-ACCACGTAACCA    650  -  661    plus      AT1G20440|Athaliana
-CCGACGTTCCAT    322  -  333    plus      AT1G76180|Athaliana
-GCCACGTGAAAA    584  -  595    minus     AT1G20450|Athaliana
-TCCACGTTATCC    725  -  736    minus     AT4G38410|Athaliana
-TCCACGTCACGC    832  -  843    plus      Bradi5g10860|Bdistachyon
-TCCACGTTAATG    601  -  612    plus      Bradi4g22280|Bdistachyon
-CGAACGTTACAC    947  -  958    minus     Bradi3g51200|Bdistachyon
-TCCACTTTGTAA    675  -  686    plus      Bradi4g22290|Bdistachyon
-TCCACGCTATCC    827  -  838    minus     Carubv10005866m.g|Crubella
-CGCACGTTACAT    240  -  251    plus      Carubv10020984m.g|Crubella
-TCGACGTAACCT    834  -  845    minus     Carubv10010037m.g|Crubella
-CCCAAGTGCCAC    831  -  842    minus     Carubv10010040m.g|Crubella
-TCCACGTGACGT    146  -  157    minus     evm.TU.supercontig_26.225|Cpapaya
-TACACGTGGCAC    513  -  524    plus      Ciclev10002349m.g|Cclementina
-ACCACATTGCAG    115  -  126    minus     orange1.1g038463m.g|Csinensis
-CCCAACTTCCCC    719  -  730    plus      orange1.1g026736m.g|Csinensis
-TCCACGTTGCAC    595  -  606    plus      Cucsa.077690|Csativus
-CCCACGTGGCTA    604  -  615    minus     Eucgr.F01726|Egrandis
-TGGACTTGGCCG    640  -  651    minus     gene17179-v1.0-hybrid|Fvesca
-ACCTCGTTACTC    989  - 1000    plus      Gorai.008G038700|Graimondii
-TCCACGTGTCAT    661  -  672    plus      Gorai.009G189500|Graimondii
-ACGACGTAATTC    650  -  661    plus      Gorai.002G119600|Graimondii
-TCCACGATCCAA    18   -   29    plus      Lus10003340.g|Lusitatissimum
-CCAACCTTAAAC    598  -  609    plus      Lus10022643.g|Lusitatissimum
-TCGACGTTACGC    740  -  751    minus     Lus10005652.g|Lusitatissimum
-TCCACGTTATCC    15   -   26    plus      Lus10034568.g|Lusitatissimum
-TCGACGTTACGC    768  -  779    minus     Lus10021240.g|Lusitatissimum
-CCGACGTAAGCC    6    -   17    plus      Lus10021827.g|Lusitatissimum
-TACACGTTGCAG    318  -  329    plus      MDP0000770493|Mdomestica
-CCCACGTTCTTC    477  -  488    plus      MDP0000529003|Mdomestica
-TAGACGTTGTCG    504  -  515    minus     cassava4.1_015875m.g|Mesculenta
-CCGAAGATACTC    178  -  189    minus     Medtr3g117290|Mtruncatula
-CCGACGTGGCGG    781  -  792    minus     LOC_Os02g44870|Osativa
-CCCACGTTATTC    337  -  348    plus      Phvul.009G004400|Pvulgaris
-TTCACGTTCTCG    709  -  720    plus      Potri.005G248100|Ptrichocarpa
-CCGACGTGGTGC    819  -  830    minus     ppa010326m.g|Ppersica
-CCAACGTTGCAC    48   -   59    plus      ppa026861m.g|Ppersica
-TCCACGATGCCG    477  -  488    plus      30170.t000735|Rcommunis
-CGCACGTTACCT    860  -  871    plus      Si017975m.g|Sitalica
-AGCACATGACCA    495  -  506    plus      Si027536m.g|Sitalica
-CACACGTTGTCA    354  -  365    plus      Solyc04g082200.2|Slycopersicum
-GCCACGTTAAAA    554  -  565    minus     PGSC0003DMG400009968|Stuberosum
-TGCACGTGACGG    212  -  223    minus     Thecc1EG034339|Tcacao
-TCCACATTATCC    631  -  642    minus     Thhalv10026303m.g|Esalsugineum
-CCAACGTGGCAC    98   -  109    plus      Thhalv10019152m.g|Esalsugineum
-CCCACGTGGCTA    30   -   41    plus      Thhalv10008706m.g|Esalsugineum
-TGCAAGTTGCCT    535  -  546    minus     GRMZM2G373522|Zmays
-CGAACGTGACAC    929  -  940    plus      GRMZM2G147014|Zmays
-CCCACTTTCTAT    605  -  616    plus      MA_474985g0010|Pabies
-TCCACGTTACAA    538  -  549    plus      MA_86965g0010|Pabies
-TGCACCTTCAAC    1    -   12    plus      MA_65580g0010|Pabies
-CCCAAGTTGCAT    711  -  722    plus      MA_187114g0010|Pabies
-CCCAAGTGGCTG    563  -  574    plus      MA_104214g0010|Pabies
-TGCACGTAGCTG    767  -  778    plus      MA_9972323g0010|Pabies
-TGCAAGTTGTCC    466  -  477    plus      MA_130855g0010|Pabies
-TGCACGTAGCTG    767  -  778    plus      MA_151075g0010|Pabies
-TCCACATTATCT    585  -  596    minus     MA_120345g0010|Pabies
-CACACGTTCAAA    496  -  507    plus      Glyma.04G009400|Gmax
-GCCACGTTCCGC    908  -  919    plus      GSMUA_Achr11P16760_001|Macuminata
-AGCACGTGATCA    87   -   98    minus     Achn252561|Achinensis
-GCCAAGTTGCGC    216  -  227    plus      Achn095551|Achinensis
-GCCAAGTTGCAA    583  -  594    plus      Achn343961|Achinensis
-GGCACATTAAAC    492  -  503    minus     Achn132121|Achinensis
-GACACGTGCTAG    527  -  538    minus     evm_27.model.AmTr_v1.0_scaffold00001.
-GCCACGATGCAC    137  -  148    minus     evm_27.model.AmTr_v1.0_scaffold00082.
-TCCACGTTAAAT    259  -  270    plus      Brara.G03414|Brapa
-GCCACGTTGCAT    199  -  210    minus     Brara.G02195|Brapa
-TCAACGTAACCG    174  -  185    minus     Brara.B02255|Brapa
-CCGACGTGCCCC    175  -  186    plus      Brara.F01455|Brapa
-TAGACCTGACCC    227  -  238    plus      Brara.G01101|Brapa
-TCCACATAGTTC    419  -  430    minus     Brara.H00486|Brapa
-TACACGTGACAC    474  -  485    plus      Migut.C00923|Mguttatus
-CCGACGTGGCGG    622  -  633    minus     Pavir.Aa00887|Pvirgatum
-CGCACGTTACCT    852  -  863    plus      Pavir.J04551|Pvirgatum
-CCGACGTGGCGG    818  -  829    minus     Sobic.004G286600|Sbicolor
-ACCACGTTCTCC    956  -  967    plus      PITA_000086992-RA|Ptaeda
-CGGACCTTACCC    740  -  751    minus     PITA_000087634-RA|Ptaeda
-ACCACATTCTTC    957  -  968    plus      PITA_000078888-RA|Ptaeda
-AACACCTTGCAG    246  -  257    minus     PITA_000008706-RA|Ptaeda
-TGCACATTGCCT    132  -  143    minus     PITA_000008705-RA|Ptaeda
-CCCTCGTTGCAT    245  -  256    plus      PITA_000008704-RA|Ptaeda
-ACCACTTTCTGC    838  -  849    plus      PITA_000008703-RA|Ptaeda
-CCCACCTTATCT    455  -  466    plus      PITA_000000201-RA|Ptaeda
-CGGACCTTACCC    750  -  761    minus     PITA_000000200-RA|Ptaeda
-GCGACGTGACTG    847  -  858    minus     PITA_000050018-RA|Ptaeda
-ACCACGTAACCA    559  -  570    plus      Thhalv10008313m.g|Esalsugineum
-TCCACGTTACTT    198  -  209    plus      Capana04g000100|Cannuum
-TGCACCTGGTAC    555  -  566    minus     Capana08g002792|Cannuum
-CCGACGTGGCGG    772  -  783    minus     XP_006647663.1|Obrachyantha
-CCGACGTGGCTA    31   -   42    plus      Cagra.25489s0002|Cgrandiflora
-CCCAAGTGCCAC    646  -  657    minus     Cagra.25489s0001|Cgrandiflora
-CGCACGTTATAT    112  -  123    plus      Cagra.0799s0088|Cgrandiflora
-TCCACGCTATCC    829  -  840    minus     Cagra.1383s0028|Cgrandiflora
-GACACGTAATTC    540  -  551    minus     Cagra.2007s0059|Cgrandiflora
-CAAACGTTGTCG    694  -  705    minus     Cagra.0926s0063|Cgrandiflora
-CCGACTTTCTGT    553  -  564    plus      Bv9_218990_uifq.t1|Bvulgaris
-TGAACGTTATAT    964  -  975    plus      Bv_34440_phes.t1|Bvulgaris
-CTCACGTTCTCC    563  -  574    plus      SapurV1A.0573s0050|Spurpurea
-CTCACGTTCTCC    202  -  213    plus      SapurV1A.5414s0010|Spurpurea
-CCCACGTTATAC    23   -   34    plus      Araha.3199s0027|Ahalleri
-ACAACGTTCCAG    628  -  639    plus      Araha.23419s0001|Ahalleri
-ACCACGTAACCA    671  -  682    plus      Araha.9031s0001|Ahalleri
-ACCACGTAACCA    693  -  704    plus      Bostr.7128s0640|Bstricta
-TCGACGTACATC    650  -  661    minus     Bostr.7128s0641|Bstricta
-CCCACGTTATCC    699  -  710    minus     Bostr.25542s0027|Bstricta
-CCCACGTTATAT    32   -   43    plus      Bostr.20129s0054|Bstricta
-CCGACGTGGCGG    892  -  903    minus     MLOC_14884|Hvulgare
+AAAATAAAGTCC    339  -  350    plus      PDK_30s1199051g001|Pdactylifera
+AAAATATCGTGC    267  -  278    minus     PDK_30s674821g002|Pdactylifera
+CACAGGACGCGC    843  -  854    minus     chr1.CM0113.680.r2.d|Ljaponicus
+AAAATGAGGGGT    817  -  828    plus      chr5.CM0335.70.r2.d|Ljaponicus
+AAGATAAAGTGC    384  -  395    minus     C.cajan_18977|Ccajan
+AGCATGACGTGG    622  -  633    plus      C.cajan_11145|Ccajan
+AGTATAAAGTGC    939  -  950    plus      Ca_04759|Carietinum
+GAAATAACCTGG    245  -  256    plus      Aquca_043_00099|Acoerulea
+AAAATAATGCCG    668  -  679    plus      Aquca_007_00853|Acoerulea
+TGGATAACGTGG    708  -  719    plus      490603|Alyrata
+AAAATAAGGTGG    675  -  686    plus      921008|Alyrata
+AATATAACGTGG    55   -   66    minus     927009|Alyrata
+AAAATAACGGGA    671  -  682    minus     472273|Alyrata
+CGCATAACGCGC    138  -  149    minus     937958|Alyrata
+TAAATAAAGGGG    253  -  264    minus     AT1G20440|Athaliana
+AAAATGACCCGC    979  -  990    minus     AT1G76180|Athaliana
+TGAATAACTTGG    622  -  633    plus      AT1G20450|Athaliana
+TGAATGACGTGG    82   -   93    plus      AT4G38410|Athaliana
+AGGCTAACGCCG    780  -  791    minus     Bradi5g10860|Bdistachyon
+AAAATAACAGGC    569  -  580    minus     Bradi4g22280|Bdistachyon
+ACGATGACGGGG    557  -  568    minus     Bradi3g51200|Bdistachyon
+TAAAGAACCAGC    704  -  715    plus      Bradi4g22290|Bdistachyon
+ACAATGACGAGA    618  -  629    plus      Carubv10005866m.g|Crubella
+AGAATGACCTCC    895  -  906    plus      Carubv10020984m.g|Crubella
+AAAATAACGGGT    491  -  502    minus     Carubv10010037m.g|Crubella
+AAAATAAAGAGG    449  -  460    minus     Carubv10010040m.g|Crubella
+AAAAGAACGTGG    357  -  368    plus      evm.TU.supercontig_26.225|Cpapaya
+AGAAGAACGTGA    501  -  512    minus     Ciclev10002349m.g|Cclementina
+TAAATAACCNNN    262  -  273    plus      orange1.1g038463m.g|Csinensis
+TAAATGACGGGG    183  -  194    plus      orange1.1g026736m.g|Csinensis
+AGAAGAAAGCGA    820  -  831    minus     Cucsa.077690|Csativus
+AGGATAACGGCG    653  -  664    minus     Eucgr.F01726|Egrandis
+CAAATGACGCCT    94   -  105    minus     gene17179-v1.0-hybrid|Fvesca
+TAAATAAGGCCA    930  -  941    minus     Gorai.008G038700|Graimondii
+ACAATAACGGAA    923  -  934    minus     Gorai.009G189500|Graimondii
+AAAATAAAGTGG    572  -  583    plus      Gorai.002G119600|Graimondii
+AAGAGTACGGGA    573  -  584    minus     Lus10003340.g|Lusitatissimum
+AAAATGAATTCG    824  -  835    plus      Lus10022643.g|Lusitatissimum
+GAAATGACGCTG    830  -  841    minus     Lus10005652.g|Lusitatissimum
+TAAAAAACGAGG    735  -  746    plus      Lus10034568.g|Lusitatissimum
+GAAATGACGCTG    857  -  868    minus     Lus10021240.g|Lusitatissimum
+AGGATAACGTGG    161  -  172    minus     Lus10021827.g|Lusitatissimum
+CAAATGACGCGA    859  -  870    minus     MDP0000770493|Mdomestica
+AGAAGAACGTGG    478  -  489    minus     MDP0000529003|Mdomestica
+AAAATAACGTAA    218  -  229    plus      cassava4.1_015875m.g|Mesculenta
+AAAATAATGGAA    473  -  484    minus     Medtr3g117290|Mtruncatula
+AAAAGAACTGGC    102  -  113    plus      LOC_Os02g44870|Osativa
+GGAATAACGTGG    338  -  349    minus     Phvul.009G004400|Pvulgaris
+ACGAGAACGTGA    710  -  721    minus     Potri.005G248100|Ptrichocarpa
+GATATGACGCGA    978  -  989    minus     ppa010326m.g|Ppersica
+AAAAAAACCAGA    782  -  793    minus     ppa026861m.g|Ppersica
+AGAAGAACGTGA    590  -  601    minus     30170.t000735|Rcommunis
+TGGATAACGCCA    522  -  533    plus      Si017975m.g|Sitalica
+AGAAGGACCCAG    167  -  178    minus     Si027536m.g|Sitalica
+AATATGACGAGC    781  -  792    plus      Solyc04g082200.2|Slycopersicum
+AGAATAATGTAG    360  -  371    minus     PGSC0003DMG400009968|Stuberosum
+AGAAGAACATGG    547  -  558    minus     Thecc1EG034339|Tcacao
+AAAATAAAGAGC    840  -  851    plus      Thhalv10026303m.g|Esalsugineum
+TGTATAACGTGA    201  -  212    minus     Thhalv10019152m.g|Esalsugineum
+GATATAACCTGA    334  -  345    plus      Thhalv10008706m.g|Esalsugineum
+TGGATGACTCGG    463  -  474    minus     GRMZM2G373522|Zmays
+AAAATAACGCAT    448  -  459    minus     GRMZM2G147014|Zmays
+AATAGAAAGTGG    606  -  617    minus     MA_474985g0010|Pabies
+AAGATAACTCGT    137  -  148    minus     MA_86965g0010|Pabies
+CAAATAACTTCG    951  -  962    minus     MA_65580g0010|Pabies
+AAAATAATTAGG    122  -  133    plus      MA_187114g0010|Pabies
+TAAATAACGCCC    465  -  476    plus      MA_104214g0010|Pabies
+TAAAGGACGCAG    471  -  482    plus      MA_9972323g0010|Pabies
+GAAATAACTTCG    921  -  932    minus     MA_130855g0010|Pabies
+TAAAGGACGCAG    471  -  482    plus      MA_151075g0010|Pabies
+AAGATAATGTGG    584  -  595    plus      MA_120345g0010|Pabies
+AAAATGACTATC    485  -  496    plus      Glyma.04G009400|Gmax
+AAGATGACGCGC    781  -  792    plus      GSMUA_Achr11P16760_001|Macuminata
+AAAATAACTAAA    533  -  544    minus     Achn252561|Achinensis
+TAAATAACCATC    870  -  881    plus      Achn095551|Achinensis
+TAAATAACCCCC    882  -  893    plus      Achn343961|Achinensis
+AAGAGGACGCCA    718  -  729    plus      Achn132121|Achinensis
+TGGATGACGTGT    617  -  628    minus     evm_27.model.AmTr_v1.0_scaffold00001.
+CACATAACGCGT    543  -  554    plus      evm_27.model.AmTr_v1.0_scaffold00082.
+TATATAACGCAC    973  -  984    plus      Brara.G03414|Brapa
+TAAATAACTTCG    728  -  739    minus     Brara.G02195|Brapa
+AAAATATCGTGG    266  -  277    minus     Brara.B02255|Brapa
+AAAATAATGCAG    321  -  332    minus     Brara.F01455|Brapa
+AAAATAACCTAA    454  -  465    minus     Brara.G01101|Brapa
+AAAATAACTTTC    667  -  678    minus     Brara.H00486|Brapa
+TAAATAATGTCC    268  -  279    minus     Migut.C00923|Mguttatus
+TGGATAACGCCA    444  -  455    plus      Pavir.Aa00887|Pvirgatum
+CGGATAACGCCA    546  -  557    plus      Pavir.J04551|Pvirgatum
+CGAAGGACGGCC    50   -   61    plus      Sobic.004G286600|Sbicolor
+TAAATAACCACG    950  -  961    plus      PITA_000086992-RA|Ptaeda
+AGAAGAATGTGG    968  -  979    minus     PITA_000087634-RA|Ptaeda
+AAAATAGTGTGA    94   -  105    plus      PITA_000078888-RA|Ptaeda
+TAAATAACCGCG    955  -  966    plus      PITA_000008706-RA|Ptaeda
+AAGATAAAGTTC    429  -  440    plus      PITA_000008705-RA|Ptaeda
+AAGAGAACGAGG    941  -  952    minus     PITA_000008704-RA|Ptaeda
+AAGATAACGTTC    24   -   35    plus      PITA_000008703-RA|Ptaeda
+AGGATAAAGTCG    496  -  507    minus     PITA_000000201-RA|Ptaeda
+ACAATAACGACC    351  -  362    minus     PITA_000000200-RA|Ptaeda
+TAAATAACGGAG    725  -  736    plus      PITA_000050018-RA|Ptaeda
+AGAAGGACGTAG    123  -  134    minus     Thhalv10008313m.g|Esalsugineum
+AGAATAACGCGA    1    -   12    minus     Capana04g000100|Cannuum
+AGAATAACGTAT    139  -  150    minus     Capana08g002792|Cannuum
+AAAAGAACTGGC    61   -   72    plus      XP_006647663.1|Obrachyantha
+AAAATAACGGGT    310  -  321    minus     Cagra.25489s0002|Cgrandiflora
+AAAATAAAGAGG    242  -  253    minus     Cagra.25489s0001|Cgrandiflora
+AATATAACGTGC    113  -  124    minus     Cagra.0799s0088|Cgrandiflora
+ACAATGACGAGA    632  -  643    plus      Cagra.1383s0028|Cgrandiflora
+AGAATTACGTGT    539  -  550    plus      Cagra.2007s0059|Cgrandiflora
+TATAGAACCCCA    941  -  952    minus     Cagra.0926s0063|Cgrandiflora
+AAAATAATCTGG    166  -  177    plus      Bv9_218990_uifq.t1|Bvulgaris
+ACAATAACGCCA    694  -  705    minus     Bv_34440_phes.t1|Bvulgaris
+AGGAGAACGTGA    564  -  575    minus     SapurV1A.0573s0050|Spurpurea
+AGGAGAACGTGA    203  -  214    minus     SapurV1A.5414s0010|Spurpurea
+AGTATAACGTGG    24   -   35    minus     Araha.3199s0027|Ahalleri
+AAAAGAAGGTGG    324  -  335    plus      Araha.23419s0001|Ahalleri
+AAAATAATGTGG    796  -  807    plus      Araha.9031s0001|Ahalleri
+TAGATAACGCAG    750  -  761    minus     Bostr.7128s0640|Bstricta
+AAAATAACGGGT    172  -  183    minus     Bostr.7128s0641|Bstricta
+TGGATAACGTGG    698  -  709    plus      Bostr.25542s0027|Bstricta
+AATATAACGTGG    33   -   44    minus     Bostr.20129s0054|Bstricta
 
-Time: 4 minute(s), 17 second(s)
+Time: 4 minute(s), 16 second(s)
 
 
 ******************************************************************************
-Motif 7, width = 12, seed width = 6, sites = 121
-Sum of HD to CGCGTA in 121 seqs: 106
-P-value(CGCGTA) = 7.53007e-08
-Q-value(CGCGTA) = 1.54216e-04
-Information Content = 6.91895181441474
+Motif 7, width = 12, seed width = 6, sites = 120
+Sum of HD to ACGTAA in 120 seqs: 68
+P-value(ACGTAA) = 1.63694e-07
+Q-value(ACGTAA) = 1.78939e-04
+Information Content = 8.54041751358794
 ******************************************************************************
 
 >NFM 7
 
       A                 C                 G                 T                 
-P0    30                35                50                6                 
-P1    48                16                41                16                
-P2    43                34                13                31                
-P3    0                 120               1                 0                 
-P4    51                3                 52                15                
-P5    3                 115               1                 2                 
-P6    8                 7                 102               4                 
-P7    3                 0                 4                 114               
-P8    73                35                12                1                 
-P9    53                23                22                23                
-P10   21                22                46                32                
-P11   26                68                4                 23                
+P0    48                27                20                25                
+P1    35                64                5                 16                
+P2    27                85                7                 1                 
+P3    112               2                 4                 2                 
+P4    4                 112               1                 3                 
+P5    32                4                 84                0                 
+P6    31                1                 0                 88                
+P7    118               0                 1                 1                 
+P8    77                37                0                 6                 
+P9    42                37                35                6                 
+P10   6                 85                13                16                
+P11   42                25                3                 50                
 
 >PWM 7
 
       A                 C                 G                 T                 
-P0    -0.3390882367815  0.64861755500873  1.13999823940196  -2.1534476680211  
-P1    0.28079627110617  -0.3923546912795  0.86561970412482  -1.1186936359888  
-P2    0.13355999913963  0.60905121243255  -0.6559518424368  -0.2966966534605  
-P3    -3.5849625007212  2.37085377279382  -2.9914520998984  -3.5849625007212  
-P4    0.36242608607263  -2.2476844644784  1.19448204343344  -1.1945026539267  
-P5    -2.6984912363345  2.31046344657529  -2.9914520998984  -2.9380939298373  
-P6    -1.8787353137215  -1.3951706155432  2.14048443366137  -2.4930718607589  
-P7    -2.6984912363345  -3.5849625007212  -1.9829545475403  1.47026174309590  
-P8    0.85136307191433  0.64861755500873  -0.7557287597673  -3.2255729301132  
-P9    0.41438791912181  0.08236397191529  0.02338593111167  -0.6768589413759  
-P10   -0.7899140825413  0.02338593111167  1.02443997367326  -0.2555152139323  
-P11   -0.5223300478514  1.56909160143222  -1.9829545475403  -0.6768589413759  
+P0    0.29185926545263  0.30783548262889  -0.0913983672105  -0.5612904745659  
+P1    -0.1276619121682  1.49545379414568  -1.7495657913072  -1.1083022409781  
+P2    -0.4635107964327  1.89423106583130  -1.3850077599124  -3.2187642650734  
+P3    1.45679131954053  -2.5636503473057  -1.9734509763739  -2.9304414847750  
+P4    -2.4844043955541  2.28434719705215  -2.9839437954999  -2.6902535340921  
+P5    -0.2446367909679  -1.9734509763739  1.87754399692255  -3.5794759897884  
+P6    -0.2858354459091  -2.9839437954999  -3.5794759897884  1.12080891603035  
+P7    1.52984220491226  -3.5794759897884  -2.9839437954999  -3.2187642650734  
+P8    0.93606988218741  0.73580806041170  -3.5794759897884  -2.1441913168650  
+P9    0.11322867967232  0.73580806041170  0.65977279263108  -2.1441913168650  
+P10   -2.1441913168650  1.89423106583130  -0.6452636269143  -1.1083022409781  
+P11   0.11322867967232  0.20458267036994  -2.2385778497135  0.34680437688515  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-AGCCGCGTAAAC    370  -  381    plus      PDK_30s1199051g001|Pdactylifera
-CATCTCGTCACC    548  -  559    plus      PDK_30s674821g002|Pdactylifera
-CCACACGTCGGA    794  -  805    plus      chr1.CM0113.680.r2.d|Ljaponicus
-CACCTCTTCCAC    691  -  702    minus     chr5.CM0335.70.r2.d|Ljaponicus
-TGCCACCTAAGT    957  -  968    plus      C.cajan_18977|Ccajan
-AATCGCGTAAGA    830  -  841    plus      C.cajan_11145|Ccajan
-AGACGCATGAGC    899  -  910    minus     Ca_04759|Carietinum
-GCCCGCCTCATC    204  -  215    plus      Aquca_043_00099|Acoerulea
-GTCCACGTAGTT    652  -  663    minus     Aquca_007_00853|Acoerulea
-GCCCTCGTAAGC    600  -  611    plus      490603|Alyrata
-AATCGCATAGTC    604  -  615    minus     921008|Alyrata
-CCCCACGTAAAT    736  -  747    minus     927009|Alyrata
-CAACGCTTAAGC    440  -  451    plus      472273|Alyrata
-GGTCGCCTCAGA    582  -  593    minus     937958|Alyrata
-AATCGCATAGTC    733  -  744    minus     AT1G20440|Athaliana
-GATCACGTAAGC    859  -  870    plus      AT1G76180|Athaliana
-CCACGCTTAAAC    436  -  447    plus      AT1G20450|Athaliana
-GCTCACGTCATT    544  -  555    minus     AT4G38410|Athaliana
-AGACGCGTCCTT    984  -  995    minus     Bradi5g10860|Bdistachyon
-CGTCTCGTCGTC    238  -  249    minus     Bradi4g22280|Bdistachyon
-CTCCACGTACGC    927  -  938    plus      Bradi3g51200|Bdistachyon
-GTACACGTACAC    869  -  880    plus      Bradi4g22290|Bdistachyon
-GGGCTCGTAATC    355  -  366    plus      Carubv10005866m.g|Crubella
-GGCCGCGTAAAA    397  -  408    minus     Carubv10020984m.g|Crubella
-AGACACGTGTCC    306  -  317    plus      Carubv10010037m.g|Crubella
-GGCCACGAAACC    841  -  852    plus      Carubv10010040m.g|Crubella
-GGACGCGTGTCC    608  -  619    plus      evm.TU.supercontig_26.225|Cpapaya
-GCACACGTACTC    857  -  868    plus      Ciclev10002349m.g|Cclementina
-ATCCACGTACAA    77   -   88    plus      orange1.1g038463m.g|Csinensis
-GGCCACGGAATT    775  -  786    minus     orange1.1g026736m.g|Csinensis
-CCACACGTATCC    986  -  997    minus     Cucsa.077690|Csativus
-ATTCGCGTCACC    934  -  945    plus      Eucgr.F01726|Egrandis
-GGACTCGGATGC    119  -  130    plus      gene17179-v1.0-hybrid|Fvesca
-AGCCTCGTAAAT    550  -  561    plus      Gorai.008G038700|Graimondii
-AGTCACATAGGC    419  -  430    plus      Gorai.009G189500|Graimondii
-TGACACGTACGT    853  -  864    plus      Gorai.002G119600|Graimondii
-CATCCCGTACTC    571  -  582    plus      Lus10003340.g|Lusitatissimum
-GATCTCGTATCT    22   -   33    plus      Lus10022643.g|Lusitatissimum
-GAACACGTACGT    520  -  531    plus      Lus10005652.g|Lusitatissimum
-GTACGCGTCAGA    848  -  859    plus      Lus10034568.g|Lusitatissimum
-GAACACGTCTTC    552  -  563    plus      Lus10021240.g|Lusitatissimum
-GTACGCGTCAGA    832  -  843    plus      Lus10021827.g|Lusitatissimum
-AATCGCGTCATT    857  -  868    plus      MDP0000770493|Mdomestica
-AACCACGTAGCA    392  -  403    minus     MDP0000529003|Mdomestica
-CAGCGCGTGTTC    881  -  892    minus     cassava4.1_015875m.g|Mesculenta
-TCCCTCGTCTTT    55   -   66    plus      Medtr3g117290|Mtruncatula
-CGTCGCGTAGGC    641  -  652    plus      LOC_Os02g44870|Osativa
-CCACACGTCGGT    938  -  949    plus      Phvul.009G004400|Pvulgaris
-CTCCGCGTATTG    818  -  829    plus      Potri.005G248100|Ptrichocarpa
-AATCGCGTCATA    976  -  987    plus      ppa010326m.g|Ppersica
-GACCACGTAAAC    742  -  753    plus      ppa026861m.g|Ppersica
-AATCGCGTCAGA    929  -  940    plus      30170.t000735|Rcommunis
-GCGCGCGTCACC    642  -  653    plus      Si017975m.g|Sitalica
-AAACTCGTAATA    265  -  276    plus      Si027536m.g|Sitalica
-AGCCACGTAGAC    942  -  953    plus      Solyc04g082200.2|Slycopersicum
-CATCACGTCTGT    404  -  415    plus      PGSC0003DMG400009968|Stuberosum
-AATCGCGTCAGT    904  -  915    plus      Thecc1EG034339|Tcacao
-GACCTCCTGAGC    497  -  508    minus     Thhalv10026303m.g|Esalsugineum
-GATCACGTAAGC    731  -  742    plus      Thhalv10019152m.g|Esalsugineum
-GACCACGTACCC    685  -  696    plus      Thhalv10008706m.g|Esalsugineum
-GCGCGCGTCGCC    984  -  995    plus      GRMZM2G373522|Zmays
-GTACGCGTAGGC    910  -  921    minus     GRMZM2G147014|Zmays
-CATCGGGTCCTC    974  -  985    plus      MA_474985g0010|Pabies
-GATCGCATCAAC    508  -  519    plus      MA_86965g0010|Pabies
-GGCCACCACACC    842  -  853    plus      MA_65580g0010|Pabies
-CAACACGGAACC    769  -  780    plus      MA_187114g0010|Pabies
-CCACACGTAGCA    539  -  550    minus     MA_104214g0010|Pabies
-GGCCGAGTAATT    127  -  138    minus     MA_9972323g0010|Pabies
-GGGCGCGTGTAC    693  -  704    plus      MA_130855g0010|Pabies
-GGCCGAGTAATT    127  -  138    minus     MA_151075g0010|Pabies
-GCACACGTAGAG    625  -  636    minus     MA_120345g0010|Pabies
-CAACTTGTAATC    698  -  709    plus      Glyma.04G009400|Gmax
-AGGCGCGTCATC    783  -  794    minus     GSMUA_Achr11P16760_001|Macuminata
-GCACGCGTACTC    843  -  854    minus     Achn252561|Achinensis
-AACCGCGTCCAA    839  -  850    plus      Achn095551|Achinensis
-AATCGCGTCCAA    851  -  862    plus      Achn343961|Achinensis
-CGTCGAGTACGC    847  -  858    plus      Achn132121|Achinensis
-GACCGCATATCC    354  -  365    plus      evm_27.model.AmTr_v1.0_scaffold00001.
-CGACACGTCCAC    722  -  733    plus      evm_27.model.AmTr_v1.0_scaffold00082.
-CGACACGTAAGC    800  -  811    plus      Brara.G03414|Brapa
-TTCCGCGTACGT    135  -  146    minus     Brara.G02195|Brapa
-GATCACGTAAAC    778  -  789    plus      Brara.B02255|Brapa
-GACCACGTAACT    661  -  672    plus      Brara.F01455|Brapa
-GTACGCCTAGGC    44   -   55    plus      Brara.G01101|Brapa
-GGACATGTACTA    799  -  810    plus      Brara.H00486|Brapa
-TGACACGTCAGC    751  -  762    plus      Migut.C00923|Mguttatus
-CACCGCGTACGC    756  -  767    plus      Pavir.Aa00887|Pvirgatum
-CGTCGCGTAGCC    832  -  843    plus      Pavir.J04551|Pvirgatum
-GTACGCGTAGGC    967  -  978    minus     Sobic.004G286600|Sbicolor
-CAACACGTGAAA    594  -  605    minus     PITA_000086992-RA|Ptaeda
-CGGCGCGTAAGA    916  -  927    plus      PITA_000087634-RA|Ptaeda
-AAACTCCTGGGA    831  -  842    plus      PITA_000078888-RA|Ptaeda
-AACCGCGTTCTC    960  -  971    plus      PITA_000008706-RA|Ptaeda
-AGGCACGTACGA    821  -  832    plus      PITA_000008705-RA|Ptaeda
-CAGCGCGTAGGA    783  -  794    plus      PITA_000008704-RA|Ptaeda
-AGGCACGTACGA    671  -  682    plus      PITA_000008703-RA|Ptaeda
-CATCACGTATAC    416  -  427    plus      PITA_000000201-RA|Ptaeda
-CAGCCCGTAGGA    926  -  937    plus      PITA_000000200-RA|Ptaeda
-GAGCGCGGATGG    865  -  876    minus     PITA_000050018-RA|Ptaeda
-GGACACTTCCCC    822  -  833    plus      Thhalv10008313m.g|Esalsugineum
-GGTCACATCATA    21   -   32    plus      Capana04g000100|Cannuum
-AAACACATATCC    341  -  352    minus     Capana08g002792|Cannuum
-GTACGCGTAGGC    903  -  914    minus     XP_006647663.1|Obrachyantha
-AGACACGTGTCC    117  -  128    plus      Cagra.25489s0002|Cgrandiflora
-GGCCACGAAACC    656  -  667    plus      Cagra.25489s0001|Cgrandiflora
-GGCCGCGTAAAA    270  -  281    minus     Cagra.0799s0088|Cgrandiflora
-GGACTCGTAATC    368  -  379    plus      Cagra.1383s0028|Cgrandiflora
-GGACACGTATGT    767  -  778    plus      Cagra.2007s0059|Cgrandiflora
-CGAGACGTCAGC    461  -  472    plus      Cagra.0926s0063|Cgrandiflora
-AACCCCGTATTC    689  -  700    plus      Bv9_218990_uifq.t1|Bvulgaris
-AAACGCGTAATT    951  -  962    plus      Bv_34440_phes.t1|Bvulgaris
-CTCCGCGTATTC    670  -  681    plus      SapurV1A.0573s0050|Spurpurea
-CATCGCGTCAGT    618  -  629    plus      SapurV1A.5414s0010|Spurpurea
-GATCACGTAAGA    711  -  722    plus      Araha.3199s0027|Ahalleri
-TCTCGCGTCTGA    734  -  745    plus      Araha.23419s0001|Ahalleri
-AGACACGTCGGC    13   -   24    minus     Araha.9031s0001|Ahalleri
-GTCCACGTATAG    129  -  140    minus     Bostr.7128s0640|Bstricta
-CAACACGTGTCT    3    -   14    minus     Bostr.7128s0641|Bstricta
-CTACTCGTGTTC    81   -   92    plus      Bostr.25542s0027|Bstricta
-GATCACGTAAGC    767  -  778    plus      Bostr.20129s0054|Bstricta
-CAGCGCGTGAGC    940  -  951    minus     MLOC_14884|Hvulgare
+GCCGCGTAAACA    371  -  382    plus      PDK_30s1199051g001|Pdactylifera
+CCAACATACACA    109  -  120    minus     PDK_30s674821g002|Pdactylifera
+TCGACATAAACT    403  -  414    plus      chr1.CM0113.680.r2.d|Ljaponicus
+GCCACGTACCCC    353  -  364    plus      chr5.CM0335.70.r2.d|Ljaponicus
+GCCACCTAAGTA    958  -  969    plus      C.cajan_18977|Ccajan
+GCCACGTACACC    681  -  692    plus      C.cajan_11145|Ccajan
+GACATGTAAGTA    856  -  867    minus     Ca_04759|Carietinum
+AACACGAAAGCT    356  -  367    minus     Aquca_043_00099|Acoerulea
+ACCACGTACCCC    725  -  736    minus     Aquca_007_00853|Acoerulea
+CCCTCGTAAGCC    601  -  612    plus      490603|Alyrata
+ACCACGTAACCA    551  -  562    plus      921008|Alyrata
+CCCACGTAAATT    735  -  746    minus     927009|Alyrata
+ACCACATACATA    192  -  203    plus      472273|Alyrata
+ACCACAAAACCA    803  -  814    plus      937958|Alyrata
+ACCACGTAACCA    650  -  661    plus      AT1G20440|Athaliana
+ATCACGTAAGCA    860  -  871    plus      AT1G76180|Athaliana
+CTAACGTAAACT    152  -  163    minus     AT1G20450|Athaliana
+TACACAAACCCC    985  -  996    minus     AT4G38410|Athaliana
+CGCACGTACAGA    918  -  929    plus      Bradi5g10860|Bdistachyon
+CGAACGAAAGCT    248  -  259    plus      Bradi4g22280|Bdistachyon
+TCCACGTACGCC    928  -  939    plus      Bradi3g51200|Bdistachyon
+TACACGTACACC    870  -  881    plus      Bradi4g22290|Bdistachyon
+TCAACATAATCT    459  -  470    minus     Carubv10005866m.g|Crubella
+ATCACGTAAGCA    908  -  919    plus      Carubv10020984m.g|Crubella
+TCGACGTAACCT    834  -  845    minus     Carubv10010037m.g|Crubella
+GCCACGAAACCA    842  -  853    plus      Carubv10010040m.g|Crubella
+TACACATACCCT    862  -  873    plus      evm.TU.supercontig_26.225|Cpapaya
+CACACGTACTCT    858  -  869    plus      Ciclev10002349m.g|Cclementina
+TCCACGTACAAT    78   -   89    plus      orange1.1g038463m.g|Csinensis
+ACCCCATACACT    887  -  898    plus      orange1.1g026736m.g|Csinensis
+CACACGTATCCA    985  -  996    minus     Cucsa.077690|Csativus
+TGAACATAACCT    396  -  407    plus      Eucgr.F01726|Egrandis
+TCCACATAAAAC    57   -   68    minus     gene17179-v1.0-hybrid|Fvesca
+TAAACGAAAGCT    755  -  766    plus      Gorai.008G038700|Graimondii
+GTAACGTACCCC    441  -  452    plus      Gorai.009G189500|Graimondii
+GACACGTACGTT    854  -  865    plus      Gorai.002G119600|Graimondii
+CTCACATAAATT    83   -   94    plus      Lus10003340.g|Lusitatissimum
+CTCACATAAATT    78   -   89    plus      Lus10022643.g|Lusitatissimum
+AACACGTACGTC    521  -  532    plus      Lus10005652.g|Lusitatissimum
+GTCACATAATCA    371  -  382    plus      Lus10034568.g|Lusitatissimum
+AAAACGTAACCC    54   -   65    plus      Lus10021240.g|Lusitatissimum
+CCGACGTAAGCC    6    -   17    plus      Lus10021827.g|Lusitatissimum
+GGCACATACACC    456  -  467    plus      MDP0000770493|Mdomestica
+TCCACGCACACG    878  -  889    minus     MDP0000529003|Mdomestica
+TCCAAGTAACGT    479  -  490    plus      cassava4.1_015875m.g|Mesculenta
+AAAACATACATT    917  -  928    plus      Medtr3g117290|Mtruncatula
+CCCACGAAAGCT    44   -   55    plus      LOC_Os02g44870|Osativa
+TCCAGGTAACCA    483  -  494    plus      Phvul.009G004400|Pvulgaris
+ACAGCGTACCCC    754  -  765    plus      Potri.005G248100|Ptrichocarpa
+CCAACGTAAACT    415  -  426    plus      ppa010326m.g|Ppersica
+ACCACGTAAACC    743  -  754    plus      ppa026861m.g|Ppersica
+CACACGTGCACA    207  -  218    plus      30170.t000735|Rcommunis
+GCAACGTAAGCT    306  -  317    plus      Si017975m.g|Sitalica
+ACGACGAACGTT    750  -  761    plus      Si027536m.g|Sitalica
+GCCAAGTAAACT    239  -  250    minus     Solyc04g082200.2|Slycopersicum
+CACACGTAAGAT    299  -  310    minus     PGSC0003DMG400009968|Stuberosum
+GAAACGTAATCT    315  -  326    plus      Thecc1EG034339|Tcacao
+ACAACGAAACCC    369  -  380    minus     Thhalv10026303m.g|Esalsugineum
+ATCACGTAAGCA    732  -  743    plus      Thhalv10019152m.g|Esalsugineum
+ACCACGTACCCA    686  -  697    plus      Thhalv10008706m.g|Esalsugineum
+TCCACGTACGGG    478  -  489    minus     GRMZM2G373522|Zmays
+AACACAAACGCT    10   -   21    plus      GRMZM2G147014|Zmays
+CACACAAAATGG    491  -  502    plus      MA_474985g0010|Pabies
+AACTCGAAAACT    517  -  528    plus      MA_86965g0010|Pabies
+TACACGTACAGA    518  -  529    minus     MA_65580g0010|Pabies
+CACACAAAAACT    41   -   52    plus      MA_187114g0010|Pabies
+AACACCAAAACT    286  -  297    plus      MA_104214g0010|Pabies
+AAAACGTAAGGA    203  -  214    minus     MA_9972323g0010|Pabies
+AACACGTACAGT    404  -  415    minus     MA_130855g0010|Pabies
+AAAACGTAAGGA    203  -  214    minus     MA_151075g0010|Pabies
+CAAACGTACACA    609  -  620    minus     MA_120345g0010|Pabies
+ACAACAAAAACA    599  -  610    minus     Glyma.04G009400|Gmax
+GCCACGTTCCGC    908  -  919    plus      GSMUA_Achr11P16760_001|Macuminata
+TAAACGTATACA    754  -  765    plus      Achn252561|Achinensis
+ACAACGAAACTT    907  -  918    plus      Achn095551|Achinensis
+ACCACCTAAACT    429  -  440    minus     Achn343961|Achinensis
+GTCACATAAACA    26   -   37    minus     Achn132121|Achinensis
+ACCGCATATCCA    355  -  366    plus      evm_27.model.AmTr_v1.0_scaffold00001.
+CAAACGTAAAAC    21   -   32    plus      evm_27.model.AmTr_v1.0_scaffold00082.
+GACACGTAAGCA    801  -  812    plus      Brara.G03414|Brapa
+CCCAAGTAACCA    26   -   37    plus      Brara.G02195|Brapa
+ACCACGTAACTA    826  -  837    minus     Brara.B02255|Brapa
+ACCACGTAACTA    662  -  673    plus      Brara.F01455|Brapa
+AACACAAAAACA    290  -  301    minus     Brara.G01101|Brapa
+AGCACAAAACCT    836  -  847    plus      Brara.H00486|Brapa
+AACACGTAACAT    541  -  552    minus     Migut.C00923|Mguttatus
+ACCGCGTACGCA    757  -  768    plus      Pavir.Aa00887|Pvirgatum
+CCCACGAAAGCT    54   -   65    plus      Pavir.J04551|Pvirgatum
+CCAACGAAAGCT    102  -  113    plus      Sobic.004G286600|Sbicolor
+ATGACATAAACA    181  -  192    plus      PITA_000086992-RA|Ptaeda
+CACACGAAAACT    949  -  960    plus      PITA_000087634-RA|Ptaeda
+ATAACATAAATT    1    -   12    minus     PITA_000078888-RA|Ptaeda
+ACAACGAACACC    252  -  263    minus     PITA_000008706-RA|Ptaeda
+ACCACGAACGGT    786  -  797    plus      PITA_000008705-RA|Ptaeda
+ACACCATACGCT    701  -  712    minus     PITA_000008704-RA|Ptaeda
+ACCACGAACGGT    636  -  647    plus      PITA_000008703-RA|Ptaeda
+TCCACCTAAGCT    686  -  697    plus      PITA_000000201-RA|Ptaeda
+TTCACGAAAACA    35   -   46    plus      PITA_000000200-RA|Ptaeda
+CCTACGTAAACT    624  -  635    plus      PITA_000050018-RA|Ptaeda
+ACCACGTAACCA    559  -  570    plus      Thhalv10008313m.g|Esalsugineum
+GACACATAAATT    396  -  407    plus      Capana04g000100|Cannuum
+ATCACAAAAGCC    649  -  660    plus      Capana08g002792|Cannuum
+CCCATGAAAGCT    11   -   22    plus      XP_006647663.1|Obrachyantha
+TCGACGTAACCT    654  -  665    minus     Cagra.25489s0002|Cgrandiflora
+GCCACGAAACCA    657  -  668    plus      Cagra.25489s0001|Cgrandiflora
+ATCACGTAAGCA    785  -  796    plus      Cagra.0799s0088|Cgrandiflora
+TCAACATAATCT    473  -  484    minus     Cagra.1383s0028|Cgrandiflora
+TACACGTATGCC    488  -  499    minus     Cagra.2007s0059|Cgrandiflora
+CCGACGTAAAAA    773  -  784    minus     Cagra.0926s0063|Cgrandiflora
+AAAAAGTACCCT    67   -   78    plus      Bv9_218990_uifq.t1|Bvulgaris
+GTCACATAACGT    804  -  815    plus      Bv_34440_phes.t1|Bvulgaris
+TCCACGAATCCC    696  -  707    plus      SapurV1A.0573s0050|Spurpurea
+TCCACGAATCCC    335  -  346    plus      SapurV1A.5414s0010|Spurpurea
+CCCACGTAAATT    795  -  806    minus     Araha.3199s0027|Ahalleri
+GCCACAAACGGC    779  -  790    minus     Araha.23419s0001|Ahalleri
+ACCACGTAACCA    671  -  682    plus      Araha.9031s0001|Ahalleri
+ACCACGTAACCA    693  -  704    plus      Bostr.7128s0640|Bstricta
+ACCATGTAACCA    661  -  672    plus      Bostr.7128s0641|Bstricta
+TACACATACCCC    962  -  973    minus     Bostr.25542s0027|Bstricta
+ATCACGTAAGCA    768  -  779    plus      Bostr.20129s0054|Bstricta
 
-Time: 4 minute(s), 17 second(s)
+Time: 4 minute(s), 13 second(s)
 
 
 ******************************************************************************
-Motif 8, width = 12, seed width = 6, sites = 121
-Sum of HD to ATAACG in 121 seqs: 76
-P-value(ATAACG) = 4.17201e-06
-Q-value(ATAACG) = 6.12833e-03
-Information Content = 9.30883879156297
+Motif 8, width = 12, seed width = 6, sites = 120
+Sum of HD to ACGTCT in 120 seqs: 83
+P-value(ACGTCT) = 2.04921e-06
+Q-value(ACGTCT) = 3.25589e-03
+Information Content = 7.39669051798052
 ******************************************************************************
 
 >NFM 8
 
       A                 C                 G                 T                 
-P0    83                7                 2                 29                
-P1    56                19                24                22                
-P2    96                0                 11                14                
-P3    103               4                 14                0                 
-P4    2                 1                 4                 114               
-P5    115               0                 6                 0                 
-P6    121               0                 0                 0                 
-P7    4                 47                1                 69                
-P8    3                 7                 110               1                 
-P9    14                34                33                39                
-P10   52                22                35                11                
-P11   56                10                37                17                
+P0    26                36                39                19                
+P1    30                44                10                36                
+P2    30                74                4                 12                
+P3    106               0                 0                 14                
+P4    5                 110               0                 5                 
+P5    35                2                 83                0                 
+P6    3                 1                 0                 116               
+P7    0                 91                29                0                 
+P8    0                 3                 27                90                
+P9    26                49                35                10                
+P10   35                40                6                 39                
+P11   21                29                24                46                
 
 >PWM 8
 
       A                 C                 G                 T                 
-P0    1.02852711569029  -1.3951706155432  -2.5721595680688  -0.3827632444741  
-P1    0.48898164694666  -0.1695604433477  0.13902535905838  -0.7322793656526  
-P2    1.23044720175469  -3.5849625007212  -0.8629223720271  -1.2745172021027  
-P3    1.32849882798111  -1.9829545475403  -0.5626313828246  -3.5849625007212  
-P4    -2.9380939298373  -2.9914520998984  -1.9829545475403  1.47026174309590  
-P5    1.48248441683373  -3.5849625007212  -1.5658004576812  -3.5849625007212  
-P6    1.55372255236328  -3.5849625007212  -3.5849625007212  -3.5849625007212  
-P7    -2.4930718607589  1.05420882012359  -2.9914520998984  0.77392075097706  
-P8    -2.6984912363345  -1.3951706155432  2.24743435947033  -3.2255729301132  
-P9    -1.2540936938292  0.61904499213751  0.57864766480455  0.01234896596790  
-P10   0.39512088261110  0.03835801319116  0.65834188567873  -1.5206199190300  
-P11   0.49502713977671  -0.9488909245453  0.73386331089583  -1.0292122800154  
+P0    -0.5115724081352  0.69829128539945  0.80803582558435  -0.9020523343283  
+P1    -0.3282452715796  0.97421104554949  -0.9682330468601  -0.0906870407322  
+P2    -0.3282452715796  1.69911142127802  -1.9734509763739  -1.4391192531894  
+P3    1.37984329269674  -3.5794759897884  -3.5794759897884  -1.2642492044741  
+P4    -2.3042924726183  2.25880234601298  -3.5794759897884  -2.3042924726183  
+P5    -0.1276619121682  -2.5636503473057  1.86066165459891  -3.5794759897884  
+P6    -2.6902535340921  -2.9839437954999  -3.5794759897884  1.50590056124474  
+P7    -3.5794759897884  1.99049258586521  0.40418954552102  -3.5794759897884  
+P8    -3.5794759897884  -2.2385778497135  0.30783548262889  1.15199666134509  
+P9    -0.5115724081352  1.12320728067018  0.65977279263108  -1.6381472570708  
+P10   -0.1276619121682  0.84283744704158  -1.5558021533180  0.01487059737013  
+P11   -0.7793022354891  0.40418954552102  0.15004602755974  0.23473843085280  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-AAAGTAAAGCGA    747  -  758    plus      PDK_30s1199051g001|Pdactylifera
-TATATAACGCCA    853  -  864    plus      PDK_30s674821g002|Pdactylifera
-AAAGTAATGAGG    595  -  606    minus     chr1.CM0113.680.r2.d|Ljaponicus
-AAAGTAATGGAA    475  -  486    minus     chr5.CM0335.70.r2.d|Ljaponicus
-AAAATAATGATA    114  -  125    minus     C.cajan_18977|Ccajan
-AAAATAAGGGAG    34   -   45    plus      C.cajan_11145|Ccajan
-ATAATAATGATA    742  -  753    plus      Ca_04759|Carietinum
-ATAATAATGCTG    571  -  582    plus      Aquca_043_00099|Acoerulea
-AAAATAATGCCG    668  -  679    plus      Aquca_007_00853|Acoerulea
-TGGATAACGTGG    708  -  719    plus      490603|Alyrata
-AGAATAATGTAG    21   -   32    minus     921008|Alyrata
-AGAATAATGGGA    365  -  376    minus     927009|Alyrata
-AAAATAACGGGA    671  -  682    minus     472273|Alyrata
-AAAATAACACAA    394  -  405    plus      937958|Alyrata
-AGAATAATGTAG    117  -  128    minus     AT1G20440|Athaliana
-AAAATAATGGAT    825  -  836    minus     AT1G76180|Athaliana
-TATATAATGTAG    968  -  979    minus     AT1G20450|Athaliana
-TGAATGACGTGG    82   -   93    plus      AT4G38410|Athaliana
-AGGCTAACGCCG    780  -  791    minus     Bradi5g10860|Bdistachyon
-AAAATAATGAAA    956  -  967    plus      Bradi4g22280|Bdistachyon
-ACGATGACGGGG    557  -  568    minus     Bradi3g51200|Bdistachyon
-TTAATAATGGAG    841  -  852    minus     Bradi4g22290|Bdistachyon
-ACAATGACGAGA    618  -  629    plus      Carubv10005866m.g|Crubella
-TCAATAATGTTA    536  -  547    plus      Carubv10020984m.g|Crubella
-AAAATAACGGGT    491  -  502    minus     Carubv10010037m.g|Crubella
-AGAATAATGAAG    321  -  332    minus     Carubv10010040m.g|Crubella
-AAAAGAACGTGG    357  -  368    plus      evm.TU.supercontig_26.225|Cpapaya
-AGAAGAACGTGA    501  -  512    minus     Ciclev10002349m.g|Cclementina
-TAAATAACCNNN    262  -  273    plus      orange1.1g038463m.g|Csinensis
-TAAATGACGGGG    183  -  194    plus      orange1.1g026736m.g|Csinensis
-AAAATAATGGAA    332  -  343    plus      Cucsa.077690|Csativus
-AGGATAACGGCG    653  -  664    minus     Eucgr.F01726|Egrandis
-ATAATAACGCAT    839  -  850    plus      gene17179-v1.0-hybrid|Fvesca
-ATAGTAATGGGT    914  -  925    minus     Gorai.008G038700|Graimondii
-ACAATAACGGAA    923  -  934    minus     Gorai.009G189500|Graimondii
-AAAATAATGAAA    249  -  260    minus     Gorai.002G119600|Graimondii
-GAACTAACGTAG    971  -  982    minus     Lus10003340.g|Lusitatissimum
-ACAATAATTTCA    482  -  493    plus      Lus10022643.g|Lusitatissimum
-AAACTAACGTAA    446  -  457    plus      Lus10005652.g|Lusitatissimum
-ATAGTAATGTCA    363  -  374    plus      Lus10034568.g|Lusitatissimum
-AGAGTAATGTAA    642  -  653    plus      Lus10021240.g|Lusitatissimum
-ATAATAACCGAG    395  -  406    plus      Lus10021827.g|Lusitatissimum
-CAAATAATGGGA    406  -  417    minus     MDP0000770493|Mdomestica
-CAAATAATGGAA    589  -  600    minus     MDP0000529003|Mdomestica
-AAAATAACGTAA    218  -  229    plus      cassava4.1_015875m.g|Mesculenta
-AAAATAATGGAA    473  -  484    minus     Medtr3g117290|Mtruncatula
-ACAGTAACGTAA    546  -  557    minus     LOC_Os02g44870|Osativa
-ACAGTAACGTGT    755  -  766    minus     Phvul.009G004400|Pvulgaris
-ATTATAATGCAA    512  -  523    minus     Potri.005G248100|Ptrichocarpa
-AGTATGATGTAA    22   -   33    plus      ppa010326m.g|Ppersica
-AGAGTAATGCAG    363  -  374    plus      ppa026861m.g|Ppersica
-AGAAGAACGTGA    590  -  601    minus     30170.t000735|Rcommunis
-TGGATAACGCCA    522  -  533    plus      Si017975m.g|Sitalica
-ACAATAATATGG    200  -  211    minus     Si027536m.g|Sitalica
-AGAATAATGTAG    426  -  437    minus     Solyc04g082200.2|Slycopersicum
-AGAATAATGTAG    360  -  371    minus     PGSC0003DMG400009968|Stuberosum
-TTGATAATGCCA    238  -  249    minus     Thecc1EG034339|Tcacao
-TGTATAATGCCC    384  -  395    minus     Thhalv10026303m.g|Esalsugineum
-TTAATAACGTGC    823  -  834    plus      Thhalv10019152m.g|Esalsugineum
-TATATAATGTAG    576  -  587    minus     Thhalv10008706m.g|Esalsugineum
-CGAATAATGAGA    7    -   18    minus     GRMZM2G373522|Zmays
-AAAATAACGCAT    448  -  459    minus     GRMZM2G147014|Zmays
-TCAATAAAGGCC    551  -  562    minus     MA_474985g0010|Pabies
-TTTATAACGCAG    746  -  757    minus     MA_86965g0010|Pabies
-AAAAAAATGGCA    553  -  564    plus      MA_65580g0010|Pabies
-ATAACAATGCCA    440  -  451    plus      MA_187114g0010|Pabies
-TAAATAACGCCC    465  -  476    plus      MA_104214g0010|Pabies
-AGAATAACCGTA    273  -  284    minus     MA_9972323g0010|Pabies
-AAAGTAATGAGG    428  -  439    minus     MA_130855g0010|Pabies
-AGAATAACCGTA    273  -  284    minus     MA_151075g0010|Pabies
-AAAATAAAGTCA    30   -   41    minus     MA_120345g0010|Pabies
-AAAATAATATAA    773  -  784    plus      Glyma.04G009400|Gmax
-ATAATAATGGTG    4    -   15    minus     GSMUA_Achr11P16760_001|Macuminata
-ATAATAATGGAT    497  -  508    minus     Achn252561|Achinensis
-ACAGTAATGGAA    929  -  940    minus     Achn095551|Achinensis
-AAAGTAATGCTG    61   -   72    minus     Achn343961|Achinensis
-AAAATAATCTGA    383  -  394    plus      Achn132121|Achinensis
-TAGATAATGTGT    136  -  147    plus      evm_27.model.AmTr_v1.0_scaffold00001.
-AAACTAACGGAA    86   -   97    plus      evm_27.model.AmTr_v1.0_scaffold00082.
-TATATAACGCAC    973  -  984    plus      Brara.G03414|Brapa
-AAGATAATGAGA    8    -   19    minus     Brara.G02195|Brapa
-TTAATAACGTCA    307  -  318    minus     Brara.B02255|Brapa
-AAAATAATGCAG    321  -  332    minus     Brara.F01455|Brapa
-AAAATAACCTAA    454  -  465    minus     Brara.G01101|Brapa
-AAAATAAAGAAA    372  -  383    plus      Brara.H00486|Brapa
-TAAATAATGTCC    268  -  279    minus     Migut.C00923|Mguttatus
-TGGATAACGCCA    444  -  455    plus      Pavir.Aa00887|Pvirgatum
-CGGATAACGCCA    546  -  557    plus      Pavir.J04551|Pvirgatum
-AAAGTAATGGAG    555  -  566    minus     Sobic.004G286600|Sbicolor
-ATAATAATGGGT    119  -  130    minus     PITA_000086992-RA|Ptaeda
-TCAATAACGCAG    574  -  585    minus     PITA_000087634-RA|Ptaeda
-ACAAAAATGCAA    72   -   83    plus      PITA_000078888-RA|Ptaeda
-TATATAATGCGT    582  -  593    plus      PITA_000008706-RA|Ptaeda
-CAAATAATGAAG    57   -   68    plus      PITA_000008705-RA|Ptaeda
-CCAATAATGCAC    387  -  398    minus     PITA_000008704-RA|Ptaeda
-AAGATAACGTTC    24   -   35    plus      PITA_000008703-RA|Ptaeda
-TATATAACGTAT    599  -  610    minus     PITA_000000201-RA|Ptaeda
-ACAATAACGACC    351  -  362    minus     PITA_000000200-RA|Ptaeda
-AAAATAATGGAA    373  -  384    minus     PITA_000050018-RA|Ptaeda
-ATAATAATGCGG    106  -  117    minus     Thhalv10008313m.g|Esalsugineum
-AGAATAACGCGA    1    -   12    minus     Capana04g000100|Cannuum
-AGAATAACGTAT    139  -  150    minus     Capana08g002792|Cannuum
-ACAGTAACGCAA    496  -  507    minus     XP_006647663.1|Obrachyantha
-AAAATAATGTGG    157  -  168    minus     Cagra.25489s0002|Cgrandiflora
-AATATAATGTAG    558  -  569    minus     Cagra.25489s0001|Cgrandiflora
-TCAATAATGTTA    409  -  420    plus      Cagra.0799s0088|Cgrandiflora
-ACAATGACGAGA    632  -  643    plus      Cagra.1383s0028|Cgrandiflora
-CTAATAACGCTT    959  -  970    plus      Cagra.2007s0059|Cgrandiflora
-TTAATAATGGGC    726  -  737    plus      Cagra.0926s0063|Cgrandiflora
-AAAATAATCTGG    166  -  177    plus      Bv9_218990_uifq.t1|Bvulgaris
-ACAATAACGCCA    694  -  705    minus     Bv_34440_phes.t1|Bvulgaris
-ATTATAATGCAA    422  -  433    minus     SapurV1A.0573s0050|Spurpurea
-ATTATAATGCAA    60   -   71    minus     SapurV1A.5414s0010|Spurpurea
-TCAATAATGCAT    303  -  314    plus      Araha.3199s0027|Ahalleri
-TATATAATGTAT    123  -  134    minus     Araha.23419s0001|Ahalleri
-AAAATAATGTGG    796  -  807    plus      Araha.9031s0001|Ahalleri
-AAAATAATGGGT    349  -  360    minus     Bostr.7128s0640|Bstricta
-AAAATAACGGGT    172  -  183    minus     Bostr.7128s0641|Bstricta
-TTAATAATGCCA    654  -  665    plus      Bostr.25542s0027|Bstricta
-AAAAGAATGGGA    386  -  397    minus     Bostr.20129s0054|Bstricta
-GAAATAATGGCG    960  -  971    minus     MLOC_14884|Hvulgare
+GGCACATCGCCG    451  -  462    minus     PDK_30s1199051g001|Pdactylifera
+GCCACGACTCTC    813  -  824    plus      PDK_30s674821g002|Pdactylifera
+CACACGTCGGAT    795  -  806    plus      chr1.CM0113.680.r2.d|Ljaponicus
+ATCACATCTCAT    751  -  762    minus     chr5.CM0335.70.r2.d|Ljaponicus
+AACTCATCTCTT    933  -  944    plus      C.cajan_18977|Ccajan
+ACGATGTCTCCC    864  -  875    plus      C.cajan_11145|Ccajan
+ATCACATCTAAA    39   -   50    plus      Ca_04759|Carietinum
+TACACGTGTACA    882  -  893    plus      Aquca_043_00099|Acoerulea
+CCAACATCTATT    185  -  196    minus     Aquca_007_00853|Acoerulea
+GTCACATCTACG    285  -  296    plus      490603|Alyrata
+CACAAATCTCAC    962  -  973    plus      921008|Alyrata
+GACACGTGTCAT    67   -   78    plus      927009|Alyrata
+GACACATCTACT    902  -  913    plus      472273|Alyrata
+GTCACATGTCCG    772  -  783    minus     937958|Alyrata
+CCCACCTCTTTT    67   -   78    plus      AT1G20440|Athaliana
+GGAACGTCGGAT    320  -  331    minus     AT1G76180|Athaliana
+TTCACGTGGCAT    586  -  597    plus      AT1G20450|Athaliana
+GTCACATCTACG    321  -  332    plus      AT4G38410|Athaliana
+CCCACATGTCAA    307  -  318    plus      Bradi5g10860|Bdistachyon
+GTTACATCTGCA    423  -  434    plus      Bradi4g22280|Bdistachyon
+ACTACGTCGCCG    840  -  851    minus     Bradi3g51200|Bdistachyon
+CACACGTCTCAT    796  -  807    plus      Bradi4g22290|Bdistachyon
+CCATCGTCTGAT    714  -  725    plus      Carubv10005866m.g|Crubella
+GACACGTGTCCT    253  -  264    plus      Carubv10020984m.g|Crubella
+GACACGTGTCTG    305  -  316    minus     Carubv10010037m.g|Crubella
+AAAACATCTCTT    543  -  554    plus      Carubv10010040m.g|Crubella
+GTAACGTCTCTC    282  -  293    plus      evm.TU.supercontig_26.225|Cpapaya
+GCCACGTGTAAG    511  -  522    minus     Ciclev10002349m.g|Cclementina
+TCAAAGTCTGTT    943  -  954    plus      orange1.1g038463m.g|Csinensis
+CCCATGTCTCAA    728  -  739    plus      orange1.1g026736m.g|Csinensis
+CCCATATCTCCC    679  -  690    plus      Cucsa.077690|Csativus
+GCCACGTGGGCC    606  -  617    plus      Eucgr.F01726|Egrandis
+CTCACATGGATG    650  -  661    minus     gene17179-v1.0-hybrid|Fvesca
+CACACATCTATA    28   -   39    plus      Gorai.008G038700|Graimondii
+TCCACGTGTCAT    661  -  672    plus      Gorai.009G189500|Graimondii
+CTCACGTCTTTA    332  -  343    minus     Gorai.002G119600|Graimondii
+AGCTCGTGTACT    493  -  504    plus      Lus10003340.g|Lusitatissimum
+TAAACATCTCGC    605  -  616    plus      Lus10022643.g|Lusitatissimum
+GTAACGTCGACC    742  -  753    plus      Lus10005652.g|Lusitatissimum
+CGGACGTCTTCC    776  -  787    minus     Lus10034568.g|Lusitatissimum
+AACACGTCTTCT    553  -  564    plus      Lus10021240.g|Lusitatissimum
+CGGACGTCTTCC    760  -  771    minus     Lus10021827.g|Lusitatissimum
+GCCACATGGGCC    222  -  233    plus      MDP0000770493|Mdomestica
+CTCACCTCTCCT    537  -  548    plus      MDP0000529003|Mdomestica
+ACAACGTCTAGG    506  -  517    plus      cassava4.1_015875m.g|Mesculenta
+GTAACATCTCAT    880  -  891    plus      Medtr3g117290|Mtruncatula
+GCCACGTCGGAA    783  -  794    plus      LOC_Os02g44870|Osativa
+CACACGTCGGTT    939  -  950    plus      Phvul.009G004400|Pvulgaris
+ATAACATCTTTT    393  -  404    plus      Potri.005G248100|Ptrichocarpa
+ACCACGTCGGTC    821  -  832    plus      ppa010326m.g|Ppersica
+GGTACATCTCAT    810  -  821    plus      ppa026861m.g|Ppersica
+CCTACGTCTCTC    722  -  733    plus      30170.t000735|Rcommunis
+GCCACGTCGGAG    712  -  723    plus      Si017975m.g|Sitalica
+TCCACATCTGTA    633  -  644    minus     Si027536m.g|Sitalica
+ATCACGTCTGTC    471  -  482    plus      Solyc04g082200.2|Slycopersicum
+ATCACGTCTGTC    405  -  416    plus      PGSC0003DMG400009968|Stuberosum
+CCCACATCTGCC    467  -  478    plus      Thecc1EG034339|Tcacao
+CCAAAGTCTCAC    922  -  933    plus      Thhalv10026303m.g|Esalsugineum
+CCAACGTGGCAC    98   -  109    plus      Thhalv10019152m.g|Esalsugineum
+TTCACGTCGGTA    833  -  844    minus     Thhalv10008706m.g|Esalsugineum
+GACACATCTCTC    689  -  700    plus      GRMZM2G373522|Zmays
+CCCACGTCCGAT    770  -  781    plus      GRMZM2G147014|Zmays
+TTCTCGTCTACT    665  -  676    plus      MA_474985g0010|Pabies
+ACATCGTCTCTT    41   -   52    plus      MA_86965g0010|Pabies
+TTATCGTCTCAC    704  -  715    minus     MA_65580g0010|Pabies
+ATCTCATCTGAT    877  -  888    plus      MA_187114g0010|Pabies
+ACAACGTCTTCT    848  -  859    plus      MA_104214g0010|Pabies
+CCCATGTCTCGG    313  -  324    plus      MA_9972323g0010|Pabies
+CCCACGACGGCC    729  -  740    minus     MA_130855g0010|Pabies
+CCCATGTCTCGG    313  -  324    plus      MA_151075g0010|Pabies
+TCTACGTGTGCT    626  -  637    plus      MA_120345g0010|Pabies
+TGAACGTGTGAT    494  -  505    minus     Glyma.04G009400|Gmax
+TGCACGTCGATC    417  -  428    minus     GSMUA_Achr11P16760_001|Macuminata
+ATCACGTGCTTC    89   -  100    plus      Achn252561|Achinensis
+TAAACATCTACC    730  -  741    plus      Achn095551|Achinensis
+CCCACGTCCAAT    18   -   29    plus      Achn343961|Achinensis
+GTTACATGTGCA    101  -  112    plus      Achn132121|Achinensis
+CCTTCGTCTGCT    394  -  405    plus      evm_27.model.AmTr_v1.0_scaffold00001.
+TTCTCGTCTCCC    166  -  177    minus     evm_27.model.AmTr_v1.0_scaffold00082.
+GACACATGTCCA    421  -  432    plus      Brara.G03414|Brapa
+GCAACGTGGCAC    201  -  212    plus      Brara.G02195|Brapa
+AACACGTGTCTA    436  -  447    minus     Brara.B02255|Brapa
+GGCACGTCGGGT    173  -  184    minus     Brara.F01455|Brapa
+GTCTCGTCTCTC    963  -  974    plus      Brara.G01101|Brapa
+CTTTCGTCTATT    537  -  548    minus     Brara.H00486|Brapa
+GTCACGTGTAAA    472  -  483    minus     Migut.C00923|Mguttatus
+GCCACGTCGGAG    624  -  635    plus      Pavir.Aa00887|Pvirgatum
+GCCACGTCGGAG    717  -  728    plus      Pavir.J04551|Pvirgatum
+GCCACGTCGGAG    820  -  831    plus      Sobic.004G286600|Sbicolor
+GCCACATCTTTC    634  -  645    plus      PITA_000086992-RA|Ptaeda
+TAAACGTCTCCT    667  -  678    plus      PITA_000087634-RA|Ptaeda
+AAAAAGTCTACT    935  -  946    plus      PITA_000078888-RA|Ptaeda
+CGTACGTCTGTG    864  -  875    plus      PITA_000008706-RA|Ptaeda
+TCTACGTGTACA    919  -  930    minus     PITA_000008705-RA|Ptaeda
+ATATCGTCTGCA    911  -  922    plus      PITA_000008704-RA|Ptaeda
+TTTACGTGTACA    798  -  809    minus     PITA_000008703-RA|Ptaeda
+ATCACGTCTATG    615  -  626    minus     PITA_000000201-RA|Ptaeda
+TCATCGTCTCTG    778  -  789    minus     PITA_000000200-RA|Ptaeda
+CACACGCCGCAT    753  -  764    plus      PITA_000050018-RA|Ptaeda
+GTCACGTGTTTG    68   -   79    plus      Thhalv10008313m.g|Esalsugineum
+ATCACATCTATA    509  -  520    plus      Capana04g000100|Cannuum
+CCAAAATCTCCT    851  -  862    plus      Capana08g002792|Cannuum
+GCCACGTCGGAA    774  -  785    plus      XP_006647663.1|Obrachyantha
+GCCACGTCGGTA    29   -   40    minus     Cagra.25489s0002|Cgrandiflora
+AAAACATCTCTT    335  -  346    plus      Cagra.25489s0001|Cgrandiflora
+GACACGTGTCCT    125  -  136    plus      Cagra.0799s0088|Cgrandiflora
+CCATCGTCTGAT    716  -  727    plus      Cagra.1383s0028|Cgrandiflora
+CATACGTGTCCG    766  -  777    minus     Cagra.2007s0059|Cgrandiflora
+CTGACGTCTCGT    460  -  471    minus     Cagra.0926s0063|Cgrandiflora
+AACACATCTGAA    19   -   30    plus      Bv9_218990_uifq.t1|Bvulgaris
+TTAACATCTATG    144  -  155    plus      Bv_34440_phes.t1|Bvulgaris
+CAAACGTCTCTT    450  -  461    minus     SapurV1A.0573s0050|Spurpurea
+CAAACGTCTCTT    88   -   99    minus     SapurV1A.5414s0010|Spurpurea
+GACACGTGTCAT    36   -   47    plus      Araha.3199s0027|Ahalleri
+ACCACGACGCCG    651  -  662    plus      Araha.23419s0001|Ahalleri
+GACACGTCGGCT    12   -   23    minus     Araha.9031s0001|Ahalleri
+GTAACGTCTGAT    27   -   38    plus      Bostr.7128s0640|Bstricta
+AACACGTGTCTG    2    -   13    minus     Bostr.7128s0641|Bstricta
+GTCACATCTACG    213  -  224    plus      Bostr.25542s0027|Bstricta
+CTCACGTCTATC    157  -  168    plus      Bostr.20129s0054|Bstricta
 
-Time: 4 minute(s), 21 second(s)
+Time: 4 minute(s), 13 second(s)
 
 
 ******************************************************************************
-Motif 9, width = 12, seed width = 6, sites = 121
-Sum of HD to ACGCTG in 121 seqs: 94
-P-value(ACGCTG) = 5.39373e-06
-Q-value(ACGCTG) = 1.10464e-02
-Information Content = 7.49501113825529
+Motif 9, width = 12, seed width = 6, sites = 120
+Sum of HD to ACGCTG in 120 seqs: 93
+P-value(ACGCTG) = 4.76937e-06
+Q-value(ACGCTG) = 9.76767e-03
+Information Content = 8.04572092633523
 ******************************************************************************
 
 >NFM 9
 
       A                 C                 G                 T                 
-P0    16                23                68                14                
-P1    38                29                34                20                
-P2    6                 43                62                10                
-P3    119               0                 0                 2                 
-P4    21                86                2                 12                
-P5    5                 2                 113               1                 
-P6    46                51                23                1                 
-P7    2                 4                 0                 115               
-P8    1                 0                 109               11                
-P9    20                11                39                51                
-P10   62                20                18                21                
-P11   54                35                18                14                
+P0    8                 5                 82                25                
+P1    36                29                24                31                
+P2    16                46                52                6                 
+P3    113               2                 1                 4                 
+P4    38                71                4                 7                 
+P5    17                0                 99                4                 
+P6    25                73                21                1                 
+P7    0                 0                 2                 118               
+P8    2                 0                 107               11                
+P9    34                12                27                47                
+P10   92                18                0                 10                
+P11   59                36                4                 21                
 
 >PWM 9
 
       A                 C                 G                 T                 
-P0    -1.1186936359888  0.08236397191529  1.56909160143222  -1.2745172021027  
-P1    -0.0304285390090  0.39309585536080  0.60905121243255  -0.8499474241520  
-P2    -2.1534476680211  0.93126032373098  1.43974086330980  -1.6480589980423  
-P3    1.53036518489537  -3.5849625007212  -3.5849625007212  -2.9380939298373  
-P4    -0.7899140825413  1.89938794738760  -2.5721595680688  -1.4492320657758  
-P5    -2.3132889086066  -2.5721595680688  2.28558126341783  -3.2255729301132  
-P6    0.22369198632907  1.16749732575240  0.08236397191529  -3.2255729301132  
-P7    -2.9380939298373  -1.9829545475403  -3.5849625007212  1.48248441683373  
-P8    -3.2255729301132  -3.5849625007212  2.23449123727809  -1.5452230394455  
-P9    -0.8499474241520  -0.8629223720271  0.79684957359094  0.36242608607263  
-P10   0.62750912222187  -0.1023366778388  -0.2400703074667  -0.7899140825413  
-P11   0.43968346086783  0.64861755500873  -0.2400703074667  -1.2745172021027  
+P0    -1.8690944142164  -1.7495657913072  1.84357941448191  -0.5612904745659  
+P1    -0.0906870407322  0.40418954552102  0.15004602755974  -0.2858354459091  
+P2    -1.1083022409781  1.03566805262103  1.20573733684367  -2.1441913168650  
+P3    1.46922623668736  -2.5636503473057  -2.9839437954999  -2.4844043955541  
+P4    -0.0194642347684  1.64097477168496  -1.9734509763739  -2.0000957498447  
+P5    -1.0362259778836  -3.5794759897884  2.10959832255313  -2.4844043955541  
+P6    -0.5612904745659  1.67999166625143  -0.0271447155789  -3.2187642650734  
+P7    -3.5794759897884  -3.5794759897884  -2.5636503473057  1.52984220491226  
+P8    -2.9304414847750  -3.5794759897884  2.21961643871509  -1.5352038423866  
+P9    -0.1656093953455  -0.7450967452225  0.30783548262889  0.26358152887857  
+P10   1.18252444118570  -0.2291855536544  -3.5794759897884  -1.6381472570708  
+P11   0.57104251480042  0.69829128539945  -1.9734509763739  -0.7793022354891  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
 GCCAAGGTGTCA    873  -  884    minus     PDK_30s1199051g001|Pdactylifera
-GGGATGATGCGA    389  -  400    minus     PDK_30s674821g002|Pdactylifera
+ACGAAGCTGGCT    586  -  597    plus      PDK_30s674821g002|Pdactylifera
 GCGACGGTGGAA    665  -  676    minus     chr1.CM0113.680.r2.d|Ljaponicus
-AAGAAGATGGGA    964  -  975    minus     chr5.CM0335.70.r2.d|Ljaponicus
+TGCACACTGGCC    338  -  349    minus     chr5.CM0335.70.r2.d|Ljaponicus
 GCGAAGATGGAA    38   -   49    minus     C.cajan_18977|Ccajan
-CAGAAGCTGAGC    967  -  978    minus     C.cajan_11145|Ccajan
-AAGATGGTGATA    374  -  385    minus     Ca_04759|Carietinum
-GACACGGTGGCA    929  -  940    minus     Aquca_043_00099|Acoerulea
+GAGAAAATGAAC    818  -  829    minus     C.cajan_11145|Ccajan
+ACATGGCTGAAA    776  -  787    plus      Ca_04759|Carietinum
+GTGAAGAGGTAA    524  -  535    plus      Aquca_043_00099|Acoerulea
 AACACGCTGCAA    132  -  143    plus      Aquca_007_00853|Acoerulea
-CAGACGATGGGC    610  -  621    minus     490603|Alyrata
+GCGACACTGTAT    971  -  982    minus     490603|Alyrata
 AAAACGCTGTAA    791  -  802    minus     921008|Alyrata
 CGGACGATGAAA    175  -  186    minus     927009|Alyrata
 GGCATGATGGCT    588  -  599    plus      472273|Alyrata
 CTGACGATGTAA    323  -  334    plus      937958|Alyrata
 GTAACGCTGTAA    927  -  938    minus     AT1G20440|Athaliana
 GCCACGCTGGAA    142  -  153    minus     AT1G76180|Athaliana
-CTCACGATTTAA    930  -  941    minus     AT1G20450|Athaliana
-CAGAAGATGGGC    613  -  624    minus     AT4G38410|Athaliana
+TCCACGCTTAAA    435  -  446    plus      AT1G20450|Athaliana
+GCGACACTGTAT    972  -  983    minus     AT4G38410|Athaliana
 TGGACGGTGAAA    54   -   65    plus      Bradi5g10860|Bdistachyon
 GCTAAGATGTAA    894  -  905    minus     Bradi4g22280|Bdistachyon
 TCGACGCTGTAT    581  -  592    plus      Bradi3g51200|Bdistachyon
-GCGATGCTGGTT    709  -  720    minus     Bradi4g22290|Bdistachyon
-CAGACGATGGGC    712  -  723    minus     Carubv10005866m.g|Crubella
+TACAAAGTGGAC    674  -  685    minus     Bradi4g22290|Bdistachyon
+GTGAGGCGGTAA    594  -  605    plus      Carubv10005866m.g|Crubella
 GCGAAGGTGTCC    231  -  242    minus     Carubv10020984m.g|Crubella
-ACCACCATGTAA    845  -  856    plus      Carubv10010037m.g|Crubella
-CAGATGGTGGCA    4    -   15    minus     Carubv10010040m.g|Crubella
+GAGAAACTGAAA    355  -  366    minus     Carubv10010037m.g|Crubella
+TACAAGGTGGCA    825  -  836    plus      Carubv10010040m.g|Crubella
 GACACGCTGGAA    501  -  512    minus     evm.TU.supercontig_26.225|Cpapaya
 GACACGCTGTAC    561  -  572    minus     Ciclev10002349m.g|Cclementina
-GGCACGATTTTG    162  -  173    plus      orange1.1g038463m.g|Csinensis
-GGGAAGCTAGAG    268  -  279    minus     orange1.1g026736m.g|Csinensis
+GAGAAGCTTGCA    703  -  714    minus     orange1.1g038463m.g|Csinensis
+GTGAATCTGCAA    347  -  358    minus     orange1.1g026736m.g|Csinensis
 TGGAAGCTGTAC    423  -  434    minus     Cucsa.077690|Csativus
 AGCACGATGTAG    406  -  417    minus     Eucgr.F01726|Egrandis
 GGGACAGTGAAA    264  -  275    plus      gene17179-v1.0-hybrid|Fvesca
 GTCATGCTTTAA    795  -  806    plus      Gorai.008G038700|Graimondii
-GAGAAGATGTGC    589  -  600    minus     Gorai.009G189500|Graimondii
-GAGACGATTGTT    675  -  686    minus     Gorai.002G119600|Graimondii
+GACACTCTGTAC    707  -  718    minus     Gorai.009G189500|Graimondii
+GCCACACTGATT    770  -  781    plus      Gorai.002G119600|Graimondii
 GTCAGGGTGAAA    280  -  291    minus     Lus10003340.g|Lusitatissimum
-TGGACGGTGTGG    216  -  227    minus     Lus10022643.g|Lusitatissimum
-ATGACGCTGCTG    827  -  838    minus     Lus10005652.g|Lusitatissimum
-ACGACGATGATG    976  -  987    minus     Lus10034568.g|Lusitatissimum
+TCCACACTGTCA    924  -  935    plus      Lus10022643.g|Lusitatissimum
+GTGACAATGCTA    137  -  148    plus      Lus10005652.g|Lusitatissimum
+TGGAAACTGGAA    722  -  733    minus     Lus10034568.g|Lusitatissimum
 GACACGGTGTAC    207  -  218    minus     Lus10021240.g|Lusitatissimum
 GACACGGTGTAC    206  -  217    minus     Lus10021827.g|Lusitatissimum
 GAGAAGATGAAA    932  -  943    minus     MDP0000770493|Mdomestica
@@ -1424,247 +1416,245 @@ GACACGCTGTAC    791  -  802    minus     cassava4.1_015875m.g|Mesculenta
 GCGAAGATGGAA    87   -   98    minus     Medtr3g117290|Mtruncatula
 GCGTCGCTGTCC    613  -  624    minus     LOC_Os02g44870|Osativa
 ACGACACTGGAC    227  -  238    minus     Phvul.009G004400|Pvulgaris
-GGTACGCTGTAA    752  -  763    minus     Potri.005G248100|Ptrichocarpa
+GGGGCGGTGTAT    640  -  651    minus     Potri.005G248100|Ptrichocarpa
 GACACGGTGTAC    583  -  594    minus     ppa010326m.g|Ppersica
-TGGACGGTGTGC    687  -  698    minus     ppa026861m.g|Ppersica
+GGTACGCTTAAC    596  -  607    minus     ppa026861m.g|Ppersica
 GACACGCTGTAC    645  -  656    minus     30170.t000735|Rcommunis
 GCGACGCTTGTC    493  -  504    minus     Si017975m.g|Sitalica
-GGCAAGATGCCG    518  -  529    plus      Si027536m.g|Sitalica
-GATACGATGGTA    127  -  138    plus      Solyc04g082200.2|Slycopersicum
+GACATGCTAAAC    257  -  268    plus      Si027536m.g|Sitalica
+GACACGCTGTAC    409  -  420    minus     Solyc04g082200.2|Slycopersicum
 GACACGCTGTAC    343  -  354    minus     PGSC0003DMG400009968|Stuberosum
-TGCATGCTGTTC    135  -  146    plus      Thecc1EG034339|Tcacao
-AAGAAGATGGGC    532  -  543    minus     Thhalv10026303m.g|Esalsugineum
-CGGACGGCGAAC    323  -  334    minus     Thhalv10019152m.g|Esalsugineum
+TACACTCTGGAC    607  -  618    minus     Thecc1EG034339|Tcacao
+TTCACGCTTAAC    801  -  812    minus     Thhalv10026303m.g|Esalsugineum
+GTAACGCTTATA    7    -   18    plus      Thhalv10019152m.g|Esalsugineum
 GTCACGCTGTAA    919  -  930    minus     Thhalv10008706m.g|Esalsugineum
-GCGACGCTTGTC    907  -  918    minus     GRMZM2G373522|Zmays
-CCGACGCCGTCC    547  -  558    plus      GRMZM2G147014|Zmays
-GGCATGATGGAG    908  -  919    minus     MA_474985g0010|Pabies
-GAGACGATGTTA    39   -   50    minus     MA_86965g0010|Pabies
+GTCAAGCTGAAA    722  -  733    plus      GRMZM2G373522|Zmays
+ATCAAGCTGTAG    274  -  285    plus      GRMZM2G147014|Zmays
+GGGAAGATGAAT    406  -  417    plus      MA_474985g0010|Pabies
+GACAAGCTGCCG    497  -  508    plus      MA_86965g0010|Pabies
 TGAACGCTGCCA    460  -  471    minus     MA_65580g0010|Pabies
 GAGAAGCTGCAT    224  -  235    minus     MA_187114g0010|Pabies
-AAGACGTTGTAA    846  -  857    minus     MA_104214g0010|Pabies
-AGGACGCAGGGA    474  -  485    plus      MA_9972323g0010|Pabies
-CCCACGACGGCC    729  -  740    minus     MA_130855g0010|Pabies
-AGGACGCAGGGA    474  -  485    plus      MA_151075g0010|Pabies
+GAGTCGGTGGAA    735  -  746    minus     MA_104214g0010|Pabies
+TTCAAGCTGAAA    70   -   81    minus     MA_9972323g0010|Pabies
+GCCTCGGTGGTC    246  -  257    plus      MA_130855g0010|Pabies
+TTCAAGCTGAAA    70   -   81    minus     MA_151075g0010|Pabies
 TGCACGCTTTCT    427  -  438    plus      MA_120345g0010|Pabies
 GAGACAATTTAA    351  -  362    minus     Glyma.04G009400|Gmax
 CCGACGCTGGCA    859  -  870    plus      GSMUA_Achr11P16760_001|Macuminata
-AGGACACTGTAG    936  -  947    minus     Achn252561|Achinensis
-CACATGATGTCA    242  -  253    minus     Achn095551|Achinensis
-GGGAGGGTGTCC    9    -   20    minus     Achn343961|Achinensis
+GAAAAGGTGAAA    27   -   38    plus      Achn252561|Achinensis
+TGGAAGCTGAAT    922  -  933    minus     Achn095551|Achinensis
+TCGAAACTGGAA    376  -  387    minus     Achn343961|Achinensis
 GAGATGCTGAAA    225  -  236    plus      Achn132121|Achinensis
-TGGACGGTGGCC    449  -  460    minus     evm_27.model.AmTr_v1.0_scaffold00001.
-CGGAAGATGTGA    832  -  843    minus     evm_27.model.AmTr_v1.0_scaffold00082.
+GAGAAGATGAAC    895  -  906    minus     evm_27.model.AmTr_v1.0_scaffold00001.
+GCCACGATGCAC    137  -  148    minus     evm_27.model.AmTr_v1.0_scaffold00082.
 CGGACGGTGTAC    385  -  396    minus     Brara.G03414|Brapa
 AGGACGATGAAC    400  -  411    minus     Brara.G02195|Brapa
 GCCACGCTGGAA    324  -  335    minus     Brara.B02255|Brapa
 GTCACGCTGTAA    927  -  938    minus     Brara.F01455|Brapa
 GTTACGCTGTAT    908  -  919    minus     Brara.G01101|Brapa
-CCTACGATGATA    587  -  598    minus     Brara.H00486|Brapa
-TATACGATGAAG    171  -  182    plus      Migut.C00923|Mguttatus
-GCCACGATGCCG    682  -  693    plus      Pavir.Aa00887|Pvirgatum
-GCGACGCTTGTC    517  -  528    minus     Pavir.J04551|Pvirgatum
+TAAACAGTGAAC    561  -  572    minus     Brara.H00486|Brapa
+GAAAAGATGATC    931  -  942    minus     Migut.C00923|Mguttatus
+GCAAAGCTGGAA    248  -  259    plus      Pavir.Aa00887|Pvirgatum
+GCGCAGCTGGAA    893  -  904    plus      Pavir.J04551|Pvirgatum
 GTGACGCTGGCC    141  -  152    minus     Sobic.004G286600|Sbicolor
-GGTACGGTGGTG    931  -  942    minus     PITA_000086992-RA|Ptaeda
-GATACGATGAGA    626  -  637    plus      PITA_000087634-RA|Ptaeda
+GATAAGCTGTAC    251  -  262    plus      PITA_000086992-RA|Ptaeda
+GAAACGATGATA    770  -  781    plus      PITA_000087634-RA|Ptaeda
 TTGAAGCTGTAT    170  -  181    plus      PITA_000078888-RA|Ptaeda
 TTTACGCTGGAT    849  -  860    minus     PITA_000008706-RA|Ptaeda
 GGGACGATTTAA    16   -   27    minus     PITA_000008705-RA|Ptaeda
 GACACGATGTAG    719  -  730    minus     PITA_000008704-RA|Ptaeda
-CCCACAATGGTC    777  -  788    minus     PITA_000008703-RA|Ptaeda
+GGAATGGTGAAT    271  -  282    plus      PITA_000008703-RA|Ptaeda
 GGCACTGTGGAA    957  -  968    minus     PITA_000000201-RA|Ptaeda
-GAGACGATGATA    780  -  791    plus      PITA_000000200-RA|Ptaeda
-GAGACGGTTTGG    686  -  697    minus     PITA_000050018-RA|Ptaeda
-GCCATGATGGTA    203  -  214    plus      Thhalv10008313m.g|Esalsugineum
+GCAAAGGTGGCC    488  -  499    plus      PITA_000000200-RA|Ptaeda
+TAGACGCTAAAC    511  -  522    minus     PITA_000050018-RA|Ptaeda
+TTAACGATGAAA    472  -  483    plus      Thhalv10008313m.g|Esalsugineum
 GTTACGCTGATT    813  -  824    minus     Capana04g000100|Cannuum
 TGGACGATGAAA    602  -  613    minus     Capana08g002792|Cannuum
-CCAACGCTGCAG    923  -  934    plus      XP_006647663.1|Obrachyantha
+GCAACGTTGTAC    937  -  948    plus      XP_006647663.1|Obrachyantha
 GTCACGCTGTTT    911  -  922    minus     Cagra.25489s0002|Cgrandiflora
 GTCACGCTGTAA    907  -  918    minus     Cagra.25489s0001|Cgrandiflora
 GCCACGCTGGAT    7    -   18    minus     Cagra.0799s0088|Cgrandiflora
-CAGACGATGGGC    714  -  725    minus     Cagra.1383s0028|Cgrandiflora
+GTGAGGCTGTAA    608  -  619    plus      Cagra.1383s0028|Cgrandiflora
 GAAACGATGCAT    328  -  339    plus      Cagra.2007s0059|Cgrandiflora
 TTGAAGGTGCAA    511  -  522    plus      Cagra.0926s0063|Cgrandiflora
 GACAAGATGACA    939  -  950    minus     Bv9_218990_uifq.t1|Bvulgaris
-GGCACCATGTAT    120  -  131    plus      Bv_34440_phes.t1|Bvulgaris
-GTCACGGTGAGG    62   -   73    plus      SapurV1A.0573s0050|Spurpurea
-CCCAAGATGGTG    821  -  832    plus      SapurV1A.5414s0010|Spurpurea
+TTGACACTGAAA    791  -  802    plus      Bv_34440_phes.t1|Bvulgaris
+GTGATGCTGCAT    33   -   44    minus     SapurV1A.0573s0050|Spurpurea
+GGGCAGCTGTCC    360  -  371    minus     SapurV1A.5414s0010|Spurpurea
 CGGACGATGAAA    133  -  144    minus     Araha.3199s0027|Ahalleri
-ACGACGCCGGAG    654  -  665    plus      Araha.23419s0001|Ahalleri
+GAGAAGCTTCAC    840  -  851    plus      Araha.23419s0001|Ahalleri
 GTAACGCTGTAA    911  -  922    minus     Araha.9031s0001|Ahalleri
 GTCACGCTGTAA    915  -  926    minus     Bostr.7128s0640|Bstricta
 GTCACGCTGTTA    915  -  926    minus     Bostr.7128s0641|Bstricta
-CAGACGATGGGC    589  -  600    minus     Bostr.25542s0027|Bstricta
+GCGACACTGTAT    949  -  960    minus     Bostr.25542s0027|Bstricta
 GGGAAGCTGTAC    23   -   34    minus     Bostr.20129s0054|Bstricta
-CCGTCGCTGTCC    712  -  723    minus     MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 23 second(s)
+Time: 4 minute(s), 19 second(s)
 
 
 ******************************************************************************
-Motif 10, width = 12, seed width = 6, sites = 121
-Sum of HD to GCCAAT in 121 seqs: 65
-P-value(GCCAAT) = 2.41809e-05
-Q-value(GCCAAT) = 9.90450e-02
-Information Content = 7.68367958337902
+Motif 10, width = 12, seed width = 6, sites = 120
+Sum of HD to GCCAAT in 120 seqs: 64
+P-value(GCCAAT) = 1.79780e-05
+Q-value(GCCAAT) = 7.36379e-02
+Information Content = 7.85981039529442
 ******************************************************************************
 
 >NFM 10
 
       A                 C                 G                 T                 
-P0    14                33                36                38                
-P1    38                49                18                16                
-P2    49                28                38                6                 
-P3    2                 8                 107               4                 
-P4    0                 120               1                 0                 
-P5    0                 115               2                 4                 
-P6    111               6                 0                 4                 
-P7    89                8                 1                 23                
-P8    25                5                 19                72                
-P9    9                 69                30                13                
-P10   53                49                18                1                 
-P11   65                22                28                6                 
+P0    26                26                20                48                
+P1    49                38                17                16                
+P2    60                29                28                3                 
+P3    0                 2                 111               7                 
+P4    0                 120               0                 0                 
+P5    6                 109               0                 5                 
+P6    84                33                0                 3                 
+P7    113               1                 1                 5                 
+P8    16                2                 17                85                
+P9    18                61                26                15                
+P10   59                35                13                13                
+P11   53                29                30                8                 
 
 >PWM 10
 
       A                 C                 G                 T                 
-P0    -1.2745172021027  0.56836907826484  0.68712768142811  -0.0304285390090  
-P1    -0.0304285390090  1.11196479345169  -0.2400703074667  -1.1186936359888  
-P2    0.30852258211486  0.34573573543902  0.76119482092538  -2.1534476680211  
-P3    -2.9380939298373  -1.2426038973728  2.20825133885625  -2.4930718607589  
-P4    -3.5849625007212  2.37085377279382  -2.9914520998984  -3.5849625007212  
-P5    -3.5849625007212  2.31046344657529  -2.5721595680688  -2.4930718607589  
-P6    1.43295985064546  -1.5658004576812  -3.5849625007212  -2.4930718607589  
-P7    1.12524246534463  -1.2426038973728  -2.9914520998984  -0.6768589413759  
-P8    -0.5720230441998  -1.7593522656619  -0.1695604433477  0.83238871466108  
-P9    -1.7587916281476  1.58956587779089  0.43895054793261  -1.3592314342769  
-P10   0.41438791912181  1.11196479345169  -0.2400703074667  -3.2255729301132  
-P11   0.69208442937749  0.02338593111167  0.34573573543902  -2.1534476680211  
+P0    -0.5115724081352  0.25713259709533  -0.0913983672105  0.29185926545263  
+P1    0.31959337877006  0.77237390141446  -0.3033503863642  -1.1083022409781  
+P2    0.59393550622710  0.40418954552102  0.35681677105291  -2.6902535340921  
+P3    -3.5794759897884  -2.5636503473057  2.27163130902595  -2.0000957498447  
+P4    -3.5794759897884  2.38223035596231  -3.5794759897884  -3.5794759897884  
+P5    -2.1441913168650  2.24585827893635  -3.5794759897884  -2.3042924726183  
+P6    1.05633488508037  0.57950614735392  -3.5794759897884  -2.6902535340921  
+P7    1.46922623668736  -2.9839437954999  -2.9839437954999  -2.3042924726183  
+P8    -1.1083022409781  -2.5636503473057  -0.3033503863642  1.07272552493180  
+P9    -0.9675799143840  1.42829463511924  0.25713259709533  -1.1841696275304  
+P10   0.57104251480042  0.65977279263108  -0.6452636269143  -1.3490363344762  
+P11   0.42548716448668  0.40418954552102  0.45005610076248  -1.8690944142164  
 
 Site            Position       Strand    Sequence
 ------------    -----------    ------    -------------------------------------
-GGAGCCAAATAA    141  -  152    minus     PDK_30s1199051g001|Pdactylifera
-GAGGCCACTCCC    703  -  714    plus      PDK_30s674821g002|Pdactylifera
+ACCGCAAATCCC    322  -  333    plus      PDK_30s1199051g001|Pdactylifera
+ACCGCCCATCAC    662  -  673    minus     PDK_30s674821g002|Pdactylifera
 TCATCCAATCCA    890  -  901    plus      chr1.CM0113.680.r2.d|Ljaponicus
-CTTGCCAATGGA    651  -  662    plus      chr5.CM0335.70.r2.d|Ljaponicus
+GCAGCAAATGAC    303  -  314    plus      chr5.CM0335.70.r2.d|Ljaponicus
 CACGCCTATGAA    763  -  774    minus     C.cajan_18977|Ccajan
 AACGCCAATCAC    809  -  820    minus     C.cajan_11145|Ccajan
-TCAGCCATGTCG    774  -  785    minus     Ca_04759|Carietinum
+CTGGCTCATGCG    896  -  907    plus      Ca_04759|Carietinum
 CCAGCCAAGCAA    719  -  730    plus      Aquca_043_00099|Acoerulea
 AGAGCCAAGGAA    940  -  951    minus     Aquca_007_00853|Acoerulea
-TCTGCCAACCAA    107  -  118    plus      490603|Alyrata
+TCGGCCCATTTG    624  -  635    plus      490603|Alyrata
 CCAGCCAAAAGA    123  -  134    minus     921008|Alyrata
 TACGCCAATCAG    9    -   20    plus      927009|Alyrata
-CAAGCCAATACA    519  -  530    minus     472273|Alyrata
-GAGGCCAAAGCA    572  -  583    minus     937958|Alyrata
+TAAGCCAATCAA    447  -  458    plus      472273|Alyrata
+TAGGCCCATACG    702  -  713    plus      937958|Alyrata
 AAAGCCAATCAA    22   -   33    plus      AT1G20440|Athaliana
 TACGCCAATCAG    201  -  212    plus      AT1G76180|Athaliana
-CCGGCCATTCAG    457  -  468    plus      AT1G20450|Athaliana
-CGGCCCAATCAA    628  -  639    plus      AT4G38410|Athaliana
+TGGGCCAATCGG    412  -  423    minus     AT1G20450|Athaliana
+CAGGCCCAGCTG    122  -  133    minus     AT4G38410|Athaliana
 CAAGCCAATTCA    538  -  549    minus     Bradi5g10860|Bdistachyon
 AGAGCCAAACCA    462  -  473    plus      Bradi4g22280|Bdistachyon
 TAGGCCAATGCG    751  -  762    minus     Bradi3g51200|Bdistachyon
-CCGGCTAAACAA    606  -  617    minus     Bradi4g22290|Bdistachyon
+CACGCCAAGTAC    764  -  775    minus     Bradi4g22290|Bdistachyon
 TAGGCCCATTCA    726  -  737    plus      Carubv10005866m.g|Crubella
 TGCGCCAATCAG    195  -  206    plus      Carubv10020984m.g|Crubella
-GCAGCCAAGTGA    54   -   65    minus     Carubv10010037m.g|Crubella
+TAAGCCAATAGA    322  -  333    minus     Carubv10010037m.g|Crubella
 TTAGCCAATCAA    233  -  244    plus      Carubv10010040m.g|Crubella
 CCCGCCCATCAC    875  -  886    plus      evm.TU.supercontig_26.225|Cpapaya
 TTAGCCAATCAC    784  -  795    minus     Ciclev10002349m.g|Cclementina
 AGGGCCAAATAA    682  -  693    plus      orange1.1g038463m.g|Csinensis
 GTAGCCAATTCG    951  -  962    minus     orange1.1g026736m.g|Csinensis
 TCATCCAATCAA    548  -  559    plus      Cucsa.077690|Csativus
-GCCCCCACGCCG    635  -  646    plus      Eucgr.F01726|Egrandis
+CCTGCCAAGAGG    662  -  673    plus      Eucgr.F01726|Egrandis
 TCAGCCAAATCC    175  -  186    minus     gene17179-v1.0-hybrid|Fvesca
-GCACCCAATGTT    226  -  237    plus      Gorai.008G038700|Graimondii
-GAAGCCAACCCC    495  -  506    plus      Gorai.009G189500|Graimondii
+CTAGCTAATAAC    481  -  492    plus      Gorai.008G038700|Graimondii
+GGGGCCCAGGTA    602  -  613    minus     Gorai.009G189500|Graimondii
 GGGGCCCATTCA    689  -  700    minus     Gorai.002G119600|Graimondii
 CCATCCAAACCA    408  -  419    minus     Lus10003340.g|Lusitatissimum
-GTAGCCATACCG    55   -   66    plus      Lus10022643.g|Lusitatissimum
+TAATCCAATTCG    699  -  710    plus      Lus10022643.g|Lusitatissimum
 CCCCCCAATCCC    867  -  878    plus      Lus10005652.g|Lusitatissimum
 GCAGCCAATGAG    44   -   55    minus     Lus10034568.g|Lusitatissimum
-CCCCCCAATCGC    894  -  905    plus      Lus10021240.g|Lusitatissimum
+GACGCCCAACAA    29   -   40    plus      Lus10021240.g|Lusitatissimum
 GCAGCCAATGAG    189  -  200    minus     Lus10021827.g|Lusitatissimum
-TGGGCCACTCCA    228  -  239    plus      MDP0000770493|Mdomestica
-GACGCCATTAAG    861  -  872    minus     MDP0000529003|Mdomestica
-GCGACCAATAGA    764  -  775    minus     cassava4.1_015875m.g|Mesculenta
+GGTGCCCATAAC    165  -  176    minus     MDP0000770493|Mdomestica
+TAGGCAAATCAA    598  -  609    minus     MDP0000529003|Mdomestica
+TCAGCCCTTAAG    541  -  552    plus      cassava4.1_015875m.g|Mesculenta
 GACGCCAATGAA    15   -   26    minus     Medtr3g117290|Mtruncatula
-CCAACCAAACCA    208  -  219    plus      LOC_Os02g44870|Osativa
+TCCGCTCATCAC    573  -  584    plus      LOC_Os02g44870|Osativa
 CACGCCAATGAA    854  -  865    minus     Phvul.009G004400|Pvulgaris
 CTAGCCAATCAT    884  -  895    plus      Potri.005G248100|Ptrichocarpa
 CCAGCCCAGCCC    172  -  183    plus      ppa010326m.g|Ppersica
 CAGGCCAAAGCA    65   -   76    minus     ppa026861m.g|Ppersica
 TCGGCCAAGCCT    359  -  370    plus      30170.t000735|Rcommunis
 GCCGCCAAGCGA    139  -  150    plus      Si017975m.g|Sitalica
-GCGGCTATTGAA    760  -  771    minus     Si027536m.g|Sitalica
-GGGGCCAAGTAA    242  -  253    minus     Solyc04g082200.2|Slycopersicum
+CGAGCACATGAC    493  -  504    plus      Si027536m.g|Sitalica
+ATAGCCAATGAA    382  -  393    minus     Solyc04g082200.2|Slycopersicum
 ACAGCCAATGAA    316  -  327    minus     PGSC0003DMG400009968|Stuberosum
 TTAGCCAATCGA    853  -  864    minus     Thecc1EG034339|Tcacao
-CTAGCCATACCC    466  -  477    minus     Thhalv10026303m.g|Esalsugineum
+CAAGCCCATCTT    529  -  540    plus      Thhalv10026303m.g|Esalsugineum
 AACGCCAATCAG    155  -  166    plus      Thhalv10019152m.g|Esalsugineum
-CATGCCTTTCCA    113  -  124    plus      Thhalv10008706m.g|Esalsugineum
-TCCGCCACTCCA    486  -  497    minus     GRMZM2G373522|Zmays
+TAAGCCTATATA    98   -  109    minus     Thhalv10008706m.g|Esalsugineum
+GCCGCCCAGCGA    376  -  387    plus      GRMZM2G373522|Zmays
 TCGGCCAACCGA    849  -  860    plus      GRMZM2G147014|Zmays
-GCCGCCATACCC    896  -  907    plus      MA_474985g0010|Pabies
-GAGGCGAAGCGA    618  -  629    plus      MA_86965g0010|Pabies
+GCGGCCAATATG    889  -  900    minus     MA_474985g0010|Pabies
+TGAGCCCTTCCA    530  -  541    plus      MA_86965g0010|Pabies
 TCAGCCATGCCG    502  -  513    minus     MA_65580g0010|Pabies
-CCTGCCACTGAA    636  -  647    plus      MA_187114g0010|Pabies
-CCGGCGAATCAC    644  -  655    plus      MA_104214g0010|Pabies
-CAAGCCAAACCG    322  -  333    minus     MA_9972323g0010|Pabies
-TCAGCCATGCCA    383  -  394    minus     MA_130855g0010|Pabies
-CAAGCCAAACCG    322  -  333    minus     MA_151075g0010|Pabies
-CCACCCAATGGA    558  -  569    minus     MA_120345g0010|Pabies
+ACAGCACATCAA    362  -  373    plus      MA_187114g0010|Pabies
+ATCGCCCATTAC    806  -  817    minus     MA_104214g0010|Pabies
+TGAGCCCATGTC    230  -  241    minus     MA_9972323g0010|Pabies
+CAAGCAAATCAC    200  -  211    plus      MA_130855g0010|Pabies
+TGAGCCCATGTC    230  -  241    minus     MA_151075g0010|Pabies
+TACGCCCAACAA    545  -  556    minus     MA_120345g0010|Pabies
 TCCCCCAAGCAA    466  -  477    minus     Glyma.04G009400|Gmax
-GCGGCCATGGCG    338  -  349    plus      GSMUA_Achr11P16760_001|Macuminata
+GTCGCCCATGGC    328  -  339    plus      GSMUA_Achr11P16760_001|Macuminata
 CAGTCCAATCAA    241  -  252    minus     Achn252561|Achinensis
-AACCCCAAACGA    286  -  297    minus     Achn095551|Achinensis
-TTGGCCATTCCA    369  -  380    plus      Achn343961|Achinensis
-GACGCCATGGCA    723  -  734    plus      Achn132121|Achinensis
+GCGTCCAATCCT    843  -  854    plus      Achn095551|Achinensis
+TCAGCCCAACCA    288  -  299    plus      Achn343961|Achinensis
+AAGGCCACTGAA    753  -  764    plus      Achn132121|Achinensis
 GAGGCCAAACAC    411  -  422    minus     evm_27.model.AmTr_v1.0_scaffold00001.
-AGGGCCTATCGA    860  -  871    plus      evm_27.model.AmTr_v1.0_scaffold00082.
+AAAGCCAAAGCC    488  -  499    plus      evm_27.model.AmTr_v1.0_scaffold00082.
 TACGCCAATCAG    214  -  225    plus      Brara.G03414|Brapa
 TACGCCAATCAG    258  -  269    plus      Brara.G02195|Brapa
 TTAGCCAATCAG    381  -  392    plus      Brara.B02255|Brapa
 TAAGCCAATGAA    297  -  308    minus     Brara.F01455|Brapa
-CAGGCCTAGCAA    727  -  738    plus      Brara.G01101|Brapa
-TTCGCCAACCAA    774  -  785    minus     Brara.H00486|Brapa
+AACGCCCAGGCC    721  -  732    plus      Brara.G01101|Brapa
+TAGGCCCATTTA    595  -  606    plus      Brara.H00486|Brapa
 AAAGCCAATCAA    775  -  786    minus     Migut.C00923|Mguttatus
-GCGGCCACGGCC    188  -  199    minus     Pavir.Aa00887|Pvirgatum
-GCGGCCACGGCC    320  -  331    minus     Pavir.J04551|Pvirgatum
-GCTGCCAATGGG    367  -  378    minus     Sobic.004G286600|Sbicolor
-GCGGCCATATAG    72   -   83    plus      PITA_000086992-RA|Ptaeda
+AAAGCCAAAGCG    902  -  913    plus      Pavir.Aa00887|Pvirgatum
+GCCGCCCAGTCG    332  -  343    plus      Pavir.J04551|Pvirgatum
+AACGCCAAGCGG    645  -  656    plus      Sobic.004G286600|Sbicolor
+CTGTCCAATCAA    416  -  427    minus     PITA_000086992-RA|Ptaeda
 GAAGCCAAACAA    151  -  162    minus     PITA_000087634-RA|Ptaeda
-GGAGCCATTGAT    840  -  851    plus      PITA_000078888-RA|Ptaeda
+AGAGCCAAGAAT    48   -   59    plus      PITA_000078888-RA|Ptaeda
 CGCGCCAATACG    833  -  844    plus      PITA_000008706-RA|Ptaeda
 AGGGCCAATGGC    464  -  475    minus     PITA_000008705-RA|Ptaeda
-GCCGGCAATCCA    109  -  120    minus     PITA_000008704-RA|Ptaeda
+CATGCCAATGCA    252  -  263    minus     PITA_000008704-RA|Ptaeda
 AGGGCCAATGGC    54   -   65    minus     PITA_000008703-RA|Ptaeda
 TTAGCCAATCCG    941  -  952    plus      PITA_000000201-RA|Ptaeda
-GGCGCCATAGAA    136  -  147    minus     PITA_000000200-RA|Ptaeda
+ATAGCCAATTAG    191  -  202    plus      PITA_000000200-RA|Ptaeda
 TCGGCCCTTCAG    917  -  928    plus      PITA_000050018-RA|Ptaeda
 TAAGCCAATCAA    12   -   23    plus      Thhalv10008313m.g|Esalsugineum
 TCAGCCAAAAAA    470  -  481    minus     Capana04g000100|Cannuum
-AAAGCCAATGGG    655  -  666    plus      Capana08g002792|Cannuum
+GTGGCCCAACAA    472  -  483    plus      Capana08g002792|Cannuum
 CCGGCCAAACCC    173  -  184    plus      XP_006647663.1|Obrachyantha
-CTAGCCATAGCA    208  -  219    minus     Cagra.25489s0002|Cgrandiflora
+TAAGCCAACATA    133  -  144    minus     Cagra.25489s0002|Cgrandiflora
 TTAGCCAATCAA    40   -   51    plus      Cagra.25489s0001|Cgrandiflora
 TGCGCCAATCAG    67   -   78    plus      Cagra.0799s0088|Cgrandiflora
 TAGGCCCATTCA    728  -  739    plus      Cagra.1383s0028|Cgrandiflora
 GCAGCCAATACA    124  -  135    plus      Cagra.2007s0059|Cgrandiflora
-GCCGCCATTACA    365  -  376    plus      Cagra.0926s0063|Cgrandiflora
+AAAGCCCATAAA    750  -  761    plus      Cagra.0926s0063|Cgrandiflora
 CCAGCCAGTTCC    980  -  991    plus      Bv9_218990_uifq.t1|Bvulgaris
 TCAGCTAATCCG    849  -  860    minus     Bv_34440_phes.t1|Bvulgaris
-AAGGCCATTCCA    103  -  114    plus      SapurV1A.0573s0050|Spurpurea
-GGGGCCACAGCA    121  -  132    minus     SapurV1A.5414s0010|Spurpurea
+ACAGCCAATATC    840  -  851    minus     SapurV1A.0573s0050|Spurpurea
+ACAGCCAATATC    479  -  490    minus     SapurV1A.5414s0010|Spurpurea
 TACGCTAATGCT    148  -  159    plus      Araha.3199s0027|Ahalleri
-GTGGCCAAGCAC    786  -  797    plus      Araha.23419s0001|Ahalleri
-TGGGCCATTAGA    22   -   33    minus     Araha.9031s0001|Ahalleri
+CAAGCCAAGCCT    878  -  889    plus      Araha.23419s0001|Ahalleri
+AAAGCCTATCAA    54   -   65    plus      Araha.9031s0001|Ahalleri
 TAAGCCAATCAA    101  -  112    plus      Bostr.7128s0640|Bstricta
-CTAGCCATAGCC    84   -   95    minus     Bostr.7128s0641|Bstricta
-TCTGCCAACCAA    1    -   12    plus      Bostr.25542s0027|Bstricta
+TAAGCCAATATA    19   -   30    minus     Bostr.7128s0641|Bstricta
+TAAGCCCATCGT    586  -  597    plus      Bostr.25542s0027|Bstricta
 GAGGCCATTCAC    754  -  765    minus     Bostr.20129s0054|Bstricta
-CCGGCCAATCGT    614  -  625    plus      MLOC_14884|Hvulgare
 
-Time: 4 minute(s), 22 second(s)
+Time: 4 minute(s), 16 second(s)
 
 
