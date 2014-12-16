@@ -4,7 +4,7 @@ from Bio.Alphabet import IUPAC
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("../sequences/k-segs.fas", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("all_k-segs.faa", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 #all_segments = list()
 for a in alignment:
@@ -14,7 +14,7 @@ for a in alignment:
 output_deh = open("dehydrins_search.txt", "w")
 ksegs_new = open("k-segs_new.txt", "w")
 dehydrin_fas = open("dehydrins.fas", "w")
-print m.format("transfac")
+print m.format("jaspar")
 
 # count = 0
 # for member in all_segments:
@@ -32,7 +32,7 @@ print m.min_score()
 
 records_saved = list()
 # for record in SeqIO.parse("all_dhn2.fas" % proteins, "fasta", alphabet=alphabet):
-for record in SeqIO.parse("/home/yzolotarov/sequences/peptides/vitvi_pep.fas", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("/home/yzolotarov/dehydrin_promoters/scripts/peptide.faa", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 

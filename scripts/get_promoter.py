@@ -2,11 +2,11 @@ from Bio import SeqIO
 from sys import argv
 from sqlalchemy import create_engine
 
-engine = create_engine('sqlite:///database/dehydrins.db')
+engine = create_engine('sqlite:///../database/dehydrins.db')
 conn = engine.connect()
 
-command = """SELECT gene, species, promoter_seq from GENES 
-			 WHERE subgroup_category="YnSKn" AND latest="Yes" AND use=			 "Yes" AND promoter_seq!="None"
+command = """SELECT gene, species, peptide_seq from GENES 
+			 WHERE latest="Yes" AND use="Yes" AND promoter_seq!="None"
 	  """
 
 results = conn.execute(command)

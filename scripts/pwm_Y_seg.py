@@ -4,7 +4,7 @@ from Bio.Alphabet import IUPAC
 # from sys import argv
 # script, proteins = argv
 alphabet = IUPAC.protein
-alignment = AlignIO.read("../sequences/y-segs.fas", "fasta", alphabet=alphabet)
+alignment = AlignIO.read("all_y_segs.faa", "fasta", alphabet=alphabet)
 m = Motif.Motif(alphabet)
 all_segments = list()
 for a in alignment:
@@ -31,7 +31,7 @@ print m.min_score()
 # print m.exp_score(st_dev = True) # prints expected score and standard deviation
 
 records_saved = list()
-for record in SeqIO.parse("../sequences/all_dehydrins.faa", "fasta", alphabet=alphabet):
+for record in SeqIO.parse("peptide.faa", "fasta", alphabet=alphabet):
 # 	for pos, seq in m.search_instances(record.seq):
 # 		continue
 

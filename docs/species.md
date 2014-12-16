@@ -1,38 +1,53 @@
-Aquilegia coerulea
-Arabidopsis lyrata
-Arabidopsis thaliana
-Brachypodium distachyon
-Brassica rapa
-Cicer arietinum
-Cajanus cajan
-Citrus clementina
-Carica papaya
-Cucumis sativus
-Citrus sinensis
-Capsella rubella
-Eucalyptus grandis
-Fragaria vesca
-Glycine max
-Gossypuim raimondii
-Lotus japonicus
-Linum usitatissimum
-Malus domestica
-Manihot esculenta
-Mimulus guttatus
-Medicago truncatula
-Oryza sativa
-Phoenix dactylifera
-Physcomitrella patens
-Prunus persica
-Populus trichocarpa
-Panicum virgatum
-Phaseolus vulgaris
-Ricinus communis
-Sorghum bicolor
-Setaria italica
-Solanum lycopersicum
-Solanum tuberosum
-Theobroma cacao
-Thellungiella halophila
-Vitis vinifera
-Zea mays
+Actinidia chinensis	dicot
+Amborella trichopoda	angiosperm, not dicot
+Aquilegia coerulea	dicot
+Arabidopsis halleri	dicot
+Arabidopsis lyrata	dicot
+Arabidopsis thaliana	dicot
+Beta vulgaris	dicot
+Boechera stricta	dicot
+Brachypodium distachyon	monocot
+Brassica rapa	dicot
+Cajanus cajan 	dicot
+Capsella grandiflora	dicot
+Capsella rubella	dicot
+Capsicum annuum 	dicot
+Carica papaya 	dicot 
+Cicer arietinum	dicot
+Citrus clementina	dicot
+Citrus sinensis	dicot
+Cucumis sativus	dicot
+Eucalyptus grandis	dicot 
+Eutrema salsugineum 	dicot
+Fragaria vesca	dicot
+Glycine max 	dicot
+Gossypium raimondii 	dicot
+Linum usitatissimum 	dicot
+Lotus japonicus	dicot
+Malus domestica 	dicot
+Manihot esculenta	dicot
+Medicago truncatula	dicot
+Mimulus guttatus 	dicot
+Musa acuminata	monocot
+Oryza brachyantha 	monocot
+Oryza sativa	monocot
+Panicum virgatum	monocot
+Phaseolus vulgaris 	dicot
+Phoenix dactylifera 	monocot
+Physcomitrella patens 	moss
+Picea abies 	gymnosperm
+Pinus taeda 	gymnosperm
+Populus trichocarpa	dicot
+Prunus persica	dicot
+Ricinus communis	dicot
+Salix purpurea 	dicot
+Setaria italica 	monocot
+Solanum lycopersicum 	dicot
+Solanum tuberosum 	dicot
+Sorghum bicolor 	monocot
+Spirodela polyrhiza 	monocot
+Theobroma cacao 	dicot
+Vitis vinifera 	dicot
+Zea mays 	monocot
+Oxytropis splendens 	dicot
+Oxytropis arctobia 	dicot
