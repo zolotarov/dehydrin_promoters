@@ -5,8 +5,8 @@ from sqlalchemy import create_engine
 engine = create_engine('sqlite:///../database/dehydrins.db')
 conn = engine.connect()
 
-command = """SELECT gene, species, peptide_seq from GENES 
-			 WHERE latest="Yes" AND use="Yes" AND promoter_seq!="None"
+command = """SELECT gene, species, promoter_seq from GENES 
+			 WHERE latest="Yes" AND use="Yes" AND promoter_seq!="None" AND subgroup_category="KS"
 	  """
 
 results = conn.execute(command)
