@@ -1,3 +1,9 @@
+"""
+This scripts takes BLAST hits and get domain information from NCBI
+BLAST hits are produced by blast_annotation.py
+"""
+
+
 from sys import argv
 import subprocess
 from collections import defaultdict

@@ -1,0 +1,351 @@
+Species	Gene	Dehydrin subgroup	BLAST top hit evalue	BLAST top hit accession	BLAST top hit description	K-segment location	Y-segment location	S-segment location
+Actinidia chinensis 	Achn256121 	KS 	4.42204e-12  	XP_002525706.1 	conserved hypothetical protein [Ricinus communis]  	47  	-  	89
+Actinidia chinensis 	Achn363381 	Kn 	1.00251e-15  	XP_010646029.1 	PREDICTED: phosphoprotein ECPP44-like [Vitis vinifera] 	77, 121  	-  	-
+Actinidia chinensis 	Achn020151 	Kn 	1.72977e-17  	XP_010646029.1 	PREDICTED: phosphoprotein ECPP44-like [Vitis vinifera] 	58, 102  	-  	-
+Actinidia chinensis 	Achn252561 	SKn 	2.47702e-27  	AGC51777.1 	dehydrin protein [Manihot esculenta] 	104, 139  	-  	61
+Actinidia chinensis 	Achn095551 	SKn 	1.18169e-20  	XP_006473752.1 	PREDICTED: phosphoprotein ECPP44 [Citrus sinensis]  	197, 241  	-  	87
+Actinidia chinensis 	Achn343961 	SKn 	1.21214e-31  	AGC51777.1 	dehydrin protein [Manihot esculenta] 	124, 169  	-  	77
+Actinidia chinensis 	Achn132121 	SKn 	1.73774e-32  	XP_006473752.1 	PREDICTED: phosphoprotein ECPP44 [Citrus sinensis]  	90, 126, 161  	-  	-
+Actinidia chinensis 	Achn135571 	YnSKn 	6.32533e-30  	AGI37442.1 	dehydrin 1 [Rhododendron catawbiense] 	77, 122  	8, 18  	61
+Actinidia chinensis 	Achn232791 	YnSKn 	3.64979e-28  	AGC51773.1 	dehydrin protein [Manihot esculenta] 	118, 191  	17, 27  	99
+Amborella trichopoda 	evm_27.model.AmTr_v1.0_scaffold00004.97 	KS 	1.57004e-56  	XP_006826344.1 	hypothetical protein AMTR_s00004p00114860 [Amborella trichopoda]  	51  	-  	96
+Amborella trichopoda 	evm_27.model.AmTr_v1.0_scaffold00001.295 	SKn 	4.43564e-140  	XP_006829002.1 	hypothetical protein AMTR_s00001p00246240 [Amborella trichopoda]  	98, 138, 184  	-  	77
+Amborella trichopoda 	evm_27.model.AmTr_v1.0_scaffold00082.27 	SKn 	1.98015e-96  	XP_006833478.1 	hypothetical protein AMTR_s00082p00123350 [Amborella trichopoda]  	87, 125  	-  	71
+Aquilegia coerulea 	Aquca_004_00603 	KS 	3.50128e-08  	ABY60450.1 	cold stress protein src1-like protein [Adonis aestivalis var. palaestina] 	41  	-  	85
+Aquilegia coerulea 	Aquca_007_00851 	Kn 	1.0819e-08  	XP_010266960.1 	PREDICTED: phosphoprotein ECPP44-like [Nelumbo nucifera] 	93, 136  	-  	-
+Aquilegia coerulea 	Aquca_043_00099 	SKn 	1.95865e-34  	AAN78125.1 	dehydrin [Citrus x paradisi] 	106, 154, 201  	-  	84
+Aquilegia coerulea 	Aquca_007_00853 	SKn 	9.04765e-06  	ACF15448.1 	dehydrin 1 [Cichorium intybus] 	93, 133, 170, 212  	-  	77
+Aquilegia coerulea 	Aquca_007_00288 	YnKn 	1.5469e-09  	XP_006393820.1 	hypothetical protein EUTSA_v10004906mg [Eutrema salsugineum]  	48, 86, 131  	13  	-
+Aquilegia coerulea 	Aquca_010_00572 	YnSKn 	1.93502e-12  	BAK00662.1 	predicted protein [Hordeum vulgare subsp. vulgare] 	129, 184  	8, 18  	113
+Arabidopsis halleri 	Araha.3199s0027 	SKn 	7.72521e-73  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	117, 160  	-  	81
+Arabidopsis halleri 	Araha.23419s0001 	SKn 	1.27858e-129  	XP_002893112.1 	hypothetical protein ARALYDRAFT_472273 [Arabidopsis lyrata subsp. lyrata]  	138, 183, 226  	-  	102
+Arabidopsis halleri 	Araha.9031s0001 	SKn 	7.82375e-129  	XP_002893111.1 	hypothetical protein ARALYDRAFT_889495 [Arabidopsis lyrata subsp. lyrata]  	133, 180, 227  	-  	111
+Arabidopsis halleri 	Araha.12619s0007 	YnKn 	4.31145e-97  	XP_002868888.1 	hypothetical protein ARALYDRAFT_327864 [Arabidopsis lyrata subsp. lyrata]  	130  	4, 14, 24  	-
+Arabidopsis halleri 	Araha.1084s0018 	YnSKn 	8.78742e-64  	XP_010484650.1 	PREDICTED: dehydrin Rab18-like [Camelina sativa] 	110, 157  	12, 22  	97
+Arabidopsis halleri 	Araha.12988s0001 	YnSKn 	2.12978e-96  	XP_002880385.1 	predicted protein [Arabidopsis lyrata subsp. lyrata]  	93, 133  	4, 14, 24  	78
+Arabidopsis lyrata 	474716 	KS 	2.17751e-52  	XP_002894576.1 	hypothetical protein ARALYDRAFT_474716 [Arabidopsis lyrata subsp. lyrata]  	40  	-  	89
+Arabidopsis lyrata 	898000 	Kn 	6.38497e-129  	XP_002876061.1 	predicted protein [Arabidopsis lyrata subsp. lyrata]  	10, 37, 64, 101, 139, 175  	-  	-
+Arabidopsis lyrata 	490603 	SKn 	4.27223e-109  	XP_002866795.1 	hypothetical protein ARALYDRAFT_490603 [Arabidopsis lyrata subsp. lyrata]  	109, 139  	-  	62
+Arabidopsis lyrata 	921008 	SKn 	2.02797e-175  	XP_002893111.1 	hypothetical protein ARALYDRAFT_889495 [Arabidopsis lyrata subsp. lyrata]  	133, 180, 231  	-  	111
+Arabidopsis lyrata 	927009 	SKn 	9.79407e-108  	XP_002889065.1 	hypothetical protein ARALYDRAFT_895496 [Arabidopsis lyrata subsp. lyrata]  	117, 140  	-  	81
+Arabidopsis lyrata 	472273 	SKn 	2.34971e-171  	XP_002893112.1 	hypothetical protein ARALYDRAFT_472273 [Arabidopsis lyrata subsp. lyrata]  	134, 178, 221  	-  	101
+Arabidopsis lyrata 	937958 	SKn 	6.01468e-85  	XP_002876062.1 	hypothetical protein ARALYDRAFT_906445 [Arabidopsis lyrata subsp. lyrata]  	71, 109  	-  	54
+Arabidopsis lyrata 	327864 	YnKn 	2.56627e-113  	XP_002868888.1 	hypothetical protein ARALYDRAFT_327864 [Arabidopsis lyrata subsp. lyrata]  	141  	4, 14  	-
+Arabidopsis lyrata 	496967 	YnSKn 	7.31715e-111  	XP_002865071.1 	hypothetical protein ARALYDRAFT_496967 [Arabidopsis lyrata subsp. lyrata]  	107, 151  	12, 22, 32  	94
+Arabidopsis lyrata 	899415 	YnSKn 	4.11466e-129  	XP_002880385.1 	predicted protein [Arabidopsis lyrata subsp. lyrata]  	125, 165  	4, 14, 24  	110
+Arabidopsis thaliana 	AT1G54410 	KS 	2.85848e-52  	NP_175843.1 	dehydrin 11KDA [Arabidopsis thaliana]  	40  	-  	89
+Arabidopsis thaliana 	AT3G50970 	Kn 	6.40793e-125  	NP_190666.1 	dehydrin Xero 2 [Arabidopsis thaliana]  	10, 37, 64, 102, 139, 175  	-  	-
+Arabidopsis thaliana 	AT1G20440 	SKn 	1.57607e-175  	NP_173468.1 	dehydrin COR47 [Arabidopsis thaliana]  	134, 181, 232  	-  	108
+Arabidopsis thaliana 	AT1G76180 	SKn 	2.77463e-118  	NP_177745.1 	dehydrin ERD14 [Arabidopsis thaliana]  	113, 155  	-  	78
+Arabidopsis thaliana 	AT1G20450 	SKn 	7.8438e-178  	NP_850947.1 	dehydrin ERD10 [Arabidopsis thaliana]  	141, 185, 228  	-  	105
+Arabidopsis thaliana 	AT4G38410 	SKn 	6.50418e-108  	NP_195554.2 	putative dehydrin [Arabidopsis thaliana]  	108, 138  	-  	62
+Arabidopsis thaliana 	AT4G39130 	YnKn 	3.38977e-105  	NP_195624.1 	Dehydrin family protein [Arabidopsis thaliana]  	131  	4  	-
+Arabidopsis thaliana 	AT3G50980 	YnSKn 	1.65247e-85  	NP_190667.2 	dehydrin xero 1 [Arabidopsis thaliana]  	71, 110  	16  	54
+Arabidopsis thaliana 	AT5G66400 	YnSKn 	2.7536e-116  	NP_201441.1 	dehydrin Rab18 [Arabidopsis thaliana]  	125, 168  	12, 23  	112
+Arabidopsis thaliana 	AT2G21490 	YnSKn 	6.44404e-127  	NP_179744.1 	dehydrin LEA [Arabidopsis thaliana]  	124, 163  	4, 14, 25  	109
+Beta vulgaris 	Bv9_218990_uifq.t1 	SKn 	3.67301e-135  	XP_010690283.1 	PREDICTED: dehydrin COR410-like [Beta vulgaris subsp. vulgaris] 	67, 115, 168  	-  	46
+Beta vulgaris 	Bv_34440_phes.t1 	SKn 	1.33765e-162  	XP_010667179.1 	PREDICTED: phosphoprotein ECPP44-like [Beta vulgaris subsp. vulgaris] 	99, 161, 201  	-  	75
+Beta vulgaris 	Bv6_126000_msqq.t1 	YnSKn 	2.54648e-122  	XP_010679787.1 	PREDICTED: dehydrin Rab18-like [Beta vulgaris subsp. vulgaris] 	119, 164  	4, 14  	104
+Beta vulgaris 	Bv9_223210_acha.t1 	YnSKn 	1.27464e-154  	XP_010690833.1 	PREDICTED: late embryogenesis abundant protein [Beta vulgaris subsp. vulgaris] 	155, 204  	5, 15, 25  	131
+Boechera stricta 	Bostr.13404s0009 	KS 	1.52616e-50  	XP_010414881.1 	PREDICTED: glutamic acid-rich protein [Camelina sativa]  	41  	-  	90
+Boechera stricta 	Bostr.6864s0147 	Kn 	2.40176e-77  	XP_002876061.1 	predicted protein [Arabidopsis lyrata subsp. lyrata]  	10, 45, 81, 119, 163, 199  	-  	-
+Boechera stricta 	Bostr.7128s0640 	SKn 	4.60968e-92  	XP_002893111.1 	hypothetical protein ARALYDRAFT_889495 [Arabidopsis lyrata subsp. lyrata]  	136, 180, 215  	-  	108
+Boechera stricta 	Bostr.7128s0641 	SKn 	1.98942e-112  	XP_006304111.1 	hypothetical protein CARUB_v10010037mg [Capsella rubella]  	142, 187, 230  	-  	107
+Boechera stricta 	Bostr.25542s0027 	SKn 	2.00018e-86  	XP_010431776.1 	PREDICTED: dehydrin ERD10-like [Camelina sativa] 	93, 122, 152  	-  	63
+Boechera stricta 	Bostr.20129s0054 	SKn 	8.40918e-81  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	126, 169  	-  	87
+Boechera stricta 	Bostr.5022s0083 	YnSKn 	9.26307e-71  	XP_010472142.1 	PREDICTED: probable dehydrin LEA [Camelina sativa] 	125, 169  	4, 14, 24  	110
+Boechera stricta 	Bostr.0568s0050 	YnSKn 	2.47849e-64  	XP_010484650.1 	PREDICTED: dehydrin Rab18-like [Camelina sativa] 	109, 171  	12, 22  	96
+Boechera stricta 	Bostr.6864s0146 	YnSKn 	5.10876e-66  	XP_002876062.1 	hypothetical protein ARALYDRAFT_906445 [Arabidopsis lyrata subsp. lyrata]  	69, 109  	16  	54
+Brachypodium distachyon 	Bradi1g13330 	KS 	9.33238e-52  	XP_003561646.1 	PREDICTED: protein PXR1 [Brachypodium distachyon]  	42  	-  	93
+Brachypodium distachyon 	Bradi5g10860 	SKn 	1.31658e-171  	XP_003579810.1 	PREDICTED: dehydrin COR410-like [Brachypodium distachyon] 	104, 167, 217  	-  	78
+Brachypodium distachyon 	Bradi4g22280 	SKn 	3.95776e-66  	XP_003576169.1 	PREDICTED: water stress-inducible protein Rab21-like [Brachypodium distachyon] 	34, 90  	-  	20
+Brachypodium distachyon 	Bradi3g51200 	SKn 	3.10432e-172  	XP_003570058.1 	PREDICTED: dehydrin COR410 [Brachypodium distachyon] 	105, 167, 219  	-  	79
+Brachypodium distachyon 	Bradi4g22290 	SKn 	6.87501e-92  	XP_010237832.1 	PREDICTED: water stress-inducible protein Rab21-like [Brachypodium distachyon] 	71, 126  	-  	56
+Brachypodium distachyon 	Bradi3g43870 	YnSKn 	1.34568e-120  	XP_003574997.1 	PREDICTED: dehydrin DHN3-like [Brachypodium distachyon] 	85, 166  	14  	70
+Brachypodium distachyon 	Bradi4g19525 	YnSKn 	0.0  	XP_003577589.1 	PREDICTED: dehydrin DHN4-like [Brachypodium distachyon] 	268, 316, 377  	16, 53  	252
+Brachypodium distachyon 	Bradi2g47580 	YnSKn 	4.25454e-159  	XP_003569633.1 	PREDICTED: dehydrin Rab25-like [Brachypodium distachyon] 	163, 209  	14, 24  	145
+Brachypodium distachyon 	Bradi3g43855 	YnSKn 	8.66835e-104  	XP_010235454.1 	PREDICTED: dehydrin Rab16B-like [Brachypodium distachyon] 	86, 140  	14  	71
+Brachypodium distachyon 	Bradi1g37410 	YnSKn 	6.69826e-105  	XP_010227582.1 	PREDICTED: dehydrin DHN3-like [Brachypodium distachyon] 	73, 146  	13  	58
+Brassica rapa 	Brara.C04012 	KS 	1.12338e-49  	XP_009136136.1 	PREDICTED: glutamic acid-rich protein [Brassica rapa] 	39  	-  	86
+Brassica rapa 	Brara.G03414 	SKn 	2.86577e-126  	CDX87631.1 	BnaA07g32420D [Brassica napus] 	125, 164  	-  	88
+Brassica rapa 	Brara.G02195 	SKn 	1.12971e-127  	XP_009104688.1 	PREDICTED: dehydrin ERD14-like [Brassica rapa]  	123, 165  	-  	86
+Brassica rapa 	Brara.B02255 	SKn 	2.17231e-125  	XP_009128158.1 	PREDICTED: dehydrin ERD14-like [Brassica rapa]  	123, 163  	-  	85
+Brassica rapa 	Brara.F01455 	SKn 	0.0  	XP_009149525.1 	PREDICTED: dehydrin ERD10-like [Brassica rapa] 	194, 237  	-  	122
+Brassica rapa 	Brara.G01101 	SKn 	2.72214e-147  	XP_009103342.1 	PREDICTED: dehydrin ERD10-like [Brassica rapa] 	144, 187  	-  	115
+Brassica rapa 	Brara.H00486 	SKn 	1.94664e-177  	XP_009107503.1 	PREDICTED: dehydrin Xero 2-like [Brassica rapa] 	103, 134, 166, 198, 228  	-  	61
+Brassica rapa 	Brara.I04639 	YnSKn 	5.92193e-127  	AAQ74768.1 	dehydrin [Brassica napus]  	117, 162  	4, 14, 24  	102
+Brassica rapa 	Brara.I00913 	YnSKn 	1.54526e-113  	XP_009112289.1 	PREDICTED: dehydrin Rab18-like [Brassica rapa] 	116, 160  	12, 22  	102
+Brassica rapa 	Brara.I03437 	YnSKn 	5.35917e-88  	XP_009115778.1 	PREDICTED: dehydrin Xero 1-like [Brassica rapa] 	74, 116  	16  	56
+Brassica rapa 	Brara.B03992 	YnSKn 	9.07644e-122  	XP_009130567.1 	PREDICTED: dehydrin Rab18-like [Brassica rapa] 	128, 173  	12, 22  	114
+Cajanus cajan 	C.cajan_05184 	KS 	9.85774e-26  	XP_007161982.1 	hypothetical protein PHAVU_001G114100g [Phaseolus vulgaris]  	50  	-  	90
+Cajanus cajan 	C.cajan_18977 	SKn 	1.3685e-48  	NP_001240106.1 	uncharacterized protein LOC100816984 [Glycine max]  	99, 138, 183  	-  	77
+Cajanus cajan 	C.cajan_11145 	SKn 	2.69087e-28  	AGC51777.1 	dehydrin protein [Manihot esculenta] 	129, 172  	-  	77
+Cajanus cajan 	C.cajan_35494 	YnKn 	1.3908e-48  	CAM06618.1 	dehydrin [Glycine max]  	213  	14, 24  	-
+Cajanus cajan 	C.cajan_35463 	YnSKn 	2.53451e-22  	XP_007135947.1 	hypothetical protein PHAVU_009G005300g [Phaseolus vulgaris]  	107  	6, 16, 26  	71
+Capsella grandiflora 	Cagra.27207s0001 	KS 	2.07268e-53  	XP_006303046.1 	hypothetical protein CARUB_v10021201mg [Capsella rubella]  	41  	-  	91
+Capsella grandiflora 	Cagra.0926s0062 	Kn 	7.023e-134  	XP_006291864.1 	hypothetical protein CARUB_v10018039mg [Capsella rubella]  	10, 48, 85, 118, 152, 187  	-  	-
+Capsella grandiflora 	Cagra.25489s0002 	SKn 	9.79637e-175  	XP_006304111.1 	hypothetical protein CARUB_v10010037mg [Capsella rubella]  	146, 191, 234  	-  	111
+Capsella grandiflora 	Cagra.25489s0001 	SKn 	4.68604e-174  	XP_006304113.1 	hypothetical protein CARUB_v10010040mg [Capsella rubella]  	135, 185, 232  	-  	111
+Capsella grandiflora 	Cagra.0799s0088 	SKn 	3.39859e-122  	XP_006302854.1 	hypothetical protein CARUB_v10020984mg [Capsella rubella]  	123, 166  	-  	86
+Capsella grandiflora 	Cagra.1383s0028 	SKn 	7.88134e-113  	XP_006282731.1 	hypothetical protein CARUB_v10005866mg [Capsella rubella]  	89, 119, 149  	-  	-
+Capsella grandiflora 	Cagra.2007s0059 	SKn 	5.69385e-80  	XP_006281171.1 	hypothetical protein CARUB_v10027206mg [Capsella rubella]  	77, 124  	-  	64
+Capsella grandiflora 	Cagra.0926s0063 	SKn 	3.8002e-77  	XP_006292490.1 	hypothetical protein CARUB_v10018719mg [Capsella rubella]  	62, 102  	16  	45
+Capsella grandiflora 	Cagra.2374s0005 	YnSKn 	2.28599e-99  	XP_006285949.1 	hypothetical protein CARUB_v10007469mg [Capsella rubella]  	126  	4, 14  	-
+Capsella rubella 	Carubv10021201m.g 	KS 	2.06862e-53  	XP_006303046.1 	hypothetical protein CARUB_v10021201mg [Capsella rubella]  	41  	-  	91
+Capsella rubella 	Carubv10018039m.g 	Kn 	2.63319e-136  	XP_006291864.1 	hypothetical protein CARUB_v10018039mg [Capsella rubella]  	10, 48, 85, 118, 152, 187  	-  	-
+Capsella rubella 	Carubv10005866m.g 	SKn 	3.8347e-118  	XP_006282731.1 	hypothetical protein CARUB_v10005866mg [Capsella rubella]  	90, 120, 150  	-  	62
+Capsella rubella 	Carubv10020984m.g 	SKn 	4.48582e-126  	XP_006302854.1 	hypothetical protein CARUB_v10020984mg [Capsella rubella]  	122, 165  	-  	86
+Capsella rubella 	Carubv10010037m.g 	SKn 	1.20642e-178  	XP_006304111.1 	hypothetical protein CARUB_v10010037mg [Capsella rubella]  	146, 191, 234  	-  	111
+Capsella rubella 	Carubv10010040m.g 	SKn 	1.73242e-176  	XP_006304113.1 	hypothetical protein CARUB_v10010040mg [Capsella rubella]  	135, 185, 232  	-  	111
+Capsella rubella 	Carubv10018719m.g 	YnSKn 	6.41411e-79  	XP_006292490.1 	hypothetical protein CARUB_v10018719mg [Capsella rubella]  	62, 102  	16  	45
+Capsella rubella 	Carubv10025232m.g 	YnSKn 	8.99826e-137  	XP_006296082.1 	hypothetical protein CARUB_v10025232mg [Capsella rubella]  	134, 175  	4, 14, 24  	119
+Capsella rubella 	Carubv10027206m.g 	YnSKn 	9.07422e-117  	XP_006281171.1 	hypothetical protein CARUB_v10027206mg [Capsella rubella]  	118, 165  	12, 22  	105
+Capsicum annuum 	Capana05g002209 	KS 	2.88188e-54  	AAX20043.1 	cold-inducible protein [Capsicum annuum] 	49  	-  	97
+Capsicum annuum 	Capana05g002210 	KS 	1.27694e-09  	AAX20043.1 	cold-inducible protein [Capsicum annuum] 	45  	-  	95
+Capsicum annuum 	Capana04g000100 	SKn 	3.50579e-144  	AAO38853.1 	dehydrin-like protein [Capsicum annuum] 	104, 142, 186  	-  	78
+Capsicum annuum 	Capana08g002792 	SKn 	8.13792e-52  	XP_009758920.1 	PREDICTED: dehydrin COR47-like [Nicotiana sylvestris] 	94, 140, 187  	-  	74
+Capsicum annuum 	Capana02g000471 	YnSKn 	1.15087e-21  	XP_009793691.1 	PREDICTED: abscisic acid and environmental stress-inducible protein TAS14-like [Nicotiana sylvestris] 	77, 125  	14  	60
+Capsicum annuum 	Capana02g000492 	YnSKn 	8.09391e-29  	XP_009793691.1 	PREDICTED: abscisic acid and environmental stress-inducible protein TAS14-like [Nicotiana sylvestris] 	76, 115  	13  	61
+Capsicum annuum 	Capana02g002739 	YnSKn 	2.74081e-26  	NP_001234038.1 	abscisic acid and environmental stress-inducible protein TAS14 [Solanum lycopersicum]  	111, 155  	12  	98
+Capsicum annuum 	Capana02g002740 	YnSKn 	3.28583e-46  	XP_006340935.1 	PREDICTED: cold shock protein CS66-like [Solanum tuberosum] 	111, 150  	14, 31, 41  	95
+Capsicum annuum 	Capana08g002571 	YnSKn 	9.61084e-67  	XP_006362047.1 	PREDICTED: late embryogenesis abundant protein-like [Solanum tuberosum] 	153, 204  	4, 14, 24  	135
+Carica papaya 	evm.TU.supercontig_161.14 	KS 	6.63221e-46  	AAL73185.1 	maturation-associated SRC1-like protein [Carica papaya] 	46  	-  	84
+Carica papaya 	evm.TU.supercontig_26.225 	SKn 	3.75183e-39  	AGC51777.1 	dehydrin protein [Manihot esculenta] 	88, 129, 166  	-  	68
+Carica papaya 	evm.TU.supercontig_106.3 	YnSKn 	2.17218e-39  	AGC51773.1 	dehydrin protein [Manihot esculenta] 	84, 128  	4, 14, 24  	65
+Carica papaya 	evm.TU.supercontig_6.176 	YnSKn 	1.33698e-26  	XP_010550431.1 	PREDICTED: dehydrin Rab18 [Tarenaya hassleriana] 	80, 120  	25  	62
+Cicer arietinum 	Ca_20934 	KS 	1.3789e-52  	XP_004489676.1 	PREDICTED: protein MNN4-like [Cicer arietinum] 	46  	-  	92
+Cicer arietinum 	Ca_08212 	KS 	1.03041e-93  	XP_004493198.1 	PREDICTED: uncharacterized gene 73 protein-like [Cicer arietinum] 	111  	-  	153
+Cicer arietinum 	Ca_04759 	SKn 	5.98204e-151  	XP_004500781.1 	PREDICTED: dehydrin ERD14-like [Cicer arietinum] 	146, 187  	-  	95
+Cicer arietinum 	Ca_12999 	YnKn 	1.31129e-131  	XP_004512937.1 	PREDICTED: dehydrin DHN3-like [Cicer arietinum] 	178  	14, 24  	-
+Cicer arietinum 	Ca_04763 	YnSKn 	4.29244e-126  	XP_004500784.1 	PREDICTED: late embryogenesis abundant protein-like [Cicer arietinum] 	115, 165  	6, 16, 26  	94
+Citrus clementina 	Ciclev10029952m.g 	Kn 	1.28968e-109  	XP_006422494.1 	hypothetical protein CICLE_v10029952mg [Citrus clementina]  	61, 98, 139  	-  	-
+Citrus clementina 	Ciclev10002349m.g 	SKn 	6.75924e-155  	XP_006435313.1 	hypothetical protein CICLE_v10002349mg [Citrus clementina]  	113, 156, 201  	-  	91
+Citrus clementina 	Ciclev10029285m.g 	YnSKn 	9.49223e-144  	XP_006423375.1 	hypothetical protein CICLE_v10029285mg [Citrus clementina]  	138, 184  	4, 14, 24  	124
+Citrus clementina 	Ciclev10026675m.g 	YnSKn 	4.34314e-108  	XP_006425613.1 	hypothetical protein CICLE_v10026675mg [Citrus clementina]  	95, 140  	23, 34  	78
+Citrus sinensis 	orange1.1g036567m.g 	KS 	5.53063e-40  	KDO55754.1 	hypothetical protein CISIN_1g036567mg [Citrus sinensis] 	52  	-  	90
+Citrus sinensis 	orange1.1g038463m.g 	SKn 	2.23697e-120  	KDO68237.1 	hypothetical protein CISIN_1g038463mg [Citrus sinensis] 	74, 111, 152  	-  	55
+Citrus sinensis 	orange1.1g026736m.g 	SKn 	1.78877e-154  	XP_006473752.1 	PREDICTED: phosphoprotein ECPP44 [Citrus sinensis]  	113, 156, 201  	-  	91
+Citrus sinensis 	orange1.1g042612m.g 	YnSKn 	4.84464e-108  	KDO37076.1 	hypothetical protein CISIN_1g042612mg [Citrus sinensis] 	95, 140  	23, 34  	78
+Citrus sinensis 	orange1.1g028210m.g 	YnSKn 	3.22206e-145  	XP_006487259.1 	PREDICTED: late embryogenesis abundant protein-like [Citrus sinensis] 	142, 188  	4, 14, 24  	128
+Citrus sinensis 	orange1.1g046026m.g 	YnSKn 	4.34314e-108  	XP_006425613.1 	hypothetical protein CICLE_v10026675mg [Citrus clementina]  	95, 140  	23, 34  	78
+Cucumis sativus 	Cucsa.338040 	KS 	2.22779e-52  	XP_004170751.1 	PREDICTED: uncharacterized protein LOC101227474 [Cucumis sativus] 	49  	-  	93
+Cucumis sativus 	Cucsa.077690 	SKn 	5.65255e-153  	XP_004144221.1 	PREDICTED: dehydrin COR47-like isoform 1 [Cucumis sativus]  	106, 157, 204  	-  	86
+Cucumis sativus 	Cucsa.106380 	YnSKn 	7.64949e-120  	KGN53289.1 	hypothetical protein Csa_4G045040 [Cucumis sativus] 	119, 160  	8, 18, 44  	104
+Cucumis sativus 	Cucsa.109360 	YnSKn 	5.68388e-110  	XP_004150075.1 	PREDICTED: embryogenic cell protein 40-like [Cucumis sativus]  	100, 144  	4, 14, 24  	81
+Eucalyptus grandis 	Eucgr.F01727 	Kn 	1.62667e-53  	KCW68043.1 	hypothetical protein EUGRSUZ_F01726 [Eucalyptus grandis] 	102, 150  	-  	-
+Eucalyptus grandis 	Eucgr.F01726 	SKn 	2.55322e-146  	KCW68043.1 	hypothetical protein EUGRSUZ_F01726 [Eucalyptus grandis] 	118, 166  	-  	93
+Eucalyptus grandis 	Eucgr.J02380 	YnSKn 	3.6847e-91  	XP_010033442.1 	PREDICTED: dehydrin Xero 1-like [Eucalyptus grandis]  	77, 117  	15, 25  	60
+Eucalyptus grandis 	Eucgr.I02395 	YnSKn 	3.31281e-131  	XP_010029745.1 	PREDICTED: dehydrin Rab18-like isoform X1 [Eucalyptus grandis]  	143, 192  	16  	131
+Eucalyptus grandis 	Eucgr.I02392 	YnSKn 	1.11732e-111  	XP_010029743.1 	PREDICTED: dehydrin DHN1-like [Eucalyptus grandis]  	100, 153  	26  	88
+Eucalyptus grandis 	Eucgr.I01292 	YnSKn 	1.2042e-103  	XP_010028618.1 	PREDICTED: late embryogenesis abundant protein [Eucalyptus grandis] 	93, 134  	4, 14, 24  	76
+Eutrema salsugineum 	Thhalv10023775m.g 	KS 	2.95053e-53  	XP_006392537.1 	hypothetical protein EUTSA_v10023775mg [Eutrema salsugineum]  	39  	-  	90
+Eutrema salsugineum 	Thhalv10026303m.g 	SKn 	4.38483e-132  	XP_006411627.1 	hypothetical protein EUTSA_v10026303mg [Eutrema salsugineum]  	104, 135, 165  	-  	64
+Eutrema salsugineum 	Thhalv10019152m.g 	SKn 	5.99082e-131  	XP_006390225.1 	hypothetical protein EUTSA_v10019152mg [Eutrema salsugineum]  	127, 170  	-  	86
+Eutrema salsugineum 	Thhalv10008706m.g 	SKn 	1.31254e-152  	XP_006416402.1 	hypothetical protein EUTSA_v10008706mg [Eutrema salsugineum]  	100, 148, 192  	-  	79
+Eutrema salsugineum 	Thhalv10008313m.g 	SKn 	0.0  	XP_006416401.1 	hypothetical protein EUTSA_v10008313mg [Eutrema salsugineum]  	153, 186, 234  	-  	116
+Eutrema salsugineum 	Thhalv10026916m.g 	YnKn 	1.50462e-106  	XP_006411712.1 	hypothetical protein EUTSA_v10026916mg [Eutrema salsugineum]  	132  	4, 14  	-
+Eutrema salsugineum 	Thhalv10000340m.g 	YnSKn 	1.61967e-124  	XP_006404597.1 	hypothetical protein EUTSA_v10000340mg [Eutrema salsugineum]  	117, 158  	4, 14, 24  	102
+Eutrema salsugineum 	Thhalv10004906m.g 	YnSKn 	1.23463e-139  	XP_006393820.1 	hypothetical protein EUTSA_v10004906mg [Eutrema salsugineum]  	109, 153, 196  	12, 22  	96
+Eutrema salsugineum 	Thhalv10010821m.g 	YnSKn 	5.14906e-84  	XP_006403968.1 	hypothetical protein EUTSA_v10010821mg [Eutrema salsugineum]  	64, 107  	17  	46
+Fragaria vesca 	gene17179-v1.0-hybrid 	SKn 	2.48975e-118  	XP_004292278.1 	PREDICTED: dehydrin COR47-like [Fragaria vesca subsp. vesca] 	73, 115, 152  	-  	60
+Fragaria vesca 	gene14940-v1.0-hybrid 	YnSKn 	0.0  	XP_004287867.1 	PREDICTED: cold shock protein CS66-like [Fragaria vesca subsp. vesca] 	77, 114, 154, 199, 244  	13, 23  	63
+Fragaria vesca 	gene21840-v1.0-hybrid 	YnSKn 	1.5379e-167  	XP_004289645.1 	PREDICTED: uncharacterized protein LOC101315291 [Fragaria vesca subsp. vesca] 	190, 228  	4, 14, 24  	172
+Fragaria vesca 	gene14934-v1.0-hybrid 	YnSKn 	4.68642e-108  	XP_004287865.1 	PREDICTED: dehydrin Xero 1-like [Fragaria vesca subsp. vesca] 	110, 146  	13  	96
+Fragaria vesca 	gene14935-v1.0-hybrid 	YnSKn 	6.76009e-136  	XP_004287864.1 	PREDICTED: uncharacterized protein LOC101314406 [Fragaria vesca subsp. vesca] 	139, 173  	12  	120
+Fragaria vesca 	gene14938-v1.0-hybrid 	YnSKn 	2.58711e-177  	XP_004287863.1 	PREDICTED: dehydrin Xero 2-like [Fragaria vesca subsp. vesca] 	73, 110, 150, 191, 236  	13, 23  	61
+Glycine max 	Glyma.17G187600 	KS 	6.78587e-52  	NP_001236644.1 	src1 protein [Glycine max]  	54  	-  	95
+Glycine max 	Glyma.19G114700 	KS 	1.65479e-62  	ACU15585.1 	unknown [Glycine max]  	64  	-  	105
+Glycine max 	Glyma.16G037900 	KS 	2.62991e-62  	KHN46748.1 	hypothetical protein glysoja_014999 [Glycine soja] 	63  	-  	104
+Glycine max 	Glyma.16G038000 	KS 	1.96956e-43  	XP_003548693.1 	PREDICTED: glutamic acid-rich protein-like [Glycine max] 	40  	-  	76
+Glycine max 	Glyma.04G009400 	SKn 	1.15857e-141  	NP_001240106.1 	uncharacterized protein LOC100816984 [Glycine max]  	91, 132, 181  	-  	69
+Glycine max 	Glyma.09G185500 	YnKn 	4.85961e-150  	NP_001234972.1 	dehydrin-like protein [Glycine max]  	206  	14, 24  	-
+Glycine max 	Glyma.07G090400 	YnKn 	1.01641e-163  	NP_001238578.1 	maturation-associated protein [Glycine max]  	223  	14, 24  	-
+Glycine max 	Glyma.13G201300 	YnSKn 	8.2612e-94  	XP_003542844.1 	PREDICTED: late embryogenesis abundant protein-like [Glycine max]  	75, 125  	6, 16, 26  	60
+Glycine max 	Glyma.04G009900 	YnSKn 	5.49309e-115  	NP_001237314.1 	dehydrin [Glycine max]  	104, 147  	6, 16, 26  	87
+Glycine max 	Glyma.12G235800 	YnSKn 	1.0184e-163  	NP_001238578.1 	maturation-associated protein [Glycine max]  	223  	14, 24  	-
+Gossypium raimondii 	Gorai.007G257100 	Kn - 	- 	- 	40, 75, 110  	-  	-
+Gossypium raimondii 	Gorai.008G038700 	SKn 	1.95223e-37  	XP_007041701.1 	Uncharacterized protein TCM_006526 [Theobroma cacao]  	74, 107, 142  	-  	52
+Gossypium raimondii 	Gorai.009G189500 	SKn 	2.17824e-126  	KHF99850.1 	Dehydrin ERD10 -like protein [Gossypium arboreum] 	104, 143, 190  	-  	80
+Gossypium raimondii 	Gorai.002G119600 	SKn 	1.2262e-91  	KHG24494.1 	Phosphoprotein ECPP44 [Gossypium arboreum] 	121, 165  	-  	72
+Gossypium raimondii 	Gorai.008G030800 	YnKn 	7.95117e-48  	KHG26299.1 	Late embryogenesis abundant [Gossypium arboreum] 	116, 176  	4, 14, 24  	-
+Gossypium raimondii 	Gorai.012G154800 	YnSKn 	3.84916e-120  	KHG26299.1 	Late embryogenesis abundant [Gossypium arboreum] 	111, 161  	4, 14, 24  	92
+Gossypium raimondii 	Gorai.007G199900 	YnSKn 	8.61154e-90  	AAA33059.1 	dehydrin [Gossypium hirsutum]  	76, 116  	15, 25  	60
+Gossypium raimondii 	Gorai.005G245900 	YnSKn 	1.37304e-90  	KHG12219.1 	Late embryogenesis abundant [Gossypium arboreum] 	95  	4, 14, 24  	-
+Linum usitatissimum 	Lus10020271.g 	KS 	7.85793e-08  	XP_002525706.1 	conserved hypothetical protein [Ricinus communis]  	41  	-  	85
+Linum usitatissimum 	Lus10003340.g 	SKn - 	- 	- 	85, 116  	-  	-
+Linum usitatissimum 	Lus10022643.g 	SKn - 	- 	- 	85, 117, 147  	-  	-
+Linum usitatissimum 	Lus10005652.g 	SKn 	1.53033e-19  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	121, 167  	-  	82
+Linum usitatissimum 	Lus10034568.g 	SKn 	4.65469e-30  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	136, 195  	-  	83
+Linum usitatissimum 	Lus10021240.g 	SKn 	3.917e-20  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	132, 181  	-  	88
+Linum usitatissimum 	Lus10021827.g 	SKn 	5.97462e-33  	XP_010416529.1 	PREDICTED: dehydrin ERD14-like [Camelina sativa] 	132, 191  	-  	81
+Linum usitatissimum 	Lus10017977.g 	YnKn 	1.40534e-22  	AEQ19906.1 	dehydrin 4 [Vitis yeshanensis]  	145, 192  	4, 14, 24  	-
+Linum usitatissimum 	Lus10041969.g 	YnKn 	7.79223e-26  	AEQ19906.1 	dehydrin 4 [Vitis yeshanensis]  	151, 197  	4, 14, 24  	-
+Linum usitatissimum 	Lus10025983.g 	YnSKn 	8.53243e-28  	CDX77969.1 	BnaA09g31640D [Brassica napus] 	86, 124  	21  	68
+Linum usitatissimum 	Lus10014280.g 	YnSKn 	8.52475e-27  	CDX77969.1 	BnaA09g31640D [Brassica napus] 	94, 132  	21  	76
+Lotus japonicus 	chr1.CM0113.680.r2.d 	SKn 	6.84067e-135  	AFK38880.1 	unknown [Lotus japonicus] 	128, 174  	-  	80
+Lotus japonicus 	chr5.CM0335.70.r2.d 	SKn 	2.26615e-158  	AFK48642.1 	unknown [Lotus japonicus] 	100, 149, 200  	-  	76 
+Lotus japonicus 	chr2.CM0310.270.r2.m 	YnKn 	9.25619e-11  	ADT80777.1 	dehydrin [Galega orientalis] 	113, 170, 251, 296  	14, 25  	-
+Lotus japonicus 	chr1.CM0113.750.r2.m 	YnSKn 	1.22143e-38  	AGG55636.1 	Y3SK2 dehydrin [Trifolium repens] 	87, 133  	6, 16, 26  	70
+Malus domestica 	MDP0000770493 	SKn 	0.0  	XP_008352066.1 	PREDICTED: dehydrin COR47-like [Malus domestica] 	122, 186, 240  	-  	102
+Malus domestica 	MDP0000529003 	SKn 	0.0  	XP_008387880.1 	PREDICTED: dehydrin COR47-like [Malus domestica] 	132, 193, 247  	-  	112
+Malus domestica 	MDP0000862169 	YnKn 	1.9898e-169  	XP_008338131.1 	PREDICTED: cold-shock protein CS120-like [Malus domestica] 	52, 105, 140, 238  	14  	-
+Malus domestica 	MDP0000265874 	YnKn 	7.14773e-125  	AFG33216.1 	dehydrin 6 [Malus domestica] 	77, 130, 172  	14  	-
+Malus domestica 	MDP0000868044 	YnSKn 	7.35038e-150  	XP_008338070.1 	PREDICTED: dehydrin DHN3-like [Malus domestica] 	118, 150, 196  	23, 34  	102
+Malus domestica 	MDP0000868045 	YnSKn 	1.11573e-127  	XP_008338082.1 	PREDICTED: dehydrin Xero 1-like [Malus domestica] 	88, 123, 170  	12, 22  	72
+Malus domestica 	MDP0000360414 	YnSKn 	9.67394e-140  	XP_008338092.1 	PREDICTED: dehydrin DHN2-like [Malus domestica] 	84, 130, 176  	28  	71
+Malus domestica 	MDP0000698024 	YnSKn 	4.83971e-159  	NP_001281007.1 	water stress-inducible protein Rab21-like [Malus domestica]  	87, 168, 211  	30  	73
+Malus domestica 	MDP0000629961 	YnSKn 	2.12686e-136  	XP_008382297.1 	PREDICTED: late embryogenesis abundant protein [Malus domestica] 	134, 180  	4, 14, 24  	118
+Manihot esculenta 	cassava4.1_019934m.g 	KS 	1.42288e-14  	ACU13499.1 	unknown [Glycine max] 	51  	-  	94
+Manihot esculenta 	cassava4.1_019931m.g 	KS 	5.42666e-12  	NP_001236644.1 	src1 protein [Glycine max]  	47  	-  	95
+Manihot esculenta 	cassava4.1_015875m.g 	SKn 	3.29233e-141  	AGC51777.1 	dehydrin protein [Manihot esculenta] 	96, 139, 187  	-  	75
+Manihot esculenta 	cassava4.1_018057m.g 	YnSKn 	1.02661e-51  	ADT65201.1 	dehydrin [Jatropha curcas]  	92, 132  	13, 23  	77
+Manihot esculenta 	cassava4.1_029213m.g 	YnSKn 	5.71527e-125  	AGC51773.1 	dehydrin protein [Manihot esculenta] 	119, 161  	4, 14, 24  	104
+Medicago truncatula 	Medtr7g086340 	KS 	3.34355e-67  	XP_003624683.1 	hypothetical protein MTR_7g086340 [Medicago truncatula]  	74  	-  	114
+Medicago truncatula 	Medtr3g117290 	SKn 	4.80637e-142  	XP_003603987.1 	Dehydrin [Medicago truncatula]  	126, 172  	-  	87
+Medicago truncatula 	Medtr6g084640 	YnKn 	0.0  	ABX80067.1 	cold-acclimation specific protein 31 [Medicago truncatula]  	144, 185, 233, 286  	14, 27  	-
+Medicago truncatula 	Medtr3g117190 	YnSKn 	1.89138e-134  	XP_003603978.1 	Dehydrin [Medicago truncatula]  	127, 176  	6, 16, 26  	106
+Mimulus guttatus 	Migut.L01868 	KS 	3.41226e-55  	EYU38732.1 	hypothetical protein MIMGU_mgv1a016787mg [Erythranthe guttata] 	56  	-  	99
+Mimulus guttatus 	Migut.C00923 	SKn 	3.79161e-37  	AAU29458.1 	dehydrin [Salvia miltiorrhiza] 	180, 226  	-  	117
+Mimulus guttatus 	Migut.H02513 	YnSKn 	1.27329e-154  	EYU31179.1 	hypothetical protein MIMGU_mgv1a012926mg [Erythranthe guttata] 	125, 164, 216  	11, 21  	110
+Mimulus guttatus 	Migut.B00209 	YnSKn 	3.71519e-140  	EYU37824.1 	hypothetical protein MIMGU_mgv1a014012mg [Erythranthe guttata] 	132, 184  	4, 14, 24  	114
+Musa acuminata 	GSMUA_Achr4G21460_001 	KS 	1.19932e-49  	XP_009398512.1 	PREDICTED: protein FAM133-like [Musa acuminata subsp. malaccensis] 	43  	-  	83
+Musa acuminata 	GSMUA_Achr4P22680_001 	KS 	6.04991e-53  	XP_009398357.1 	PREDICTED: glutamic acid-rich protein-like [Musa acuminata subsp. malaccensis] 	58  	-  	99
+Musa acuminata 	GSMUA_Achr11P16760_001 	SKn 	1.70178e-144  	XP_009384009.1 	PREDICTED: dehydrin COR410-like [Musa acuminata subsp. malaccensis] 	98, 146, 189  	-  	75
+Musa acuminata 	GSMUA_Achr4G11310_001 	YnSKn 	1.78256e-82  	XP_009396086.1 	PREDICTED: dehydrin Xero 1-like [Musa acuminata subsp. malaccensis] 	79, 107  	4, 14, 23  	63
+Oryza brachyantha 	XP_006650365.1 	KS 	3.57943e-53  	XP_006650365.1 	PREDICTED: DNA topoisomerase 1-like [Oryza brachyantha] 	42  	-  	93
+Oryza brachyantha 	XP_006647663.1 	SKn 	0.0  	XP_006647663.1 	PREDICTED: dehydrin COR410-like [Oryza brachyantha] 	107, 192, 249  	-  	81
+Oryza brachyantha 	XP_006646247.1 	YnSKn 	4.75599e-121  	XP_006646247.1 	PREDICTED: dehydrin Rab25-like [Oryza brachyantha] 	125, 162  	12, 22  	107
+Oryza brachyantha 	XP_006663425.1 	YnSKn 	0.0  	XP_006663425.1 	PREDICTED: embryogenic cell protein 40-like [Oryza brachyantha] 	227, 295  	15  	211
+Oryza brachyantha 	XP_006662922.1 	YnSKn 	3.69439e-85  	XP_006662922.1 	PREDICTED: dehydrin Rab16D-like [Oryza brachyantha] 	70, 115  	14  	55
+Oryza brachyantha 	XP_006662923.1 	YnSKn 	3.92203e-103  	XP_006662923.1 	PREDICTED: dehydrin Rab16B-like [Oryza brachyantha] 	80, 140  	14  	64
+Oryza brachyantha 	XP_006662924.1 	YnSKn 	2.16039e-106  	XP_006662924.1 	PREDICTED: water stress-inducible protein Rab21-like [Oryza brachyantha] 	90, 152  	13  	75
+Oryza sativa 	LOC_Os03g45280 	KS 	3.99875e-47  	BAA05539.1 	WSI724 protein induced by water stress [Oryza sativa Japonica Group]  	37  	-  	84
+Oryza sativa 	LOC_Os02g44870 	SKn 	0.0  	NP_001047689.1 	Os02g0669100 [Oryza sativa Japonica Group]  	107, 194, 252  	-  	81
+Oryza sativa 	LOC_Os11g26790 	YnSKn 	1.08467e-108  	NP_001067844.1 	Os11g0454300 [Oryza sativa Japonica Group]  	98, 155  	13  	83
+Oryza sativa 	LOC_Os11g26780 	YnSKn 	4.10104e-108  	NP_001067843.1 	Os11g0454200 [Oryza sativa Japonica Group]  	88, 147  	14  	72
+Oryza sativa 	LOC_Os11g26750 	YnSKn 	5.1359e-101  	NP_001067841.1 	Os11g0453900 [Oryza sativa Japonica Group]  	71, 134  	14  	55
+Oryza sativa 	LOC_Os11g26760 	YnSKn 	1.60259e-108  	NP_001067842.1 	Os11g0454000 [Oryza sativa Japonica Group]  	86, 147  	14  	70
+Oryza sativa 	LOC_Os11g26570 	YnSKn 	0.0  	NP_001067838.1 	Os11g0451700 [Oryza sativa Japonica Group]  	245, 307  	15  	229
+Oryza sativa 	LOC_Os01g50700 	YnSKn 	1.17481e-156  	NP_001043995.1 	Os01g0702500 [Oryza sativa Japonica Group]  	163, 209  	15, 25  	145
+Oxytropis arctobia 	COLD47OA_07 	KS 	7.11052e-91  	AEV59613.1 	cold dehydrin [Oxytropis arctobia] 	105  	-  	147
+Oxytropis splendens 	COLD47OS_06 	KS 	8.27536e-92  	AEV59620.1 	cold dehydrin [Oxytropis campestris subsp. johannensis] 	105  	-  	147
+Panicum virgatum 	Pavir.J31267 	KS 	6.01812e-16  	NP_001050804.1 	Os03g0655400 [Oryza sativa Japonica Group]  	30  	-  	84
+Panicum virgatum 	Pavir.Ia01114 	KS 	1.19503e-49  	XP_004982270.1 	PREDICTED: glutamic acid-rich protein-like isoform X1 [Setaria italica] 	42  	-  	94
+Panicum virgatum 	Pavir.Ib04153 	KS 	4.80713e-49  	XP_004982270.1 	PREDICTED: glutamic acid-rich protein-like isoform X1 [Setaria italica] 	42  	-  	94
+Panicum virgatum 	Pavir.Aa00887 	SKn 	1.53882e-97  	XP_004953407.1 	PREDICTED: dehydrin COR410-like [Setaria italica] 	112, 209, 257  	-  	87
+Panicum virgatum 	Pavir.J04551 	SKn 	2.10365e-89  	XP_004953407.1 	PREDICTED: dehydrin COR410-like [Setaria italica] 	110, 217, 263  	-  	85
+Panicum virgatum 	Pavir.J14171 	YnSKn 	8.21e-52  	CAA33364.1 	dehydrin [Zea mays] 	94, 147  	16  	81
+Panicum virgatum 	Pavir.Ea02542 	YnSKn 	4.12702e-58  	XP_004969669.1 	PREDICTED: dehydrin Rab25-like [Setaria italica] 	167, 214  	14, 24  	150
+Panicum virgatum 	Pavir.Ab01356 	YnSKn 	2.25056e-54  	CAA33364.1 	dehydrin [Zea mays] 	97, 150  	16  	82
+Panicum virgatum 	Pavir.Hb00975 	YnSKn 	4.50451e-43  	XP_004968741.1 	PREDICTED: dehydrin DHN3-like [Setaria italica] 	74, 115  	13  	58
+Panicum virgatum 	Pavir.Cb00662 	YnSKn 	2.29673e-59  	XP_008656234.1 	PREDICTED: cold shock protein CS66-like [Zea mays]  	139, 186, 236  	13  	122
+Phaseolus vulgaris 	Phvul.001G114100 	KS 	4.93332e-49  	XP_007161982.1 	hypothetical protein PHAVU_001G114100g [Phaseolus vulgaris]  	62  	-  	90
+Phaseolus vulgaris 	Phvul.009G004400 	SKn 	1.82779e-126  	XP_007135938.1 	hypothetical protein PHAVU_009G004400g [Phaseolus vulgaris]  	129, 171  	-  	74
+Phaseolus vulgaris 	Phvul.004G158800 	YnKn 	2.062e-168  	XP_007152777.1 	hypothetical protein PHAVU_004G158800g [Phaseolus vulgaris]  	238  	15, 25  	-
+Phaseolus vulgaris 	Phvul.009G005300 	YnSKn 	6.70486e-123  	XP_007135947.1 	hypothetical protein PHAVU_009G005300g [Phaseolus vulgaris]  	102, 158  	6, 16, 26  	84
+Phoenix dactylifera 	PDK_30s895221g001 	KS 	4.9356e-47  	XP_008777815.1 	PREDICTED: probable zinc transporter protein DDB_G0282067 [Phoenix dactylifera] 	45  	-  	85
+Phoenix dactylifera 	PDK_30s870811g004 	Kn 	9.47068e-63  	XP_008785081.1 	PREDICTED: dehydrin Xero 1-like [Phoenix dactylifera] 	50, 86, 127  	-  	-
+Phoenix dactylifera 	PDK_30s943221g001 	Kn 	8.46983e-34  	XP_010941406.1 	PREDICTED: dentin sialophosphoprotein-like isoform X1 [Elaeis guineensis] 	26, 133  	-  	-
+Phoenix dactylifera 	PDK_30s1199051g001 	SKn 	4.54132e-144  	XP_008798225.1 	PREDICTED: dehydrin COR410-like [Phoenix dactylifera] 	88, 147, 194  	-  	64
+Phoenix dactylifera 	PDK_30s674821g002 	SKn 	1.12499e-151  	XP_008791981.1 	PREDICTED: dehydrin COR410-like [Phoenix dactylifera] 	86, 151, 203  	-  	66
+Phoenix dactylifera 	PDK_30s875341g003 	YnSKn 	3.76546e-82  	XP_008791150.1 	PREDICTED: abscisic acid and environmental stress-inducible protein TAS14-like [Phoenix dactylifera] 	80, 111  	4  	64
+Physcomitrella patens 	Phpat.003G055500 	Kn 	4.91241e-172  	XP_001756915.1 	predicted protein [Physcomitrella patens]  	46, 222  	-  	-
+Physcomitrella patens 	Phpat.005G044800 	Kn 	0.0  	XP_001785093.1 	predicted protein [Physcomitrella patens]  	223, 262  	-  	-
+Physcomitrella patens 	Phpat.004G078700 	Kn 	2.89562e-96  	XP_001776115.1 	predicted protein [Physcomitrella patens]  	148  	-  	-
+Physcomitrella patens 	Phpat.013G071500 	Kn 	3.9013e-166  	XP_001784746.1 	predicted protein [Physcomitrella patens]  	180, 210  	-  	-
+Picea abies 	MA_45025g0010 	Kn 	2.0345e-103  	AFM97413.1 	cold acclimation protein CAP1.1 [Picea obovata] 	33, 59, 87, 113, 143, 169  	-  	-
+Picea abies 	MA_95995g0010 	Kn 	2.00461e-50  	ADE76208.1 	unknown [Picea sitchensis]  	34, 64  	-  	-
+Picea abies 	MA_43017g0010 	Kn 	1.06059e-84  	AFM97413.1 	cold acclimation protein CAP1.1 [Picea obovata] 	33, 59, 87, 113  	-  	-
+Picea abies 	MA_107783g0020 	Kn 	2.89994e-98  	AFM97413.1 	cold acclimation protein CAP1.1 [Picea obovata] 	33, 59, 87, 113, 163  	-  	-
+Picea abies 	MA_474985g0010 	SKn 	6.21349e-91  	ADE76524.1 	unknown [Picea sitchensis] 	105, 134, 170  	-  	83
+Picea abies 	MA_86965g0010 	SKn 	0.0  	ADE77238.1 	unknown [Picea sitchensis] 	309, 337  	-  	211
+Picea abies 	MA_65580g0010 	SKn 	3.51004e-133  	AAD28175.1 	putative dehydrin [Picea glauca] 	117, 153, 189  	-  	91
+Picea abies 	MA_187114g0010 	SKn 	2.80308e-28  	ABK23574.1 	unknown [Picea sitchensis] 	133  	-  	83
+Picea abies 	MA_104214g0010 	SKn 	7.27891e-47  	AIN43955.1 	dehydrin [Pinus pinea]  	108, 135  	-  	87
+Picea abies 	MA_9972323g0010 	SKn 	1.321e-83  	ABK21213.1 	unknown [Picea sitchensis] 	150  	-  	102
+Picea abies 	MA_130855g0010 	SKn 	5.64082e-109  	ADE76524.1 	unknown [Picea sitchensis] 	112, 142, 178  	-  	90
+Picea abies 	MA_151075g0010 	SKn 	1.32359e-83  	ABK21213.1 	unknown [Picea sitchensis] 	150  	-  	102
+Picea abies 	MA_120345g0010 	SKn 	1.02697e-114  	AFM97415.1 	dehydrin 2 [Picea obovata] 	150  	-  	102
+Pinus taeda 	PITA_000094784-RA 	Kn 	1.96505e-15  	ACJ37787.1 	dehydrin 9 protein [Pinus sylvestris]  	241  	-  	-
+Pinus taeda 	PITA_000064607-RA 	Kn 	2.3244e-51  	AIN43953.1 	dehydrin [Pinus pinea]  	40, 76, 137, 173  	-  	-
+Pinus taeda 	PITA_000095704-RA 	Kn 	1.87742e-38  	AFM97414.1 	cold acclimation protein CAP1.2 [Picea obovata] 	23, 65, 91  	-  	87
+Pinus taeda 	PITA_000074804-RA 	Kn 	4.34988e-53  	AFM97414.1 	cold acclimation protein CAP1.2 [Picea obovata] 	33, 59, 85, 111  	-  	81
+Pinus taeda 	PITA_000075731-RA 	Kn 	1.26125e-50  	AFM97414.1 	cold acclimation protein CAP1.2 [Picea obovata] 	33, 59, 85, 111  	-  	81
+Pinus taeda 	PITA_000089444-RA 	Kn 	4.1133e-52  	ACL27834.1 	dehydrin 7 [Pinus contorta] 	40, 76  	-  	-
+Pinus taeda 	PITA_000092564-RA 	Kn 	3.07157e-43  	AFM97413.1 	cold acclimation protein CAP1.1 [Picea obovata] 	23, 65  	-  	-
+Pinus taeda 	PITA_000094676-RA 	Kn 	2.77767e-53  	AFM97414.1 	cold acclimation protein CAP1.2 [Picea obovata] 	23, 49, 75, 101  	-  	71
+Pinus taeda 	PITA_000086992-RA 	SKn 	2.59484e-75  	AHY28767.1 	dehydrin 1, partial [Pinus echinata] 	93, 116, 152, 181  	-  	71
+Pinus taeda 	PITA_000087634-RA 	SKn 	9.03258e-59  	AJA33585.1 	late embryogenesis abundant protein LEA8-2 [Pinus tabuliformis] 	143  	-  	82
+Pinus taeda 	PITA_000078888-RA 	SKn 	4.74526e-97  	CCG34066.1 	dehydrin [Pinus pinaster]  	104, 125, 169  	-  	82
+Pinus taeda 	PITA_000008706-RA 	SKn 	1.07857e-133  	AJA33586.1 	late embryogenesis abundant protein LEA8-3 [Pinus tabuliformis] 	108, 145, 181  	-  	83
+Pinus taeda 	PITA_000008705-RA 	SKn 	3.06288e-48  	AJA33587.1 	late embryogenesis abundant protein LEA8-4 [Pinus tabuliformis] 	51, 79, 115  	-  	31
+Pinus taeda 	PITA_000008704-RA 	SKn 	3.5285e-62  	AJA33586.1 	late embryogenesis abundant protein LEA8-3 [Pinus tabuliformis] 	105, 156  	-  	83
+Pinus taeda 	PITA_000008703-RA 	SKn 	9.77067e-48  	AJA33587.1 	late embryogenesis abundant protein LEA8-4 [Pinus tabuliformis] 	51, 79, 115  	-  	29
+Pinus taeda 	PITA_000000201-RA 	SKn 	2.53838e-110  	AIN43959.1 	dehydrin [Pinus pinea]  	174, 203, 254, 287  	-  	152
+Pinus taeda 	PITA_000000200-RA 	SKn 	6.01721e-60  	AJA33585.1 	late embryogenesis abundant protein LEA8-2 [Pinus tabuliformis] 	129  	-  	74
+Pinus taeda 	PITA_000050018-RA 	SKn 	4.92341e-95  	ACA51879.1 	dehydrin 2 [Pinus elliottii] 	123, 159  	-  	101
+Populus trichocarpa 	Potri.013G062400 	KS 	4.07225e-63  	XP_011034313.1 	PREDICTED: dehydrin Rab18-like [Populus euphratica] 	41, 90, 140  	-  	182
+Populus trichocarpa 	Potri.013G062200 	Kn 	7.23004e-149  	XP_006375909.1 	hypothetical protein POPTR_0013s05880g [Populus trichocarpa]  	41, 82, 123, 165, 207  	-  	-
+Populus trichocarpa 	Potri.013G062300 	Kn 	5.87387e-62  	XP_006375909.1 	hypothetical protein POPTR_0013s05880g [Populus trichocarpa]  	41, 90, 129, 164, 201, 278  	-  	-
+Populus trichocarpa 	Potri.002G013200 	Kn 	0.0  	XP_006386150.1 	hypothetical protein POPTR_0002s01460g [Populus trichocarpa]  	303, 344, 385, 431, 470, 552, 593  	-  	-
+Populus trichocarpa 	Potri.005G248100 	SKn 	1.60131e-144  	XP_006383759.1 	dehydrin family protein [Populus trichocarpa]  	149, 192  	-  	86
+Populus trichocarpa 	Potri.009G120100 	YnSKn 	7.65235e-123  	XP_002313777.1 	hypothetical protein POPTR_0009s12290g [Populus trichocarpa]  	120, 163  	6, 16, 26  	104
+Populus trichocarpa 	Potri.004G158500 	YnSKn 	1.11423e-89  	XP_006384518.1 	hypothetical protein POPTR_0004s16590g [Populus trichocarpa]  	115  	5, 15, 25  	-
+Prunus persica 	ppa010326m.g 	SKn 	1.54113e-170  	XP_007225997.1 	hypothetical protein PRUPE_ppa010326mg [Prunus persica]  	165, 215  	-  	104
+Prunus persica 	ppa026861m.g 	SKn 	1.31901e-120  	XP_007200858.1 	hypothetical protein PRUPE_ppa026861mg [Prunus persica]  	73, 116, 155  	-  	60
+Prunus persica 	ppa005514m.g 	YnKn 	0.0  	AAC49658.1 	dehydrin [Prunus persica] 	99, 143, 187, 231, 275, 319, 363, 401, 450  	12, 29  	-
+Prunus persica 	ppa009997m.g 	YnKn 	0.0  	XP_007202448.1 	hypothetical protein PRUPE_ppa009997mg [Prunus persica]  	64, 145, 249  	14, 38, 56  	-
+Prunus persica 	ppa011637m.g 	YnSKn 	7.98236e-138  	XP_007202596.1 	hypothetical protein PRUPE_ppa011637mg [Prunus persica]  	104, 137, 185  	12, 22  	88
+Prunus persica 	ppa010975m.g 	YnSKn 	2.70397e-142  	XP_007201813.1 	hypothetical protein PRUPE_ppa010975mg [Prunus persica]  	136, 187  	4, 14, 24  	120
+Ricinus communis 	30072.t000037 	KS 	9.37669e-53  	XP_002525706.1 	conserved hypothetical protein [Ricinus communis]  	45  	-  	89
+Ricinus communis 	30170.t000735 	SKn 	8.9131e-146  	XP_002510636.1 	Phosphoprotein ECPP44, putative [Ricinus communis]  	101, 152, 199  	-  	79
+Ricinus communis 	30131.t000233 	YnSKn 	2.95352e-130  	XP_002512949.1 	Late embryogenesis abundant protein, putative [Ricinus communis]  	123, 167  	4, 14, 24  	105
+Ricinus communis 	29634.t000016 	YnSKn 	3.13394e-101  	XP_002521515.1 	Dehydrin Xero, putative [Ricinus communis]  	74, 114  	12, 22  	60
+Ricinus communis 	29634.t000017 	YnSKn 	1.28836e-97  	XP_002521516.1 	Dehydrin Xero, putative [Ricinus communis]  	75, 115  	13  	61
+Salix purpurea 	SapurV1A.0564s0030 	KS 	1.69447e-06  	XP_006375910.1 	hypothetical protein POPTR_0013s05890g [Populus trichocarpa]  	92  	-  	136
+Salix purpurea 	SapurV1A.0016s0910 	Kn 	1.46336e-179  	XP_011034914.1 	PREDICTED: neurofilament heavy polypeptide-like [Populus euphratica] 	67, 145, 184, 222, 360, 402, 448, 493, 535  	-  	-
+Salix purpurea 	SapurV1A.2659s0010 	Kn 	5.6648e-26  	XP_011034313.1 	PREDICTED: dehydrin Rab18-like [Populus euphratica] 	49, 103, 196, 262, 318, 374, 430, 482, 527  	-  	-
+Salix purpurea 	SapurV1A.0732s0100 	Kn 	2.26695e-31  	ADL59577.1 	dehydrin 9-1 [Populus alba x Populus glandulosa] 	62, 110, 166, 219, 258, 307  	-  	-
+Salix purpurea 	SapurV1A.2014s0020 	Kn 	2.73744e-27  	XP_011034313.1 	PREDICTED: dehydrin Rab18-like [Populus euphratica] 	49, 103, 196, 262, 314, 366, 418, 463  	-  	-
+Salix purpurea 	SapurV1A.2014s0030 	Kn 	7.19493e-35  	XP_011034313.1 	PREDICTED: dehydrin Rab18-like [Populus euphratica] 	52, 114, 168  	-  	-
+Salix purpurea 	SapurV1A.0573s0050 	SKn 	1.03124e-66  	ABS12348.1 	dehydrin [Populus x canadensis] 	111, 153, 196  	-  	86
+Salix purpurea 	SapurV1A.5414s0010 	SKn 	9.05623e-67  	ABS12346.1 	dehydrin [Populus maximowiczii] 	111, 153, 196  	-  	86
+Salix purpurea 	SapurV1A.0432s0100 	YnKn 	2.75416e-61  	XP_011037467.1 	PREDICTED: embryogenic cell protein 40-like [Populus euphratica] 	111, 155  	5, 15  	-
+Salix purpurea 	SapurV1A.5492s0010 	YnKn 	1.33591e-62  	XP_011037467.1 	PREDICTED: embryogenic cell protein 40-like [Populus euphratica] 	111, 155  	5, 15  	-
+Setaria italica 	Si017975m.g 	SKn 	0.0  	XP_004953407.1 	PREDICTED: dehydrin COR410-like [Setaria italica] 	115, 203, 250  	-  	90
+Setaria italica 	Si027536m.g 	SKn 	3.00277e-59  	XP_004979236.1 	PREDICTED: cold shock protein CS66-like isoform X1 [Setaria italica] 	106, 202  	-  	88
+Setaria italica 	Si003298m.g 	YnSKn 	2.92475e-90  	XP_004968741.1 	PREDICTED: dehydrin DHN3-like [Setaria italica] 	69, 121  	13  	54
+Setaria italica 	Si003296m.g 	YnSKn 	4.72176e-91  	XP_004968739.1 	PREDICTED: dehydrin DHN3-like [Setaria italica] 	69, 121  	13  	54
+Setaria italica 	Si026583m.g 	YnSKn 	0.0  	XP_004979236.1 	PREDICTED: cold shock protein CS66-like isoform X1 [Setaria italica] 	223, 280, 330  	15  	205
+Setaria italica 	Si026926m.g 	YnSKn 	6.15197e-107  	XP_004979237.1 	PREDICTED: dehydrin DHN1-like [Setaria italica] 	99, 152  	16  	84
+Setaria italica 	Si000953m.g 	YnSKn 	1.45803e-153  	XP_004969669.1 	PREDICTED: dehydrin Rab25-like [Setaria italica] 	163, 206  	14, 24  	144
+Solanum lycopersicum 	Solyc04g082200.2 	SKn 	2.92062e-134  	XP_004238411.1 	PREDICTED: phosphoprotein ECPP44 [Solanum lycopersicum] 	98, 135, 177  	-  	75
+Solanum lycopersicum 	Solyc01g109920.2 	YnSKn 	9.44332e-169  	XP_004230933.1 	PREDICTED: embryogenic cell protein 40 [Solanum lycopersicum] 	184, 229  	4, 14, 24  	166
+Solanum lycopersicum 	Solyc02g084840.2 	YnSKn 	4.62101e-102  	XP_006340935.1 	PREDICTED: cold shock protein CS66-like [Solanum tuberosum] 	96, 135  	15, 25  	79
+Solanum lycopersicum 	Solyc02g084850.2 	YnSKn 	9.84877e-82  	NP_001234038.1 	abscisic acid and environmental stress-inducible protein TAS14 [Solanum lycopersicum]  	86, 113  	12  	73
+Solanum lycopersicum 	Solyc02g062390.2 	YnSKn 	1.70856e-88  	XP_004233545.1 	PREDICTED: desiccation-related protein clone PCC27-04 [Solanum lycopersicum] 	78, 116  	13  	64
+Solanum tuberosum 	PGSC0003DMG400027197 	KS 	1.47396e-45  	XP_006355701.1 	PREDICTED: glutamic acid-rich protein-like [Solanum tuberosum]  	37  	-  	83
+Solanum tuberosum 	PGSC0003DMG400009968 	SKn 	5.26425e-136  	NP_001275942.1 	uncharacterized protein LOC102589834 [Solanum tuberosum]  	101, 138, 180  	-  	76
+Solanum tuberosum 	PGSC0003DMG400030949 	YnSKn 	1.28913e-166  	XP_006362047.1 	PREDICTED: late embryogenesis abundant protein-like [Solanum tuberosum] 	179, 226  	4, 14, 24  	163
+Solanum tuberosum 	PGSC0003DMG400003531 	YnSKn 	1.54819e-103  	XP_006340935.1 	PREDICTED: cold shock protein CS66-like [Solanum tuberosum] 	96, 135  	15, 25  	79
+Solanum tuberosum 	PGSC0003DMG400003530 	YnSKn 	2.44187e-84  	XP_006340935.1 	PREDICTED: cold shock protein CS66-like [Solanum tuberosum] 	92, 123  	12  	79
+Sorghum bicolor 	Sobic.001G149500 	KS 	1.2244e-52  	XP_002466730.1 	hypothetical protein SORBIDRAFT_01g013000 [Sorghum bicolor]  	41  	-  	93
+Sorghum bicolor 	Sobic.004G286600 	SKn 	0.0  	XP_002452771.1 	hypothetical protein SORBIDRAFT_04g032250 [Sorghum bicolor]  	109, 202, 250  	-  	83
+Sorghum bicolor 	Sobic.010G041900 	YnSKn 	0.0  	XP_002436495.1 	hypothetical protein SORBIDRAFT_10g003700 [Sorghum bicolor]  	256, 316, 371  	12  	239
+Sorghum bicolor 	Sobic.009G116700 	YnSKn 	2.54426e-97  	XP_002439687.1 	hypothetical protein SORBIDRAFT_09g018420 [Sorghum bicolor]  	86, 135  	16  	71
+Sorghum bicolor 	Sobic.003G270200 	YnSKn 	3.0192e-88  	XP_002456216.1 	hypothetical protein SORBIDRAFT_03g032255 [Sorghum bicolor]  	147, 190  	14, 24  	126
+Spirodela polyrhiza 	Spipo1G0074600 	Kn 	1.21718e-10  	XP_010918213.1 	PREDICTED: dehydrin COR410-like [Elaeis guineensis] 	45, 91  	-  	-
+Theobroma cacao 	Thecc1EG025860 	KS 	2.23827e-54  	XP_007030021.1 	Uncharacterized protein isoform 2, partial [Theobroma cacao]  	49  	-  	90
+Theobroma cacao 	Thecc1EG006526 	Kn 	4.41459e-109  	XP_007041701.1 	Uncharacterized protein TCM_006526 [Theobroma cacao]  	68, 101, 135  	-  	-
+Theobroma cacao 	Thecc1EG034339 	SKn 	2.95755e-149  	XP_007017965.1 	Dehydrin 2, putative [Theobroma cacao]  	112, 155, 201  	-  	86
+Theobroma cacao 	Thecc1EG006835 	YnSKn 	1.1612e-124  	XP_007042106.1 	Dehydrin LEA, putative [Theobroma cacao]  	111, 158  	4, 14, 24  	95
+Theobroma cacao 	Thecc1EG000300 	YnSKn 	1.25326e-132  	XP_007046823.1 	Uncharacterized protein TCM_000300 [Theobroma cacao]  	71, 167  	15, 25  	56
+Vitis vinifera 	GSVIVG01018878001 	YnSKn 	1.71405e-85  	AAW58106.1 	dehydrin 1a [Vitis vinifera]  	78, 113  	21  	66
+Vitis vinifera 	GSVIVG01023824001 	YnSKn 	2.47081e-128  	XP_002283605.1 	PREDICTED: late embryogenesis abundant protein-like [Vitis vinifera] 	116, 171  	4, 14, 24  	100
+Zea mays 	GRMZM2G169372 	KS 	2.00372e-55  	DAA50632.1 	TPA: dehydrin 13 isoform 1 [Zea mays]  	47  	-  	92
+Zea mays 	GRMZM2G448511 	KS 	1.40907e-56  	AFW68112.1 	dehydrin 13 [Zea mays] 	45  	-  	100
+Zea mays 	GRMZM2G373522 	SKn 	0.0  	ACR35977.1 	unknown [Zea mays]  	112, 203, 253  	-  	87
+Zea mays 	GRMZM2G147014 	SKn 	0.0  	ACF88214.1 	unknown [Zea mays]  	118, 201, 252  	-  	92
+Zea mays 	GRMZM2G098750 	YnSKn 	0.0  	NP_001136815.1 	hypothetical protein [Zea mays]  	211, 256, 309  	11  	193
+Zea mays 	GRMZM2G052364 	YnSKn 	0.0  	XP_008656234.1 	PREDICTED: cold shock protein CS66-like [Zea mays]  	211, 256, 308  	11  	193
+Zea mays 	GRMZM2G079440 	YnSKn 	3.0248e-108  	CAM56275.1 	RAB17 protein [Zea mays]  	92, 151  	16  	77
